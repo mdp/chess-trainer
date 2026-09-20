@@ -1,4 +1,5 @@
 import type { MoveFeedback } from './types'
+import { Chess, type Square } from 'chess.js'
 
 export interface EngineAnalysisLine {
   move: string
@@ -103,6 +104,19 @@ export function createEngineAdapter(): EngineAdapter {
     moduleUrl: import.meta.env.VITE_ENGINE_MODULE_URL ?? `${baseUrl}engine/berserk.js`,
     networkUrl: import.meta.env.VITE_ENGINE_NETWORK_URL ?? `${baseUrl}engine/berserk-9b84c340af7e.nn`,
   })
+}
+
+/** Opponent's strongest reply to the played move: the second move of that line's PV. */
+export function findOpponentReply(analysis: EngineAnalysis, playedMove: string, fenAfter: string): string | undefined {
+  if (!analysis.lines.length) return undefined
+  const line = analysis.lines.find((candidate) => candidate.move === playedMove) ?? analysis.lines[0]
+  const reply = line.pv?.[1]
+  if (!reply) return undefined
+  try {
+    const chess = new Chess(fenAfter)
+    const move = chess.move({ from: reply.slice(0, 2) as Square, to: reply.slice(2, 4) as Square, promotion: reply[4] as 'q' | 'r' | 'b' | 'n' | undefined })
+    return move?.san ?? undefined
+  } catch { return undefined }
 }
 
 export function classifyEngineMove(move: string, san: string, analysis: EngineAnalysis, fallback: string[]): MoveFeedback {

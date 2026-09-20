@@ -10,6 +10,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'Find a strong move. What does this position want next?',
     explanation: 'Both sides are contesting the center. Keep improving your pieces and be ready to meet the central tension.',
     suggestedMoves: ['d2d3', 'f1e1', 'c3e2'],
+    opponentPlan: 'Black wants to finish development and castle, or strike with ...d5 if the center is loose.',
+        nextThought: 'After Black castles, find your slowest safe improvement before opening the center.',
     openingMoves: ['e2e4', 'e7e5', 'g1f3', 'b8c6', 'f1c4', 'f8c5', 'e1g1', 'g8f6'],
   },
   {
@@ -21,6 +23,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'Black just played ...f6. What should you be trying to accomplish?',
     explanation: 'Black weakened the king and spent a tempo without developing. You do not need a forced punishment: develop, control the center, and prepare to castle.',
     suggestedMoves: ['f1c4', 'd2d4', 'b1c3'],
+    opponentPlan: 'Black wants to survive the opening; ...f6 weakened the king and the e5 pawn.',
+        nextThought: 'Aim at e5 and the weakened diagonal. Do not rush an attack before castling.',
     openingMoves: ['e2e4', 'e7e5', 'g1f3', 'f7f6'],
   },
   {
@@ -32,6 +36,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'The position is asymmetric. What should you improve before the next central clash?',
     explanation: 'The Sicilian gives both sides different plans. Develop with purpose, keep pressure on the center, and remember that the d4 square is a strategic target.',
     suggestedMoves: ['b1c3', 'c1e3', 'c1g5'],
+    opponentPlan: 'Black is preparing ...e5 or ...Nc6 to finish development and fight for d4.',
+        nextThought: 'Decide whether to meet ...e5 with a push, an exchange, or extra central support.',
     openingMoves: ['e2e4', 'c7c5', 'g1f3', 'd7d6', 'd2d4', 'c5d4', 'f3d4', 'g8f6'],
   },
   {
@@ -43,6 +49,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'The center is closed for now. Where should your pressure and development point?',
     explanation: 'Closed centers make pawn structure important. Develop around the chain, identify its base, and prepare the break that changes the position.',
     suggestedMoves: ['g1f3', 'c2c3', 'c1e3'],
+    opponentPlan: 'Black wants ...c5 pressure and then ...Nc6, hitting the base of your chain.',
+        nextThought: 'Support e5 and prepare c3 before Black’s counterplay arrives.',
     openingMoves: ['e2e4', 'e7e6', 'd2d4', 'd7d5', 'e4e5', 'c7c5'],
   },
   {
@@ -54,6 +62,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'Black has built a solid center. What useful piece improvement comes first?',
     explanation: 'The Caro-Kann is solid because Black intends to free the light-squared bishop. Use development and central pressure to make that plan costly or slow.',
     suggestedMoves: ['g1f3', 'f1d3', 'c2c4'],
+    opponentPlan: 'Black wants ...e6 and ...Bf5 freed, then ...c5 to challenge d4.',
+        nextThought: 'Develop the knight before committing pawns, and keep the c4 idea in reserve.',
     openingMoves: ['e2e4', 'c7c6', 'd2d4', 'd7d5', 'e4e5', 'c8f5'],
   },
   {
@@ -65,6 +75,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'The center is contested but not resolved. What improves your position without rushing?',
     explanation: 'Queen’s Pawn positions reward patient development. Keep central tension when it helps your pieces and prepare the next useful break.',
     suggestedMoves: ['c4c5', 'c1g5', 'g1f3'],
+    opponentPlan: 'Black will keep the tension with ...c6 or ...Be7, waiting to see your plan.',
+        nextThought: 'If the tension resolves, decide early whether the open file or the extra tempo helps you more.',
     openingMoves: ['d2d4', 'd7d5', 'c2c4', 'e7e6', 'b1c3', 'g8f6'],
   },
   {
@@ -76,6 +88,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'Black is letting you occupy space. How do you make that space useful?',
     explanation: 'A large center is an asset only when it is supported and developed behind. Do not expand automatically; build a position that can hold the space.',
     suggestedMoves: ['e2e4', 'g1f3', 'c1f4'],
+    opponentPlan: 'Black wants ...d5 or pressure on d4 from the g7 bishop.',
+        nextThought: 'Ask whether ...d5 would give you a useful tempo or free Black’s game.',
     openingMoves: ['d2d4', 'g8f6', 'c2c4', 'g7g6', 'b1c3', 'f8g7'],
   },
   {
@@ -87,6 +101,8 @@ export const starterExercises: Exercise[] = [
     prompt: 'Your bishop has created pressure. What is the position’s next practical priority?',
     explanation: 'Pressure on the knight is useful, but development and king safety still matter more than forcing an immediate answer.',
     suggestedMoves: ['e1g1', 'f1c4', 'b1c3'],
+    opponentPlan: 'Black will support e5 with ...d6 and develop toward castling.',
+        nextThought: 'Castle first, then decide whether d3 solid development or an early d4 break suits you.',
     openingMoves: ['e2e4', 'e7e5', 'g1f3', 'b8c6', 'f1b5', 'a7a6'],
   },
 ]

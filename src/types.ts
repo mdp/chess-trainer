@@ -20,6 +20,10 @@ export type Exercise = {
   suggestedMoves: string[]
   openingMoves?: string[]
   openingContext?: OpeningContext
+  /** What the opponent is trying to do in this position. Shown in feedback. */
+  opponentPlan?: string
+  /** The next thought the player should carry out of the exercise. */
+  nextThought?: string
 }
 
 export type MoveFeedback = {
@@ -28,4 +32,6 @@ export type MoveFeedback = {
   body: string
   ideas: string[]
   move: string
+  /** Opponent's strongest reply, derived from the engine line matching the played move. */
+  opponentReply?: string
 }

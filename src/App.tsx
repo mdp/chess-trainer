@@ -1,7 +1,7 @@
 import { useMemo, useState } from 'react'
 import { Chess, type Square } from 'chess.js'
 import { Chessboard } from 'react-chessboard'
-import { classifyEngineMove, createEngineAdapter, type EngineAnalysis, type EngineAnalysisLine } from './engineAdapter'
+import { classifyEngineMove, findOpponentReply, createEngineAdapter, type EngineAnalysis, type EngineAnalysisLine } from './engineAdapter'
 import { starterExercises } from './exercises'
 import { describePosition } from './positionAnalysis'
 import { classifyOpening } from './openingClassifier'
@@ -66,9 +66,12 @@ function App() {
       setSelectedSquare(null)
 
       if (!isExploring) {
+        const fenAfter = nextFen
         analyze(positionBeforeMove, (result) => {
           setRootAnalysis(result)
-          setFeedback(classifyEngineMove(`${sourceSquare}${targetSquare}`, move.san, result, exercise.suggestedMoves))
+          const feedback = classifyEngineMove(`${sourceSquare}${targetSquare}`, move.san, result, exercise.suggestedMoves)
+          feedback.opponentReply = findOpponentReply(result, `${sourceSquare}${targetSquare}`, fenAfter)
+          setFeedback(feedback)
         })
       } else {
         analyze(nextFen)
@@ -179,7 +182,7 @@ function App() {
           <h3>{isExploring ? 'Compare ideas, then try them yourself.' : 'What is this position asking for?'}</h3>
           {!isExploring ? <ul className="idea-list">{(positionIdeas.length ? positionIdeas : ['Find the piece or king-safety move that improves your position']).map((idea) => <li key={idea}><span>✦</span>{idea}</li>)}</ul> : null}
 
-          {!feedback ? <div className="thinking-note"><span className="note-icon">◎</span><div><strong>{isAnalyzing ? 'Reading the position…' : 'Take your time'}</strong><p>{isAnalyzing ? 'Comparing your move with the best practical alternatives.' : 'Speed is not the lesson. Make a plan before you make a move.'}</p></div></div> : <><FeedbackCard feedback={feedback} explanation={exercise.explanation} analysis={rootAnalysis} onChooseLine={chooseEngineLine} />{openingContext && <OpeningContextCard context={openingContext} />}</>}
+          {!feedback ? <div className="thinking-note"><span className="note-icon">◎</span><div><strong>{isAnalyzing ? 'Reading the position…' : 'Take your time'}</strong><p>{isAnalyzing ? 'Comparing your move with the best practical alternatives.' : 'Ask what your opponent wants before you choose. Speed is not the lesson.'}</p></div></div> : <><FeedbackCard feedback={feedback} explanation={exercise.explanation} opponentPlan={exercise.opponentPlan} nextThought={exercise.nextThought} analysis={rootAnalysis} onChooseLine={chooseEngineLine} />{openingContext && <OpeningContextCard context={openingContext} />}</>}
 
           {isExploring && <EnginePanel analysis={currentAnalysis} selectedEngineLine={selectedEngineLine} onChooseLine={chooseEngineLine} />}
           {feedback && <button className="next-button" onClick={nextExercise}>Next position <span>→</span></button>}
@@ -226,8 +229,16 @@ function formatPv(fen: string, pv?: string[]) {
   } catch { return pv.slice(0, 5).join(' ') }
 }
 
-function FeedbackCard({ feedback, explanation, analysis, onChooseLine }: { feedback: MoveFeedback; explanation: string; analysis: EngineAnalysis | null; onChooseLine: (pv: string[]) => void }) {
-  return <div className="feedback-card"><div className="result-heading"><span className="result-check">✓</span><div><span className="result-label">{feedback.label}</span><h3>{feedback.title}</h3></div></div><p>{feedback.body}</p><div className="move-ideas"><span>WHAT IT DOES</span>{feedback.ideas.map((idea) => <div key={idea}>✓ {idea}</div>)}</div>{analysis?.lines.length ? <div className="alternatives"><span className="lesson-label">WHAT ELSE COULD YOU HAVE PLAYED?</span>{analysis.lines.slice(0, 3).map((line, index) => <button key={line.move} onClick={() => onChooseLine(line.pv ?? [line.move])}><b>{index + 1}. {lineLabel(analysis.fen, line)}</b><em>{formatScore(line)}</em></button>)}</div> : null}<div className="lesson"><span className="lesson-label">POSITION IDEA</span><p>{explanation}</p></div></div>
+function FeedbackCard({ feedback, explanation, opponentPlan, nextThought, analysis, onChooseLine }: { feedback: MoveFeedback; explanation: string; opponentPlan?: string; nextThought?: string; analysis: EngineAnalysis | null; onChooseLine: (pv: string[]) => void }) {
+  return <div className="feedback-card">
+    <div className="result-heading"><span className="result-check">✓</span><div><span className="result-label">{feedback.label}</span><h3>{feedback.title}</h3></div></div>
+    <p>{feedback.body}</p>
+    <div className="move-ideas"><span>WHAT IT DOES</span>{feedback.ideas.map((idea) => <div key={idea}>✓ {idea}</div>)}</div>
+    {opponentPlan || feedback.opponentReply ? <div className="opponent-idea"><span className="lesson-label">OPPONENT'S IDEA</span><p>{opponentPlan ?? `Be ready for their strongest reply.`}{feedback.opponentReply ? <> Their most testing move is <b>{feedback.opponentReply}</b>.</> : null}</p></div> : null}
+    {nextThought ? <div className="next-thought"><span className="lesson-label">THINK ABOUT NEXT</span><p>{nextThought}</p></div> : null}
+    {analysis?.lines.length ? <details className="alternatives"><summary className="lesson-label">WHAT ELSE COULD YOU HAVE PLAYED?</summary>{analysis.lines.slice(0, 3).map((line, index) => <button key={line.move} onClick={() => onChooseLine(line.pv ?? [line.move])}><b>{index + 1}. {lineLabel(analysis.fen, line)}</b><em>{formatScore(line)}</em></button>)}</details> : null}
+    <div className="lesson"><span className="lesson-label">POSITION IDEA</span><p>{explanation}</p></div>
+  </div>
 }
 
 export default App

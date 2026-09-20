@@ -36,6 +36,9 @@ h1, h2, h3, p { margin: 0; } h1 { font-size: 19px; letter-spacing: -.03em; } h2 
 .move-ideas { border-top: 1px solid #2a3c45; border-bottom: 1px solid #2a3c45; padding: 14px 0; display: grid; gap: 7px; color: #adc1bd; font-size: 12px; } .move-ideas > span { margin-bottom: 3px; } .move-ideas div { color: #a1c9bd; }
 .alternatives { display: grid; gap: 7px; padding: 16px 0; border-bottom: 1px solid #2a3c45; }
 .alternatives > span { margin-bottom: 2px; }
+.alternatives > summary { margin-bottom: 2px; cursor: pointer; list-style: none; } .alternatives > summary::after { content: ' ▾'; color: #5f7780; } .alternatives[open] > summary::after { content: ' ▴'; }
+.opponent-idea { margin-top: 15px; padding: 13px; border-left: 3px solid #a66d5c; border-radius: 0 6px 6px 0; background: rgba(60, 36, 32, .45); } .opponent-idea p { margin-top: 7px; color: #c8aea4; font-size: 12.5px; line-height: 1.5; } .opponent-idea b { color: #e0b8aa; font-family: 'DM Mono', monospace; font-weight: 500; }
+.next-thought { margin-top: 11px; padding: 13px; border-left: 3px solid #4f7d8c; border-radius: 0 6px 6px 0; background: rgba(28, 48, 55, .55); } .next-thought p { margin-top: 7px; color: #a7c2c9; font-size: 12.5px; line-height: 1.5; }
 .alternatives button { display: flex; justify-content: space-between; border: 0; border-radius: 5px; padding: 8px 9px; background: #1c3037; color: #b4d1ca; text-align: left; font-size: 12px; }
 .alternatives button:hover, .engine-line:hover { background: #274149; }
 .alternatives em { color: #9bd2c2; font: normal 11px 'DM Mono', monospace; }
