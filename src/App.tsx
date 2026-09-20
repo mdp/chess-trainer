@@ -79,11 +79,6 @@ function App() {
     }
   }
 
-  function onDrop(sourceSquare: string, targetSquare: string | null) {
-    if (!targetSquare) return false
-    return commitMove(sourceSquare as Square, targetSquare as Square)
-  }
-
   function onSquareClick(square: string) {
     if (isAnalyzing) return
     const clicked = square as Square
@@ -151,16 +146,15 @@ function App() {
             <span className="prompt-kicker">{isExploring ? 'ANALYSIS BOARD' : 'THE QUESTION'}</span>
             <h2>{isExploring ? 'Now explore the position yourself.' : exercise.prompt}</h2>
             {!isExploring && <p>Ignore the opening name. Read the position in front of you.</p>}
-            {isExploring && <p>Click a piece, then click its destination. Dragging still works too.</p>}
+            {isExploring && <p>Click a piece, then click its destination.</p>}
           </div>
 
           <div className="board-wrap">
             <Chessboard options={{
               position: game.fen(),
               onSquareClick: ({ square }) => onSquareClick(square),
-              onPieceDrop: ({ sourceSquare, targetSquare }) => onDrop(sourceSquare, targetSquare),
               boardOrientation: exercise.sideToMove,
-              allowDragging: !isAnalyzing,
+              allowDragging: false,
               squareStyles: selectedSquare ? { [selectedSquare]: { boxShadow: 'inset 0 0 0 4px rgba(166, 214, 200, .9)' } } : {},
               animationDurationInMs: 180,
               boardStyle: { borderRadius: '12px', overflow: 'hidden' },
