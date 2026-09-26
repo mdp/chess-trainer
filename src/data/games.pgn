@@ -1,0 +1,3639 @@
+[Site "https://lichess.org/pUKtBKji"]
+[Date "2026.08.01"]
+[White "Lolylalaway"]
+[Black "lordecapivara"]
+[Result "0-1"]
+[WhiteElo "1998"]
+[BlackElo "1995"]
+[ECO "D78"]
+[Opening "Neo-Grünfeld Defense: Classical Variation, Original Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+d4 Nf6 Nf3 g6 g3 Bg7 Bg2 O-O O-O d5 c4 c6 Nc3 Bg4 Ne5 Nbd7 Nxg4 Nxg4 e4 h5 cxd5 c5 h3 Nxf2 Rxf2 Bxd4 Qe2 Bxf2+ Qxf2 Rc8 Bh6 Re8 Rd1 Qb6 Rf1 c4 Be3 Qf6 Qxf6 Nxf6 Bxa7 Nd7 Bd4 f6 Ne2 Nc5 Bxc5 Rxc5 Nd4 Ra8 a3 c3 bxc3 Rxc3 Rb1 Raxa3 Rxb7 Ra1+ Kh2 Ra2 h4 Rd3 Nf3 Rxf3 0-1
+
+[Site "https://lichess.org/sYua5xzx"]
+[Date "2026.08.01"]
+[White "Sempiternalviolin"]
+[Black "Owais_In"]
+[Result "0-1"]
+[WhiteElo "2009"]
+[BlackElo "2023"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d6 d4 g6 Nc3 Bg7 Nf3 Nf6 Be3 O-O h3 Re8 Qd2 e5 Bh6 exd4 Bxg7 Kxg7 Nxd4 Nc6 O-O-O Nxe4 Qd3 Nxc3 Qxc3 Nxd4 Qxd4+ Qf6 Qd3 Bf5 Qb3 a5 g4 Be4 Rg1 Bc6 f3 a4 Qd3 a3 b3 Qb2+ Kd2 Ra5 Qc3+ Qxc3+ Kxc3 Rc5+ Kd2 Rd5+ Kc1 Rc5 Bc4 Bxf3 Rdf1 Be4 h4 d5 Be2 Rxc2+ Kd1 Rxa2 h5 Ra1+ Kd2 Ra2+ Ke3 Rb2 Ra1 a2 Bd3 Bxd3+ Kxd3 Ree2 Kc3 Rec2+ Kd3 Rd2+ Kc3 Rg2 Rxg2 Rxg2 Rxa2 Rxa2 hxg6 Rg2 gxh7 Kxh7 Kd4 Rxg4+ Kxd5 Rb4 Kc5 Rxb3 Kc4 Rb1 Kd4 Rf1 Kd3 f5 Ke3 Rb1 Ke2 Rb6 Kd2 Rc6 Ke3 f4+ Kxf4 b5 Kg5 b4 Kf4 b3 Kg5 b2 Kf4 b1=Q Kg5 Qd1 Kf4 Rc2 Kg5 Re2 Kg4 Qf1 Kg5 Rg2+ Kh4 Qh1# 0-1
+
+[Site "https://lichess.org/zrQ3XWob"]
+[Date "2026.08.01"]
+[White "bulletanalizachess"]
+[Black "ADHWIK_123"]
+[Result "0-1"]
+[WhiteElo "1938"]
+[BlackElo "1943"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Tennison Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 Nf3 dxe4 Ne5 e6 f3 Bc5 fxe4 Qd4 Nd3 Qxe4+ Be2 Qxg2 Rf1 Qxh2 Nxc5 Qg3+ Rf2 Qg1+ Bf1 Qg3 Qf3 Qe5+ Ne4 f5 d4 Qxe4+ Qxe4 fxe4 Be3 Nf6 Nc3 Nd5 Nxd5 exd5 Bb5+ Bd7 Be2 Bc6 O-O-O Nd7 Rg2 Rf8 Bh5+ g6 Be2 Rg8 Rh1 O-O-O Rxh7 Rdf8 Bg4 Kd8 b4 Nf6 Rh4 Nxg4 Rhxg4 Rf1+ Kb2 Ba4 Bg5+ Kd7 Bh6 Bc6 Rxg6 Rxg6 Rxg6 Rf7 Rg7 Rxg7 Bxg7 Ke6 Be5 Kf5 Kc1 Kg4 Kd2 Kf3 Ke1 e3 a4 e2 c4 Bxa4 c5 Bb3 Bxc7 a6 Bb6 Bc4 Bc7 Bb5 Bh2 a5 Bc7 a4 Ba5 a3 Bc7 a2 Kd2 a1=Q Kc2 Qa2+ Kc1 e1=Q# 0-1
+
+[Site "https://lichess.org/VYD3Awyu"]
+[Date "2026.08.01"]
+[White "rockybalboa456"]
+[Black "fabianoromualdo"]
+[Result "0-1"]
+[WhiteElo "2201"]
+[BlackElo "2174"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Scandinavian Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 Nf6 Nc3 d5 Nf3 dxe4 Ng5 Bf5 Qe2 e6 Qb5+ Nbd7 Qxb7 Bd6 Nb5 O-O Nxd6 cxd6 b3 Nd5 h4 Nc5 Qb5 Rb8 Qe2 Nb4 Qd1 e3 d3 exf2+ Kxf2 Nc6 Bb2 h6 Nf3 Qb6 Kg3 e5 a4 Ne6 Be2 Nf4 Rf1 Ne7 Bc1 Ned5 Bd2 Ne3 Bxe3 Qxe3 Re1 Qc5 Kh2 Rb4 Bf1 Ng6 d4 Qc3 dxe5 Nxe5 Nxe5 Rxh4+ Kg1 Qc5+ Re3 Qxe3# 0-1
+
+[Site "https://lichess.org/PEgOZOo3"]
+[Date "2026.08.01"]
+[White "FrinJgomez"]
+[Black "kynglexiz"]
+[Result "0-1"]
+[WhiteElo "2102"]
+[BlackElo "2148"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 exd5 Qxd5 Nf3 Bg4 Be2 Qh5 O-O Nc6 h3 Bxh3 gxh3 Qxh3 Nh2 h5 Bf3 O-O-O Bg2 Qh4 Qf3 Nf6 Qg3 Qc4 d3 Qc5 Nc3 e5 Be3 Qd6 Ne4 Nxe4 Bxe4 g6 Bxc6 bxc6 Bxa7 f5 Be3 f4 Bxf4 exf4 Qh3+ Kb7 Nf3 g5 Qg2 g4 Nd2 Be7 Ne4 Qd5 b4 Kc8 b5 cxb5 Rab1 c6 a4 bxa4 Rb6 g3 Ra1 gxf2+ Kxf2 Rhg8 Qf3 Bc5+ Nxc5 Qxc5+ Ke2 Qxb6 Rxa4 Rge8+ Kd2 Qe3+ Qxe3 fxe3+ Ke2 Rd6 Re4 Kd7 Rxe8 Kxe8 Kxe3 Rh6 Kf4 h4 Kf3 Rh8 Kg2 h3+ Kh2 Kd7 c3 Kd6 c4 Kc5 d4+ Kxd4 Kh1 Kxc4 Kh2 Kd4 Kh1 c5 Kh2 c4 Kh1 c3 Kh2 c2 Kg3 c1=Q Kh2 Qe3 Kh1 Rf8 Kh2 Rf2+ Kh1 Qe1# 0-1
+
+[Site "https://lichess.org/j29SPo8y"]
+[Date "2026.08.01"]
+[White "Bilaus19"]
+[Black "Tekeser2023"]
+[Result "0-1"]
+[WhiteElo "1977"]
+[BlackElo "1957"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Modern Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+e4 d5 exd5 Nf6 Nf3 Nxd5 Bc4 Nb6 Bb3 Nc6 O-O e6 c3 Be7 d4 O-O Be3 Bf6 Nbd2 Nd5 Ne4 Nxe3 Nxf6+ Qxf6 fxe3 Qh6 Qd3 g6 e4 Bd7 Bd5 exd5 exd5 Ne7 Ne5 Bf5 Qf3 Rad8 g4 Bc8 Nxf7 Qg7 Nxd8 Rxf3 Rxf3 Bxg4 Ne6 Bxe6 dxe6 Nf5 Re1 Qe7 Re5 c6 Rf2 b5 Rg2 Kf8 Rd2 Qg5+ Rg2 Qc1+ Kf2 Qxb2+ Re2 Qxc3 Rg4 Ke7 Rge4 a5 0-1
+
+[Site "https://lichess.org/uY2qGjmz"]
+[Date "2026.08.01"]
+[White "CyberLemon"]
+[Black "usefor"]
+[Result "1-0"]
+[WhiteElo "1934"]
+[BlackElo "1959"]
+[ECO "B50"]
+[Opening "Sicilian Defense: Modern Variations"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 d3 e5 g3 Nc6 Bg2 Nf6 O-O Bg4 h3 Be6 Be3 Qd7 Kh2 Be7 Ng5 h6 Nxe6 Qxe6 f4 exf4 Bxf4 O-O-O Nc3 Nd7 a4 Nd4 Nd5 g5 Be3 Ne5 c3 Ndc6 d4 cxd4 cxd4 Nc4 Bg1 h5 Qc2 Nb6 Nxb6+ axb6 d5 Qe5 dxc6 h4 cxb7+ Kxb7 Bf2 Rc8 Qb3 f6 Qxb6+ Ka8 Qa6+ Kb8 Qa7# 1-0
+
+[Site "https://lichess.org/vDbdF2Pt"]
+[Date "2026.08.01"]
+[White "FAZE_Paulchen_P"]
+[Black "Frias_f17"]
+[Result "1-0"]
+[WhiteElo "2166"]
+[BlackElo "2150"]
+[ECO "B07"]
+[Opening "Modern Defense: Geller's System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 g6 d4 Bg7 c3 d6 Nf3 f5 exf5 Bxf5 Bd3 Bxd3 Qxd3 Nf6 O-O O-O Bg5 Nc6 Nbd2 e5 dxe5 Nxe5 Nxe5 dxe5 Qxd8 Raxd8 Nf3 e4 Nd4 Rd6 Rad1 Re8 Rfe1 Ng4 f3 Bxd4+ cxd4 Nf6 fxe4 Nxe4 Rd3 Ree6 Bh4 Kg7 Bg3 Ra6 a3 Nxg3 hxg3 Rxe1+ Kf2 Rb1 Rc3 Rb6 Ke3 R6xb2 Rxc7+ Kh6 Kf4 Rb3 g4 Rxa3 g3 Rbb3 g5+ Kh5 g4+ Kh4 Rxh7# 1-0
+
+[Site "https://lichess.org/Qho3I3XD"]
+[Date "2026.08.01"]
+[White "Chessiikkkkkkk"]
+[Black "majesticnature"]
+[Result "1-0"]
+[WhiteElo "2429"]
+[BlackElo "2407"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+f4 d5 Nf3 e6 d3 c5 g3 f5 Bg2 Nf6 O-O Bd6 Ne5 O-O c3 Nc6 Nxc6 bxc6 h3 Bb7 Qe1 Qb6 Kh1 Rae8 Nd2 g6 e4 fxe4 dxe4 dxe4 Nc4 Qc7 Nxd6 Qxd6 Be3 c4 Qf2 c5 Bxc5 Qc6 Bxf8 Rxf8 Rad1 Qb5 g4 a5 Rfe1 a4 g5 Nh5 Bxe4 Rxf4 Qd4 Bxe4+ Rxe4 Rxe4 Qd8+ Kf7 Rd7+ Qxd7 Qxd7+ Kg8 Qe8+ Kg7 Qe7+ Kg8 Kg2 Re5 Qe8+ Kg7 Qd7+ Kg8 Qd8+ Kg7 Qc7+ Kf8 Qxe5 Ke7 Qc5+ Kd7 Qxc4 e5 Qxa4+ Ke6 Qc4+ Kf5 b4 Nf4+ Qxf4+ exf4 b5 Kxg5 b6 Kh4 b7 g5 b8=Q h5 Qc8 g4 Qd8# 1-0
+
+[Site "https://lichess.org/6FlayaBu"]
+[Date "2026.08.01"]
+[White "profeed1372"]
+[Black "soslol777"]
+[Result "1-0"]
+[WhiteElo "2071"]
+[BlackElo "2159"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Open"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 b6 Nc3 Bb7 Be3 e5 Ndb5 d6 Nd5 Nf6 Nbc7+ Kd7 Nxa8 Bxa8 Bg5 Be7 Bxf6 gxf6 Bb5 Rg8 g3 Bb7 Qd3 Qc8 O-O-O Kd8 Bxc6 Bxc6 Kb1 Qe6 Rhe1 Bb7 Re2 h5 Red2 h4 Nxe7 Qxe7 Qxd6+ Qxd6 Rxd6+ Ke7 Rd7+ Ke6 Rxb7 hxg3 hxg3 f5 exf5+ Kxf5 Rxf7+ Ke4 Re1+ Kd5 Re7 Rg5 R7xe5+ Rxe5 Rxe5+ Kxe5 f4+ Ke4 Kc1 Kf5 Kd2 1-0
+
+[Site "https://lichess.org/MKiLnJrI"]
+[Date "2026.08.01"]
+[White "junleguid"]
+[Black "horisonCR"]
+[Result "1-0"]
+[WhiteElo "2057"]
+[BlackElo "1953"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+d4 e6 Nf3 d5 e3 c5 b3 Nc6 Bb2 Qb6 a3 cxd4 exd4 Bd7 Bd3 Rc8 O-O Nf6 Nbd2 Bd6 c4 Qd8 Ne5 O-O c5 Be7 b4 b6 b5 Nxe5 dxe5 Ne4 c6 Nxd2 cxd7 Nxf1 dxc8=Q Qxc8 Kxf1 Qb8 Rc1 f6 Qh5 f5 Ke2 g6 Qf3 Rd8 Rc6 Kf7 Qe3 Bc5 Qh6 Rh8 h4 d4 f4 Qd8 Bc4 d3+ Bxd3 Qd5 Rc7+ Be7 Rxe7+ Kxe7 Qg7+ Kd8 Qxh8+ Kc7 Qxh7+ Kb8 Qg8+ Kb7 Qf7+ Kb8 Qe8+ Kc7 Qc6+ Qxc6 bxc6 Kxc6 Bc4 Kd7 Kf3 Ke7 g4 Kf7 gxf5 gxf5 h5 1-0
+
+[Site "https://lichess.org/MDsJE80M"]
+[Date "2026.08.01"]
+[White "Meddj"]
+[Black "Blindman727"]
+[Result "1-0"]
+[WhiteElo "1961"]
+[BlackElo "1904"]
+[ECO "A05"]
+[Opening "Zukertort Opening"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+Nf3 Nf6 g3 c6 Bg2 g6 O-O Bg7 d3 d5 c3 O-O Nbd2 Re8 Nb3 e5 d4 e4 Ne5 Nbd7 Nxd7 Bxd7 Nc5 Bc8 Bg5 h6 Bf4 g5 Be3 Ng4 Bd2 h5 Qc1 Bf6 h3 Nh6 h4 e3 Bxe3 Rxe3 Qxe3 Kg7 hxg5 Bxg5 f4 Bf6 Qd2 Nf5 Kh2 Qe7 e4 dxe4 Bxe4 Nd6 Rae1 Nxe4 Rxe4 Qc7 Rfe1 Bf5 Re5 Bxe5 fxe5 Rg8 Qg5+ Bg6 Qf6+ Kh7 Rf1 Rg7 Rf4 Qb6 b3 Qb5 c4 Qb4 Rf2 Qc3 e6 Qe3 e7 Be4 Qf4 Qxd4 e8=Q Qxc5 Qfxe4+ Kh6 Qe3+ Qxe3 Qxe3+ Rg5 Qxg5+ Kxg5 Rxf7 1-0
+
+[Site "https://lichess.org/Wd934TOs"]
+[Date "2026.08.01"]
+[White "Mieldepalma"]
+[Black "Ghafoormohamadi"]
+[Result "1-0"]
+[WhiteElo "1922"]
+[BlackElo "1947"]
+[ECO "D15"]
+[Opening "Slav Defense: Three Knights Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 c4 Nf6 Nc3 c6 Nf3 Bg4 Ne5 Bh5 Qb3 b6 cxd5 Nxd5 e4 Nxc3 bxc3 f6 Nxc6 Nxc6 Bb5 Rc8 Qa4 Qd7 d5 Kf7 O-O Qd6 Bxc6 Kg8 Ba3 Qe5 Qxa7 Qxe4 Qd7 Bg4 Qb7 Qe5 Rfe1 Qc7 Bxe7 Qxb7 Bxb7 Re8 d6 Bxe7 Rxe7 Rxe7 dxe7 Kf7 Re1 Re8 Bd5+ Kg6 Bc6 Kf7 Bxe8+ Kxe8 f3 Bd7 Kf2 g5 Re4 f5 Re5 h5 Ke3 Kf7 Kd4 g4 c4 gxf3 gxf3 h4 f4 h3 Kd5 Ke8 Kd6 Ba4 Rxf5 Bd7 Rf8# 1-0
+
+[Site "https://lichess.org/10dXzlwP"]
+[Date "2026.08.01"]
+[White "Rbn195"]
+[Black "realfakhri"]
+[Result "0-1"]
+[WhiteElo "2235"]
+[BlackElo "2174"]
+[ECO "D05"]
+[Opening "Queen's Pawn Game: Colle System"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 Nf3 e6 e3 Nf6 Bd3 c6 Nbd2 Bd6 O-O Nbd7 c3 O-O Qe2 Re8 e4 e5 dxe5 Nxe5 Nxe5 Bxe5 f3 dxe4 Nxe4 Bf5 Nxf6+ Bxf6 Be4 Bxe4 fxe4 Re6 Bf4 Qe7 Rae1 Re8 e5 Bxe5 Bxe5 Rxe5 Qxe5 Qxe5 Rxe5 Rxe5 Kf2 Rf5+ Ke2 Rxf1 Kxf1 f5 Ke2 Kf7 Kf3 Ke6 Kf4 h6 h4 g6 c4 Kf6 b4 b6 g3 g5+ Kf3 Ke5 b5 c5 Ke3 f4+ gxf4+ gxf4+ Kf3 Kf5 a3 h5 a4 Ke5 Ke2 Ke4 Kf2 f3 0-1
+
+[Site "https://lichess.org/IZPPwJ3a"]
+[Date "2026.08.01"]
+[White "Juanka69liman"]
+[Black "jboer28"]
+[Result "0-1"]
+[WhiteElo "2169"]
+[BlackElo "2226"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation, Open"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 e6 d4 cxd4 Qxd4 Nc6 Qd1 Nf6 Bd3 d5 exd5 Nxd5 O-O Be7 Nc3 O-O Nxd5 Qxd5 Bf4 h6 Qe2 Bf6 Rad1 Qh5 c3 b6 Bg3 Bb7 Be4 Rac8 Bxc6 Bxc6 Nd4 Qxe2 Nxe2 Bb5 Rfe1 Rfd8 Rxd8+ Rxd8 Bf4 Bxe2 f3 Bb5 Kf2 g5 Be3 Kg7 g3 Kg6 a4 Bxa4 Ra1 b5 b3 Bxc3 Ra3 Bxb3 Rxa7 b4 Rb7 Bd5 f4 Bxb7 f5+ Kxf5 g4+ Kxg4 h3+ Kxh3 Bxg5 hxg5 Ke3 g4 Kf2 f5 Ke3 e5 Kf2 f4 Ke2 e4 Kf2 e3+ Ke2 Ba6# 0-1
+
+[Site "https://lichess.org/IU63L0Hd"]
+[Date "2026.08.01"]
+[White "Ezrg94"]
+[Black "evenhonestbowler"]
+[Result "1/2-1/2"]
+[WhiteElo "2062"]
+[BlackElo "2059"]
+[ECO "B01"]
+[Opening "Scandinavian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 d3 Bg4 f3 Bd7 Nc3 dxe4 Nxe4 f5 Nc3 e5 Be3 Bb4 Qd2 Bxc3 Qxc3 Nc6 Be2 Nf6 O-O-O Nd5 Qd2 Nxe3 Qxe3 f4 Qd2 Nb4 a3 Qe7 axb4 a5 b5 Bxb5 Qc3 Qd6 d4 Qc6 Bxb5 Qxb5 Qxc7 O-O Qxe5 Qb4 Qd5+ Kh8 Nh3 Rac8 Rd3 h6 Qb3 Qxb3 Rxb3 Rf7 Rd1 Rfc7 Rdd3 Kh7 Rdc3 Rxc3 bxc3 Rxc3 Rxc3 b6 Rc7 Kg6 Rb7 Kh5 Rxb6 g5 Ra6 Kh4 Nf2 h5 Ne4 g4 fxg4 f3 gxf3 Kh3 gxh5 a4 h6 a3 h7 Kh4 Rxa3 Kh3 h8=Q+ Kg2 Qa8 Kf1 Ra7 Kg2 Rb7 Kf1 d5 Kg2 d6 Kf1 d7 Kg2 d8=Q Kf1 Qdb8 Kg2 Rc7 Kf1 Rc8 Kg2 Nd6 Kf1 Nb7 Kg2 f4 Kf1 f5 Kg2 f6 Kh1 f7 Kg2 f8=Q Kh1 Qd8 Kg1 c4 Kf1 c5 Ke1 c6 Kf1 c7 Ke1 Nc5 Kf1 Nd3 Ke2 h4 Kf1 h5 Ke2 h6 Kf1 h7 Ke2 h8=Q Kf1 Qhe8 Kg1 Qde7 Kh2 Qb6 Kh3 Qbe6+ Kg3 Q7f7 Kh4 Qeg8 1/2-1/2
+
+[Site "https://lichess.org/tK1vXP5a"]
+[Date "2026.08.01"]
+[White "houndsoflove"]
+[Black "shac_23456"]
+[Result "0-1"]
+[WhiteElo "2105"]
+[BlackElo "2103"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 Bf4 d5 e3 e6 Nd2 Bd7 c3 c6 Ngf3 Be7 h3 h6 Bd3 g5 Bh2 g4 hxg4 Nxg4 Ne5 Nf6 Bc2 Bc8 Nb3 Nbd7 O-O Nf8 Qd3 Rg8 Bg3 h5 Nf3 Ng4 Be5 h4 Bd1 h3 g3 Ng6 Nh2 Nh4 Nxg4 Ng2 Nh2 Bh4 Bf3 Bxg3 Bxg3 Nh4 Kh1 Ng6 Qe2 Qe7 Ng4 Bd7 Kh2 O-O-O Rh1 Rh8 Kg1 Rhg8 Nh2 f5 Bf4 Nxf4+ Kf1 Nxe2 Kxe2 f4 exf4 e5 f5 Bxf5 Kd2 e4 Be2 e3+ Kd1 Qe4 Nf3 Qc2+ 0-1
+
+[Site "https://lichess.org/4Gtr3LKL"]
+[Date "2026.08.01"]
+[White "Prof_Stringerstein17"]
+[Black "Fimbz"]
+[Result "1-0"]
+[WhiteElo "1933"]
+[BlackElo "1931"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d3 c6 Nd2 d5 e4 dxe4 dxe4 Nf6 c3 Bg4 Ngf3 e6 Qc2 Nbd7 Be2 Be7 h3 Bxf3 Nxf3 O-O g4 Nc5 g5 Nfxe4 b4 Nxg5 bxc5 Nxf3+ Bxf3 Bf6 Bd2 Qd7 h4 Rfd8 O-O-O Qe7 Bg5 Bxg5+ hxg5 Qxc5 Kb1 Qb6+ Ka1 g6 Be4 Kg7 f4 Qe3 Rde1 Qxf4 Rhf1 Qd6 Qf2 Qd2 Qf6+ Kg8 Qxf7+ Kh8 Qf6+ Kg8 Bxg6 hxg6 Qxg6+ Kh8 Rh1+ Qh2 Rxh2# 1-0
+
+[Site "https://lichess.org/hnejFb8u"]
+[Date "2026.08.01"]
+[White "SilentKnightMaster"]
+[Black "kingofthehell5"]
+[Result "0-1"]
+[WhiteElo "1999"]
+[BlackElo "1998"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e3 e5 Bc4 Nc6 Be2 Nf6 d4 d5 dxe5 Nxe5 f4 Nc6 Bd2 Bf5 Nc3 Bd6 Nf3 O-O Nh4 Qd7 h3 Be6 g4 d4 Nb5 a6 Na3 dxe3 Bxe3 Bxa3 bxa3 Qxd1+ Rxd1 Rad8 Rc1 Ne4 Bf3 Nc3 Bd2 Nd5 Be3 Nxe3 Ke2 Nd5 Ng2 Nc3+ Kf2 Nxa2 Ra1 Nc3 Rab1 Nxb1 Rxb1 Na5 c4 b6 Rc1 Nxc4 Be2 Rd2 Kf3 b5 Bxc4 Bxc4 Ne3 Rd3 Ke2 Re8 Kf2 Rexe3 Kg2 Rd2+ Kh1 Rxh3+ Kg1 Bd5 Kf1 Rg2 Ke1 Rh1# 0-1
+
+[Site "https://lichess.org/1oNK3oaS"]
+[Date "2026.08.01"]
+[White "Alumni2023-ITC"]
+[Black "Ultra_D_Instinct"]
+[Result "0-1"]
+[WhiteElo "2848"]
+[BlackElo "3024"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Old Indian Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 d5 d3 Nf6 g3 Nc6 Bg2 e5 O-O Bc5 Nxe5 Nxe5 d4 Bd6 dxe5 Bxe5 Nc3 c6 Bg5 h6 Bf4 Bxf4 gxf4 O-O e3 Re8 Qd3 Qb6 b3 Be6 Na4 Qc7 Nc5 Rad8 Qd4 Bc8 Nd3 b6 Ne5 c5 Qd3 Ng4 Nxg4 Bxg4 Bxd5 Bf3 c4 Qd6 Qf5 Bxd5 cxd5 Qxd5 Qxd5 Rxd5 Rfd1 Red8 Rxd5 Rxd5 Kf1 Kf8 Ke2 Ke7 Rd1 Rxd1 Kxd1 b5 Kd2 Kd6 Kc3 a6 f3 Kd5 e4+ Ke6 a4 g5 fxg5 hxg5 axb5 axb5 Kd3 Kd6 Ke3 Ke5 h3 f5 exf5 Kxf5 f4 gxf4+ Kf3 c4 bxc4 bxc4 h4 c3 Ke2 c2 0-1
+
+[Site "https://lichess.org/HAVhYGvN"]
+[Date "2026.08.01"]
+[White "estuchecuchara"]
+[Black "EspinosaJakeAlRey"]
+[Result "1-0"]
+[WhiteElo "2180"]
+[BlackElo "2163"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 Nf6 Bf4 d5 e3 Bf5 c4 e6 Qb3 b6 Nc3 Bd6 Bxd6 Qxd6 Nf3 dxc4 Qxc4 O-O Nb5 Qd5 Nxc7 Qb7 Nxa8 Qxa8 Bd3 Bxd3 Qxd3 Nbd7 O-O a6 Rac1 b5 Rc7 Qd5 b3 e5 Nd2 e4 Qc2 Ng4 h3 Nh6 Qc6 Qxc6 Rxc6 Nf6 Rxa6 Rc8 a4 bxa4 bxa4 Nf5 Ra1 g6 Rxf6 Kg7 Rxf5 gxf5 a5 Rc2 a6 Rxd2 a7 f4 a8=Q fxe3 fxe3 f5 Qe8 f4 Qxe4 fxe3 Ra7+ Kf6 Qxe3 Rd1+ Kh2 h5 Ra6+ Kf5 Qe5# 1-0
+
+[Site "https://lichess.org/30MFRe0p"]
+[Date "2026.08.01"]
+[White "Behzad-Naderloo"]
+[Black "Bissanti"]
+[Result "0-1"]
+[WhiteElo "2025"]
+[BlackElo "2039"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Boehnke Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 d5 exd5 e6 dxe6 Bxe6 Nf3 c6 d4 Nf6 Nc3 Bd6 Bg5 Nbd7 Bd3 Qa5 Bxf6 gxf6 Qe2 O-O-O O-O Rde8 Qd2 Rhg8 Ne4 Bb4 c3 Be7 b4 Qc7 a4 Rg7 b5 Reg8 Ng3 h5 bxc6 Qxc6 Bb5 Qc7 d5 Bg4 d6 Bxd6 Rad1 Ne5 Qxd6 Bxf3 Qxc7+ Kxc7 gxf3 h4 f4 Nf3+ Kg2 hxg3 Kxf3 gxh2 Rh1 Rg1 a5 Rxd1 Rxd1 Rg1 Rd7+ Kc8 Rxf7 h1=Q+ Ke3 Re1+ Kd3 Qd5+ Kc2 Qxf7 Bd3 Qa2# 0-1
+
+[Site "https://lichess.org/0hsCy2OR"]
+[Date "2026.08.01"]
+[White "DrVictoris"]
+[Black "The_Spiderman"]
+[Result "0-1"]
+[WhiteElo "2022"]
+[BlackElo "2774"]
+[ECO "D45"]
+[Opening "Semi-Slav Defense: Main Line"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c4 Nf6 Nf3 e6 e3 c6 Nc3 Be7 Bd2 O-O g3 Nbd7 cxd5 cxd5 Bg2 a6 O-O b5 a3 Bb7 b4 Rc8 Ne5 Nxe5 dxe5 Nd7 f4 Qb6 Ne2 Rc4 Nd4 Rb8 Rc1 Rbc8 Rxc4 Rxc4 Re1 Bd8 Bf1 Qa7 Bxc4 bxc4 Qc2 Bb6 Bc3 a5 b5 Nc5 a4 g6 Ra1 h5 Ne2 Ne4 Bd4 Bc8 Bxb6 Qxb6 Nd4 Bd7 Rc1 Be8 Re1 Bd7 h3 Bc8 h4 Bb7 Kh2 Nc5 Ra1 Nd3 Rd1 Nb4 Qc3 Qc5 Ra1 Bc8 Nc2 Nxc2 Qxc2 Qxe3 Rc1 Bb7 Qc3 Qe4 Re1 Qf5 Qc1 Qd3 Kg2 d4+ Kh2 Qf3 Kh3 Qg2# 0-1
+
+[Site "https://lichess.org/PHsXaCJy"]
+[Date "2026.08.01"]
+[White "Pacvi"]
+[Black "oraliarocionunez"]
+[Result "0-1"]
+[WhiteElo "2142"]
+[BlackElo "2137"]
+[ECO "A37"]
+[Opening "English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 c5 Nc3 Nc6 g3 g6 Bg2 Bg7 Nf3 e6 O-O Nge7 e3 O-O d4 cxd4 exd4 d5 cxd5 Nxd5 Nxd5 exd5 Bd2 Re8 Bc3 a6 Re1 Bg4 a3 Qd7 Qd3 Rxe1+ Rxe1 Bf5 Qd2 Bg4 Ne5 Nxe5 dxe5 Be6 f4 b5 Rd1 Rd8 Qe3 d4 Qd3 dxc3 Qxd7 Rxd7 Rxd7 Bxd7 bxc3 Bf8 Bb7 Bxa3 Bxa6 Bb2 c4 bxc4 Bxc4 Bd4+ Kf1 Be6 Ke2 Bxc4+ Kd2 Ba7 h4 Ba6 Kc3 Kg7 Kd2 f6 Ke1 fxe5 fxe5 Bb8 e6 Bd6 Kf2 Bc8 e7 Bxe7 Kf3 Bd6 g4 Kf6 h5 gxh5 gxh5 Kg5 h6 Kxh6 Ke4 Kg5 Kd5 Bf4 Kc6 Bf5 Kb7 h5 Kb6 h4 Kc5 h3 Kb6 h2 Kc6 h1=Q+ Kb6 Qd5 Ka7 Be3+ Kb8 Bf4+ Ka7 Qb3 Ka6 Kf6 Ka7 Ke6 Ka6 Kd6 Ka7 Kc7 Ka8 Qb7# 0-1
+
+[Site "https://lichess.org/K22FZNrB"]
+[Date "2026.08.01"]
+[White "AdrianRGc"]
+[Black "deafchessmaster"]
+[Result "0-1"]
+[WhiteElo "2340"]
+[BlackElo "2571"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 c3 e6 d4 d5 exd5 exd5 Bd3 Nf6 O-O cxd4 Bc2 Be7 cxd4 O-O Nc3 g6 h3 a6 a3 b5 Re1 Be6 Bg5 Qb6 Rc1 Rfe8 Ne5 Nxd4 Be3 Bc5 b4 Nxc2 Qxc2 Bxe3 Rxe3 Rac8 Qe2 d4 Na2 Rxc1+ Nxc1 dxe3 fxe3 Nd5 Nf3 Qxe3+ Qxe3 Nxe3 Nd4 Nc4 Nc6 Rc8 Nb3 Rxc6 Nd4 Rd6 Nxe6 Rxe6 Kh2 f5 Kg3 Kg7 a4 h6 a5 Kf6 Kf4 g5+ Kg3 f4+ Kh2 Kf5 g4+ fxg3+ Kxg3 h5 Kg2 h4 Kf3 Re3+ Kf2 Kf4 Kf1 Rxh3 Kg2 Rf3 Kg1 g4 Kg2 Nd6 Kg1 Ne4 Kg2 Nd2 Kg1 g3 Kg2 Kg4 Kg1 h3 Kh1 Rf1# 0-1
+
+[Site "https://lichess.org/Y7Shb9Vy"]
+[Date "2026.08.01"]
+[White "mino16rex"]
+[Black "WLaver"]
+[Result "0-1"]
+[WhiteElo "2199"]
+[BlackElo "2187"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 g6 Nc3 Bg7 d4 d6 Nf3 Nf6 Bd3 O-O O-O Nc6 Re1 e5 d5 Ne7 a3 Ne8 h3 f5 exf5 gxf5 Bc4 e4 Nd4 Be5 Ne6 Bxe6 dxe6 d5 Bb3 c6 f3 Qb6+ Be3 d4 Bf2 e3 Na4 exf2+ Kxf2 Qc7 g4 Bg3+ Kg2 Bxe1 Qxe1 fxg4 hxg4 Qf4 Nc5 Qxf3+ Kh2 Qf2+ Qxf2 Rxf2+ Kg3 Rf8 Nd7 Nd6 Rh1 Ne4+ Kh4 Ng6+ Kh5 Ng3+ Kh6 Nxh1 Nxf8 Kxf8 Kxh7 Nf4 g5 Ke7 g6 Nxg6 Kxg6 Nf2 Kg5 Ne4+ Kf5 Nc5 Ke5 Nxb3 cxb3 d3 0-1
+
+[Site "https://lichess.org/Hq4mpxtT"]
+[Date "2026.08.01"]
+[White "YourDailyAgendas"]
+[Black "chacaritachess"]
+[Result "1-0"]
+[WhiteElo "2179"]
+[BlackElo "2148"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Slav Formation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 d5 Bg2 c6 d4 Nf6 Nf3 Bg4 O-O Qd7? Ne5 Qc8 Nxg4 Qxg4 e3? e6 Qxg4 Nxg4 c4 Bb4 a3 Ba5 b4 Bc7 c5?! Nd7 h3 Ngf6 f3? O-O?! g4 e5 Bb2 e4?! f4 h5?! Nd2? hxg4 hxg4? Nxg4 Rae1?! f5 Rf2? Nxf2 Kxf2 Nf6 Rg1 Ng4+ Ke2 Kf7 Nf1 Rh8 Ng3 Rh2 Nxf5 Kf6 Ng3 Rah8 Nf1 Nh6?? Nxh2 Nf5 Ng4+ Kf7 Ne5+ Bxe5 dxe5 Ng3+ Kf2 Nf5 Rh1 Rxh1 Bxh1 Ke6 Bg2 Nh6 Bh3+ Ke7 Bd4 Nf7 Kg3 Nd8 f5 a6 Kf4 Nf7 f6+ gxf6 exf6+ Kf8 Kf5 Nh6+ Kg6 Nf7 Be6 Nd8 Kf5 a5 bxa5 Ke8 f7+ Kf8? Kf6 b5 axb6 Nb7 Be5 Nxc5 Bd6# 1-0
+
+[Site "https://lichess.org/GRKquHzl"]
+[Date "2026.08.01"]
+[White "vinif1"]
+[Black "poIna"]
+[Result "0-1"]
+[WhiteElo "2133"]
+[BlackElo "2106"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 e5 e6 Bd3 c5 c3 Nc6 Nf3 cxd4 cxd4 Bb4+ Nc3 Bxc3+ bxc3 Nge7 Bg5 h6 Bh4 g5 Bg3 Nf5 Bxf5 exf5 h3 Be6 Qb3 Qb6 Qc2 f4 Bh2 Ke7 O-O Na5 Rab1 Qc7 Rb2 Nc4 Rbb1 b6 Qa4 Rag8 Qb4+ Ke8 Rfd1 g4 hxg4 Bxg4 Kf1 Bxf3 gxf3 Qd7 Ke2 Qh3 Bxf4 Rg6 Rh1 Qf5 Be3 f6 exf6 Rxf6 Rhe1 Qxf3+ Kd3 Qe4+ Ke2 Rf3 Kf1 Rhf8 Ke2 Rxf2+ 0-1
+
+[Site "https://lichess.org/mqVtkdmu"]
+[Date "2026.08.01"]
+[White "Atakarora"]
+[Black "gerhardvdw"]
+[Result "1-0"]
+[WhiteElo "1945"]
+[BlackElo "1958"]
+[ECO "A53"]
+[Opening "Old Indian Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+d4 Nf6 c4 d6 Nc3 g6 Bg5 Bg7 e3 Nbd7 Be2 c5 d5 O-O h4 h6 Bf4 Rb8 h5 g5 Bg3 Ne5 Bxe5 dxe5 g3 Bf5 Nf3 Ne4 Nxe4 Bxe4 Bd3 Bxf3 Qxf3 Qa5+ Kf1 Qd2 Qf5 Rfe8 b3 e4 Bxe4 Bxa1 Qh7+ Kf8 Qxh6+ Bg7 Qxg5 Qxa2 h6 Bh8 h7 Qa1+ Kg2 Qg7 Qf4 b5 Rh4 bxc4 Rg4 Qxg4 Qxg4 e6 d6 Bg7 bxc4 f5 Bxf5 exf5 Qxf5+ 1-0
+
+[Site "https://lichess.org/rM2i3rXd"]
+[Date "2026.08.01"]
+[White "princewealth"]
+[Black "Luxfighter71"]
+[Result "0-1"]
+[WhiteElo "2102"]
+[BlackElo "2278"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 d6 Bg2 c6 Nc3 Qc7 b3 Qd8 d3 Qc7 Bg5 Qd8 Bd2 Qc7 Nf3 h6 O-O Qd8 Rb1 Qc7 e4 Bg4 h3 Bh5 g4 Bg6 Nh4 Bh7 Nf5 e6 Ne3 Nd7 Ne2 Ngf6 Nf4 Be7 Bc3 e5 Ne2 h5 f3 hxg4 fxg4 Bg6 Nf5 Bxf5 exf5 O-O-O Ng3 d5 Qe2 Bc5+ Kh1 Rde8 b4 Bd6 Rbe1 e4 dxe4 Bxg3 Rd1 dxe4 Bxf6 Nxf6 Rg1 e3 Bf3 Bf2 Rgf1 Rxh3+ Kg2 Qg3# 0-1
+
+[Site "https://lichess.org/TbepSM7m"]
+[Date "2026.08.01"]
+[White "JavierUru"]
+[Black "Atekhine"]
+[Result "1-0"]
+[WhiteElo "2075"]
+[BlackElo "2150"]
+[ECO "B03"]
+[Opening "Alekhine Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 Nf6 e5 Nd5 d4 d6 exd6 exd6 Nc3 Nxc3 bxc3 Be7 Bd3 O-O Ne2 Bg4 f3 Bh5 Nf4 Bg6 Nxg6 hxg6 O-O c5 Rb1 b6 dxc5 bxc5 Be4 Nd7 Bxa8 Qxa8 Be3 Qc6 c4 Nb6 Qe2 Re8 Rfe1 Bg5 Qf2 Bxe3 Rxe3 Nxc4 Rxe8+ Qxe8 Re1 Qd7 Qh4 d5 Re7 Qd8 Qe1 Kh7 Rxf7 d4 Rxa7 Ne3 Qb1 Qg5 g3 Qf5 Qb7 Qf6 Qe4 Qb6 Rb7 Qa6 Qh4+ 1-0
+
+[Site "https://lichess.org/tBcIA0NT"]
+[Date "2026.08.01"]
+[White "Z64983T2152"]
+[Black "Spiderman1OO"]
+[Result "1-0"]
+[WhiteElo "2318"]
+[BlackElo "2312"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Lasker-Pelikan Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e5 Ndb5 d6 Nd5 Nxd5 exd5 Nb8 c4 Be7 Be2 O-O O-O a6 Be3 axb5 cxb5 f5 f3 f4 Bf2 Bf5 Bd3 Nd7 Bxf5 Rxf5 Qd3 Rf8 Rac1 Rxa2 Rc2 Qa8 Rfc1 Qa4 Rc3 Bf6 b3 Qa3 R3c2 Ra1 Rxa1 Qxa1+ Qf1 Qxf1+ Kxf1 Ra8 Ke2 Bd8 Kd3 b6 Rc6 Nc5+ Bxc5 dxc5 Ke4 Kf7 Kxe5 g5 Kf5 Ra3 Rh6 Kg8 Rd6 Bc7 Rc6 Ra7 d6 Bd8 Rc8 Rd7 Ke6 Rxd6+ Kxd6 Kf7 Rxd8 Kf6 Kc6 Kf5 Kxb6 g4 Rg8 gxf3 gxf3 Ke5 Kxc5 h5 b6 Kf5 b7 Ke5 b8=Q+ Kf5 Qf8+ Ke5 Rg5+ Ke6 Rf5 Kd7 Rf7+ Ke6 Qe7# 1-0
+
+[Site "https://lichess.org/IHArJ2lC"]
+[Date "2026.08.01"]
+[White "lachluli"]
+[Black "Guerreiroo"]
+[Result "0-1"]
+[WhiteElo "2223"]
+[BlackElo "2229"]
+[ECO "B33"]
+[Opening "Sicilian Defense: Open"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nxc6 bxc6 Nc3 e6 Bd3 d5 O-O Bc5 exd5 cxd5 Bb5+ Bd7 Bxd7+ Qxd7 Bg5 Be7 Re1 O-O Bxf6 Bxf6 Qf3 Qb7 Na4 Qb4 Qb3 Rab8 Qxb4 Rxb4 Nc3 Rxb2 Ne2 Rxc2 Rab1 Rfc8 Ng3 Rxa2 h3 h6 Rb7 a5 Nh5 Be5 f4 Bd4+ Kh2 Rcc2 Kg3 Rxg2+ Kh4 g5+ fxg5 hxg5# 0-1
+
+[Site "https://lichess.org/T5SYTwRD"]
+[Date "2026.08.01"]
+[White "Bananonymous"]
+[Black "Erne25"]
+[Result "0-1"]
+[WhiteElo "2129"]
+[BlackElo "2138"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e3 d5 Nc3 e6 d4 Nf6 Nf3 Be7 Bd3 O-O O-O c5 b3 a6 Bb2 b5 Be2 c4 bxc4 bxc4 Ne5 Nbd7 f4 Bb7 Bf3 Rb8 Rb1 Qa5 Nxd7 Nxd7 e4 Nb6 exd5 exd5 Re1 Na4 Nxa4 Qxa4 Rxe7 Qxa2 Rxb7 Rxb7 Bxd5 Rxb2 Rxb2 Qxb2 Bxc4 a5 Bd3 a4 Qe2 a3 Qe5 a2 Qe4 a1=Q+ Kf2 Qxd4+ Qxd4 Qxd4+ Kf3 Rc8 0-1
+
+[Site "https://lichess.org/SXQMrLel"]
+[Date "2026.08.01"]
+[White "ManishRajkumar"]
+[Black "surepov"]
+[Result "1-0"]
+[WhiteElo "2353"]
+[BlackElo "2378"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed, Traditional"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nc3 Nc6 Nf3 g6 Bb5 Bg7 Bxc6 dxc6 d3 e5 O-O b6 h3 Qc7 Qe2 Ne7 Be3 O-O Rad1 f6 Rfe1 Be6 Qd2 Rad8 b3 Nc8 Bh6 Nd6 Bxg7 Kxg7 Qe3 Nf7 Ne2 Qd6 a4 a5 c4 Rd7 Nc1 Nd8 Nd2 Bf7 Nf3 Ne6 Nh2 Nd4 Ng4 h5 Qh6+ Kg8 Nh2 Be8 g4 Rh7 Qe3 hxg4 Nxg4 Bd7 Kg2 Kg7 Rh1 Ne6 Ne2 Rfh8 Qf3 Nf4+ Nxf4 exf4 Qe2 Qe6 d4 f5 d5 Qxe4+ Qxe4 fxe4 dxc6 Bxc6 Ne5 Bb7 Rd7+ Kf6 Ng4+ Kf5 Rhd1 Bc6 R7d6 Bb7 Rf6+ Kg5 Rdd6 Kh4 Rxg6 e3+ f3 e2 Kf2 Re7 Rh6+ Rxh6 Rxh6+ Kg5 h4+ Kf5 Rf6# 1-0
+
+[Site "https://lichess.org/Owx8tH44"]
+[Date "2026.08.01"]
+[White "SwiftSword_07"]
+[Black "fasterfaster11"]
+[Result "1-0"]
+[WhiteElo "2621"]
+[BlackElo "2621"]
+[ECO "A46"]
+[Opening "Indian Defense: Wade-Tartakower Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d6 Nf3 Nf6 g3 e5 Bg2 e4 Nfd2 d5 c4 c5 O-O cxd4 cxd5 Nbd7 Nxe4 Nxe4 Bxe4 Be7 Bg2 O-O Qxd4 Nf6 Qd1 Bf5 Nc3 Rc8 e4 Bg4 Bf3 Bh3 Re1 Qd7 e5 Ng4 e6 fxe6 Bxg4 Bxg4 Qxg4 Rxc3 Qxe6+ Qxe6 Rxe6 Rc2 Rxe7 Rfxf2 Be3 Rg2+ Kf1 Rxh2 Bg1 Rhg2 Rae1 Rxg3 R1e3 Rc1+ Re1 Rxg1+ Kxg1 Rc8 Rxb7 Re8 Ree7 Rxe7 Rxe7 Kf8 d6 h5 Kf2 Kg8 Kf3 Kh7 Kg3 1-0
+
+[Site "https://lichess.org/0JDXjLns"]
+[Date "2026.08.01"]
+[White "Gyusudh"]
+[Black "rianraja"]
+[Result "1-0"]
+[WhiteElo "2447"]
+[BlackElo "2451"]
+[ECO "A45"]
+[Opening "Indian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 c3 e6 Nf3 d5 g3 c5 Bg2 cxd4 cxd4 Nc6 O-O Bd6 Nc3 O-O Bf4 Re8 e3 Bxf4 exf4 a6 Ne5 Qc7 Rc1 Qd6 a3 Bd7 Re1 a5 Na4 Qe7 Nb6 Rad8 f5 Nxe5 dxe5 Ne4 f6 gxf6 Bxe4 fxe5 Bb1 f5 Rxe5 Qd6 Re1 Qxb6 Qe2 Bb5 Qe5 Qd6 Qf6 Qe7 Qh6 Qg7 Rxe6 Rxe6 Qxe6+ Kh8 Qxf5 Rf8 Qc2 Qf6 Qd2 Bc4 Qc3 Qxc3 Rxc3 Re8 Bd3 Re1+ Kg2 Bxd3 Rxd3 Rb1 b3 Rb2 a4 d4 Kf3 Kg7 h4 Kf6 Ke4 Rxf2 Kxd4 Rd2 Rxd2 Kf5 Rf2+ Kg4 Rf4+ Kxg3 Re4 h5 Re7 Kg4 Rxb7 Kxh4 Ra7 Kg4 Rxa5 h4 Ra8 h3 Rh8 Kg3 Rxh3+ Kxh3 b4 Kg4 b5 Kf5 a5 Ke6 Kc5 Kd7 Kb6 Kc8 Ka7 Kc7 b6+ Kc6 b7 Kb5 b8=Q+ Kxa5 Kb7 Ka4 Kc6 Ka3 Kc5 Ka2 Kc4 Ka3 Kc3 Ka2 Qb2# 1-0
+
+[Site "https://lichess.org/anLgP8DQ"]
+[Date "2026.08.01"]
+[White "GMOswaldo"]
+[Black "adrsnicechess"]
+[Result "1-0"]
+[WhiteElo "2317"]
+[BlackElo "2316"]
+[ECO "D43"]
+[Opening "Semi-Slav Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 d5 Nc3 c6 d4 Nf6 Nf3 e6 g3 b6 Bg2 Be7 O-O Bb7 Re1 Nbd7 e4 dxe4 Nxe4 Rc8 Nxf6+ Nxf6 b3 O-O Bb2 Qc7 Qd3 Rfd8 Qc3 c5 Rad1 cxd4 Rxd4 Rxd4 Qxd4 Bc5 Qc3 Bc6 Ng5 Bxg2 Kxg2 h6 Ne4 Be7 f3 Qc6 Re3 Rd8 Rd3 Rxd3 Qxd3 Qc8 Qc3 Qd8 h4 Qf8 g4 Nxe4 fxe4 Bxh4 Qf3 Bg5 Be5 Qd8 Bc3 Bf6 e5 Bg5 a4 Qd7 Bb4 Qd8 Bd6 f6 Qe4 fxe5 Qxe5 Qe8 Kf3 Qf7+ Ke4 Kh7 Kd3 Qg6+ Qe4 Bf6 b4 Qxe4+ Kxe4 Kg6 c5 bxc5 bxc5 Bd8 c6 Kf7 c7 Bxc7 Bxc7 g6 Bb8 h5 Bxa7 hxg4 Kf4 Ke7 Kxg4 Kd6 a5 Kc6 Bb6 e5 Kf3 Kd5 Ke3 e4 Kf4 g5+ Kxg5 Kc6 Kf4 Kb5 Kxe4 1-0
+
+[Site "https://lichess.org/TxyRQR7Y"]
+[Date "2026.08.01"]
+[White "garputs"]
+[Black "BillBi"]
+[Result "0-1"]
+[WhiteElo "2311"]
+[BlackElo "2311"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c4 e6 cxd5 exd5 Nc3 Nf6 Nf3 Be7 Bg5 O-O e3 h6 Bh4 Nbd7 Bd3 c6 O-O Re8 a3 Ne4 Bxe7 Qxe7 Bxe4 dxe4 Nd2 Nf6 b4 Bg4 Qb3 Rad8 Na4? Be6?! Qc2 Bd5 Nc5 b6 Ncb3 Rc8 Rfc1 Ng4 h3 Nf6 Nc4 Red8 Ne5 Qe6 Nd2 Nd7 b5? Nxe5 dxe5 Qxe5 bxc6 Rxc6 Qa4 Rxc1+ Rxc1 Qe7? Nb3 Bxb3 Qxb3 Rd3 Qa4? Rxa3 Rc8+ Kh7 Qd1?! Qe5 Rc1 Rd3 Kh1?? Rxd1+ Rxd1 b5 Rc1 b4 Rb1 b3 Rxb3 a5 Rb1 a4 Rd1 a3 Rd2 Qb2 Rxb2 axb2 Kh2 b1=Q g3? Qf1 h4 Qxf2+ Kh3 Qxe3 h5 f5 Kh4 g6 Kh3 f4 Kh2 Qxg3+ Kh1 f3 hxg6+ Kg8 g7 Qg2# 0-1
+
+[Site "https://lichess.org/WJyPKvbD"]
+[Date "2026.08.01"]
+[White "GmbarbodSh94"]
+[Black "Luca496"]
+[Result "1-0"]
+[WhiteElo "2350"]
+[BlackElo "2349"]
+[ECO "C11"]
+[Opening "French Defense: Steinitz Variation, Boleslavsky Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 d4 d5 Nc3 Nf6 e5 Nfd7 f4 c5 Nf3 Nc6 Be3 Qb6 dxc5 Qxb2 Nb5 Kd8 a3 a6 Rb1 Qxb1 Qxb1 axb5 Qxb5 Rxa3 Be2 Rxe3 Kf2 Bxc5 Qxc5 Nxc5 Kxe3 Ke7 Bb5 Rd8 Bxc6 bxc6 Nd4 Bb7 Rb1 Rb8 Nxc6+ Kd7 Nxb8+ Kc7 Kd4 Nd7 Nxd7 Bc6 Nc5 f6 exf6 gxf6 Re1 e5+ fxe5 fxe5+ Rxe5 Be8 Rxe8 Kd6 Rh8 h6 Rh7 h5 Rh6+ Ke7 Rxh5 Kf8 Kxd5 Kg7 Ke6 Kg6 Rd5 Kh6 Nd7 Kg7 c4 Kh7 c5 Kg7 c6 Kg8 c7 Kg7 c8=Q Kh7 Qf8 Kg6 Qf5+ Kh6 Qh5+ Kg7 Rg5# 1-0
+
+[Site "https://lichess.org/tVI9R35k"]
+[Date "2026.08.01"]
+[White "Fastankle"]
+[Black "LiamSte"]
+[Result "0-1"]
+[WhiteElo "2290"]
+[BlackElo "2293"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 c3 Nf6 d4 cxd4 cxd4 d5 e5 Ne4 Nc3 Bf5 Bd3 Nxc3 bxc3 Bxd3 Qxd3 e6 O-O Be7 Bf4 a6 Rab1 b5 Qc2 O-O a4 Rb8 axb5 axb5 Qd3 b4 cxb4 Nxb4 Qe3 Nc2 Qd2 Na3 Ra1 Nc4 Qd3 Qd7 Rab1 Qc7 Nd2 Nxd2 Qxd2 Rxb1 Rxb1 Rb8 Rc1 Qb7 h4 g6 h5 Bf8 hxg6 hxg6 Bh6 Qb2 Qf4 Bxh6 Qxh6 Qxd4 Rc7 Qxe5 Rc1 Qg7 Qf4 Rf8 Rc7 e5 Qb4 d4 Rc1 e4 Re1 Qe5 Rd1 d3 Qc4 e3 fxe3 Qxe3+ Kh1 d2 Qc3 Rd8 0-1
+
+[Site "https://lichess.org/ffuAZyVj"]
+[Date "2026.08.01"]
+[White "Grand_master2011"]
+[Black "NahhhL"]
+[Result "1-0"]
+[WhiteElo "2309"]
+[BlackElo "2309"]
+[ECO "B32"]
+[Opening "Sicilian Defense: Löwenthal Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 e5 Nxc6 bxc6 Nc3 Nf6 Bg5 Bb4 Bxf6 Qxf6 Bd3 O-O O-O d6 h3 Bxc3 bxc3 Be6 Qe2 Rab8 Qe3 Rfc8 f4 exf4 Rxf4 Qe7 Raf1 Rc7 e5 dxe5 Qxe5 Rbb7 Qe4 g6 Qe5 Bxa2 Qxe7 Rxe7 Bc4 Bxc4 Rxc4 Rbc7 Ra1 Re3 Ra6 Re2 Rcxc6 Rxc6 Rxc6 Rxc2 Rc7 a5 c4 a4 c5 a3 Ra7 a2 Kh2 Rxc5 Rxa2 Kg7 Kg3 Rf5 Kh4 h5 g4 Rf4 Kg3 Rb4 Ra3 hxg4 hxg4 Kf6 Rf3+ Kg5 Rxf7 Rxg4+ Kf3 Rb4 Kg2 Rb3 Rc7 Kh4 Rc4+ Kh5 Rc5+ g5 Rc2 Kh4 Kh2 Rh3+ Kg2 Rd3 Rc4+ g4 Rc2 Rg3+ Kh1 Kh3 Rh2# 1-0
+
+[Site "https://lichess.org/TpCDgG8D"]
+[Date "2026.08.01"]
+[White "JScorrea_quintero"]
+[Black "C8c7C8c7C8c7C8c7C8c7"]
+[Result "0-1"]
+[WhiteElo "2334"]
+[BlackElo "2335"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Symmetrical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 b6 Bb2 Bb7 Nf3 c6 e3 Na6 Be2 Nc7 O-O e6 d4 d5 c4 Nf6 cxd5 exd5 Nbd2 Be7 e4 dxe4 Ng5 O-O Ndxe4 Nxe4 Nxe4 Nd5 Bf3 Nf6 Nxf6+ Bxf6 Rc1 Rc8 Qd3 g6 a4 Bg7 a5 Re8 Qc4 Qd7 axb6 axb6 g3 c5 Bxb7 Qxb7 d5 Bxb2 Rcd1 Bg7 d6 b5 Qf4 Qd7 Rfe1 Rxe1+ Rxe1 Rd8 Rd1 Bf8 Qe4 Bxd6 Qd5 Qe7 h4 Qe6 Qf3 Be7 Re1 Qxe1+ 0-1
+
+[Site "https://lichess.org/YU6XxfHJ"]
+[Date "2026.08.01"]
+[White "depr3ssed"]
+[Black "Lancero40"]
+[Result "1-0"]
+[WhiteElo "2218"]
+[BlackElo "2216"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Modern Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 Nd2 e6 e5 Ne7 c3 Nd7 f4 b6 Ngf3 Bb7 Bd3 g6 Qe2 Bg7 O-O h5 Re1 Qc7 Nf1 c5 Be3 c4 Bc2 b5 b3 a5 bxc4 dxc4 Rab1 Bc6 Bd2 Nd5 Be4 O-O Ne3 N7b6 Nxd5 Nxd5 h3 Rab8 g4 f5 exf6 Rxf6 gxh5 Nxf4 Bxf4 Rxf4 Bxc6 Qxc6 Kg2 Rbf8 Rf1 Qd5 Rbe1 Qf5 Qxe6+ Qxe6 Rxe6 g5 Rf2 g4 hxg4 Rxg4+ Kf1 Bh6 Ke2 Kg7 Re7+ Rf7 Rxf7+ Kxf7 Ne5+ Ke6 Nxg4 Bg5 h6 Kd5 h7 1-0
+
+[Site "https://lichess.org/YI9zTkjr"]
+[Date "2026.08.01"]
+[White "horseyismywaifu"]
+[Black "mahrezbendo"]
+[Result "0-1"]
+[WhiteElo "2220"]
+[BlackElo "2221"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Vienna Variation, Quiet Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c4 Nf6 Nf3 e6 Nc3 dxc4 e3 Nc6 Bxc4 Bd6 O-O O-O h3 e5 dxe5 Nxe5 Nxe5 Bxe5 Qb3 Qe7 Rd1 Bxc3 Qxc3 Ne4 Qb3 a6 Bd2 b5 Bd3 Nxd2 Rxd2 Be6 Qc2 Rad8 Bxh7+ Kh8 Bd3 Qf6 Rad1 Rd7 Be2 Rfd8 Rd4 Rxd4 Rxd4 Rxd4 exd4 Qxd4 Qxc7 Qxb2 Qd8+ Kh7 Bd3+ g6 Qh4+ Kg7 Qg3 Qxa2 Qe5+ Kh7 Qc7 Qa1+ Kh2 Qf6 f3 b4 Bxa6 b3 Qb6 Qf4+ Kg1 Qc1+ Kf2 b2 Bd3 Qd2+ Kg3 Qxd3 Qxb2 Qd6+ Kf2 Qf4 Qe2 Qd4+ Qe3 Qxe3+ Kxe3 Kg7 Kf4 Kf6 Kg3 Bd7 f4 Kf5 Kf3 Bc6+ Kg3 Bxg2 Kxg2 Kxf4 Kh2 Kf3 Kh1 Kg3 Kg1 Kxh3 Kf2 f5 Ke3 g5 Kf3 g4+ Kf2 g3+ Ke3 g2 Kf4 g1=Q Kxf5 Qg4+ Kf6 Kh4 Ke5 Qg5+ Kd6 Qf5 Kc6 Qe5 Kd7 Qf6 Kc7 Qe6 Kd8 Qf7 Kc8 Kg5 Kb8 Kf6 Ka8 Ke6 Kb8 Kd6 Kc8 Qc7# 0-1
+
+[Site "https://lichess.org/iN32NGAt"]
+[Date "2026.08.01"]
+[White "Anon1mouse"]
+[Black "Camilo2026"]
+[Result "1-0"]
+[WhiteElo "2222"]
+[BlackElo "2222"]
+[ECO "B50"]
+[Opening "Sicilian Defense: Delayed Alapin Variation, with d6"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 c3 Nf6 d4 Nxe4 dxc5 Nxc5 b4 Ne6 Bb2 b6 Bc4 Nc6 Qb3 Qd7 Nbd2 Bb7 O-O Rc8 Rae1 g6 Be2 Bg7 Nc4 O-O Rc1 b5 Ne3 a6 Qc2 Qc7 a3 Nf4 Qd2 Nxe2+ Qxe2 Ne5 Nxe5 Bxe5 Rfd1 Qc6 Rd3 Bf4 f3 Qb6 Re1 Rc4 Kf1 Bxe3 Qxe3 Qxe3 Rexe3 Re8 Kf2 d5 Rd4 Rxd4 cxd4 e6 Ke2 Rc8 Rc3 Rxc3 Bxc3 Bc6 Ke3 f5 g3 Kg7 f4 Kf6 h3 h6 Kd3 g5 Ke3 h5 Kf3 Be8 fxg5+ Kxg5 h4+ Kf6 Bd2 Bd7 Bg5+ Kf7 Bd2 Bc6 Bc3 Bd7 Kf4 Bc6 Ke5 Bd7 Kd6 Be8 Bd2 Kg6 Bf4 Kf6 Kc5 Kg6 Kb6 a5 Kxa5 1-0
+
+[Site "https://lichess.org/ys2zgwdh"]
+[Date "2026.08.01"]
+[White "BB1rd"]
+[Black "gooliver10"]
+[Result "1-0"]
+[WhiteElo "2246"]
+[BlackElo "2244"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Accepted, Paulsen Formation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 d4 cxd4 c3 dxc3 Nxc3 Nc6 Nf3 e6 Bc4 a6 O-O Rb8 Bf4 b5 Bxb8 bxc4 Bg3 Nf6 Nd4 Nxd4 Qxd4 Be7 Bd6 O-O Rfd1 Re8 Qxc4 Bb7 e5 Bxd6 Rxd6 Nh5 Rad1 Qg5 Qf1 Bc6 Rxd7 Bxd7 Rxd7 h6 g3 Nf4 Kh1 Ng6 f4 Qf5 Qd3 Qg4 Rd6 Re7 Rxa6 Kh7 Rd6 Qh3 a4 f6 exf6 gxf6 a5 e5 fxe5 Rxe5 Ne2 Qf1+ Ng1 Qxd3 Rxd3 Rxa5 b4 Ne5 bxa5 Nxd3 a6 Nc5 a7 Nd7 a8=Q Ne5 Qa7+ Kg6 Qf2 Kg5 Qf4+ Kg6 Nf3 Kg7 Nxe5 fxe5 Qxe5+ Kg6 Qf4 Kh5 h4 Kg6 Kh2 Kh5 Kh3 Kg6 Qe4+ Kh5 Qg4# 1-0
+
+[Site "https://lichess.org/3DUXib5i"]
+[Date "2026.08.01"]
+[White "Big_Kid_Dino_Nuggies"]
+[Black "Chesschampions123456"]
+[Result "0-1"]
+[WhiteElo "2189"]
+[BlackElo "2188"]
+[ECO "C44"]
+[Opening "Scotch Game: Lolli Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Nxd4 Qxd4 d6 Bc4 Nf6 O-O Be7 Bg5 O-O Bxf6 Bxf6 Qd3 Be6 Nc3 h6 Rfe1 Be5 Bxe6 fxe6 Rad1 Qh4 Qh3 Qxf2+ Kh1 Qxc2 Qxe6+ Kh8 Rf1 Bxc3 bxc3 Qxc3 Qe7 Rxf1+ Rxf1 Qd3 Rf8+ Rxf8 Qxf8+ Kh7 Qf5+ Kg8 Qc8+ Kf7 Qd7+ Kf6 Qd8+ Ke5 Qe7+ Kd4 Qxg7+ Kc4 Qxc7+ Kb4 Qxb7+ Ka3 Qxa7+ Kb2 Qb6+ Ka1 Qb4 Qf1# 0-1
+
+[Site "https://lichess.org/n1MYZ8V2"]
+[Date "2026.08.01"]
+[White "Roman_judge_burn"]
+[Black "Chess_King54"]
+[Result "0-1"]
+[WhiteElo "2263"]
+[BlackElo "2260"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 Qb6 Nc3 Nf6 Nf3 e5 dxe5 Ng4 Qe2 Bc5 Be3 Bxe3 fxe3 Qxb2 Rd1 Qxc3+ Qd2 Qxe3+ Qxe3 Nxe3 Rd3 Nxc2+ Kd2 Nb4 Ra3 N4a6 Bc4 Nc7 Ng5 d5 exd6 Ne6 Nf3 Nd7 e5 Nb6 Bd3 Bd7 Rb1 Nc5 Rxb6 Nxd3 Kxd3 Bc8 Rb2 O-O Rb4 b6 Rh4 Be6 Raa4 h6 g4 f6 g5 fxg5 Rhe4 Rxf3+ Kd4 Bd5 Re2 Raf8 Rxa7 R8f4+ Re4 Rxe4# 0-1
+
+[Site "https://lichess.org/62UEF9S5"]
+[Date "2026.08.01"]
+[White "SebasGamer1670"]
+[Black "DennySchulte"]
+[Result "0-1"]
+[WhiteElo "2200"]
+[BlackElo "2200"]
+[ECO "A40"]
+[Opening "Englund Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e5 c4 exd4 Qxd4 Nc6 Qd1 Nf6 Nc3 Bb4 e3 O-O Qc2 Re8 Bd3 d5 Nf3 d4 a3 dxc3 axb4 cxb2 Qxb2 Qxd3 Bd2 Ne4 O-O-O Nxf2 Rhf1 Nxd1 Rxd1 Qxc4+ Kb1 Qe4+ Ka1 a6 Bc3 Be6 Nd4 Nxd4 Bxd4 a5 Qf2 axb4+ Kb2 Qc6 Ra1 Ra2+ Rxa2 Bxa2 Kxa2 Ra8+ Kb2 Qa4 Kc1 Qa3+ Kd2 Qa2+ Ke1 Qxf2+ Kxf2 b6 Kf3 c5 Bb2 Ra2 Be5 b3 Bc3 b2 Bxb2 Rxb2 e4 Rb4 Ke3 Kf8 Kd3 Ke7 e5 Ke6 g4 Rd4+ 0-1
+
+[Site "https://lichess.org/baf2LkJ0"]
+[Date "2026.08.01"]
+[White "AnLoc36"]
+[Black "UltraBullet3600"]
+[Result "0-1"]
+[WhiteElo "2204"]
+[BlackElo "2205"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Scandinavian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 d5 Nc3 d4 Ne4 e5 Ng3 c5 d3 Nc6 Nf3 Bd6 Bg5 f6 Bd2 Nge7 e3 O-O exd4 exd4 Be2 Nf5 Nxf5 Bxf5 O-O Qd7 Nh4 Be6 f4 f5 a3 Rae8 b4 cxb4 axb4 Bxb4 Rxa7 Bxd2 Qxd2 Nxa7 Ra1 Nc6 Bf3 Qe7 Bxc6 bxc6 Nf3 c5 Ne5 Bf7 Re1 Qb7 Qc2 Bg6 Rb1 Qa7 Qe2 Rb8 Re1 Qa3 Qf3 Qc3 Qd5+ Bf7 Qd6 Qxe1# 0-1
+
+[Site "https://lichess.org/JfLGIJjC"]
+[Date "2026.08.01"]
+[White "Donald85"]
+[Black "goldfish_11"]
+[Result "0-1"]
+[WhiteElo "2327"]
+[BlackElo "2330"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Declined, Push Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 d4 cxd4 c3 d3 Bxd3 Nc6 Nf3 g6 Bg5 Bg7 O-O d6 Qe2 Nf6 Rd1 Nd7 Bc2 h6 Bh4 O-O Nbd2 Re8 Nb3 Nde5 Nxe5 Nxe5 f4 Bg4 Qf2 Bxd1 fxe5 Bxc2 Qxc2 dxe5 Rd1 Qc7 h3 Rad8 Rf1 g5 Bg3 Rd7 Kh1 Red8 Qf2 Rf8 Nc1 Qc4 Ne2 Rd2 Qe3 Rxe2 Qf3 Rxb2 h4 Qe2 Qxe2 Rxe2 hxg5 hxg5 Kh2 Rxa2 c4 Bf6 c5 Rc8 Kh3 Rxc5 Kg4 Rcc2 Kf5 Rxg2 Rf3 Kg7 Be1 Rae2 Bg3 Ra2 Kg4 Ra6 Kf5 Re6 Be1 Rc2 Re3 Rc4 Kg4 Ra6 Kf3 Raa4 Bf2 b5 Kg2 a5 Rd3 Ra2 Rd8 Rcc2 Rc8 Rxf2+ Kg3 Rae2 Rc3 Rg2+ Kf3 Ref2+ Ke3 Re2+ Kd3 Rg3+ Kxe2 Rxc3 Kd2 Rc4 Ke2 a4 Kf2 a3 Kg2 a2 Kf2 a1=Q Ke2 Qa3 Kd1 Rb4 Kc2 Rb2+ Kc1 Qa1# 0-1
+
+[Site "https://lichess.org/jHteRN0L"]
+[Date "2026.08.01"]
+[White "BlotterFan"]
+[Black "KAVJ"]
+[Result "1-0"]
+[WhiteElo "2153"]
+[BlackElo "2152"]
+[ECO "D06"]
+[Opening "Queen's Gambit Declined: Marshall Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c4 Nf6 Nf3 Bf5 Nc3 e6 Bg5 Nc6 h4 Be7 a3 O-O e3 dxc4 Bxc4 Bd6 Bd3 Re8 Qc2 Bxd3 Qxd3 e5 d5 e4 Qc2 exf3 dxc6 fxg2 Rg1 bxc6 Rxg2 Be5 Bh6 g6 Bg5 Qe7 h5 Qe6 hxg6 fxg6 O-O-O Rab8 Rh1 Bxc3 Qxc3 Ne4 Qc2 Rb5 f4 Rc5 Qxc5 Nxc5 Rgh2 Qxe3+ Kb1 Qd3+ Ka2 Qb3+ Kb1 Na4 Bf6 Qd3+ Ka2 Qc4+ Kb1 Qb3 Rxh7 Rb8 Rg7+ Kf8 Rh8+ Qg8 Rhxg8# 1-0
+
+[Site "https://lichess.org/vHXcqjtg"]
+[Date "2026.08.01"]
+[White "Remake0623"]
+[Black "TitledMoneyGrabber"]
+[Result "1-0"]
+[WhiteElo "2183"]
+[BlackElo "2184"]
+[ECO "A11"]
+[Opening "English Opening: Caro-Kann Defensive System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 c6 Nc3 d5 cxd5 cxd5 d4 Nf6 Nf3 Bf5 Bf4 e6 e3 Nc6 Bd3 Bd6 Bxf5 Bxf4 exf4 exf5 O-O O-O Re1 Ne4 Ne5 Nxe5 fxe5 f6 f3 Nxc3 bxc3 fxe5 Rxe5 Re8 Qe2 Rxe5 Qxe5 Qd7 Re1 Rc8 Re3 Kf8 g3 Re8 Qf4 Rxe3 Qxe3 Kf7 Qd3 g6 Kg2 a6 Qc2 Qb5 Qb3 Qc6 Kf2 Qd7 Qb4 Kf6 f4 Kf7 Qc5 Qe6 Qc7+ Qe7 Qe5 Ke8 Ke3 Kf7 Kd3 Ke8 Qh8+ Kd7 Qe5 Ke8 Qxd5 Kf8 Qe5 Qa3 Qc5+ Qxc5 dxc5 Ke7 Kc4 Kd7 Kd5 Kc7 a4 b6 c6 b5 axb5 axb5 Kc5 b4 cxb4 h6 b5 g5 b6+ Kc8 Kd6 g4 b7+ Kb8 Kd7 h5 c7+ Kxb7 c8=Q+ Kb6 Qc6+ Ka5 Qb7 h4 Kd6 Ka4 Kc5 Ka3 Kc4 Ka2 Kc3 Ka1 Qb2# 1-0
+
+[Site "https://lichess.org/Ktt9Oagm"]
+[Date "2026.08.01"]
+[White "cjc-1295"]
+[Black "amiratou210913"]
+[Result "0-1"]
+[WhiteElo "2155"]
+[BlackElo "2153"]
+[ECO "B40"]
+[Opening "Sicilian Defense: French Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 e6 Bc4 a6 d4 b5 Bd3 cxd4 Nxd4 Nc6 Nxc6 dxc6 Nc3 Bb4 h4 Ne7 Bg5 h6 Bxe7 Qxe7 a3 Ba5 Qe2 O-O O-O Qxh4 g3 Qe7 Qf3 Bc7 Rae1 Bb7 Qe3 c5 f4 c4 Be2 Qd6 Bf3 Bb6 Qxb6 Qxb6+ Kg2 f5 exf5 Bxf3+ Rxf3 exf5 Rfe3 Qc6+ Kh2 Rae8 Rxe8 Rxe8 Rxe8+ Qxe8 Nd5 Qh5+ Kg2 Qe2+ Kh3 Qf1+ Kh4 Qh1# 0-1
+
+[Site "https://lichess.org/4AGKIyYp"]
+[Date "2026.08.01"]
+[White "MeganLove"]
+[Black "Someone64"]
+[Result "0-1"]
+[WhiteElo "2193"]
+[BlackElo "2196"]
+[ECO "A40"]
+[Opening "Englund Gambit: Main Line"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e5 dxe5 Nc6 Nf3 Qe7 g3 Nxe5 Bg2 Nxf3+ Bxf3 Nf6 O-O g6 Nc3 Bg7 Bf4 c6 Bg2 d5 Qd2 O-O e3 Bf5 Rad1 Ne4 Nxe4 Bxe4 Bxe4 Qxe4 c3 Rfe8 Bd6 Rad8 Ba3 b6 Qd3 Re7 Qxe4 Rxe4 Rd3 Rde8 Rfd1 f5 Bd6 R4e6 Ba3 Kf7 b3 Be5 Bb2 Bf6 R3d2 Rd6 Kf1 Ke6 Ke2 Red8 Kf3 c5 Kf4 g5+ Kf3 g4+ Ke2 Bg5 Kf1 b5 Kg2 a5 a3 c4 b4 axb4 axb4 Ra8 Ra1 Rxa1 Bxa1 Bf6 Ra2 Ke5 Bb2 Ke4 Kf1 Kd3 Ra3 Kc2 Ba1 Re6 Ke2 h5 Ra2+ Kb3 Rb2+ Ka3 Rc2 h4 gxh4 Bxh4 Bb2+ Kb3 Kd2 Bxf2 Bc1 Bxe3+ Kd1 Bxc1 Kxc1 Re1+ Kd2 Re2+ Kxe2 Kxc2 Kf2 Kxc3 Kg3 d4 Kf4 d3 Kxf5 d2 Kxg4 d1=Q+ Kg5 Qd3 h4 Qh3 h5 Qh4+ Kg6 Qxh5+ Kxh5 Kxb4 Kg5 Kc3 Kf5 Kb3 Ke5 c3 Ke6 c2 Kf6 c1=Q Kf7 Kc3 Ke7 b4 Kf6 b3 Ke6 b2 Ke7 b1=Q Kf7 Kb2 Kf6 Ka1 Ke6 Qbc2 Ke7 Q2d2 Ke6 Qcd1 Kf6 Q1e1 Kf7 Qdf2+ Kg7 Qeg1+ Kh6 Qfh2# 0-1
+
+[Site "https://lichess.org/cFvQA6a9"]
+[Date "2026.08.01"]
+[White "Annguyen2101"]
+[Black "zorrochilla"]
+[Result "0-1"]
+[WhiteElo "2177"]
+[BlackElo "2178"]
+[ECO "A05"]
+[Opening "Zukertort Opening: Lemberger Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 Nf6 Nf3 Nxe4 Nc3 Nxc3 dxc3 d5 c4 c6 cxd5 cxd5 c4 e6 Be3 Bb4+ Bd2 Bxd2+ Qxd2 O-O Rd1 Nc6 cxd5 exd5 Qxd5 Re8+ Be2 Qa5+ Qxa5 Nxa5 Nd4 Nc4 b3 Nd6 O-O Nf5 Bc4 Nxd4 Rxd4 Be6 Bxe6 Rxe6 Rfd1 g6 Kf1 Ra6 R1d2 Kg7 Rd7 b6 Rc7 Ra5 Rdd7 Rf5 g4 Rf6 g5 Rf5 h4 h6 gxh6+ Kxh6 Rxa7 Rxa7 Rxa7 f6 Rb7 Rb5 Ke2 Rb4 Kd3 Rxh4 Rxb6 Rh2 Rxf6 Kg7 Rf3 g5 a4 Kg6 a5 g4 Re3 Rxf2 b4 Rf6 Kc4 Kf5 b5 Kf4 Kb4 Kxe3 a6 g3 Ka5 Rf8 a7 g2 b6 g1=Q b7 Qa1+ Kb6 Rf6+ Kc7 Qe5+ Kc8 Qg5 Kd7 Qg7+ Kc8 Rf8# 0-1
+
+[Site "https://lichess.org/B9uFcmPV"]
+[Date "2026.08.01"]
+[White "kuladvit"]
+[Black "BishopStrategist"]
+[Result "1/2-1/2"]
+[WhiteElo "2136"]
+[BlackElo "2143"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 Nf3 d5 exd5 exd5 d4 Nf6 Be2 Bd6 O-O O-O c3 Re8 Bg5 c6 Nbd2 h6 Bh4 Nbd7 Re1 Nf8 Bf1 Ng6 Qc2 Nxh4 Nxh4 Ng4 g3 Qg5 Nhf3 Rxe1 Rxe1 Qd8 Bg2 Be6 Ne5 Bxe5 dxe5 Qb6 Nb3 Rd8 Nd4 c5 Nxe6 Qxe6 Bh3 h5 f3 d4 fxg4 d3 Qd2 hxg4 Bg2 c4 Re4 Re8 Qf4 Rd8 Rxc4 d2 Rd4 d1=Q+ Rxd1 Rxd1+ Kf2 Qb6+ Ke2 Rb1 Kd3 Qxb2 Qxg4 Qxg2 Qc8+ Kh7 Qf5+ Kh6 Qf4+ g5 Qf6+ Kh5 Qxf7+ Kg4 Qd7+ Kf3 Qf7+ Kg4 Qd7+ Kh5 Qh7+ Kg4 Qe7 Kh3 Qh7+ Kg4 Qd7+ 1/2-1/2
+
+[Site "https://lichess.org/ZHD9fTmr"]
+[Date "2026.08.01"]
+[White "MasterRicks"]
+[Black "HansXl"]
+[Result "1-0"]
+[WhiteElo "2192"]
+[BlackElo "2191"]
+[ECO "C25"]
+[Opening "Vienna Gambit, with Max Lange Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nc3 Nc6 f4 Bc5 fxe5 Nxe5 Nf3 Nxf3+ gxf3 Nf6 d4 Bb6 Bg5 h6 Bh4 g5 Bf2 Nh5 Qd2 Nf4 O-O-O d6 h4 c6 hxg5 Qxg5 Bh4 Nd3+ Bxd3 Qxd2+ Kxd2 Bxd4 Kc1 Bb6 Ne2 Be3+ Kb1 Bb6 f4 Be6 c3 Kd7 f5 Rhe8 fxe6+ fxe6 Ng3 Kc7 Nh5 d5 Rhe1 c5 exd5 exd5 Rxe8 Rxe8 Re1 Rg8 Bg3+ Kc6 Re6+ Kd7 Rxh6 c4 Bf5+ Ke7 Bh4+ Ke8 Nf6+ Kf8 Nxg8 Kxg8 Rxb6 Kg7 Kc2 axb6 Be6 b5 Bxd5 b6 Bd8 b4 Bxb6 1-0
+
+[Site "https://lichess.org/OWxLjdJR"]
+[Date "2026.08.01"]
+[White "A35903"]
+[Black "DarkRooster"]
+[Result "0-1"]
+[WhiteElo "2156"]
+[BlackElo "2155"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Dutch Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 f5 Nc3 e6 g3 c6 Bg2 Nf6 e3 d5 cxd5 exd5 d4 Bb4 Ne2 O-O O-O Nbd7 a3 Ba5 b4 Bc7 Bb2 Ne4 Nxe4 fxe4 Nc3 Qg5 Qe2 Nf6 f3 exf3 Rxf3 Qh6 Raf1 Bg4 Qd2 Bxf3 Bxf3 Qh3 Bg2 Qh6 Bc1 Ng4 h3 Rxf1+ Bxf1 Nf6 Qc2 Bxg3 e4 Qg6 Qg2 Nh5 Bd3 dxe4 Bxe4 Qf6 Bb2 Rf8 Bd3 Qxd4+ Kh1 Qxd3 Ba1 Be5 Qg1 Rf1 Ne2 Qxe2 Bxe5 Rxg1+ Kxg1 Qxe5 Kg2 Qg3+ Kf1 Nf4 b5 Qg2+ Ke1 Qe2# 0-1
+
+[Site "https://lichess.org/MyDvLXr7"]
+[Date "2026.08.01"]
+[White "Brihat_01"]
+[Black "badatthegame"]
+[Result "1/2-1/2"]
+[WhiteElo "2170"]
+[BlackElo "2167"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+f4 Nf6 Nf3 g6 g3 Bg7 Bg2 d6 O-O O-O Nc3 c5 d3 Nc6 e4 e5 Be3 Ng4 Qe2 Nxe3 Qxe3 exf4 Qxf4 Nd4 Nxd4 Bxd4+ Kh1 Be6 Qd2 Be5 Ne2 Bxb2 Rab1 Bg7 Rxb7 Qc8 e5 d5 Rbb1 Bxe5 c3 Bg7 d4 cxd4 Nxd4 Rb8 Rbe1 Bg4 Bf3 Bxf3+ Nxf3 Qc4 Ne5 Bxe5 Rxe5 Rbc8 Rfe1 Qxc3 Qxd5 Qc2 R5e2 Qc3 Re3 Qc2 R3e2 Qc3 Re3 Qc2 R3e2 1/2-1/2
+
+[Site "https://lichess.org/GHZdqodJ"]
+[Date "2026.08.01"]
+[White "mira_dominator1"]
+[Black "Kenan31_GoatKaraman"]
+[Result "0-1"]
+[WhiteElo "2203"]
+[BlackElo "2202"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 exd5 cxd5 Nc3 Nf6 Nf3 e6 Bg5 Be7 Bd3 h6 Bh4 Nc6 O-O Ng8 Bxe7 Ngxe7 Bb5 Bd7 Bxc6 Nxc6 Re1 a6? Ne5? Nxe5 Rxe5 Qc7? Qg4? O-O Rae1 f5 Qg3 Rf6?? R1e2?? Qb6 b3?! Qxd4 h4? Rc8 R5e3?? Kh7?? Rd3 Qb4 a4 f4 Qh3? e5?? Qxd7 Rxc3 Rxc3?! Qxc3 Qxb7?? Qa1+ Kh2 Qd4?? Qxa6?? f3 Qd3+?? Qxd3 cxd3 fxe2 b4 e1=Q 0-1
+
+[Site "https://lichess.org/bP3SWFci"]
+[Date "2026.08.01"]
+[White "Tarsky_Vladislav-3"]
+[Black "colochorompealmoadas"]
+[Result "1-0"]
+[WhiteElo "2353"]
+[BlackElo "2353"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e6 Nf3 f5 Bf4 Nf6 e3 Be7 h3 d6 Be2 O-O O-O Nc6 Nbd2 Bd7 c4 a6 Rc1 h6 Nb3 Ne4 d5 Ne5 Nxe5 dxe5 Bxe5 Bd6 Bxd6 cxd6 Bf3 e5 Bxe4 fxe4 Nd2 Bf5 Qh5 Kh7 Qe2 Bg6 Rfd1 Qg5 Nf1 Bh5 Qc2 Bf3 Ng3 h5 gxf3 Rxf3 Kh2 Raf8 Rd2 h4 Rg1 hxg3+ Rxg3 Rxg3 fxg3 Qxe3 Re2 Qf3 Rg2 Kh6 Qd2+ g5 h4 Kh5 Qxg5# 1-0
+
+[Site "https://lichess.org/U0mhtl2f"]
+[Date "2026.08.01"]
+[White "Netao_slz"]
+[Black "laifot"]
+[Result "1/2-1/2"]
+[WhiteElo "2241"]
+[BlackElo "2242"]
+[ECO "A06"]
+[Opening "Zukertort Opening: Tennison Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 Nf3 dxe4 Ng5 h6 Nxe4 Nf6 Nxf6+ exf6 Nc3 Nc6 d4 Bf5 Be3 Bd6 Bb5 O-O O-O a6 Bd3 Bxd3 Qxd3 Nb4 Qd2 Re8 a3 Nc6 Rae1 Qd7 Bf4 Bxf4 Qxf4 Rxe1 Rxe1 Ne7 h3 Ng6 Qe4 c6 Ne2 f5 Qe3 Re8 Qd2 f4 c3 f3 Ng3 Rxe1+ Qxe1 fxg2 Kxg2 Qd5+ Qe4 Qg5 Qe8+ Kh7 Qxf7 Nf4+ Kf3 Nxh3 Qf5+ Qxf5+ Nxf5 Ng5+ Ke3 Ne6 Nd6 b6 Nc4 b5 Na5 Nd8 Ke4 Kg6 Kf4 Kf6 c4 bxc4 Nxc4 Ke6 Ne5 Kd5 Ke3 Ne6 Nf7 Nxd4 f4 Nc2+ Kd2 Nd4 Ke3 Nf5+ Kf3 Nd4+ Kg4 Ne6 Kf5 Nd4+ Kg6 Ne2 f5 c5 Kxg7 h5 Ng5 Ke5 f6 Nd4 f7 Nf5+ Kg6 Ne7+ Kg7 Nf5+ Kg8 Ne7+ Kf8 Ng6+ Ke8 Ne7 f8=Q Nd5 Qf6+ Nxf6+ Kf7 Ng4 Nf3+ Kf5 Nh4+ Kf4 Ng6+ Kf3 Ne5+ Kf4 Ke6 Kg3 Kd5 h4 Kxc5 h3 Nxg4 h2 Nxh2 Kxh2 Kb6 Kg3 Kxa6 Kf4 Kb5 Ke5 b4 Kd6 a4 Kc7 a5 Kb8 a6 Ka8 Ka5 Kb8 b5 Ka8 b6 Kb8 Kb5 Ka8 Kc6 Kb8 b7 Ka7 Kb5 Kb8 Ka5 Ka7 Kb5 Kb8 Kb6 1/2-1/2
+
+[Site "https://lichess.org/krZhQmPP"]
+[Date "2026.08.01"]
+[White "Mijail_Nejemievich"]
+[Black "Marshian_Gambit"]
+[Result "0-1"]
+[WhiteElo "2277"]
+[BlackElo "2276"]
+[ECO "D05"]
+[Opening "Queen's Pawn Game: Colle System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 d5 e3 Nf6 d4 e6 Bd3 c5 c4 dxc4 Bxc4 cxd4 Bd3 dxe3 Bxe3 Nc6 O-O Be7 Bb5 O-O Bxc6 bxc6 Qxd8 Rxd8 Nc3 c5 Ne5 Bb7 Nb5 Nd7 Nxd7 Rxd7 Nc3 a6 Rad1 Rad8 Rxd7 Rxd7 Ne4 Bxe4 h3 h6 f3 Bd3 Rc1 Bg5 Bxg5 hxg5 Rxc5 Rb7 Rxg5 Rxb2 a4 Bf5 Kh2 f6 Rh5 g6 Rh4 g5 Rd4 Kf7 Rd7+ Kg6 Ra7 e5 Rxa6 e4 Ra5 exf3 Rxf5 Rxg2+ Kh1 Kxf5 h4 Rg3 a5 f2 hxg5 f1=Q+ Kh2 Qg2# 0-1
+
+[Site "https://lichess.org/PEPvGa6J"]
+[Date "2026.08.01"]
+[White "TimurSigmaChess"]
+[Black "bruhprodigygoat3"]
+[Result "1-0"]
+[WhiteElo "2165"]
+[BlackElo "2166"]
+[ECO "B00"]
+[Opening "Pirc Defense: Roscher Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d6 d4 Nf6 Nf3 Nxe4 Bd3 Nf6 O-O g6 Bg5 Bg7 Re1 O-O c3 Bg4 h3 Bxf3 Qxf3 Nc6 Nd2 Qd7 Ne4 Nxe4 Qxe4 e5 dxe5 dxe5 Rad1 Qe6 Bc4 Qf5 Qxf5 gxf5 Bd5 Kh8 Bxc6 bxc6 Rd7 f6 Be3 Rfc8 Red1 a5 a3 f4 Bc5 Kg8 f3 h5 Kf2 Bf8 Bxf8 Kxf8 Rh7 Rd8 Rh8+ Ke7 Rh7+ Ke6 Rxd8 Rxd8 Rxc7 Rd2+ Kf1 Rxb2 Rxc6+ Ke7 Ra6 Rb3 Rxa5 Rxc3 Ra7+ Ke6 a4 Kf5 a5 Ra3 a6 e4 Ra8 exf3 gxf3 Rxf3+ Ke2 Ra3 a7 Ke4 Re8+ Kf5 a8=Q Rxa8 Rxa8 Ke4 Ra5 f3+ Kf2 f5 Ra4+ Kd3 Ra3+ Kd4 Rxf3 Ke4 Rg3 f4 Rf3 Kf5 h4 Kg4 Kg2 Kxh4 Rxf4+ Kg5 Rf3 Kg4 Rf2 h4 Kh2 h3 Rg2+ Kh4 Rf2 Kg4 Rd2 Kh4 Rc2 Kg4 Rc3 Kh4 Rxh3+ Kg4 Rg3+ Kh4 Kg2 Kh5 Kf2 Kh6 Kf3 Kh5 Rg4 Kh6 Kf4 Kh7 Kf5 Kh6 Rg5 Kh7 Kf6 Kh8 Kf7 Kh7 Rh5# 1-0
+
+[Site "https://lichess.org/EQk1OanQ"]
+[Date "2026.08.01"]
+[White "CilekliLolipoP2012"]
+[Black "DeadlyMaster67"]
+[Result "1-0"]
+[WhiteElo "2254"]
+[BlackElo "2254"]
+[ECO "B45"]
+[Opening "Sicilian Defense: Four Knights Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 e6 d4 cxd4 Nxd4 Nf6 Nc3 Nc6 Be3 Bb4 Nxc6 bxc6 Qd3 Qa5 Bd4 Bxc3+ Bxc3 Qb6 Be2 d5 Bxf6 gxf6 O-O Rg8 exd5 cxd5 Qxh7 Rg6 Bh5 Ke7 Bxg6 Kd6 Qxf7 Qxb2 Rab1 Qxc2 Rfc1 Qxc1+ Rxc1 Ke5 Qc7+ Kd4 Qxc8 Rxc8 Rxc8 e5 Ra8 e4 Rxa7 Kd3 Re7 d4 Bxe4+ Kd2 h4 d3 Bxd3 Kd1 Rf7 Kd2 Rxf6 Kd1 h5 Kd2 h6 Kd1 h7 Kd2 h8=Q Kd1 Bh7 Kd2 Rf7 Kd1 Qe8 Kd2 a4 Kd1 a5 Kd2 a6 Kd1 a7 Kd2 a8=Q Kd1 Qad8+ Kc1 Rc7+ Kb2 Qb5+ Ka3 Qa8# 1-0
+
+[Site "https://lichess.org/bQ1OxZp5"]
+[Date "2026.08.01"]
+[White "giannisforo"]
+[Black "DragonKiller724"]
+[Result "0-1"]
+[WhiteElo "2210"]
+[BlackElo "2211"]
+[ECO "C00"]
+[Opening "French Defense: Steiner Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 c4 d5 cxd5 exd5 exd5 Nf6 Nf3 Nxd5 d4 Bb4+ Bd2 Bxd2+ Qxd2 O-O Nc3 Re8+ Be2 c6 O-O Bg4 Rfe1 Nd7 h3 Bh5 Nxd5 cxd5 Rac1 Nf6 Qc3 Ne4 Qb3 Qb6 Bb5 Rec8 Rxc8+ Rxc8 Qxd5 Bxf3 gxf3 Nf6 Qe5 h6 b3 a6 Bc4 Re8 Qxe8+ Nxe8 Rxe8+ Kh7 Rd8 Qxd8 Bd3+ g6 Be4 Qxd4 Kg2 f5 Kg3 fxe4 fxe4 Qxe4 f3 Qc2 Kh4 Qxa2 Kg3 Qxb3 h4 a5 Kh3 a4 Kg4 h5+ Kg5 a3 f4 a2 Kf6 a1=Q+ Kg5 Qd5+ f5 Qxf5# 0-1
+
+[Site "https://lichess.org/g4AU0YYV"]
+[Date "2026.08.01"]
+[White "ramiritoelcurioso"]
+[Black "HugeSmoggyFirebird"]
+[Result "0-1"]
+[WhiteElo "2149"]
+[BlackElo "2147"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Indian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 Nf6 Bb2 g6 e3 Bg7 f4 O-O g4 d6 g5 Nh5 Bxg7 Nxg7 Be2 e5 h4 Nc6 fxe5 dxe5 Nc3 Bf5 e4 Be6 d3 Nd4 Qd2 Qe7 O-O-O Qa3+ Kb1 a5 Qc1 Qc5 Qb2 b5 Nf3 a4 Nxd4 exd4 Nxa4 bxa4 b4 Qd6 a3 c5 c3 dxc3 Qxc3 cxb4 axb4 Rfc8 Qb2 Rab8 b5 Bd7 Ka1 Rxb5 Qf6 Qa3# 0-1
+
+[Site "https://lichess.org/uSMEnWb4"]
+[Date "2026.08.01"]
+[White "Oganes77"]
+[Black "FinSharkOtter"]
+[Result "1-0"]
+[WhiteElo "2102"]
+[BlackElo "2101"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 Nc6 Nf3 Nf6 Bg2 g6 O-O Bg7 Re1 O-O d3 d6 Nbd2 e5 e4 Be6 Nb3 Re8 c3 Bxb3 axb3 Rb8 d4 a6 d5 Ne7 c4 c6 Bd2 cxd5 exd5 Rc8 Qc1 Rc6 dxc6 Nxc6 Bh6 Bxh6 Qxh6 Ng4 Qh3 Nf6 Ng5 h5 Bxc6 bxc6 Rxa6 Qd7 Qxd7 Nxd7 Rxc6 f6 Ne4 Re6 Rxd6 Rxd6 Nxd6 Nc5 b4 Nd3 Re2 Nxb4 f4 Nd3 fxe5 fxe5 b3 Kf8 Re3 e4 Rxd3 exd3 Kf2 d2 Ke2 h4 Kxd2 g5 gxh4 gxh4 h3 Ke7 Ne4 Ke6 Ng5+ Kf5 Nf3 Kf4 Nxh4 Kg3 Nf5+ Kxh3 Kd3 Kg4 Kd4 Kxf5 Kd5 Kf6 Kd6 Kf7 Kd7 Kf6 c5 Ke5 c6 Kd5 b4 Ke4 b5 Ke5 b6 Kf5 b7 Kf6 c7 Kg6 c8=Q Kg7 b8=Q Kg6 Qc6+ Kf5 Qbb5+ Kg4 Qcc4+ Kf3 Qbb3+ Kg2 Qcc2+ Kf1 Qbb1# 1-0
+
+[Site "https://lichess.org/8P5DgCWx"]
+[Date "2026.08.01"]
+[White "NoID_Proxy"]
+[Black "SC-AKTI96"]
+[Result "0-1"]
+[WhiteElo "2105"]
+[BlackElo "2106"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 e5 Bg2 Nf6 Nf3 d5 Nxe5 Bd6 Nf3 O-O O-O Nbd7 d3 Be5 Nbd2 Bd6 Re1 c6 e4 Re8 d4 dxe4 Nxe4 Nxe4 Qd3 Ndf6 Ne5 Bxe5 dxe5 Qxd3 cxd3 Nxf2 Kxf2 Nd5 Bxd5 cxd5 Bf4 Be6 d4 Rec8 Rac1 Rc4 Be3 Rac8 Ke2 Rxc1 Rxc1 Rxc1 Bxc1 Kf8 Kd3 Ke7 Kc3 Kd7 Kb4 Kc6 a4 b6 Be3 a5+ Kc3 b5 axb5+ Kxb5 h4 h5 Bg5 g6 Kb3 Bf5 Be7 Bd3 Bc5 Bc4+ Kc3 a4 Ba3 Bf1 Be7 Bh3 Ba3 Be6 Bc5 Bf5 Ba3 Kc6 Kb4 Bc2 Ka5 Kd7 Bc5 Ke6 Ba3 Kf5 Bd6 Ke4 Kb4 Kxd4 Ka3 Bb3 0-1
+
+[Site "https://lichess.org/eOGsgNym"]
+[Date "2026.08.01"]
+[White "NebulaEndgame_123"]
+[Black "raymond_rr65"]
+[Result "0-1"]
+[WhiteElo "2101"]
+[BlackElo "2101"]
+[ECO "A00"]
+[Opening "Mieses Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d3 d5 e4 dxe4 dxe4 Nf6 f3 Qxd1+ Kxd1 e5 Bd2 Nc6 Nc3 Bc5 Bd3 O-O Nge2 Be6 Ke1 Rfd8 Ng3 g6 Bb5 a6 Bxc6 bxc6 Ke2 Bc4+ Ke1 Rd7 Nf1 Rad8 Be3 Bxe3 Nxe3 Bb5 Nxb5 cxb5 Rd1 Rxd1+ Nxd1 Nh5 g3 f5 exf5 gxf5 Ke2 f4 Nf2 fxg3 hxg3 Nxg3+ Ke1 Nxh1 Nxh1 Rf8 Nf2 Rxf3 Ke2 Rf4 Nd3 Rh4 Nxe5 Rh2+ Kd3 h5 Ng6 h4 Kd4 h3 Nf4 Rh1 Kc3 h2 Ne2 Re1 Ng3 h1=Q Nxh1 Rxh1 b3 Rh4 Kb2 Kf7 c3 Ke6 Ka3 Kd6 c4 c5 cxb5 axb5 Kb2 b4 Kc2 Kd5 Kb1 c4 Kc2 cxb3+ Kxb3 Kc5 Ka4 Rh3 a3 Rxa3# 0-1
+
+[Site "https://lichess.org/b5YBA7AY"]
+[Date "2026.08.01"]
+[White "zuryel"]
+[Black "Schach_Abzocker"]
+[Result "0-1"]
+[WhiteElo "2074"]
+[BlackElo "2080"]
+[ECO "D94"]
+[Opening "Grünfeld Defense: Three Knights Variation, Paris Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 Nf6 Nc3 g6 e3 Bg7 d4 O-O Nf3 d5 Bd3 c6 O-O dxc4 Bxc4 Nd5 Bd3 Nxc3 bxc3 Bg4 h3 Bxf3 Qxf3 Nd7 e4 Nb6 Be3 e6 Rad1 Qd6 c4 Qa3 c5 Nd7 Bc4 Qa4 Bb3 Qb4 d5 cxd5 exd5 exd5 Qxd5 Ne5 Bd4 Rfd8 Qc4 Nxc4 Bxg7 Kxg7 Rxd8 Rxd8 g3 Nd2 Rd1 Nf3+ Kg2 Rxd1 Bxd1 Ne1+ Kf1 Nd3 Be2 Qe1+ Kg2 Qxe2 h4 Qxf2+ Kh3 Qf1+ Kg4 Qf5# 0-1
+
+[Site "https://lichess.org/f6ZFd8Ck"]
+[Date "2026.08.01"]
+[White "WorldKing123"]
+[Black "Leonard201389"]
+[Result "0-1"]
+[WhiteElo "1995"]
+[BlackElo "1996"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 d4 d6 c3 cxd4 cxd4 Nf6 Nc3 g6 Bg5 Bg7 Bxf6 Bxf6 Nf3 O-O Bc4 Nc6 d5 Ne5 Nxe5 Bxe5 O-O Qc7 Bd3 Bxc3 bxc3 Qxc3 Rc1 Qg7 f4 f5 Qe2 fxe4 Bxe4 Bf5 Bxf5 Rxf5 Rc7 Rxd5 Rxe7 Qd4+ Kh1 Rf8 Qe6+ Kh8 h3 Qf6 Qxf6+ Rxf6 Re8+ Kg7 Re7+ Rf7 Rxb7 Rxb7 Rc1 Rb2 Rf1 Rxa2 Rg1 Rdd2 f5 Rf2 h4 Rxf5 h5 Rxh5# 0-1
+
+[Site "https://lichess.org/dILzMwVl"]
+[Date "2026.08.01"]
+[White "Kolkoa"]
+[Black "MoiRon"]
+[Result "1-0"]
+[WhiteElo "2056"]
+[BlackElo "2053"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Scandinavian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 Nf6 Nc3 d5 d3 dxe4 Nxe4 Nxe4 dxe4 Qxd1+ Kxd1 e5 c3 Bg4+ Kc2 f6 f3 Be6 Be3 Be7 Rd1 Nc6 Ne2 Rd8 Ng3 Rxd1 Kxd1 Kf7 Kc2 Rd8 Bb5 Bd7 Rd1 a6 Bxc6 Bxc6 Rxd8 Bxd8 Ne2 g6 c4 b6 b3 a5 Nc3 Be7 Nd5 Bxd5 cxd5 Bd6 Kd3 f5 Kc4 f4 Bf2 Kf6 Kb5 g5 Kc6 g4 Bxb6 cxb6 Kxd6 b5 Kc7 b4 d6 1-0
+
+[Site "https://lichess.org/07nJ0TDu"]
+[Date "2026.08.01"]
+[White "TKS-MARS-PanavG"]
+[Black "minhducno1"]
+[Result "0-1"]
+[WhiteElo "2067"]
+[BlackElo "2068"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 e6?! Nc3 d5 e5?! Ne7 Bf4 Ng6 Bg3 Nd7 Nf3 Be7?! Bd3 O-O O-O?! b6 Bxg6? fxg6 Qd2 Bb7 a4 c5? dxc5? Nxc5? b4? Ne4 Nxe4 dxe4 Qxd8?? Raxd8 Ne1 Bxb4 Rb1 Ba6?? Nd3?? exd3 Rxb4?? d2?? Rd1 Be2 Rbb1 Bxd1 Rxd1 h5 Kf1 Rd4 h3 Rfd8 Ke2 h4 Bh2 Re4+ Kf3 Rxa4 Ke2 Rad4 g3 a5 gxh4 a4 Bf4 a3 Be3 R4d5 Bxd2 a2 Ra1 Rxd2+ Ke3 Rxc2 Rxa2 Rxa2 Kf3 Ra5 0-1
+
+[Site "https://lichess.org/DYYUtDOX"]
+[Date "2026.08.01"]
+[White "xav180"]
+[Black "bernardo_sr"]
+[Result "1-0"]
+[WhiteElo "1975"]
+[BlackElo "1976"]
+[ECO "A31"]
+[Opening "English Opening: Symmetrical Variation, Anti-Benoni Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 Nf3 c5 c4 cxd4 Nxd4 g6 Nc3 Bg7 e4 O-O Be2 d6 O-O Nc6 Be3 Nxd4 Bxd4 b6 f3 Bb7 Nd5 Nxd5 cxd5 Bxd4+ Qxd4 Qd7 Rac1 Rac8 Rc3 Rxc3 bxc3 Rc8 c4 Qa4 Qb2 Ba6 Qb3 Qd7 Rc1 b5 Kf2 bxc4 Bxc4 Bxc4 Rxc4 Rxc4 Qxc4 Kg7 a4 Qb7 Qb5 Qb6+ Qxb6 axb6 Ke3 Kf6 Kd3 e6 Kc4 exd5+ exd5 Ke5 Kb5 Kxd5 Kxb6 Kc4 a5 d5 a6 d4 a7 d3 a8=Q d2 Qa1 Kd3 Qd1 f5 Kb5 g5 Kb4 g4 fxg4 fxg4 h3 gxh3 gxh3 Ke3 h4 h5 Kb3 Kd3 Kb2 Ke3 Kc2 Kf2 Qxh5 Kg1 Qd1+ Kh2 Kxd2 Kh3 h5 Kh2 h6 Kg2 h7 Kg3 h8=Q Kg2 Qe8 Kf2 Qee2+ Kg3 Qdf1 Kh4 Qeg2 1-0
+
+[Site "https://lichess.org/vdeoZ9yC"]
+[Date "2026.08.01"]
+[White "Fans_Samuel_Fonteboa"]
+[Black "kazumasai"]
+[Result "0-1"]
+[WhiteElo "1952"]
+[BlackElo "1946"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Modern Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 Nd2 Nf6 e5 Nfd7 Ngf3 Nb6 c3 Bf5 h3 e6 Be2 N8d7 Nb3 c5 Bd3 c4 Bxf5 exf5 Nbd2 g6 Nf1 Bg7 Ng3 O-O O-O Qc7 Bg5 f6 exf6 Nxf6 Ne5 Nbd7 Re1 Nxe5 dxe5 Nd7 e6 Ne5 f4 Nd3 Re3 Rae8 e7 Rf7 Rxd3 cxd3 Qxd3 Rfxe7 Bxe7 Rxe7 Qxd5+ Kh8 Rd1 Re8 Qd2 Qb6+ Kh1 h6 h4 g5 hxg5 hxg5 fxg5 Qg6 Qd6 Qh7+ Kg1 Qh4 Nxf5 Qxg5 Nxg7 Qxg7 Qh2+ Kg8 Rf1 Re7 Qf4 Rf7 Qc4 b6 Qc8+ Kh7 Qh3+ Kg8 Rxf7 Qxf7 Qg3+ Kf8 Qb8+ Kg7 Qb7 Qxb7 g3 Qd7 Kh2 Qd2+ Kh3 Qxb2 Kh4 Qxc3 g4 Qc2 Kh5 Qxa2 g5 Qe6 Kh4 b5 Kh5 b4 Kh4 b3 Kh5 b2 Kh4 b1=Q Kg3 Qbf5 Kh2 Qeg6 Kg1 Qgxg5+ Kh1 Qh7# 0-1
+
+[Site "https://lichess.org/J00yNw0J"]
+[Date "2026.08.01"]
+[White "rzchuu"]
+[Black "TheCommandalorian"]
+[Result "1-0"]
+[WhiteElo "1905"]
+[BlackElo "1913"]
+[ECO "A48"]
+[Opening "Indian Defense: Colle System, King's Indian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 Nf3 g6 e3 d6 Bd3 Bg7 Nbd2 O-O O-O Nbd7 c3 e5 Re1 b6 b4 Bb7 e4 Rb8 d5 a5 a3 axb4 axb4 Ne8 Bb2 Bc8 Qc2 Rb7 c4 Rb8 h3 Ndf6 Ba3 Kh8 c5 Ng8 c6 f5 b5 fxe4 Nxe4 Bf5 Bc1 Bxe4 Bxe4 Nef6 Bg5 Qe8 Ra7 Nxe4 Qxe4 Rc8 Rea1 Nf6 Bxf6 Rxf6 Ng5 Qf8 f3 Bh6 Ne6 Qf7 Ra8 Rxa8 Rxa8+ Bf8 Rxf8+ Qxf8 Nxf8 Rxf8 Qa4 Rf6 Qa7 Kg7 Qb8 Kh6 Qxc7 Rf4 Qxb6 Rd4 Qc7 Rd1+ Kh2 Rd4 b6 Rf4 b7 Rd4 b8=Q Rd2 Qcc8 Rd4 Qf8+ Kh5 Qbe8 Rg4 Qef7 Rg5 g4+ Rxg4 fxg4+ Kg5 Qf6# 1-0
+
+[Site "https://lichess.org/KtVQfwbh"]
+[Date "2026.08.01"]
+[White "GavinBarthen1"]
+[Black "Escalane"]
+[Result "0-1"]
+[WhiteElo "1972"]
+[BlackElo "1971"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Slav Invitation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 c6 c4 d5 c5 Bf5 d4 e6 Nc3 Nf6 e3 Nbd7 Bd3 Bxd3 Qxd3 b6 O-O bxc5 dxc5 Nxc5 Qd1 Qb6 a3 Bd6 b4 Nce4 Nxe4 Nxe4 Nd4 Be5 Bb2 Qc7 f3 Bxh2+ Kh1 Ng3+ Kxh2 Nxf1+ Kg1 Nxe3 Qe2 Nc4 Nxe6 Qe7 Nc7+ Kd7 Qxe7+ Kxe7 Nxa8 Rxa8 Re1+ Kd6 Bxg7 Nxa3 Be5+ Kd7 Bd4 a5 Bc5 axb4 Re7+ Kd8 Bxb4 Rb8 Bxa3 Rb1+ Kh2 Ra1 Rxf7 Rxa3 Rxh7 c5 Rh4 c4 Rd4 Ra5 Kg3 Ke7 Kf4 Ke6 Ke3 c3 Kd3 Rc5 Kc2 Ke5 Rd3 d4 g3 Rc4 f4+ Ke4 Rd1 Ke3 Rd3+ Ke2 f5 Rb4 f6 Rb2+ Kc1 Kxd3 f7 Rh2 f8=Q Rh1+ Qf1+ Rxf1# 0-1
+
+[Site "https://lichess.org/8PzxRGIH"]
+[Date "2026.08.01"]
+[White "mufasa58"]
+[Black "liugeqi"]
+[Result "0-1"]
+[WhiteElo "1916"]
+[BlackElo "1915"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 b6 Nf3 Bb7 Nc3 d6 d4 Nd7 d5 e5 Be3 Ngf6 Bc4 g6 O-O Bg7 Qd2 Qe7 Bg5 h6 Bh4 g5 Bg3 Nh5 Rfe1 Nxg3 hxg3 g4 Nh2 h5 Bb5 Bh6 Qd3 a6 Bxd7+ Kxd7 Rad1 Rhf8 Qc4 b5 Nxb5 axb5 Qxb5+ Kc8 Rd3 Ba6 Qa5 Bxd3 Qxa8+ Kd7 Qa4+ Kd8 cxd3 Qg5 Rc1 Qxc1+ Nf1 f5 Qa8+ Ke7 Qb7 fxe4 dxe4 Be3 Kh2 Qxf1 Qxc7+ Ke8 Qc8+ Kf7 Qc7+ Kg8 Qxd6 Bxf2 Qg6+ Kh8 Qh6+ Kg8 Qg5+ Kh8 Qxh5+ Kg7 Qxg4+ Kf7 Qd7+ Kg6 Qg4+ Kf7 Qe6+ Kg7 Qh6+ Kxh6 g4 Qg1+ Kh3 Qh1# 0-1
+
+[Site "https://lichess.org/lZgc6udg"]
+[Date "2026.08.01"]
+[White "JockeyChess"]
+[Black "bad_challenger"]
+[Result "1-0"]
+[WhiteElo "1994"]
+[BlackElo "1992"]
+[ECO "A11"]
+[Opening "Réti Opening: Anglo-Slav Variation, Gurevich System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 c6 e3 d5 Nf3 Nf6 b3 Bf5 Bb2 e6 Be2 Be7 O-O O-O Nc3 Nbd7 d3 dxc4 bxc4 a6 a4 b5 cxb5 axb5 axb5 cxb5 Nxb5 Qb6 Nfd4 Bg6 Bc3 Rxa1 Qxa1 Bc5 Bf3 Rb8 Rb1 Qd8 e4 Ne5 Be2 Nfd7 Nf3 Nxf3+ Bxf3 Nf8 d4 Be7 Qa4 Qe8 Be2 Nd7 f3 Nb6 Qb3 Nc8 d5 exd5 Qxd5 Qd7 Qxd7 1-0
+
+[Site "https://lichess.org/caAnd9dh"]
+[Date "2026.08.01"]
+[White "Dhanya-Dhanvin_007"]
+[Black "Rouletteducasino"]
+[Result "1-0"]
+[WhiteElo "2117"]
+[BlackElo "2120"]
+[ECO "A40"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c6 Nf3 d5 e3 Nf6 Bd3 Bg4 c3 e6 Nbd2 c5 O-O c4 Bc2 Nc6 Re1 Bh5 h3 Bg6 e4 dxe4 Nxe4 Nxe4 Bxe4 Bxe4 Rxe4 Qd5 Re1 Be7 Ne5 Nxe5 Rxe5 Qd7 Bf4 Bd6 Re4 Bxf4 Rxf4 O-O-O Qe2 Kb8 Qxc4 Qd5 Qxd5 Rxd5 Re4 Rhd8 Rae1 Kc7 Re5 Rxe5 Rxe5 Kd6 Kf1 f6 Ra5 a6 Ra3 Kc6 Ke2 Rd5 Rb3 b5 Ke3 Rf5 g3 Rd5 a4 Kb6 axb5 axb5 c4 Rh5 Rxb5+ Kc6 Rxh5 h6 b4 Kd6 b5 g6 c5+ Kc7 Rxh6 g5 Rg6 f5 Rxe6 f4+ gxf4 g4 1-0
+
+[Site "https://lichess.org/IU5ERWOG"]
+[Date "2026.08.01"]
+[White "Londonsystem33670"]
+[Black "Privorotsky_Oleg"]
+[Result "1/2-1/2"]
+[WhiteElo "2613"]
+[BlackElo "2537"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 d4 cxd4 Qxd4 Nf6 Qd3 Nc6 Nc3 e6 Nf3 Bb4 Bd2 O-O a3 Ba5 e5 Ne8 Ne4 Bxd2+ Qxd2 Qc7 Qc3 f6 exf6 Nxf6 Nxf6+ Rxf6 O-O-O a6 Bd3 b5 Qc5 Rb8 Qh5 g6 Qh4 Kg7 Ng5 h6 Ne4 Rf7 Kb1 Qf4 Qxf4 Rxf4 Nd6 Bb7 Be4 Nd8 Nxb7 Rxe4 Rxd7+ Kf8 Rxd8+ Rxd8 Nxd8 Rf4 Nxe6+ Ke7 Nxf4 Kf6 Nd5+ Ke5 Nc7 g5 Nxa6 b4 Nxb4 Ke4 Nd3 Kd4 Re1 g4 g3 h5 Re5 Kc4 Rxh5 Kd4 Rh4 Kc4 Rxg4+ Kd5 Rf4 Ke6 h4 Kd5 h5 Ke6 h6 Ke7 h7 Ke6 h8=Q Kd5 Qe5+ Kc6 Rf6+ Kd7 Qe6+ Kd8 Rf7 1/2-1/2
+
+[Site "https://lichess.org/PycmImaW"]
+[Date "2026.08.01"]
+[White "HansenR"]
+[Black "RamoTX"]
+[Result "0-1"]
+[WhiteElo "2170"]
+[BlackElo "2170"]
+[ECO "B50"]
+[Opening "Sicilian Defense: Delayed Alapin Variation, with d6"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 c3 Nf6 e5 dxe5 Nxe5 e6 Bb5+ Bd7 Nxd7 Nbxd7 Bxd7+ Qxd7 O-O Qd3 Na3 a6 Qc2 O-O-O Qxd3 Rxd3 Nc4 b5 Ne5 Rd5 Nf3 h6 d4 Be7 dxc5 Rhd8 Be3 Bxc5 Bxc5 Rxc5 Rfd1 Rcd5 Rxd5 Rxd5 Kf1 Ne4 Ke2 Nc5 Rd1 Rxd1 Kxd1 Nd3 Kc2 Nxf2 b3 Ng4 h3 Ne3+ Kd3 Nxg2 c4 Nf4+ Kd4 bxc4 Kxc4 Nxh3 Ne5 f6 Nc6 Nf4 Kc5 h5 Kb6 h4 Kxa6 h3 b4 h2 b5 Nd5 Ne7+ Nxe7 b6 Nc6 b7+ Kb8 Kb6 Nd8 a4 Nxb7 a5 Nxa5 Kxa5 h1=Q Kb4 Qc1 0-1
+
+[Site "https://lichess.org/xdpMvPsG"]
+[Date "2026.08.01"]
+[White "erumed19"]
+[Black "sergor"]
+[Result "0-1"]
+[WhiteElo "2038"]
+[BlackElo "2177"]
+[ECO "B12"]
+[Opening "Caro-Kann Defense: Advance Variation, Botvinnik-Carls Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 e5 c5 c3 Bf5 Bb5+ Nc6 Nf3 e6 O-O Ne7 Bg5 Qc7 Nbd2 Bg4 Qa4 Rc8 Rfe1 a6 Bf1 Bxf3 Nxf3 h6 Bd2 g5 h3 Bg7 Rac1 O-O Bd3 Qb6 Re2 cxd4 cxd4 Qa7 Qd1 Nxd4 Re3 Nxf3+ Rxf3 Bxe5 Rxc8 Rxc8 Qe2 Bg7 h4 e5 Rg3 e4 Bb1 f6 hxg5 fxg5 Qh5 Rf8 Bxg5 Qxf2+ Kh2 Be5 Bf4+ Bg7 Be5 Nf5 Qxf5 Rxf5 Rxg7+ Kf8 Bc3 Rh5# 0-1
+
+[Site "https://lichess.org/zInQrMC4"]
+[Date "2026.08.01"]
+[White "avantura3"]
+[Black "nazarenomalpassi"]
+[Result "1-0"]
+[WhiteElo "1951"]
+[BlackElo "1961"]
+[ECO "C25"]
+[Opening "Vienna Game: Max Lange Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 e5 Nc3 Nc6 d3 f5 exf5 Nf6 h3 d5 Nf3 Bxf5 Be2 Bd6 O-O Qd7 Nh2 O-O-O f4 e4 dxe4 dxe4 Qe1 Bc5+ Kh1 h5 Qg3 Ng4 hxg4 hxg4 Be3 Bd6 Nb5 g5 Nxd6+ Qxd6 Rad1 gxf4 Bxf4 Qe6 Bxc7 Rxd1 Rxd1 e3 Bf4 Ne7 Kg1 Nd5 c3 Rg8 Nf1 Nf6 Nxe3 Ne4 Qe1 g3 Nxf5 Qxf5 Bf3 Qc5+ Qe3 Qxe3+ Bxe3 Nf2 Bxf2 1-0
+
+[Site "https://lichess.org/VzVZuhvO"]
+[Date "2026.08.01"]
+[White "DascamodeL"]
+[Black "calvinelgenio"]
+[Result "1-0"]
+[WhiteElo "2027"]
+[BlackElo "2019"]
+[ECO "C68"]
+[Opening "Ruy Lopez: Exchange Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 Bb5 a6 Bxc6 dxc6 h3 f6 O-O Be6 c3 c5 d4 cxd4 cxd4 exd4 Nxd4 Bf7 Qa4+ b5 Qd1 Bc5 Be3 Bb6 Nf5 Qxd1 Rxd1 Kf8 Bxb6 cxb6 Nc3 Ne7 Nxe7 Kxe7 Nd5+ Bxd5 Rxd5 Rhd8 Rad1 Rxd5 Rxd5 Rd8 Rxd8 Kxd8 Kf1 Ke7 Ke2 Ke6 Kd3 Ke5 g3 g5 Ke3 h5 f4+ gxf4+ gxf4+ Ke6 Kd4 a5 a3 h4 b3 Kd6 e5+ fxe5+ fxe5+ Ke6 Ke4 Ke7 Kd5 Kd7 e6+ Ke7 Ke5 b4 a4 b5 axb5 a4 b6 a3 b7 a2 b8=Q a1=Q+ Kd5 Qh1+ Kc4 Qe4+ Kb5 Qxe6 Qb7+ Kf8 Qf3+ Ke8 Kxb4 Qd6+ Kc3 Qg3 Qd3 Ke7 Kd4 Kd6 Ke4+ Kc5 Qxg3 hxg3 Kf3 1-0
+
+[Site "https://lichess.org/s5IpDq0V"]
+[Date "2026.08.01"]
+[White "Neocon"]
+[Black "EntrenoFuerte"]
+[Result "1-0"]
+[WhiteElo "1935"]
+[BlackElo "1928"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense, Wimpy System"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+b3 c5 c4 e6 Bb2 d5 e3 Nf6 Nf3 Nc6 Be2 d4 exd4 cxd4 d3 Qc7 O-O e5 a3 Be7 b4 a6 c5 O-O Nbd2 Re8 Nc4 e4 dxe4 Nxe4 Nxd4 Rd8 Bf3 Ng5 Nd6 Nxf3+ Nxf3 Bxd6 cxd6 Rxd6 Qc2 Rd8 Rac1 Be6 Rfd1 Rxd1+ Qxd1 Rd8 Qe1 Bg4 Qe3 Bxf3 Qxf3 Qe7 Qg4 g6 h3 Ne5 Bxe5 Qxe5 Qf3 b5 g4 Rd2 Kg2 h5 Rc8+ Kg7 Ra8 hxg4 hxg4 Rd4 Ra7 Qe6 Ra8 Rxg4+ Kf1 Rc4 Qg3 Rc1+ Kg2 Qc6+ Qf3 Rg1+ Kxg1 Qxf3 Rxa6 Qxa3 Rxa3 Kf6 Rc3 Kg5 Rc5+ Kf4 Rxb5 f6 Rc5 g5 b5 f5 b6 g4 b7 Kf3 b8=Q g3 Qxg3+ 1-0
+
+[Site "https://lichess.org/CWMUdbcC"]
+[Date "2026.08.01"]
+[White "RandyAndy64"]
+[Black "mintyfluid"]
+[Result "1-0"]
+[WhiteElo "2075"]
+[BlackElo "1963"]
+[ECO "C37"]
+[Opening "King's Gambit Accepted: King's Knight's Gambit"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+e4 e5 f4 exf4 Nf3 g5 Bc4 Be7 d4 d6 O-O h6 Nc3 Nf6 Qe2 O-O e5 dxe5 dxe5 Nfd7 e6 Bc5+ Kh1 fxe6 Qxe6+ Kg7 Ne4 Qe7 Nxc5 Qxc5 b3 Nf6 Qe2 Re8 Qd2 Nc6 Bb2 Bf5 Rfe1 Rad8 Qc3 Rf8 h4 b5 hxg5 bxc4 gxf6+ Kh7 Nh4 Bd7 f7 Nd4 Qxd4 Qxd4 Bxd4 Bc6 c3 Rxf7 Re6 Bb7 Rae1 cxb3 axb3 c5 Re7 Rxe7 Rxe7+ Kg8 Be5 f3 Rg7+ Kf8 Ng6+ Ke8 Re7# 1-0
+
+[Site "https://lichess.org/OJgkBK9S"]
+[Date "2026.08.01"]
+[White "javad_13_77_shm"]
+[Black "OctopusKnightz"]
+[Result "1-0"]
+[WhiteElo "2082"]
+[BlackElo "2067"]
+[ECO "B30"]
+[Opening "Sicilian Defense: Old Sicilian"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 Bc4 e6 e5 Nge7 Nc3 d5 exd6 Qxd6 Nb5 Qb8 d3 a6 Nc3 b5 Bb3 b4 Na4 Bd7 Nxc5 g6 Nxd7 Kxd7 O-O Bg7 c3 bxc3 bxc3 Bxc3 Rb1 Qd8 Ba3 Bb4 Bxb4 Nxb4 Ne5+ Ke8 Qf3 f6 Nc4 Qxd3 Qxa8+ Kf7 Qxh8 Nbd5 Qxh7+ Ke8 Nd6+ Kd7 Nf7 Nf4 Rbc1 Qe4 f3 Qe3+ Kh1 Nf5 Rfd1+ Ke8 Qg8+ Ke7 Qd8+ Kxf7 Rd7+ Ne7 Qxe7+ Kg8 Rd8# 1-0
+
+[Site "https://lichess.org/rsqgZ4Ux"]
+[Date "2026.08.01"]
+[White "apsgaming25"]
+[Black "Kommissar_Klieg"]
+[Result "1/2-1/2"]
+[WhiteElo "2049"]
+[BlackElo "2017"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 Nf3 Bf5 e3 e6 c4 Nf6 Nc3 c5 Qb3 b6 Ne5 Be7 cxd5 exd5 Bb5+ Bd7 Nxd7 Nfxd7 Nxd5 O-O Nxe7+ Qxe7 dxc5 Nxc5 Qc2 Nbd7 Bxd7 Nxd7 O-O Rac8 Qe2 Nc5 Bd2 Ne4 Rac1 h6 Rfd1 a5 Be1 Nc5 f3 Rfd8 e4 Rd7 Rxd7 Qxd7 Rd1 Qe6 b3 Re8 Bf2 f5 Bxc5 bxc5 Re1 f4 Rc1 Rc8 Qc4 Qxc4 Rxc4 Kf7 Kf2 Ke6 g3 g5 gxf4 gxf4 a3 Kd6 b4 axb4 axb4 Rc6 bxc5+ Rxc5 Rxc5 Kxc5 Kg2 Kd4 Kh3 Ke3 Kg4 h5+ Kh4 Kxf3 e5 Kg2 e6 f3 e7 f2 e8=Q f1=Q Qe4+ Kxh2 Qe5+ Kg1 Qg5+ Kh1 Qd5+ Kg1 Qg5+ Kh1 Qd5+ Kh2 Qe5+ Kg1 Qg3+ Qg2 Qxg2+ Kxg2 Kxh5 1/2-1/2
+
+[Site "https://lichess.org/vGFqHdkm"]
+[Date "2026.08.01"]
+[White "ChanjuChiso"]
+[Black "yociel0385"]
+[Result "0-1"]
+[WhiteElo "2092"]
+[BlackElo "2106"]
+[ECO "E09"]
+[Opening "Catalan Opening: Closed, Main Line"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+d4 d5 c4 c6 Nd2 Nf6 Qc2 e6 Ngf3 Be7 g3 O-O Bg2 Nbd7 O-O Re8 e4 dxe4 Nxe4 Nxe4 Qxe4 Nf6 Qc2 c5 Rd1 Qc7 Bf4 Bd6 Bxd6 Qxd6 dxc5 Qxc5 Rab1 a5 a3 a4 Nd4 Rd8 Nb5 Bd7 Nd6 Bc6 Nxb7 Bxb7 Bxb7 Rab8 Bg2 Rxd1+ Rxd1 g6 h3 Rb3 Rd8+ Kg7 Ra8 Rxg3 Qxa4 Rg5 Qc6 Qf5 Qc8 Kh6 Qf8+ Kh5 Qxf7 Qf3 Kf1 Rxg2 Qa7 Rh2 Ke1 Rh1+ Kd2 Rd1+ 0-1
+
+[Site "https://lichess.org/4qLswsjR"]
+[Date "2026.08.01"]
+[White "prezbacon"]
+[Black "Luisferchess"]
+[Result "0-1"]
+[WhiteElo "1971"]
+[BlackElo "1975"]
+[ECO "C41"]
+[Opening "Philidor Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 d6 Bc4 Be7 d3 Nc6 h3 Na5 b3 Nxc4 bxc4 f5 exf5 Bxf5 O-O Nf6 Nc3 O-O Bg5 Qe8 Qd2 Qg6 Bxf6 Bxf6 Rab1 Bxh3 Ne1 Bh4 Qe3 Be6 Ne4 Rf7 Rxb7 Raf8 g3 d5 cxd5 Bxd5 Rb2 Bxe4 dxe4 Bxg3 Qxg3 Qxg3+ fxg3 Rxf1+ Kg2 R8f2+ Kh3 Rxe1 Rb8+ Kf7 Kg4 g6 Rb7 h5+ Kh3 Kf6 Kh4 Rh1# 0-1
+
+[Site "https://lichess.org/Zrpixufy"]
+[Date "2026.08.01"]
+[White "Dusankostic"]
+[Black "adoubleedgedgame"]
+[Result "0-1"]
+[WhiteElo "2497"]
+[BlackElo "2633"]
+[ECO "A16"]
+[Opening "English Opening: Anglo-Indian Defense, Queen's Knight Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 Nf6 Nc3 b6 g3 Bb7 Nf3 e6 Bg2 Be7 O-O O-O d3 d5 cxd5 Nxd5 Bd2 Nd7 a3 c5 Rc1 N7f6 h3 Nxc3 Bxc3 Nd5 Bd2 Bf6 Rc2 Bc6 Ne1 Ba4 e4 Nc7 f4 Bd4+ Kh2 Bxc2 Qxc2 Rc8 Nf3 Bf6 Bc3 Bxc3 bxc3 Nb5 Qb2 Nd6 Rd1 Qc7 e5 Nf5 Qd2 Rfd8 g4 Ne7 Qe3 Nd5 Qc1 f6 Re1 fxe5 Rxe5 Rf8 f5 exf5 gxf5 Rxf5 Qe1 Re8 d4 Rfxe5 dxe5 Nf4 Bf1 Ng6 Bc4+ Kh8 Qg3 Nxe5 Nxe5 Qxe5 Qxe5 Rxe5 Kg3 Re3+ Kf4 Rxc3 Be6 Rxa3 h4 h6 h5 Ra4+ Ke3 Rh4 Bf7 Kh7 Bg6+ Kg8 Kd3 Kf8 Kc3 Ke7 Kb3 Kf6 Kc3 Rg4 Be8 Kg5 Kb3 Rh4 Kc3 Rxh5 Bxh5 Kxh5 Kc4 Kg4 Kb5 h5 Kc6 h4 Kb5 h3 Ka6 h2 Kb7 h1=Q+ Ka6 Qd5 Kb5 c4+ Ka6 c3 Kxa7 c2 Kxb6 c1=Q Ka7 Qcc6 0-1
+
+[Site "https://lichess.org/sNC8gu2z"]
+[Date "2026.08.01"]
+[White "ayeng112131"]
+[Black "CaptainBongo"]
+[Result "1-0"]
+[WhiteElo "2281"]
+[BlackElo "2274"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e3 c5 d4 cxd4 exd4 d5 c3 e6 Nf3 Nf6 Bf4 Be7 Nbd2 O-O Be2 Nc6 O-O Ne4 Qc2 f5 Ne5 Nxe5 Bxe5 Bd6 f4 Bxe5 fxe5 Bd7 Nxe4 fxe4 Qd2 Qe7 Qe3 a6 Rxf8+ Rxf8 Rf1 Rxf1+ Bxf1 Qf7 g3 Bc6 Qf4 Qxf4 gxf4 Kf7 Kf2 g6 Ke3 h6 c4 Kg7 b3 g5 Bh3 Kf7 f5 h5 fxe6+ Ke7 Bf5 dxc4 bxc4 b5 d5 bxc4 dxc6 Kd8 e7+ Kc7 e8=Q Kb6 Qd7 Kc5 Qb7 g4 c7 1-0
+
+[Site "https://lichess.org/YdMjRISz"]
+[Date "2026.08.01"]
+[White "NimrodIV"]
+[Black "eltigrecu"]
+[Result "1-0"]
+[WhiteElo "2438"]
+[BlackElo "2470"]
+[ECO "A00"]
+[Opening "Ware Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+a4 d5 d3 Nf6 e3 Bg4 Be2 Bxe2 Qxe2 c6 Bd2 Nbd7 c3 e6 h4 Bd6 a5 Qc7 a6 bxa6 h5 a5 h6 g6 Bc1 O-O Nh3 e5 Ng5 e4 d4 Ne8 Na3 Be7 Nh3 f5 g3 Ndf6 c4 Ng4 Nf4 Nef6 cxd5 Nxd5 Ne6 Bb4+ Kf1 Qe7 Nxf8 Rxf8 Nc4 g5 Nxa5 Rf6 Qc4 Bxa5 Rxa5 Rxh6 Rxh6 Nxh6 Qxc6 Nb4 Qxh6 Qc7 Rc5 Qb7 Qxg5+ Kh8 Qxf5 Qa6+ Kg2 Kg7 Rc7+ 1-0
+
+[Site "https://lichess.org/SINxSKd9"]
+[Date "2026.08.01"]
+[White "Bullet_House"]
+[Black "Slashx"]
+[Result "1-0"]
+[WhiteElo "2369"]
+[BlackElo "2396"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Maróczy Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 Nf6 d3 d5 f3 e5 exd5 Nxd5 Ne2 Nc6 Nbc3 Bb4 Bd2 Bxc3 Nxc3 Be6 Nxd5 Bxd5 Be2 Nd4 O-O O-O c3 Ne6 Be3 f5 d4 f4 Bf2 exd4 Bxd4 Nxd4 Qxd4 Qg5 Bc4 Bxc4 Qxc4+ Kh8 Qxc7 Rae8 Rae1 Re3 Qd6 Rfe8 Rxe3 fxe3 Re1 h6 Qd4 e2 Qd3 Qc5+ Qd4 Qb5 c4 Qb4 Kf2 Qe7 a3 Qh4+ Qxh4 g6 1-0
+
+[Site "https://lichess.org/AQtQdii1"]
+[Date "2026.08.01"]
+[White "ArasanX"]
+[Black "R4033"]
+[Result "1/2-1/2"]
+[WhiteElo "2980"]
+[BlackElo "2905"]
+[ECO "A37"]
+[Opening "English Opening: Symmetrical Variation, Three Knights, Fianchetto Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+c4 g6 g3 Bg7 Bg2 c5 Nc3 Nc6 Nf3 e6 d3 Nge7 Bg5 h6 Bd2 b6 O-O O-O a3 Bb7 Rb1 d6 b4 Qd7 e3 f5 Ne2 e5 Ne1 Nd8 Bxb7 Qxb7 f4 Ne6 Bc3 Rad8 Qc2 Qc7 Ng2 Kh7 Rbd1 Rf7 Ba1 Qc8 Qa4 Ng8 Rde1 Qb7 Qc2 Re8 h3 Nf6 Kh2 Nh5 Nc3 exf4 gxf4 Bf6 Qd1 Ref8 b5 Rg7 Qf3 Qf7 Qd5 Qd7 a4 Nc7 Qc6 Qd8 Qf3 Rd7 Rd1 Bg7 Rg1 Bh8 a5 bxa5 Ne2 Bf6 Bxf6 Nxf6 Nh4 Rg7 e4 Nd7 Qg3 Rff7 Rg2 fxe4 dxe4 Qe7 Nc3 Qf6 Rdg1 Nf8 Rd1 Qxf4 Rxd6 h5 Nf5 Qxg3+ Nxg3 h4 Nge2 Rf1 Rc6 Nce6 Nd5 Rgf7 e5 R7f3 Ng1 Ra3 Nf6+ Kh6 Ng4+ Kg7 Ra6 Rf7 Nf6 Nf4 Ne8+ Kg8 Rf2 N8e6 Nf6+ Kg7 Ne8+ Kf8 Nf6 Kg7 Ne8+ Kf8 Nf6 g5 Nf3 Kg7 Ne8+ Kf8 Nf6 Kg7 Ne8+ Kh7 Nd6 Rg7 Ne8 Rf7 Nd6 Rc7 Ne4 Rg7 Rf1 Kg8 Kh1 a4 Nf6+ Kf8 Ne4 Ke8 Nd6+ Kf8 Ne4 Ke8 Nd6+ Kd8 Nf5 Rd7 Nd6 Rg7 Nf5 Rf7 Nd6 Rc7 b6 axb6 Ra8+ Kd7 Nb5 Re3 Nxc7 Kxc7 Nxg5 Nxg5 Rxf4 Rxh3+ Kg1 Nf3+ Kg2 Rg3+ Kf2 Nxe5 Rxh4 Rf3+ Ke2 Rf7 Rxa4 Nc6 Kd2 Rd7+ Kc3 Kb7 Ra1 Rg7 Rd1 Rg3+ Rd3 Rxd3+ Kxd3 Nb4+ Kd2 b5 cxb5 Nd5 Rh5 Nc7 Kd3 Nxb5 Kc4 Na3+ Kxc5 Ka6 Rh2 Ka5 Ra2 Ka4 Rb2 Ka5 Rb3 Ka4 Rb4+ Ka5 Rd4 Nc2 Re4 Na3 Re8 Ka4 Rb8 Nc2 Rb6 Ka3 Kc4 Ne3+ Kd3 Nd1 Rb5 Nb2+ Kd2 Na4 Kc2 Ka2 Rb4 Ka3 Rb5 Ka2 Kd2 Ka3 Rh5 Nb2 Kc2 Na4 Rh4 Nc5 Ra4+ Nxa4 1/2-1/2
+
+[Site "https://lichess.org/UmKCcmAu"]
+[Date "2026.08.01"]
+[White "Takanib"]
+[Black "Kerzh99"]
+[Result "1-0"]
+[WhiteElo "2313"]
+[BlackElo "2289"]
+[ECO "A11"]
+[Opening "English Opening: Caro-Kann Defensive System"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+c4 c6 Nc3 d5 cxd5 cxd5 d4 Nf6 g3 Nc6 Bg2 Bf5 a3 e6 Nf3 Bd6 O-O O-O Bg5 h6 Bxf6 Qxf6 Qd2 Rfc8 b4? Be4? Rfd1? g5? Na4?? Rc7? Nc5? Rac8? Rac1? Bxc5? dxc5 Bxf3 Bxf3 Ne5 Bg2 Nc4 Qc3 Kg7?! e4 Nb2?? Rd2?? Qxc3 Rxc3 Na4 Rcd3 b6 cxb6?! Nxb6 exd5 exd5? Bxd5 Nxd5 Rxd5 Rc1+ Kg2 Ra1? Ra5 g4?? h3?? h5? Rxh5?? Kg6?? hxg4 Rxa3 Rd6+ f6 Rf5 Rc4? Rdxf6+ Kg7 g5 Rxb4 Rc6 1-0
+
+[Site "https://lichess.org/Xzlyta0p"]
+[Date "2026.08.01"]
+[White "bedazzle99"]
+[Black "MindfulGuru"]
+[Result "0-1"]
+[WhiteElo "2339"]
+[BlackElo "2425"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+g3 d5 Bg2 e5 d4 e4 c4 c6 cxd5 cxd5 Nc3 h5 h4 Nf6 Bg5 Be7 Nh3 Nc6 O-O Bg4 Qa4 O-O e3 Qd7 Bxf6 Bxf6 Nf4 Be6 Nxe6 Qxe6 Qb5 Ne7 Kh2 a6 Qb3 b5 Bh3 Qd6 Rac1 Bxh4 Ne2 Bg5 Qd1 h4 Rg1 hxg3+ Nxg3 g6 Kh1 Kg7 Kg2 Rh8 Rh1 Bh4 Qg4 Bxg3 Qxg3 Qxg3+ Kxg3 f5 Rc7 Kf6 Bg2 Rxh1 Bxh1 g5 f3 Rh8 Bg2 f4+ exf4 Nf5+ Kf2 e3+ Kg1 gxf4 Rc6+ Kg5 Bf1 Nxd4 Rd6 Nxf3+ Kg2 Ne1+ Kg1 f3 Rxd5+ Kf4 Rd7 f2# 0-1
+
+[Site "https://lichess.org/J7O6DOxj"]
+[Date "2026.08.01"]
+[White "iwillsactwopawns"]
+[Black "incognitopawn"]
+[Result "1-0"]
+[WhiteElo "2255"]
+[BlackElo "2198"]
+[ECO "C00"]
+[Opening "French Defense: King's Indian Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 d3 b6 Nc3 Bb7 g3 Qe7 Bg2 Nc6 Nge2 O-O-O O-O f6 Bf4 g5 Be3 h5 a4 h4 a5 hxg3 a6 gxf2+ Rxf2 Qh7 axb7+ Kxb7 Bf3 Nh6 e5 g4 Be4 f5 Bh1 Kb8 b4 Bxb4 Nb5 Nxe5 Ng3 Nf3+ Bxf3 gxf3 Qxf3 Ng4 Rg2 Nxe3 Qxe3 e5 Rxa7 Qg7 Qf3 e4 dxe4 fxe4 Qxe4 d5 Qf4 Rc8 Qxb4 1-0
+
+[Site "https://lichess.org/ZM2XeYjV"]
+[Date "2026.08.01"]
+[White "UpwardGio"]
+[Black "baboon97"]
+[Result "1-0"]
+[WhiteElo "1939"]
+[BlackElo "1959"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Three Knights Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 Nf3 e6 c4 Nf6 Nc3 a6 Bg5 Be7 e3 h6 Bh4 O-O Bg3 dxc4 Bxc4 c5 Bd3 cxd4 Nxd4 Nc6 O-O Bd6 Nxc6 bxc6 Bxd6 Nd5 Bxf8 Kxf8 Nxd5 exd5 Rc1 Bb7 Qc2 Rc8 Rfd1 Qf6 Qe2 Re8 Qf3 Qg5 Qg3 Qe5 b3 Qf6 Rc5 Re5 Rdc1 Rg5 Qf3 Qg6 Bxg6 Rxg6 Qf5 Rf6 Qxf6 gxf6 Rxc6 Bxc6 Rxc6 Kg7 Rxa6 Kg6 Rd6 Kg7 Rxd5 Kg6 a4 Kg7 a5 f5 a6 Kf6 a7 Ke6 Rd4 f4 a8=Q fxe3 fxe3 f5 Qh8 f4 exf4 Kf5 Qxh6 Kg4 f5+ Kxf5 Rf4+ Ke5 Qf6+ Kd5 Rd4+ Kc5 Qd6+ Kb5 Rb4+ Ka5 Qb6# 1-0
+
+[Site "https://lichess.org/WFHAE9Sx"]
+[Date "2026.08.01"]
+[White "viriatomadeira"]
+[Black "ksgifteD"]
+[Result "0-1"]
+[WhiteElo "2382"]
+[BlackElo "2217"]
+[ECO "A40"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c6 Bf4 d6 Nc3 Nd7 e3 Qb6 Qc1 g6 Bd3 e5 Bg3 f5 Nge2 e4 Bc4 d5 Bb3 a5 Qd2 Ngf6 O-O-O Bg7 f3 O-O h4 h5 Bf2 Qc7 a4 b6 Bg3 Qd8 Bd6 Re8 Nf4 Nf8 Bxf8 Rxf8 Nxg6 b5 Nxf8 bxa4 Bxa4 Qxf8 Bxc6 Rb8 Nxd5 Be6 Nxf6+ Bxf6 d5 Bxb2+ Kb1 Bc3+ Ka2 Bxd2 Rxd2 Qb4 c4 Qxd2+ Ka3 Qb4+ Ka2 Qb3+ 0-1
+
+[Site "https://lichess.org/tu4oIqym"]
+[Date "2026.08.01"]
+[White "marimbamaniac"]
+[Black "zevonjunior"]
+[Result "0-1"]
+[WhiteElo "2190"]
+[BlackElo "2241"]
+[ECO "B00"]
+[Opening "Nimzowitsch Defense: Declined Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+e4 Nc6 Nf3 g6 d4 Bg7 c3 a6 Bd3 d6 O-O e5 d5 Nce7 h3 h6 a4 a5 Na3 Nf6 Nb5 Nd7 Re1 O-O Bd2 f5 Qc1 f4 c4 Nc5 Bc2 b6 b4 axb4 Bxb4 g5 Nh2 Bd7 a5 bxa5 Rxa5 Rb8 Bxc5 dxc5 Qa1 Rb6 Rb1 Qc8 Ra7 Bxh3 gxh3 Qxh3 Bd3 g4 Bf1 Qh4 Qc3 g3 Nf3 gxf2+ Kg2 Qg3+ 0-1
+
+[Site "https://lichess.org/FO0DXFWB"]
+[Date "2026.08.01"]
+[White "Konder"]
+[Black "AlanRangel"]
+[Result "0-1"]
+[WhiteElo "2079"]
+[BlackElo "2094"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Alapin Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+e4 c5 c3 d6 d4 cxd4 cxd4 e6 Nc3 g6 Nf3 Bg7 Be3 Nf6 Be2 O-O O-O a6 Qd2 b5 a3 Nbd7 b4 Bb7 Rac1 Rc8 e5 Nd5 Bg5 Qb6 Ne4 dxe5 Rxc8 Rxc8 dxe5 Nxe5 Nxe5 Bxe5 Kh1 f5 Nc5 Ba8 h4 h5 f4 Bc3 Qd3 Bg7 Bf3 Qd6 Qd2 a5 g3 Bc3 Qd3 axb4 axb4 Bxb4 Nb3 Rc3 Qd1 Ne3 Qxd6 Bxf3+ Rxf3 Bxd6 Nd4 Rc1+ Kh2 Nf1+ Kg2 Nd2 Rd3 Nc4 Nxb5 Rc2+ Kf3 e5 Rxd6 Nxd6 Nxd6 e4+ Ke3 Rc3+ Kf2 Rd3 Ne8 Kf7 Nf6 Rf3+ Kg2 Rb3 Nh7 Rb2+ Kf1 Rh2 Kg1 Rc2 Kf1 e3 Ke1 Ke6 Bf6 Kd5 Be5 Ke4 Ng5+ Kd3 Nf3 Rc1# 0-1
+
+[Site "https://lichess.org/06FP4nMI"]
+[Date "2026.08.01"]
+[White "KdeTrebol"]
+[Black "Nongnong2566"]
+[Result "1-0"]
+[WhiteElo "2062"]
+[BlackElo "1920"]
+[ECO "B00"]
+[Opening "Pirc Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 d6 Nf3 c6 Bc4 h6 c3 g5 h3 Bg7 d3 Nd7 Bb3 Qb6 Nbd2 Ne5 Nxe5 Bxe5 Nc4 Qc7 Nxe5 dxe5 Be3 Nf6 Qd2 b6 d4 Nxe4 Qc2 Nf6 dxe5 Qxe5 O-O-O Bf5 Qe2 Qc7 Bd4 O-O g4 Bg6 h4 Qf4+ Be3 Qxg4 f3 Qg3 hxg5 hxg5 Rdg1 Qd6 Rxg5 Kg7 Rxg6+ fxg6 Bh6+ Kh7 Bf4+ Nh5 Bxd6 exd6 Bc2 Rae8 Qd3 Rf5 Rxh5+ 1-0
+
+[Site "https://lichess.org/6woPO2Ea"]
+[Date "2026.08.01"]
+[White "buddybabu"]
+[Black "wes123456"]
+[Result "0-1"]
+[WhiteElo "2550"]
+[BlackElo "2579"]
+[ECO "A41"]
+[Opening "Old Indian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d6 c4 b6 e4 Bb7 d5 Nd7 Nc3 h6 Nf3 e5 Bd3 g5 O-O h5 Bxg5 Be7 h4 Bxg5 Nxg5 Qe7 Nb5 Nc5 b4 Nxd3 Qxd3 a6 Nc3 O-O-O c5 dxc5 bxc5 f6 c6 fxg5 cxb7+ Kxb7 Rfc1 gxh4 a4 Nf6 a5 h3 axb6 Ra8 Nb5 axb5 Rxc7+ Qxc7 bxc7 Rxa1+ Kh2 hxg2 Kxg2 Ra5 d6 Rc8 Qc3 Nxe4 Qxa5 Nxd6 Qb4 Kxc7 Qc5+ Kd7 Qxe5 Kc6 Qxh5 Rc7 Qf3+ Kc5 Qe3+ Kc6 f4 Rg7+ Kf3 Rf7 Qc1+ Kd7 Qc3 Re7 Qb4 Kc6 Qc3+ Nc4 Qc1 Kc5 Qd2 Nxd2+ Kg4 Nc4 f5 Re4+ Kg5 Re5 Kf6 Rxf5+ Kxf5 b4 Ke4 b3 Kd3 b2 Kc2 Kb4 Kb1 Ka3 Kc2 Ka2 Kc3 b1=Q Kxc4 Qb2 Kd5 Ka3 Ke6 Qb4 Kf7 Ka4 Kg8 Qb7 Kh8 Kb5 Kg8 Kc5 Kf8 Kd5 Ke8 Ke5 Kd8 Kd6 Ke8 Qe7# 0-1
+
+[Site "https://lichess.org/iPbYnosQ"]
+[Date "2026.08.01"]
+[White "amin0077"]
+[Black "themasterishome"]
+[Result "1-0"]
+[WhiteElo "2026"]
+[BlackElo "1945"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 b6 d4 Bb7 Nc3 a6 Bd3 g6 Be3 Bg7 Nf3 h6 Qd2 e6 h3 Ne7 a3 d6 Nh2 Nd7 Ng4 c6 Bxh6 Bxh6 Nxh6 e5 dxe5 Nxe5 Ng4 Nxg4 hxg4 Qd7 O-O Qxg4 f3 Qh5 Kf2 Qh4+ Ke2 O-O-O Rh1 Qf6 Rxh8 Rxh8 Rf1 Rh2 Rf2 Qh4 Kd1 Qg3 Na4 Rh1+ Bf1 Kc7 Nc3 f5 exf5 Nxf5 Ne4 d5 Nxg3 Nxg3 Qf4+ Kc8 Qxg3 Rh8 Qxg6 Rd8 Qe6+ Kc7 g4 Rd6 Qe7+ Rd7 Qg5 Rd6 Rh2 Rd7 Qe5+ Kc8 Rh8+ Rd8 Rh7 Rd7 Rxd7 Kxd7 Bh3 Bc8 g5+ Kd8 Qd6+ Ke8 Qxc6+ Kf7 Qxc8 Kg6 Qe6+ Kxg5 Qg4+ Kf6 f4 Ke7 Qg5+ Kf7 f5 Kf8 f6 Kf7 Qg7+ Ke8 Qe7# 1-0
+
+[Site "https://lichess.org/atWanaGP"]
+[Date "2026.08.01"]
+[White "Vlad-0254"]
+[Black "I-ZoRo"]
+[Result "1-0"]
+[WhiteElo "2105"]
+[BlackElo "2048"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Accepted"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 d4 cxd4 c3 dxc3 Nxc3 e6 Bc4 Ne7 Nf3 d5 exd5 exd5 Bb3 Be6 Bg5 f6 Bh4 Nbc6 O-O d4 Nb5 Nf5 Bxe6 Nxh4 Nxh4 Bb4 Qh5+ g6 Nxg6 hxg6 Qxh8+ Ke7 Qxd8+ Rxd8 Bb3 Bc5 Na3 Bxa3 bxa3 Ne5 Rae1 Kf8 a4 Nd3 Rd1 Nb2 Rd2 Nxa4 Bxa4 Rd6 Bb3 Kg7 Rfd1 Rc6 Rxd4 Rc3 Rd7+ Kh6 Rxb7 Kg5 Rxa7 f5 Ra5 Kg4 h3+ Kh4 Rd4+ Kh5 g4+ Kh4 gxf5+ Kxh3 Rd3+ Rxd3 fxg6 Rd1+ Bxd1 Kh4 g7 Kh3 g8=Q Kh4 Ra7 Kh3 Rh7# 1-0
+
+[Site "https://lichess.org/NAO9QdXM"]
+[Date "2026.08.01"]
+[White "chessy1212"]
+[Black "nyejk"]
+[Result "1-0"]
+[WhiteElo "1945"]
+[BlackElo "2003"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Accepted"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c5 e4 cxd4 c3 dxc3 Nxc3 Nc6 f4 d6 Nf3 Bg4 Bd3 Nf6 O-O Bxf3 Qxf3 g6 Be3 Bg7 Rae1 O-O e5 dxe5 Rd1 exf4 Bxf4 Qb6+ Kh1 Rad8 b3 Nd5 Nxd5 Rxd5 Qxd5 e6 Qg5 h6 Qg3 e5 Be3 Qc7 Bc4 Kh7 Bc5 Re8 Rxf7 Qc8 Bd3 Re6 Rdf1 Qe8 Rxg7+ Kxg7 Bc4 Re7 Bxe7 Qxe7 Bd3 Qe6 Bc4 Qd6 Rf7+ Kh8 Qxg6 Qd1+ Rf1 Qd7 Qxh6+ Qh7 Rf8# 1-0
+
+[Site "https://lichess.org/aBXcqsHI"]
+[Date "2026.08.01"]
+[White "Mat4ix"]
+[Black "KingFischer999"]
+[Result "0-1"]
+[WhiteElo "1993"]
+[BlackElo "2119"]
+[ECO "A10"]
+[Opening "English Opening: Great Snake Variation"]
+[TimeControl "60+1"]
+[Termination "Normal"]
+
+c4 g6 Nc3 Bg7 g3 d6 Bg2 Nf6 e3 O-O Nge2 Nc6 d4 e5 O-O Bg4 h3 Bd7 Bd2 Qe7 Rc1 exd4 Nxd4 Nxd4 exd4 c6 Re1 Qd8 Bf4 d5? cxd5 cxd5 Bg5? Bc6 Qd2 Qd6 Bh6 Rae8 Bxg7 Kxg7 a3 b5 b4 Ra8 Qd3 a5 Nxb5 Qd7 Nc3 axb4 axb4 Ra3 b5 Bb7 Rb1 Ne4? Bxe4 dxe4 Qc2? Rc8 Re3 Qxh3 Qb2 Raxc3? Rxc3? Rxc3?? Qxc3 e3? d5+ Kg8 fxe3?? Bxd5 Qd2?? Qxg3+ Kf1 Bc4+ Qe2 Bxe2+? Kxe2 Qg2+ Kd3 Qa2 Rc1 Qa3+ Kd2 Qb4+ Rc3 Qxb5 Kc2 Kg7 0-1
+
+[Site "https://lichess.org/1tfC4SJB"]
+[Date "2026.08.01"]
+[White "chernobylchess"]
+[Black "firmr35"]
+[Result "0-1"]
+[WhiteElo "2126"]
+[BlackElo "2120"]
+[ECO "A46"]
+[Opening "Queen's Pawn Game: Veresov Attack, Classical Defense"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+d4 d5 Nf3 Nf6 Nc3 e6 Bg5 Be7 e3 Nbd7 Bd3 O-O O-O c5 dxc5 Nxc5 Ne5 Nxd3 cxd3 a6 Rc1 Qa5 a3 Rd8 d4 Bd7 Qd2 Be8 Bf4 Rdc8 Ra1 b5 b4 Qb6 Rac1 a5 Na2 Ne4 Qb2 axb4 Nxb4 Nd6 Nbd3 f6 Nf3 Nc4 Qe2 Rxa3 Nh4 Rca8 Qg4 Rxd3 Bh6 Bf8 Nf3 Bg6 Bf4 Rda3 Nh4 Bf7 Nf3 b4 h4 b3 h5 b2 Rb1 Ra1 h6 g6 Nh4 Rxb1 Rxb1 Ra1 Qd1 Qa5 e4 Rxb1 Qxb1 Qa1 0-1
+
+[Site "https://lichess.org/q7Lv195e"]
+[Date "2026.08.01"]
+[White "BrenoMatosSimas"]
+[Black "EvgenyShifrin"]
+[Result "0-1"]
+[WhiteElo "2088"]
+[BlackElo "2018"]
+[ECO "A40"]
+[Opening "Queen's Pawn Game: Modern Defense"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+d4 g6 c4 Bg7 Nf3 d6 g3 Nd7 Bg2 e5 dxe5 Nxe5 Nxe5 dxe5 Qxd8+ Kxd8 O-O c6 Nc3 f6 Be3 Be6 b3 f5 Rad1+ Ke8 Bc5 e4 Na4 b6 Bd4 Bxd4 Rxd4 c5 Rd6 Ke7 Rfd1 Nh6 Nc3 Nf7 R6d2 Rhd8 Rxd8 Rxd8 Rxd8 Kxd8 f3 exf3 Bxf3 Ne5 Bd5 Ke7 Bxe6 Kxe6 h3 Nc6 Nb5 Ke5 Kf2 Ke4 h4 h5 a3 a6 Nc7 Nb8 Nd5 Nd7 Ne7 Nf8 Nd5 b5 Nc7 bxc4 bxc4 a5 Nb5 Ne6 Nd6+ Kd4 Nb7 a4 Na5 Kc3 Kf3 Kb2 e4 Kxa3 Nc6 Kb3 Ne5 a3 Nd3 Kxc4 Nc1 Nd4+ Kf4 fxe4 Kxe4 Ne2 Na2 Kb3 Kf3 Kxa2 Kxe2 Kb2 0-1
+
+[Site "https://lichess.org/JuQ38NRe"]
+[Date "2026.08.01"]
+[White "Kinghunter_10"]
+[Black "yyoochess"]
+[Result "0-1"]
+[WhiteElo "3003"]
+[BlackElo "3202"]
+[ECO "B03"]
+[Opening "Alekhine Defense: Four Pawns Attack, Fianchetto Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 Nf6 e5 Nd5 d4 d6 c4 Nb6 f4 g6 Nf3 Bg7 Nc3 O-O Be3 Nc6 Qd2 Bg4 Be2 e6 O-O Bxf3 Rxf3 Na5 b3 Nc6 Rh3 Ne7 Rf1 Nf5 g4 Nxe3 Qxe3 dxe5 fxe5 c5 dxc5 Nd7 Ne4 Nxe5 Ng5 Nxg4 Bxg4 Bd4 Nxh7 Bxe3+ Kh1 Kg7 Nxf8 Qxf8 Bxe6 Bxc5 Rxf7+ Qxf7 Bxf7 Kxf7 Rh7+ Kf6 Rxb7 Rd8 Rb5 Rd1+ Kg2 Rd2+ Kf3 Bd4 Ra5 Rf2+ Ke4 Bb6 Ra6 Ke7 c5 Bxc5 Rxg6 Rxh2 Kd5 Bb6 a4 Rh4 Rg7+ Kf6 Rd7 Rd4+ Kc6 Rb4 Rd5 Rxb3 Rb5 Rxb5 a5 Rxa5 Kb7 Ra3 Kc6 Rb3 Kb7 a5 Ka6 a4 Kb7 a3 Ka6 a2 Kb7 a1=Q Kc6 Qa6 Kd7 Qc4 Ke8 Rd3 Kf8 Qc8# 0-1
+
+[Site "https://lichess.org/4up28TMn"]
+[Date "2026.08.01"]
+[White "Marathon_Master9"]
+[Black "JudeBaeTorrens"]
+[Result "1-0"]
+[WhiteElo "2595"]
+[BlackElo "2594"]
+[ECO "A06"]
+[Opening "Zukertort Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 d5 e3 Nf6 Be2 Nc6 O-O e5 b3 e4 Nd4 Nxd4 exd4 c6 d3 exd3 Bxd3 Be6 Re1 Bd6 Bf5 Qd7 Bxe6 fxe6 Qe2 Kf7 Bg5 Rhe8 f3 e5 Qd2 exd4 Bxf6 Kxf6 Qxd4+ Kf7 Nd2 b6 Qd3 Kg8 c4 Rad8 cxd5 Bb4 Rxe8+ Rxe8 Rd1 cxd5 Nf1 Bc5+ Kh1 d4 Ng3 Qe6 Ne4 h6 a3 Bxa3 Qxd4 Bc5 Qd3 Bf8 h3 Be7 Qd7 Kf7 Nd6+ Kf6 Nxe8+ Ke5 Re1+ Kf4 Qxe6 Kg3 1-0
+
+[Site "https://lichess.org/WJRjb4RT"]
+[Date "2026.08.01"]
+[White "killer_whale07"]
+[Black "shosho321as"]
+[Result "1-0"]
+[WhiteElo "2467"]
+[BlackElo "2468"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Queen's Gambit Invitation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 e6 g3 d5 Bg2 c6 c4 f5 cxd5 Nf6 dxe6 Bxe6 d4 Be7 Nc3 O-O Bg5 h6 Bxf6 Bxf6 e3 Nd7 O-O Nb6 b3 Nd5 Nxd5 Bxd5 Qd2 Bxf3 Bxf3 Qe7 Rfe1 Rad8 Rad1 c5 d5 Qe5 Qd3 b6 Qc4 Kh8 e4 f4 g4 Bh4 h3 Bf6 Rd2 Qg5 Red1 Bd4 Rxd4 cxd4 Rxd4 Rc8 Qd3 Qh4 Kg2 Rc1 e5 h5 Qg6 hxg4 Qxg4 Qxg4+ hxg4 Rc2 d6 Kg8 e6 g5 d7 Rxa2 e7 Rd8 exd8=Q+ Kf7 Qe8+ Kf6 d8=Q+ Kg7 Qde7+ Kh6 Qh8+ Kg6 Qeg7# 1-0
+
+[Site "https://lichess.org/Iw5rViND"]
+[Date "2026.08.01"]
+[White "The1chesscat"]
+[Black "Kalishnivkov312"]
+[Result "0-1"]
+[WhiteElo "2601"]
+[BlackElo "2599"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Positional Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e6 c4 d5 Nc3 Nf6 cxd5 exd5 Bg5 Be7 e3 O-O Bd3 c6 Nf3 h6 Bh4 Re8 Qc2 Ne4 Bxe7 Qxe7 O-O Nd7 Rab1 Ndf6 b4 Bd7 a4 Rac8 b5 Nxc3 Qxc3 cxb5 Qb2 bxa4 Qxb7 a5 Ne5 Qd6 Ra1 Bc6 Nxc6 Qxc6 Qxc6 Rxc6 Rxa4 Rc3 Be2 Rc2 Bf3 Ra8 Rfa1 g5 h3 h5 Rxa5 Rxa5 Rxa5 g4 Bxd5 gxh3 gxh3 Rc1+ Kg2 Rc2 Bf3 h4 Rg5+ Kf8 Rf5 Kg7 d5 Rd2 e4 Kg6 Rf4 Kg5 Rf5+ Kg6 Re5 Rd4 Re7 Nh7 Rc7 Kg5 Rc6 f5 exf5 Kxf5 d6 Ng5 Rc7 Nxf3 Kxf3 Rxd6 Rh7 Kg5 Rg7+ Kh5 Rg4 Rf6+ Kg2 Ra6 f3 Ra2+ Kg1 Ra1+ Kg2 Ra2+ Kf1 Ra1+ Kf2 Rb1 Ke3 Rb2 Kf4 Rb7 Rg5+ Kh6 Rf5 Rb4+ Ke3 Kg6 Kf2 Kxf5 f4 Kxf4 Kg2 Rb3 Kf2 Rg3 Kf1 Ke4 Kf2 Kf4 Kf1 Kf3 Ke1 Rxh3 Kd2 Rh2+ Kd1 Kg3 Ke1 Rf2 Kd1 h3 Ke1 h2 Kd1 h1=Q# 0-1
+
+[Site "https://lichess.org/RVjGF4j8"]
+[Date "2026.08.01"]
+[White "OrthodoxParadox67"]
+[Black "Maestro-Loco"]
+[Result "0-1"]
+[WhiteElo "2431"]
+[BlackElo "2431"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 c6 Bb2 d5 e3 e6 f4 f5 Nf3 Nf6 Be2 Bd6 O-O O-O Ne5 Nbd7 d3 Qc7 Nxd7 Bxd7 Rf3 e5 fxe5 Bxe5 Bxe5 Qxe5 Nd2 Rfe8 e4 dxe4 dxe4 fxe4 Nxe4 Qxe4 Bd3 Qd4+ Kh1 Qe5 Qd2 Rad8 h3 Bc8 Raf1 Qd4 Rf4 Qe3 Bc4+ Kh8 Qb4 c5 Qb5 Bd7 Qxb7 Ne4 Qxa7 Ng3+ Kh2 Nxf1+ Rxf1 Qe5+ Kh1 Be6 Bxe6 Qxe6 Qxc5 Qe7 Qf2 Rg8 c4 Rdf8 Qg1 Rxf1 Qxf1 Rf8 Qd3 Qf6 Kh2 Qf4+ Kh1 Qf1+ Qxf1 Rxf1+ Kh2 Ra1 c5 Rxa2 b4 Rb2 c6 Rxb4 c7 Rc4 c8=Q+ Rxc8 Kg3 Rc6 h4 Rf6 Kh3 h5 g3 Kh7 Kh2 Kh6 Kh3 g5 hxg5+ Kxg5 Kg2 Kg4 Kh2 Rf3 Kg2 Rxg3+ Kf2 Rf3+ Ke2 h4 Kd2 h3 Kc2 h2 Kd2 h1=Q Ke2 Qh2+ Kd1 Rf1# 0-1
+
+[Site "https://lichess.org/yXIqQa6h"]
+[Date "2026.08.01"]
+[White "Mickey0123"]
+[Black "E42424242"]
+[Result "0-1"]
+[WhiteElo "2418"]
+[BlackElo "2430"]
+[ECO "B27"]
+[Opening "Sicilian Defense: Hyperaccelerated Pterodactyl, Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 g6 Nf3 Bg7 d4 c5 dxc5 Qa5+ Nc3 Bxc3+ bxc3 Qxc3+ Bd2 Qxc5 Bd3 Nc6 O-O d6 Qe1 Bg4 Bc3 Nf6 e5 dxe5 Nxe5 Nxe5 Bxe5 O-O Kh1 Be6 f3 Rac8 Qg3 Rfd8 Rae1 Bxa2 Qh4 Qb6 Ra1 Bc4 Bxf6 Qxf6 Qxf6 exf6 Bxc4 Rxc4 Rxa7 Rd7 Ra8+ Kg7 Rc1 Rdc7 h3 Rxc2 Rxc2 Rxc2 Rb8 Rc7 Kh2 f5 h4 Kf6 Kg3 h5 Kf4 Rc4+ Kg3 Rb4 Kh3 b5 g3 Rb2 f4 b4 Rb6+ Kg7 g4 fxg4+ Kg3 Rb3+ Kg2 Rh3 f5 gxf5 Rxb4 Rxh4 Rb5 Kg6 Rb6+ f6 Rb7 Rh3 Rb8 Rc3 Rg8+ Kf7 Ra8 Rc2+ Kg3 Rc3+ Kf4 Rh3 Ra7+ Kg6 Ra6 Rf3# 0-1
+
+[Site "https://lichess.org/7pxXWy79"]
+[Date "2026.08.01"]
+[White "kmandar"]
+[Black "TheChessmateKing"]
+[Result "0-1"]
+[WhiteElo "2501"]
+[BlackElo "2502"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c3 e6 h3 Nf6 Nf3 Bd6 Bg5 O-O Bh4 h6 Bxf6 Qxf6 e3 b6 Nbd2 Bb7 Be2 Nd7 O-O c5 Re1 cxd4 exd4 Rac8 Bf1 Qe7 Qb3 Nf6 Bd3 Bb8 Re2 Qd6 g3 Rfd8 Kg2 Qd7 Ne5 Qc7 Rae1 Nd7 Nxd7 Qxd7 Nf3 Qe7 Ne5 Qf6 f4 g6 Bb1 h5 Qc2 Bxe5 fxe5 Qg5 Qd2 Qxd2 Rxd2 Rc7 Kf3 Ba6 Ke3 Kg7 Bd3 Bxd3 Rxd3 b5 b3 a5 Kd2 Rdc8 Rf1 b4 cxb4 axb4 Ke3 Rc2 Rd2 R8c3+ Ke2 Rxd2+ Kxd2 Rxg3 Rh1 Rg2+ Kd3 Rxa2 h4 Rb2 Ke3 Rxb3+ Kf4 Rd3 Rf1 Rxd4+ Kg5 Rg4# 0-1
+
+[Site "https://lichess.org/IpM6yoPS"]
+[Date "2026.08.01"]
+[White "tristanalonso"]
+[Black "Yoriichi_Tsugikuni_k"]
+[Result "1-0"]
+[WhiteElo "2387"]
+[BlackElo "2390"]
+[ECO "A41"]
+[Opening "Rat Defense: English Rat"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e5 c4 d6 Nc3 exd4 Qxd4 Nc6 Qd1 Be6 Be3 Nf6 Nf3 Be7 Bd4 Qd7 Bxf6 Bxf6 e3 O-O Nd4 Ne5 Nxe6 fxe6 Be2 Bh4 O-O Qf7 g3 Bf6 f4 Nc6 Bf3 e5 f5 Ne7 e4 g6 fxg6 Qxg6 Nd5 Nxd5 cxd5 Bg5 Qc2 Be3+ Kh1 Rf7 Bg2 Raf8 Rxf7 Rxf7 Rf1 Rxf1+ Bxf1 Qf7 Bg2 Qf2 Qxf2 Bxf2 Bf3 Bd4 b3 Kf7 Kg2 Kf6 g4 Kg5 Kg3 Bc3 h4+ Kf6 g5+ Kg6 Kg4 Bd2 h5+ Kg7 Kf5 Bf4 g6 hxg6+ hxg6 b5 Bh5 a5 Ke6 Be3 Kd7 Bb6 Kc6 a4 Kxb5 axb3 axb3 Kf6 Kc6 Kg7 Kd7 Kf6 b4 Kg7 Ke7 Kh6 Kf7 Kxh5 g7 Be3 g8=Q Bh6 Qh7 Kg5 Ke6 Kf4 Qxh6+ Kxe4 Qh4+ Kd3 Kd7 e4 Kxc7 e3 Kxd6 e2 Qe7 Kd2 Qxe2+ Kxe2 Kc5 Kd3 d6 Kc3 d7 Kb3 d8=Q Kb2 Qd3 1-0
+
+[Site "https://lichess.org/Mi88z6Ki"]
+[Date "2026.08.01"]
+[White "Chessaholic2k2"]
+[Black "fuzixian"]
+[Result "1-0"]
+[WhiteElo "2414"]
+[BlackElo "2412"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation, Schlechter Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d6 Nf3 Nf6 Nc3 g6 d4 Bg7 h3 O-O Bc4 c6 O-O d5 Bd3 dxe4 Nxe4 Nxe4 Bxe4 Nd7 c3 Nf6 Bc2 Be6 Re1 Bd5 Bf4 Nh5 Bh2 Re8 Ne5 Nf6 Qd2 Qb6 Bd3 Rad8 a4 Be6 a5 Qb3 Reb1 Nd5 Bc2 Qb5 c4 Qb4 Qe3 Nc7 Ra3 Bxc4 b3 Bd5 Ra4 Qb5 Bd3 Qxa4 bxa4 e6 Rxb7 Rd7 1-0
+
+[Site "https://lichess.org/08JOog3A"]
+[Date "2026.08.01"]
+[White "chupapi-munyanyo"]
+[Black "SanCristobal2"]
+[Result "0-1"]
+[WhiteElo "2436"]
+[BlackElo "2434"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 Nf3 d5 exd5 cxd5 d4 Nf6 Be2 Nc6 c3 Bg4 Bg5 Bxf3 Bxf3 e6 Bxf6 Qxf6 Nd2 Bd6 O-O Qf4 h3 Qf6 Qe2 Qf4 g3 Qf6 Rfe1 h5 Nf1 O-O-O h4 Kb8 Bxh5 g5 Nh2 gxh4 g4 Rdg8 f3 Rxh5 Kh1 Rhg5 Qf2 Qf4 Re2 h3 Rae1 Qg3 b3 Qxf2 Rxf2 Bg3 Ree2 Bxf2 Rxf2 Kc7 Re2 Kd6 Kg1 Ne7 Kf2 f5 Kg3 fxg4 fxg4 Nf5+ Kf4 Nh6 c4 Nxg4 Nf3 h2 Nxg5 h1=Q Rxe6+ Kd7 cxd5 Nh6 d6 Rxg5 Re7+ Kxd6 Kxg5 Kxe7 d5 Kd6 Kf6 Qxd5 Kg6 Qxb3 Kh7 Qxa2 Kxh6 Qe6+ Kg7 Qf5 Kh6 Qd7 Kg6 Qe7 Kf5 Qe5+ Kg6 a5 Kf7 a4 Kg6 a3 Kf7 a2 Kg6 a1=Q Kf7 Qf1+ Kg6 Qg3+ Kh5 Qfh3# 0-1
+
+[Site "https://lichess.org/6CvmXuXf"]
+[Date "2026.08.01"]
+[White "ap_chess26"]
+[Black "blundermaster_13"]
+[Result "1-0"]
+[WhiteElo "2626"]
+[BlackElo "2625"]
+[ECO "B00"]
+[Opening "Pirc Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d6 d4 c6 d5 Nd7 dxc6 bxc6 Nf3 Ngf6 Bd3 Nc5 Nc3 Nxd3+ cxd3 g6 O-O Bg7 Re1 O-O Bd2 e5 Qc2 Qb6 Rad1 Rb8 b3 Be6 Be3 Qb7 d4 Ng4 h3 Nxe3 fxe3 f5 exf5 gxf5 dxe5 dxe5 e4 Qb6+ Kh1 f4 Na4 Qb5 Rd6 Bf7 Qxc6 Qb4 Red1 Rfc8 Qd7 Rc2 R6d2 Rbc8 Rxc2 Rxc2 Rd2 Rc1+ Kh2 Rf1 Qd8+ Bf8 Qg5+ Bg7 Rd8+ Be8 Rxe8+ Kf7 Qh5+ Kf6 Qf5# 1-0
+
+[Site "https://lichess.org/3bkssN9h"]
+[Date "2026.08.01"]
+[White "Mate3o"]
+[Black "fqdser"]
+[Result "0-1"]
+[WhiteElo "2401"]
+[BlackElo "2404"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation, Quiet System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d6 d4 Nf6 Nc3 g6 Nf3 Bg7 Be2 O-O Be3 Nbd7 O-O Re8 a4 e5 d5 c6 Qd3 cxd5 Nxd5 Nxd5 Qxd5 Nb6 Qd3 d5 exd5 e4 Qb5 exf3 Bxb6 axb6 Bxf3 Bd7 Qb3 Bf5 c4 Rc8 Rfd1 Qc7 Rac1 Red8 h3 Be5 Qb5 Qc5 Qb3 Bd4 Rd2 Bf6 g4 Bd7 Be4 Bg5 Qd3 Bxd2 Qxd2 Bxa4 Qh6 Bb3 h4 Bxc4 b3 Qd4 bxc4 Qxe4 h5 Rxc4 Rd1 Rxd5 Ra1 Rd8 hxg6 Qxg6 Rf1 Qxh6 f3 Qg6 Kg2 Rxg4+ fxg4 Qxg4+ Kf2 Rd2+ Ke3 Qe2+ Kf4 Rd4+ Kg5 Rg4+ Kh6 Qg2 Kh5 Rg6 Kh4 Qg4# 0-1
+
+[Site "https://lichess.org/PP1ajF6B"]
+[Date "2026.08.01"]
+[White "jannik-hartmann"]
+[Black "Invisible_ghost"]
+[Result "0-1"]
+[WhiteElo "2371"]
+[BlackElo "2371"]
+[ECO "C00"]
+[Opening "French Defense: Two Knights Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 Nc3 d5 Nf3 Nf6 e5 Nfd7 d4 c5 Bd3 cxd4 Nxd4 Nc6 Nxc6 bxc6 O-O Nxe5 Bf4 Ng6 Bg3 Bd6 Qf3 O-O h4 Nxh4 Qh5 Ng6 f4 Qc7 Kf2 c5 Rh1 h6 Bxg6 fxg6 Qxg6 Bxf4 Bxf4 Qxf4+ Kg1 Qf2+ Kh2 Rf6 Qe8+ Kh7 Qh5 Ba6 Rae1 Raf8 Nd1 Qxc2 Ne3 Qxb2 Ng4 Rg6 Ne3 d4 Ng4 e5 Rxe5 Bb7 Rg1 d3 Qf5 Rxf5 Rxf5 Rxg4 Rf2 Qxf2 Rf1 Qxg2# 0-1
+
+[Site "https://lichess.org/xZfJb6nc"]
+[Date "2026.08.01"]
+[White "Tqbro"]
+[Black "JorgeTobar01"]
+[Result "1-0"]
+[WhiteElo "2555"]
+[BlackElo "2562"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 e5 d5 d4 c5 c3 Nc6 f4 Qb6 Nf3 cxd4 cxd4 Bd7 Nc3 Rc8 Bd3 Nge7 a3 f5 exf6 gxf6 O-O Nxd4 Kh1 Nxf3 Qxf3 Kd8 Qh5 Kc7 Bd2 Kb8 Rab1 Nc6 Qf7 Bc5 Qxd7 Na5 Na4 Qd8 Qxd8 Rhxd8 Bxa5 b6 Bc3 Bd6 Bxf6 Rg8 Be5 Bxe5 fxe5 d4 b4 b5 Nb2 Rc3 Bxb5 Rc2 Rg1 Kc7 Nd3 Kb6 Ba4 Rc3 Nc5 a5 Nxe6 Rxa3 Bc2 a4 Be4 Re3 Bf3 Rxe5 Nxd4 Re3 Nc2 a3 Nxe3 a2 Ra1 Kb5 Nc2 Kc4 Rxa2 Kc3 Ra3+ Kxc2 Re3 Kb2 Rge1 Kc2 Kg1 Kd2 Kf2 1-0
+
+[Site "https://lichess.org/i9AK0CMy"]
+[Date "2026.08.01"]
+[White "BeLka_a"]
+[Black "le_bakistanais"]
+[Result "1-0"]
+[WhiteElo "2484"]
+[BlackElo "2484"]
+[ECO "A65"]
+[Opening "Benoni Defense: King's Pawn Line"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c5 d5 e6 c4 exd5 cxd5 d6 Nc3 Nf6 e4 g6 Bf4 Bg7 Bd3 O-O Nf3 a6 a4 Re8 O-O Nbd7 Re1 Ne5 Bxe5 dxe5 h3 b6 Nd2 Nh5 Nc4 Nf4 Bf1 Qg5 Qc2 Nxh3+ Kh2 Nf4 Re3 Qh4+ Kg1 Qg5 Rg3 Qh5 Ne2 f5 Nd6 Re7 Re1 Bd7 Nxf4 exf4 Rc3 Bxc3 Qxc3 fxe4 Nxe4 Qe5 Nf6+ Kf7 Rxe5 Kxf6 Rxe7+ Kxe7 Qg7+ Kd6 Qf6+ Kc7 d6+ Kb7 Bd3 Rc8 Be4+ Bc6 Qe7+ Kb8 Bxc6 Rxc6 Qd8+ Rc8 Qxb6+ Ka8 d7 Rb8 Qxa6# 1-0
+
+[Site "https://lichess.org/oTy44IKz"]
+[Date "2026.08.01"]
+[White "fireatash"]
+[Black "bananaducklingstyle1"]
+[Result "0-1"]
+[WhiteElo "2851"]
+[BlackElo "2820"]
+[ECO "A00"]
+[Opening "Van't Kruijs Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e3 g6 Be2 Bg7 d4 Nf6 c3 O-O h4 d6 h5 c5 hxg6 hxg6 Nf3 cxd4 exd4 Nc6 Bh6 e5 Bxg7 Kxg7 Qd2 Rh8 Rxh8 Qxh8 Na3 e4 Ng1 Qh6 O-O-O Be6 Nc2 Bxa2 Ne3 Bb3 Re1 Nd5 Nh3 Nxe3 fxe3 Be6 d5 Bxh3 dxc6 Bc8 Qd5 Qxe3+ Kb1 Be6 Qxd6 bxc6 Qe5+ f6 Qxe6 Rf8 Qc4 Rd8 Qxc6 Qb6 Qxb6 axb6 Bd1 f5 Bc2 Kf6 g4 Ke5 gxf5 gxf5 b3 b5 Kc1 Rc8 Kb2 Rd8 Rd1 Rh8 Rd4 Rh2 Rb4 e3 Rxb5+ Kf6 Rxf5+ Ke6 Rf4 Kd5 Re4 e2 Re8 Kd6 c4 e1=Q Re3 Qxe3 0-1
+
+[Site "https://lichess.org/bKMw9fpF"]
+[Date "2026.08.01"]
+[White "think-king"]
+[Black "Artchessplay"]
+[Result "1/2-1/2"]
+[WhiteElo "2519"]
+[BlackElo "2517"]
+[ECO "B13"]
+[Opening "Caro-Kann Defense: Exchange Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 Nf3 d5 exd5 cxd5 d4 Nc6 Bb5 Bg4 Nbd2 e6 c4 Nf6 Qa4 Bxf3 Nxf3 Rc8 Ne5 Qb6 c5 Qc7 Qxa7 Be7 Bxc6+ bxc6 Qxc7 Rxc7 Bf4 O-O b4 Nh5 Bg3 Nxg3 hxg3 f6 Nd3 e5 O-O exd4 a4 Rb8 Rfb1 Kf7 b5 cxb5 axb5 Bxc5 Nxc5 Rxc5 Ra7+ Kg6 b6 d3 b7 d2 Rd1 Rc1 Ra1 Rxa1 Rxa1 Rxb7 Rd1 Rb2 Kf1 Kf5 Ke2 Ke4 Rxd2 Rxd2+ Kxd2 d4 f3+ Ke5 Kd3 f5 g4 Kd5 gxf5 g6 g4 gxf5 gxf5 Ke5 f6 Kxf6 Kxd4 Kg5 Ke4 Kf6 f4 h6 Kf3 h5 Kg3 h4+ Kf3 Kf5 Ke3 h3 Kf3 h2 Kg2 h1=Q+ Kxh1 Kxf4 1/2-1/2
+
+[Site "https://lichess.org/V2eAV4WN"]
+[Date "2026.08.01"]
+[White "Jennytuoi"]
+[Black "PotentZero"]
+[Result "1-0"]
+[WhiteElo "2601"]
+[BlackElo "2608"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Reversed Alekhine"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 e5? g3? e4 Ng1 d5 Bg2 Nc6 d3 Nf6 dxe4 dxe4?! Qxd8+ Nxd8 Nc3 Bf5 Bg5 Bb4 O-O-O Bxc3 bxc3 O-O?! Bxf6 gxf6 f3 Re8 g4 Bg6 f4 f5 g5? Ne6 e3 f6?! h4 fxg5 hxg5 Rad8 Ne2 Nc5?! Nd4 Kf7? Bh3 Rd5? c4 Rdd8 Bxf5 c6? Bxg6+ Kxg6 Rh6+ Kg7 Nf5+ Kg8 Rdh1 Rd7 g6 hxg6?? Rxg6+ Kf8 Rh8+ Kf7 Rg7+ Ke6 Rxe8+? Kxf5 Rg5+ Kf6 Rxc5 Rh7 Rce5 Rh1+ Kb2 Re1 R8e6+ Kf7 Rh6 a5 f5 Rg1 Rxe4 Rg3 f6 Rg8?! Rf4? b5 e4 b4 e5 Ke6?! f7+ Ke7 fxg8=Q Kd7 Qe6+ Kc7 Qxc6+ Kb8 Rf8+ Ka7 Ra8# 1-0
+
+[Site "https://lichess.org/n3HI3YVK"]
+[Date "2026.08.01"]
+[White "AlvinAlcala"]
+[Black "Leiyara"]
+[Result "0-1"]
+[WhiteElo "2502"]
+[BlackElo "2503"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Two Knights Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 Nc3 d5 Nf3 dxe4 Nxe4 Nf6 Qe2 Na6 d4 Nxe4 Qxe4 Qd5 Qe3 Nb4 Qd2 a5 c3 Na6 Bd3 g6 O-O Bg7 Re1 O-O Qf4 Re8 Qh4 h5 Bg5 Bg4 Ne5 Bxe5 Rxe5 Qd7 Bxe7 Nc7 Rae1 Nd5 Bf6 Rxe5 Rxe5 Nxf6 Qxf6 Re8 Rxe8+ Qxe8 h3 Be6 Kh2 Bxa2 f4 Bd5 Qg5 Be4 Bc4 Kg7 g4 hxg4 hxg4 f6 Qh4 Bd5 Bxd5 cxd5 Qf2 Qe4 Kg3 b5 Qf3 f5 gxf5 gxf5 Qxe4 fxe4 f5 Kf6 Kf4 b4 cxb4 axb4 b3 Ke7 Ke5 e3 Kxd5 e2 Kc4 e1=Q 0-1
+
+[Site "https://lichess.org/jfbuEQUm"]
+[Date "2026.08.01"]
+[White "leartt"]
+[Black "TheLittleSparkie1"]
+[Result "0-1"]
+[WhiteElo "2439"]
+[BlackElo "2437"]
+[ECO "E73"]
+[Opening "King's Indian Defense: Averbakh Variation, Geller Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 c4 g6 Nc3 Bg7 e4 d6 Be2 O-O Bg5 Nbd7 Qd2 e5 d5 Nc5 f3 a5 h4 h5 g4 hxg4 fxg4 Qe8 Bf3 Nh7 Bh6 f5 Bxg7 Kxg7 gxf5 gxf5 O-O-O fxe4 Bxe4 Bf5 Bxf5 Rxf5 Nh3 Qh5 Rdg1+ Kh8 Ng5 Raf8 a3 Nb3+ Kc2 Nxd2 Kxd2 Rf2+ Kc1 Qg6 Nge4 Rg2 Re1 Qh6+ Kb1 Nf6 Ng5 Ng4 Ka2 Rff2 Rb1 Ne3 Nb5 Nxc4 Kb3 Rxb2+ Rxb2 Rxb2+ Kxc4 Qg6 Rd1 Qc2+ Nc3 Rb3 Rd3 b5# 0-1
+
+[Site "https://lichess.org/AzRseF7D"]
+[Date "2026.08.01"]
+[White "lucabieging"]
+[Black "The_PALESTINE_NAKBA"]
+[Result "1-0"]
+[WhiteElo "2407"]
+[BlackElo "2412"]
+[ECO "A07"]
+[Opening "King's Indian Attack, with e6"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 d5 Bg2 Nf6 Nf3 e6 O-O Bd6 d3 Nc6 Qe1 Bd7 e4 dxe4 dxe4 e5 Nc3 Qe7 Bg5 h6 Nd5 Qd8 Bxf6 gxf6 c3 Be6 Rd1 Bxd5 Rxd5 Ne7 Rd1 Qd7 h4 O-O-O Kh2 Kb8 Qe3 Qb5 b3 h5 c4 Qb6 Qxb6 axb6 Rd3 Ng6 Rfd1 Nf8 b4 Ne6 a3 Rhe8 Bh3 Ng7 c5 bxc5 bxc5 Be7 Rxd8+ Rxd8 Rxd8+ Bxd8 Nd2 Be7 Nb3 Ka7 Bd7 Ka6 c6 bxc6 Bxc6 Kb6 Bd5 Bxa3 Bxf7 c5 f3 Kb5 g4 hxg4 fxg4 Kb4 h5 c4 Na1 Bb2 h6 Bxa1 hxg7 c3 g8=Q c2 Qb8+ Kc3 Qb3+ Kd2 Qa2 Kd1 Bb3 Bd4 Qxc2+ Ke1 Kg2 Be3 Kf3 Bd2 Qb1+ Bc1 Qxc1# 1-0
+
+[Site "https://lichess.org/uzTXjUHF"]
+[Date "2026.08.01"]
+[White "Faze_Tetrix"]
+[Black "Gleb501"]
+[Result "1-0"]
+[WhiteElo "2500"]
+[BlackElo "2501"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Mieses-Kotroc Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 exd5 Qxd5 Nf3 Qd8 Nc3 Nf6 Bd3 c6 Be2 Bg4 d3 e6 h3 Bh5 O-O Be7 Nd2 Nbd7 Bxh5 Nxh5 Qxh5 g6 Qd1 Qc7 Nde4 Nf6 Nxf6+ Bxf6 Qf3 Bg7 Bf4 Qb6 Rab1 O-O Ne4 Rad8 h4 h5 Bg5 Rd5 Bf6 Rf5 Qe3 Qxe3 fxe3 Rxf1+ Rxf1 Bxf6 Nxf6+ Kg7 Nd7 Rd8 Ne5 Rd5 Nxf7 Rb5 b3 Ra5 a4 Rc5 c4 a6 Nd6 b5 Ne4 Re5 axb5 axb5 Rf4 bxc4 bxc4 c5 Kf2 Kh6 Ng5 Rf5 Nf7+ Kg7 Rxf5 gxf5 Ne5 Kf6 Nd7+ Ke7 Nxc5 Kd6 d4 e5 Kf3 exd4 exd4 Kc6 Kf4 Kd6 Kxf5 Kc6 Kg5 Kd6 Kxh5 Kc6 Kg6 Kd6 h5 Kc6 Kg7 Kd6 h6 Kc6 h7 Kd6 h8=Q Ke7 Qf8# 1-0
+
+[Site "https://lichess.org/BKOz5Vbu"]
+[Date "2026.08.01"]
+[White "Suryso"]
+[Black "FeykineCevapAlanAdam"]
+[Result "1-0"]
+[WhiteElo "2235"]
+[BlackElo "2117"]
+[ECO "A41"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d6 Bf4 Nd7 e3 e5 Bg3 Ngf6 Nf3 e4 Nfd2 d5 c4 c6 Nc3 a6 Qb3 Qb6 cxd5 Qxb3 Nxb3 cxd5 Be2 Bb4 O-O O-O Rac1 b5 a3 Bxc3 Rxc3 Nb6 Na5 Nc4 Bxc4 dxc4 b3 Nd5 Rcc1 c3 f3 Bf5 Kf2 Rac8 Nb7 exf3 gxf3 Bh3 Rfe1 c2 Nc5 f5 Be5 f4 e4 Ne3 Rg1 Nd1+ Ke1 Ne3 Rxg7+ Kh8 Rg6+ Rf6 Bxf6# 1-0
+
+[Site "https://lichess.org/sJXWLNlB"]
+[Date "2026.08.01"]
+[White "denchik_shepherd"]
+[Black "davidbretema"]
+[Result "0-1"]
+[WhiteElo "1951"]
+[BlackElo "2562"]
+[ECO "A04"]
+[Opening "Zukertort Opening: Sicilian Invitation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 c5 d4 Nc6 c4 cxd4 Nxd4 Nf6 Nc3 e5 Ndb5 d6 e4 Be7 Bd3 O-O O-O a6 Be3 axb5 cxb5 Nd4 Bb1 Bg4 f3 Be6 Bxd4 exd4 Qxd4 Nd7 Nd5 Bxd5 exd5 Bf6 Qd2 g6 Re1 Qb6+ Kh1 Rfe8 Be4 Nc5 Qc2 Nxe4 fxe4 Rac8 Qd3 Be5 Rad1 Rc5 Rb1 Rec8 Qe3 Qd8 Rbc1 Rxc1 Rxc1 Rxc1+ Qxc1 Qh4 h3 Qg3 Qg1 Kg7 a4 Qb3 0-1
+
+[Site "https://lichess.org/wY0DaGzd"]
+[Date "2026.08.01"]
+[White "QueenEatingDragon"]
+[Black "ivan_98"]
+[Result "1-0"]
+[WhiteElo "2765"]
+[BlackElo "2352"]
+[ECO "C54"]
+[Opening "Italian Game: Classical Variation, Giuoco Pianissimo"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Bc5 c3 O-O O-O h6 b4 Bb6 b5 Na5 Nxe5 d6 Nf3 Nxc4 dxc4 Nxe4 a4 a5 bxa6 bxa6 a5 Bc5 Qd5 Nxf2 Rxf2 Bxf2+ Kxf2 Rb8 Be3 Be6 Qd3 Qc8 Nbd2 c5 Qxd6 Rd8 Qxc5 Qb7 Qb6 Qe7 Qc5 Qd7 Rb1 Rxb1 Nxb1 Qa4 Nbd2 Rb8 Qa7 Rb2 Qxa6 Bxc4 Qa8+ Kh7 Qe4+ g6 Kg3 1-0
+
+[Site "https://lichess.org/FYeImJw7"]
+[Date "2026.08.01"]
+[White "Mysor228"]
+[Black "uwgg"]
+[Result "0-1"]
+[WhiteElo "2592"]
+[BlackElo "2666"]
+[ECO "C44"]
+[Opening "Ponziani Opening: Jaenisch Counterattack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 c3 Nf6 d3 d6 Be2 h6 O-O g6 d4 Bg7 d5 Ne7 Re1 Bd7 Bf1 Nh7 c4 O-O Nc3 f5 g3 a5 Nh4 b6 exf5 Bxf5 Bg2 Qd7 Nxf5 gxf5 Qh5 Kh8 Bxh6 Bxh6 Qxh6 Rf6 Qh4 Ng6 Qh3 Rg8 Nd1 Qg7 Ne3 Nf4 gxf4 Rg6 Kf1 exf4 Bf3 Rg1+ Ke2 Qxb2+ Kd3 fxe3 Rxg1 Qd2# 0-1
+
+[Site "https://lichess.org/mi2OnEaA"]
+[Date "2026.08.01"]
+[White "Suckouttt"]
+[Black "Son_Of_Chess"]
+[Result "1-0"]
+[WhiteElo "2469"]
+[BlackElo "2485"]
+[ECO "C46"]
+[Opening "Three Knights Opening: Winawer Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nc3 e5 e4 Nc6 Nf3 f5 d4 fxe4 Nxe4 d5 Nc3 e4 Ne5 Nf6 Bg5 Bb4 Bb5 Bxc3+ bxc3 Bd7 Nxd7 Qxd7 Bxf6 gxf6 Qh5+ Qf7 Qxf7+ Kxf7 Bxc6 bxc6 Rb1 Rab8 Rb3 Rb6 Ke2 Rg8 g3 Ke6 Rhb1 Rg6 a4 Rg8 a5 Ra6 Ra3 Kd6 h4 c5 Rb5 cxd4 cxd4 c6 Rb7 h6 c3 f5 Rf7 Ke6 Rh7 Rg6 Rc7 Rf6 Rb3 Kd6 Rbb7 Rxa5 Rd7+ Ke6 Re7+ Kd6 Rbd7# 1-0
+
+[Site "https://lichess.org/ioeAOS2j"]
+[Date "2026.08.01"]
+[White "MAZMAU"]
+[Black "stegga0815"]
+[Result "1-0"]
+[WhiteElo "2228"]
+[BlackElo "2131"]
+[ECO "C44"]
+[Opening "Scotch Game: Scotch Gambit, Advance Variation"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 d4 exd4 Bc4 Nf6 e5 d5 Bb5 Nd7 O-O Be7 Re1 O-O Nbd2 a6 Bxc6 bxc6 Nxd4 Nb8 Qf3 c5 Nf5 Bg5?! Nb3 Bxc1 Raxc1 Bxf5 Qxf5 Qe7 Rcd1 c6 e6 fxe6?! Qxe6+ Qxe6 Rxe6 Rf4? c3? Ra4?? a3?? Nd7 Rd6 Ra7?? Re1?? Re4? Rxe4 dxe4 Na5?! Nf6?! Rxc6 Rd7 Kf1 Rd2? Nc4 Rc2 h3 Nd5 Rxc5? Nf4 Kg1 Nd3 Rf5? Nxb2 Nxb2 Rxb2 Ra5 Rb3 c4 Rc3? c5 Kf7 Kf1 Rc2 Rxa6 Rxc5 Ke2 Rc2+? Ke3 Ra2 a4 g6 g4 Ra3+ Kxe4 Rxh3 f3?! Rh1 a5? Ra1?? Ra7+?? Kf6 a6 h5 gxh5 gxh5 Kf4 Ra4+ Kg3 Kg6?? Ra8 Kg7 a7 Ra3 Kh4 Ra5 f4 Kh7 f5 Rxf5?? Rb8 Rf4+?! Kxh5 Rf5+ Kg4 Ra5 a8=Q 1-0
+
+[Site "https://lichess.org/lMxtUNhR"]
+[Date "2026.08.01"]
+[White "T34USSR"]
+[Black "Ancient_General"]
+[Result "1-0"]
+[WhiteElo "2762"]
+[BlackElo "2150"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "0+1"]
+[Termination "Normal"]
+
+e4 c5 d3 e6 Be2 d5 f4 dxe4 dxe4 Qxd1+ Bxd1 Nf6 e5 Nd5 c4 Nb6 b3 Nc6 Nf3 Be7 Nc3 O-O Be3 Rd8 Rc1 Nd4 Bxd4 cxd4 Ne4 Bb4+ Kf2 d3 Nc3 Nd7 Nb5 Nc5 a3 Nxb3 Bxb3 Bc5+ Kg3 a6 Nd6 Bd7 Rcd1 Bc6 Rxd3 Rd7 a4 Rad8 Rhd1 Kf8 Ng5 h6 Nf3 Ke7 Bc2 Bxd6 Rxd6 Rxd6 Rxd6 Rxd6 exd6+ Kxd6 Ne5 f6 Nxc6 Kxc6 Be4+ Kb6 c5+ Kxc5 Bxb7 a5 Bc8 e5 fxe5 fxe5 Kf3 Kd4 Bb7 g5 g4 Kc5 Ke4 Kb4 Bc6 Kc4 1-0
+
+[Site "https://lichess.org/yQGMJyOU"]
+[Date "2026.08.01"]
+[White "dehasarican"]
+[Black "nathan200e"]
+[Result "1-0"]
+[WhiteElo "2073"]
+[BlackElo "2199"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 b6 d3 Bb7 f4 e6 Nf3 f5 Be3 fxe4 dxe4 Bxe4 Nc3 Bb7 Be2 Nf6 O-O Bb4 Bd2 Qe7 a3 Qc5+ Kh1 Bxc3 Bxc3 O-O Ne5 Qe7 Bf3 Nc6 Nxc6 dxc6 b4 Rab8 b5 Nd5 bxc6 Bxc6 Bxd5 Bxd5 Be5 Rbc8 Qe2 c6 c4 b5 cxd5 cxd5 Rac1 a6 Rxc8 Rxc8 h3 Qxa3 Qg4 g6 Qxe6+ Kf8 Qxc8+ Kf7 Qb7+ Ke6 Qg7 Qd3 Qf6+ Kd7 Qd6+ Ke8 Re1 Qf5 Bf6+ Kf7 Re7+ Kf8 Qd8# 1-0
+
+[Site "https://lichess.org/vaEJtGKI"]
+[Date "2026.08.01"]
+[White "PhilRoss"]
+[Black "dap2rb"]
+[Result "1-0"]
+[WhiteElo "2215"]
+[BlackElo "2085"]
+[ECO "B70"]
+[Opening "Sicilian Defense: Dragon Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 d4 cxd4 Nxd4 g6 Nc3 Nf6 Nde2 Bg7 g3 O-O Bg2 Nc6 h3 Be6 O-O Qd7 Nf4 Rfd8 Ncd5 Bxd5 exd5 Ne5 Re1 Rac8 a4 a5 Ra2 e6 b3 g5 dxe6 fxe6 Nh5 Nxh5 Qxh5 h6 c4 Rf8 Rae2 Nd3 Rd1 Nc5 Re3 Kh7 h4 gxh4 Qxh4 Rcd8 Bh3 Qf7 Rd2 d5 Bb2 d4 Ree2 Nxb3 Rd3 Nc5 Rd1 d3 Bxg7 dxe2 Qxh6+ 1-0
+
+[Site "https://lichess.org/ObKB8jjm"]
+[Date "2026.08.01"]
+[White "CHAMPIONFIDE"]
+[Black "wsebug"]
+[Result "1-0"]
+[WhiteElo "2014"]
+[BlackElo "2024"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System, Steinitz Countergambit"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+d4 d5 Bf4 c5 e3 Nc6 Nf3 Nf6 c3 Qb6 Qb3 c4 Qxb6 axb6 Nbd2 b5 a3 b4 cxb4 Nxb4 O-O-O Nc6 Ne5 Nxe5 Bxe5 Nd7 Bg3 e6 e4 b5 exd5 exd5 Be2 b4 axb4 Bxb4 Nb1 O-O Nc3 Nf6 Bf3 Bf5 Kd2 Ne4+ Bxe4 Bxe4 f3 Bd3 Ra1 Rfe8 Rxa8 Rxa8 Re1 f6 Ke3 Bxc3 bxc3 Ra2 Rg1 Rc2 Be1 Re2+ Kf4 Kf7 h4 h6 g4 g5+ hxg5 hxg5+ Kg3 Rc2 Rg2 Rc1 Rg1 Ke6 f4 Kd6 fxg5 fxg5 Rh1 Kc6 Rh6+ Kb5 Bd2 Rc2 Bxg5 Rxc3 Kf4 Be4 Bd8 Rg3 1-0
+
+[Site "https://lichess.org/LrUUviof"]
+[Date "2026.08.01"]
+[White "ArkiPlaysChess"]
+[Black "Fischer_Bot"]
+[Result "1/2-1/2"]
+[WhiteElo "2973"]
+[BlackElo "3018"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+e4 e6 d4 d5 e5 c5 c3 Nc6 Nf3 Bd7 Be2 Nge7 O-O Ng6 g3 f6 exf6 Qxf6 Be3 cxd4 Nxd4 Bd6 Nb5 Bb8 Nd2 a6 Nd4 e5 N4b3 Bf5 Bf3 Nge7 Bh5+ Bg6 Qg4 Bxh5 Qxh5+ Qf7 Qxf7+ Kxf7 Bc5 b5 a4 Bc7 axb5 axb5 Nf3 h6 Rfd1 Rhb8 Kg2 Rxa1 Rxa1 Ke6 Ra6 Bd6 Nfd2 Kd7 h4 g6 f3 h5 g4 b4 c4 Bxc5 Nxc5+ Kd6 Ncb3 hxg4 fxg4 e4 Na5 Rh8 Ndb3 Rc8 Nd4 dxc4 Ndxc6 Nxc6 h5 gxh5 Nxc6 Rxc6 Rxc6+ Kxc6 gxh5 b3 h6 c3 h7 cxb2 h8=Q b1=Q Qc8+ Kd5 Qd7+ Kc4 Qc6+ Kd4 Qb6+ Kd3 Qb5+ Kc2 Qc5+ Kd3 Qd5+ Ke2 Qh5+ Kd2 Qa5+ Kc1 Qg5+ Kd1 Qh5+ Kc1 Qg5+ Kd1 Qh5+ Kc2 Qc5+ Kd3 Qb5+ Kd2 Qa5+ Ke2 Qh5+ Ke3 Qc5+ Kf4 Qf2+ Kg4 Qg3+ Kf5 Qf2+ Kg4 Qg3+ Kf5 Qf2+ Ke5 Qc5+ Ke6 Qc4+ Kd6 Qd4+ Ke6 Qc4+ Kd6 Qd4+ Kc6 Qc4+ Kb6 Qb4+ Kc6 Qc4+ Kb6 Qd4+ Kb5 Qd5+ Kb6 Qd6+ Kb7 Qb4+ Ka6 Qd6+ Kb5 Qd5+ Kb6 Qd4+ Kc7 Qc5+ Kb7 Qb5+ Kc7 Qc5+ Kd7 Qd5+ Ke7 Qe5+ Kf7 Qf5+ Ke7 Qe5+ Kd7 Qd5+ Ke8 Qe6+ Kd8 Qd6+ Ke8 Qe6+ Kd8 Qd6+ Ke8 1/2-1/2
+
+[Site "https://lichess.org/xblKWazf"]
+[Date "2026.08.01"]
+[White "cl4yt0n"]
+[Black "SRLOBO1970"]
+[Result "0-1"]
+[WhiteElo "2044"]
+[BlackElo "2064"]
+[ECO "A02"]
+[Opening "Bird Opening"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+f4 Nf6 Nf3 d6 b3 e5 e4 Nbd7 Bb2 c6 Bc4 Qc7 O-O Be7 Qe2 O-O f5 b5 Bd3 Nc5 Nc3 Nxd3 cxd3 a5 a4 b4 Nd1 Ba6 Ne3 Nxe4 Nc4 Nf6 Rae1 Rfe8 Ng5 h6 Ne4 Nxe4 dxe4 d5 Bxe5 Qxe5 Nxe5 Bxe2 Rxe2 Bc5+ Kh1 Rxe5 Rc1 d4 d3 Rc8 Rec2 Bf8 Rxc6 Rxc6 Rxc6 Kh7 g4 g6 Rc7 Kg8 Rc4 gxf5 gxf5 Bg7 Rxd4 Bf6 Rc4 Kg7 Kg2 Re8 Kf3 Rd8 Ke3 h5 Rc5 Bd4+ 0-1
+
+[Site "https://lichess.org/V9knChEq"]
+[Date "2026.08.01"]
+[White "roci26"]
+[Black "Koolrafa"]
+[Result "0-1"]
+[WhiteElo "1941"]
+[BlackElo "1963"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 b6 d4 Bb7 Bd3 g6 Ne2 Bg7 O-O Nf6 f3 O-O Be3 d6 Qd2 Nbd7 Bh6 e5 Bxg7 Kxg7 d5 Nc5 b4 Nxd3 cxd3 a6 Nbc3 b5 a4 Qd7 axb5 axb5 Qb2 Kg8 Rxa8 Rxa8 Ra1 c6 Rxa8+ Bxa8 dxc6 Bxc6 Qa3 d5 Qa6 dxe4 dxe4 Kg7 Kf2 h6 h3 Nh5 Qb6 Nf6 Qc5 Qe6 Nxb5 Nd7 Nc7 Nxc5 Nxe6+ Nxe6 Nc3 Nd4 Ke3 Nb5 Kd3 Nxc3 Kxc3 Bb5 g3 Kf8 f4 exf4 gxf4 Ke7 Kd4 Kd6 h4 f6 e5+ fxe5+ fxe5+ Kc6 e6 Kd6 e7 Kxe7 Kc5 Bd3 b5 Be4 Kd4 Bb7 Ke5 Kf7 b6 Ba8 Kf4 Kf6 Kg4 h5+ Kf4 Bb7 0-1
+
+[Site "https://lichess.org/XT88ZKLA"]
+[Date "2026.08.01"]
+[White "DrChamonein"]
+[Black "lingtonndex"]
+[Result "0-1"]
+[WhiteElo "2082"]
+[BlackElo "2182"]
+[ECO "D40"]
+[Opening "Queen's Gambit Declined: Semi-Tarrasch Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 Nf6 d4 d5 c4 e6 Nc3 c5 g3 dxc4 e4 cxd4 Nb5 Qa5+ Nc3 dxc3 bxc3 Qxc3+ Bd2 Qa3 Bxc4 Nxe4 Qe2 Nxd2 Nxd2 Bb4 O-O Bxd2 Qxd2 O-O Rad1 Nc6 Bb3 a6 Qg5 g6 Qf6 Qe7 Qb2 e5 Rfe1 Be6 Bc2 Rac8 h4 Qf6 Be4 Nd4 Re3 b5 a4 Bg4 Rde1 Nf3+ Bxf3 Bxf3 Rxe5 Rcd8 Qb4 Rd1 Rxd1 Bxd1 Re1 Bf3 Qg4 Bxg4 Rf1 Bf3 Kh2 Qf5 Rg1 Qg4 h5 Qxh5# 0-1
+
+[Site "https://lichess.org/6mgNeVtG"]
+[Date "2026.08.01"]
+[White "elo2300hopely"]
+[Black "louisrobert"]
+[Result "1-0"]
+[WhiteElo "2050"]
+[BlackElo "2074"]
+[ECO "A62"]
+[Opening "Benoni Defense: Fianchetto Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 c5 d5 d6 Nf3 e6 c4 exd5 cxd5 Nf6 Nc3 g6 g3 Bg7 Bg2 O-O O-O a6 a4 Nbd7 Re1 Qc7 Bf4 Rb8 Rc1 b5 axb5 axb5 e4 b4 Na4 Nb6 Nxc5 Qe7 e5 dxe5 Nxe5 Nbxd5 Nc6 Nxf4 Nxe7+ Kh8 gxf4 Bg4 Bf3 Bh3 Qe2 h6 Red1 Nh5 Bxh5 gxh5 Nd7 Bxb2 Nxb8 Bxc1 Rxc1 Rxb8 Qxh5 Be6 Qxh6# 1-0
+
+[Site "https://lichess.org/7d2NzTMB"]
+[Date "2026.08.01"]
+[White "Davidllanos"]
+[Black "Kamalbb10"]
+[Result "1/2-1/2"]
+[WhiteElo "1958"]
+[BlackElo "1991"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 Nc3 a6 e5 Bf5 Nf3 e6 Bd3 Bxd3 Qxd3 c5 b3 Nc6 O-O Rc8 Ba3? cxd4? Bxf8 Kxf8 Nxd4?! Nxd4?! Qxd4 Ne7 f4?! Nf5 Qb4+? Kg8? Rae1? Qc7? Rf3 Qc5+? Qxc5 Rxc5 Rd3 g6 Re2 Kg7 Na4 Rc6 c3 b5 Nb2 Rhc8 Rc2 a5 g4 Ne7 Nd1 b4 h4 bxc3? Rcxc3?! Rxc3?! Rxc3 Rxc3 Nxc3 Nc6 a3 Kf8 Kf2 Ke7 Nb5 Kd7 Ke2 Nd8 Nd6?! Kc6? Kd3?! Kc5?! f5?! exf5 gxf5 d4 f6?! Kd5 Nc4? Nc6 Ke2 Nxe5 Nxa5 Ng4? b4?! Nxf6 Kd3? Nd7 Nb3 h5? Nxd4 Ne5+ Kc3 f6 a4 g5 a5 Nd7 b5 gxh4 b6 Nc5 Nf3 h3 Kb4 Kc6 Nh2?? Na6+?? Kc4 f5 Nf3 f4 Kd4 Kb5 Ke4 Kxa5 Kxf4 Kxb6 Kg3 Nc5 Kxh3 Ne4 Kh4 Nf6 Ne5 Kc5 Nf7 Kd5 Nh6 Ke5 Ng8 Nxg8 Kxh5 1/2-1/2
+
+[Site "https://lichess.org/aVMHaGzT"]
+[Date "2026.08.01"]
+[White "Compachuy"]
+[Black "elsidron"]
+[Result "1/2-1/2"]
+[WhiteElo "1945"]
+[BlackElo "1956"]
+[ECO "C42"]
+[Opening "Petrov's Defense: Italian Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nf6 Bc4 Nxe4 d3 Nd6 Nxe5 Nxc4 Nxc4 d5 Ne3 d4 Nc4 Be6 O-O Bxc4 dxc4 Be7 Re1 O-O Bf4 c5 Nd2 Bd6 Bxd6 Qxd6 Nf3 Nc6 c3 Rad8 cxd4 Nxd4 Nxd4 Qxd4 Qb3 b6 Rad1 Qf6 Qc2 Rfe8 Rxe8+ Rxe8 h3 Qe7 b3 h6 Qf5 Rd8 Rxd8+ Qxd8 Kh2 Qc7+ g3 Kf8 Qh7 Qe5 Qh8+ Ke7 Qa8 Qc7 Qe4+ Kf8 Qa8+ Ke7 Qd5 Qd6 Qb7+ Qd7 Qe4+ Kf6 f4 Qd2+ Qg2 Qxg2+ Kxg2 Ke6 Kf3 f5 g4 fxg4+ hxg4 g6 Ke4 h5 f5+ gxf5+ gxf5+ Kf6 Kf4 h4 Kg4 h3 Kxh3 Kxf5 Kg3 Ke4 Kf2 Kd3 Ke1 Kc2 Ke2 Kb2 Kd2 Kxa2 Kc3 Kb1 b4 cxb4+ Kxb4 Kc2 c5 bxc5+ Kxc5 Kb3 Kb5 a5 Kxa5 1/2-1/2
+
+[Site "https://lichess.org/fmkZVqnN"]
+[Date "2026.08.01"]
+[White "mementomori89"]
+[Black "abghunter"]
+[Result "0-1"]
+[WhiteElo "1906"]
+[BlackElo "1960"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Euwe Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 Nf3 d5 e5 c5 d4 Nc6 c3 Bd7 dxc5 Bxc5 Bb5 Qb6 Bxc6 Bxc6 O-O Nh6 Nbd2 O-O-O Nb3 Nf5 Nbd4 Nxd4 cxd4 Be7 Be3 h6 Rc1 Bg5 Bxg5 hxg5 Nxg5 Rdf8 b4 Kb8 a3 f6 exf6 gxf6 Nxe6 Rf7 Rb1 Rfh7 h3 Bd7 Nc5 Bxh3 gxh3 Rg8+ Kh2 Qc7+ f4 Qg7 Qd2 Qg3+ Kh1 Rxh3+ Qh2 Qxh2# 0-1
+
+[Site "https://lichess.org/pr8Ahjow"]
+[Date "2026.08.01"]
+[White "afflores"]
+[Black "LuYuxuan"]
+[Result "0-1"]
+[WhiteElo "2121"]
+[BlackElo "2147"]
+[ECO "A40"]
+[Opening "Englund Gambit Declined: Reversed French"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e3 e5 d4 exd4 exd4 Nf6 c3 d5 Bd3 Be6 Ne2 Nc6 Nf4 Be7 Nxe6 fxe6 Qe2 Qd7 Bf4 O-O-O Nd2 Rde8 Nf3 Bd6 Ne5 Bxe5 Bxe5 Rhf8 O-O-O Nxe5 Qxe5 Qd6 f4 Qxe5 fxe5 Ng4 Rhf1 Nf2 Rd2 Nxd3+ Kc2 Rxf1 Rxd3 Ref8 Rf3 R8xf3 gxf3 Rxf3 Kb3 Rf2 h4 Rh2 Kb4 Rxh4 Kc5 g5 b3 g4 c4 g3 cxd5 g2 dxe6 g1=Q e7 Qc1+ Kd5 Qc6# 0-1
+
+[Site "https://lichess.org/AKfSLYOO"]
+[Date "2026.08.01"]
+[White "a_little_puppy"]
+[Black "ilcapodelsur"]
+[Result "0-1"]
+[WhiteElo "1988"]
+[BlackElo "2074"]
+[ECO "B20"]
+[Opening "Sicilian Defense: Mengarini Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 a3 d6 b4 cxb4 axb4 Nf6 Nf3 Nxe4 Nc3 Nf6 d4 g6 d5 Bg7 Bg5 O-O Qd2 Bg4 Bd3 Bxf3 gxf3 Nbd7 h4 Ne5 h5 Nxf3+ Ke2 Nxd2 Kxd2 h6 Be3 Ng4 hxg6 Nxe3 gxf7+ Rxf7 fxe3 e5 dxe6 Rf2+ Ne2 Qf6 Bc4 Re8 Ba2 Qc3+ Kd1 Rxe2 Kxe2 Qxc2+ Kf3 Bxa1 Rg1+ Bg7 e7+ Qxa2 Rg6 Qf7+ Ke4 Qxg6+ Kd5 Rxe7 e4 Re5+ Kc4 Qxe4+ Kb3 Rb5 Ka4 Qxb4# 0-1
+
+[Site "https://lichess.org/naEncTjR"]
+[Date "2026.08.01"]
+[White "ongogablogian38"]
+[Black "busenk"]
+[Result "1-0"]
+[WhiteElo "2322"]
+[BlackElo "2449"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Breyer Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d3 d5 f3 e5 g3 h5 h3 f5 Bg2 Nf6 Ne2 h4 g4 f4 Nd2 d4 a3 g5 c3 c5 c4 Nc6 b4 b6 b5 Na5 Nb3 a6 Bd2 axb5 cxb5 Bd7 Nxa5 Bxb5 Nc4 Bxc4 dxc4 Bd6 Nc1 O-O Nd3 Kg7 O-O Kg6 Qe2 Qc7 Rfb1 Rfb8 a4 Ra7 a5 bxa5 Rxb8 Qxb8 Rxa5 Rxa5 Bxa5 Qb1+ Qf1 Qa2 Be1 Qxc4 Nxe5+ 1-0
+
+[Site "https://lichess.org/SM6F7H6T"]
+[Date "2026.08.01"]
+[White "MichelMarch"]
+[Black "marrimann"]
+[Result "1/2-1/2"]
+[WhiteElo "1910"]
+[BlackElo "1975"]
+[ECO "A45"]
+[Opening "Indian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 Nf6 h3 d5 Nf3 Nc6 e3 Bf5 c3 e6 Bd3 Bg6 O-O Bd6 Qe2 O-O Nbd2 a6 e4 dxe4 Nxe4 Nxe4 Bxe4 e5 Bd3 exd4 cxd4 Nxd4 Nxd4 Bh2+ Kxh2 Qxd4 Bxg6 hxg6 Be3 Qe5+ Kg1 Rfe8 Rac1 c6 Rfe1 Rad8 Qc4 Re6 Bd4 Qd5 Qxd5 Rxd5 Rxe6 fxe6 Be3 Rb5 b3 Rd5 g4 Kf7 Kg2 Rd3 Kf3 Kf6 Ke4 Rd7 h4 Kf7 g5 Ke7 Bc5+ Kf7 Rc2 Rd5 b4 Rf5 f4 Rd5 a4 Ke8 a5 Kd7 Rc3 Ke8 Rd3 Kf7 Bd4 Kf8 Bc5+ Kf7 Rh3 Rd1 h5 gxh5 Rxh5 Kg6 Rh8 Re1+ Kd4 Kf5 Bd6 Re4+ Kc5 Kg6 Kb6 Rc4 Kxb7 e5 Re8 exf4 Bc5 f3 Re6+ Kxg5 Rxc6 Rc2 Rxa6 Rxc5 bxc5 f2 c6 f1=Q c7 Qf7 Kb8 Qc4 c8=Q Qb5+ Rb6 Qe5+ Kb7 Qe7+ Qc7 Qe4+ Rc6 Qb4+ Qb6 Qe7+ Rc7 Qe4+ Ka6 Qd3+ Qb5+ Qxb5+ Kxb5 g6 a6 Kh5 a7 g5 a8=Q Kg4 Qg2+ Kf5 Rc5+ Kf4 Qxg5+ Ke4 Qd5+ Ke3 Rc4 Ke2 Qd4 Kf3 Rc3+ Ke2 Qd3+ Ke1 Rc2 1/2-1/2
+
+[Site "https://lichess.org/EU02Y8xg"]
+[Date "2026.08.01"]
+[White "Logen1967"]
+[Black "Firemazemaker"]
+[Result "0-1"]
+[WhiteElo "2217"]
+[BlackElo "2309"]
+[ECO "B06"]
+[Opening "Modern Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 g6 d4 Bg7 c3 b6 h4 Bb7 Nd2 c5 d5 e6 d6 e5 h5 Nh6 Ndf3 Bxe4 Bxh6 Bxh6 Nxe5 Bg7 Ngf3 O-O Bc4 Nc6 Nxc6 dxc6 hxg6 hxg6 Be2 Re8 O-O Re6 Re1 Rxd6 Qc1 Qf6 Qg5 Rad8 Qxf6 Bxf6 Rad1 Bc2 Rxd6 Rxd6 a3 b5 g4 a5 g5 Bg7 Nh2 b4 axb4 cxb4 Rc1 Bf5 Nf3 bxc3 bxc3 c5 Bc4 a4 Ra1 Bc2 Ra3 Rb6 Kf1 Bb3 Bd3 Bxc3 Ke2 Bb2 0-1
+
+[Site "https://lichess.org/VCa5khZF"]
+[Date "2026.08.01"]
+[White "byzantiumx"]
+[Black "loskamilos"]
+[Result "0-1"]
+[WhiteElo "2019"]
+[BlackElo "2012"]
+[ECO "B00"]
+[Opening "Owen Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 b6 d4 Bb7 d5 e6 c4 Nf6 Nc3 Bb4 Bd3 exd5 cxd5 Bxc3+ bxc3 Qe7 Ne2 Nxe4 O-O Nc5 Bc2 O-O Ba3 d6 c4 Nbd7 Nd4 Ne5 Re1 Qf6 Qh5 g6 Qd1 Nxc4 Bc1 Ne5 Bh6 Rfe8 f4 Ned7 Nc6 Bxc6 dxc6 Nf8 Bg5 Qc3 Rf1 Nfe6 Rb1 Nxg5 fxg5 Ne6 Bb3 Qd4+ Qxd4 Nxd4 Bxf7+ Kg7 Bxe8 Rxe8 Kh1 Nxc6 Rbc1 Ne5 Rxc7+ Kg8 Rxa7 Rd8 Ra6 Nc4 Ra7 Ne5 Rb1 Rb8 a4 Nc6 Rc1 Nxa7 0-1
+
+[Site "https://lichess.org/UAYA3B45"]
+[Date "2026.08.01"]
+[White "vasiluck"]
+[Black "dasbardos"]
+[Result "1-0"]
+[WhiteElo "2375"]
+[BlackElo "2453"]
+[ECO "E11"]
+[Opening "Bogo-Indian Defense: Nimzowitsch Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 c4 e6 Nf3 Bb4+ Bd2 Qe7 g3 O-O Bg2 Bxd2+ Nbxd2 d6 O-O Nbd7 e4 e5 d5 b6 Qc2 a5 b3 Nc5 a3 Bg4 b4 Ncd7 Nh4 g5 Nf5 Bxf5 exf5 h6 Ne4 Nxe4 Bxe4 f6 g4 Rf7 Kg2 Rh7 h3 h5 Rh1 Kg7 Bf3 hxg4 hxg4 Rah8 Rxh7+ Rxh7 Rh1 Rxh1 Kxh1 Qd8 Kg2 Qa8 Qa4 Nb8 Qe8 axb4 axb4 Qb7 Qg6+ 1-0
+
+[Site "https://lichess.org/2xhGzYcs"]
+[Date "2026.08.01"]
+[White "DDEMoN_2209"]
+[Black "El_rockaschess"]
+[Result "1-0"]
+[WhiteElo "2637"]
+[BlackElo "2575"]
+[ECO "D38"]
+[Opening "Queen's Gambit Declined: Ragozin Defense, Alekhine Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e6 c4 d5 Nc3 Nf6 Nf3 Bb4 Qa4+ Nc6 Qc2 Ne4 e3 Nxc3 bxc3 Be7 Bd3 h6 cxd5 exd5 Bb2 Bg4 Ne5 Nxe5 dxe5 Qd7 h3 Be6 f4 g6 g4 Qc6 a4 a6 f5 gxf5 gxf5 Bc8 Ba3 Bxa3 Rxa3 d4 Be4 Qc5 Rb3 dxe3 Qd3 Bd7 Rxb7 Rd8 e6 Bc6 exf7+ Kxf7 Rxc7+ Ke8 Bxc6+ Qxc6 Qxd8+ Kxd8 Rxc6 Kd7 Re6 Rb8 Ke2 Rb2+ Kf3 e2 Ke4 Rd2 Re1 Rb2 Kf3 Rb3 R6xe2 Rxc3+ Re3 Rc6 Rd1+ Kc8 Rde1 Rf6 Re8+ Kc7 R1e7+ Kd6 Re6+ Rxe6 Rxe6+ Kd7 Rxh6 Ke7 Rxa6 Kf7 Rb6 Kf8 a5 Kf7 a6 Kf8 a7 Kf7 Rb7+ Kf8 1-0
+
+[Site "https://lichess.org/NLTBNgPN"]
+[Date "2026.08.01"]
+[White "Roman_BelikW"]
+[Black "suri007cate"]
+[Result "0-1"]
+[WhiteElo "1987"]
+[BlackElo "2151"]
+[ECO "C00"]
+[Opening "French Defense: Two Knights Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e6 Nf3 d5 Nc3 d4 Ne2 c5 c4 Nc6 d3 e5 Ng3 Be7 Be2 Nf6 b3 g6 Bb2 O-O h4 h5 Ng5 Nh7 Nxh7 Kxh7 Qd2 f5 exf5 Bxf5 Nxf5 Rxf5 g4 hxg4 Bxg4 Rf7 h5 g5 Bf5+ Kh6 Be4 Bd6 O-O-O Qf6 Rdf1 Qf4 Qxf4 Rxf4 Bd5 Nb4 Bf7 Nxd3+ Kc2 Nxf2 Bg6 Raf8 Bc1 R4f6 Rhg1 Rxg6 hxg6 Kxg6 Be3 dxe3 Kc1 Rf4 Kb2 Kf5 Rg3 Nd3+ Kc2 Rxf1 Rxe3 Nf4 Rh3 Rf2+ Kc3 Kg4 a3 Rf3+ Rxf3 Kxf3 a4 g4 a5 b6 0-1
+
+[Site "https://lichess.org/lfuff2aF"]
+[Date "2026.08.01"]
+[White "lReyMexicol"]
+[Black "StoneChain2"]
+[Result "0-1"]
+[WhiteElo "2337"]
+[BlackElo "2309"]
+[ECO "C47"]
+[Opening "Four Knights Game: Scotch Variation Accepted"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 Nc3 Nf6 d4 exd4 Nxd4 Bb4 Nxc6 bxc6 Bd3 O-O O-O Re8 Bg5 d5 exd5 cxd5 Qf3 Be7 Bxf6 Bxf6 Nxd5 Bxb2 Rab1 Be5 Ne7+ Qxe7 Qxa8 Be6 Qe4 Qf6 Qxh7+ Kf8 Bb5 Rd8 Qh8+ Ke7 Qh7 g6 Rbd1 Rh8 Qxh8 Qxh8 g3 Qh3 Rfe1 Bd6 Bc4 g5 Bxe6 fxe6 Re4 e5 Rde1 Qf5 f4 gxf4 gxf4 Qg4+ Kf2 Bc5+ Kf1 Qf3# 0-1
+
+[Site "https://lichess.org/B8r4u2ER"]
+[Date "2026.08.01"]
+[White "farmaciaxadrez"]
+[Black "Chessfoot"]
+[Result "0-1"]
+[WhiteElo "2076"]
+[BlackElo "2621"]
+[ECO "A40"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c6 Nf3 d5 g3 Nf6 Bg2 g6 O-O Bg7 Nbd2 O-O c4 Bf5 b3 dxc4 bxc4 Ne4 Bb2 Nxd2 Qxd2 e5 dxe5 Qxd2 Nxd2 Nd7 e4 Be6 f4 Nc5 f5 Bc8 f6 Bh6 Nb3 Nd3 Ba3 Re8 h4 Nxe5 Rad1 Bg4 Rd4 Be3+ Kh2 Bxd4 Nxd4 Rad8 Nb3 Nxc4 Be7 Ne3 Bxd8 Nxf1+ Bxf1 Rxd8 e5 Rd1 Bg2 Be6 Nc5 Rd2 Kg1 Rxa2 Nxb7 Ra1+ Kh2 a5 Nd8 a4 Nxc6 a3 Ne7+ Kf8 Nc6 Ra2 Kg1 Rxg2+ Kxg2 a2 0-1
+
+[Site "https://lichess.org/tqHfy6FK"]
+[Date "2026.08.01"]
+[White "ray791"]
+[Black "the-chess-uni"]
+[Result "0-1"]
+[WhiteElo "2022"]
+[BlackElo "2560"]
+[ECO "B10"]
+[Opening "Caro-Kann Defense: Two Knights Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nc3 c6 e4 d5 Nf3 d4 Ne2 c5 Ng3 Nc6 Bb5 e5 Bxc6+ bxc6 d3 Qc7 Bg5 f6 Bd2 Bd6 O-O Ne7 c3 Be6 c4 g5 h4 g4 Nh2 O-O-O Nxg4 Rdf8 Nh2 h5 Nxh5 f5 Ng7 Bd7 Nxf5 Nxf5 exf5 Bxf5 Qf3 e4 dxe4 Bxh2+ Kh1 Rxh4 exf5 Bg3+ Kg1 Rh1+ Kxh1 Qh7+ Bh6 Qxh6+ Qh5 Qxh5+ Kg1 Qh2# 0-1
+
+[Site "https://lichess.org/S46Vznzo"]
+[Date "2026.08.01"]
+[White "Kagochi"]
+[Black "chessplayer_rishi"]
+[Result "0-1"]
+[WhiteElo "1958"]
+[BlackElo "2436"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e6 e3 Nf6 Bd3 d5 f4 c5 c3 Nc6 Nf3 Ne4 O-O f5 Nbd2 Bd6 Ne5 O-O Bxe4 fxe4 Nb3 Qf6 Qh5 c4 Nd2 Bxe5 fxe5 Qe7 Rxf8+ Qxf8 Qh3 Bd7 Qg3 Qe7 Qf2 Rf8 Qe2 Nd8 Nf1 Nf7 Bd2 Ng5 Ng3 Qf7 Rf1 Qg6 Rxf8+ Kxf8 Qf2+ Nf7 b3 Ke7 bxc4 dxc4 Qf4 Nh6 Qxe4 Qxe4 Nxe4 Bc6 Ng5 Nf5 Nxh7 Nh4 g3 Nf3+ Kf2 Nxd2 e4 Nb1 Ke3 Nxc3 Ng5 Nxa2 d5 exd5 exd5 Bxd5 Kd4 Be6 Ne4 c3 Nc5 c2 Nd3 c1=Q Nxc1 Nxc1 Ke4 Ne2 h3 Nxg3+ 0-1
+
+[Site "https://lichess.org/dXrc2Dce"]
+[Date "2026.08.01"]
+[White "Vaisha40"]
+[Black "GabrielBSouza"]
+[Result "0-1"]
+[WhiteElo "2046"]
+[BlackElo "2208"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Three Knights Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 Nf6 c4 e6 Nf3 d5 Nc3 Bd6 Bg5 O-O e3 Be7 cxd5 Nxd5 Bxe7 Qxe7 Bd3 c5 O-O cxd4 Nxd5 exd5 Nxd4 Nc6 Bc2 Qg5 Qd3 g6 Nf3 Qh5 Rad1 Nb4 Qb3 Nxc2 Qxc2 Bg4 Qe2 Rad8 h3 Bxf3 Qxf3 Qxf3 gxf3 Rfe8 Rd4 Re7 Rfd1 Red7 Kf1 f5 Ke2 Kf7 e4 fxe4 fxe4 Ke6 Ke3 dxe4 Rxe4+ Kf6 Rxd7 Rxd7 Kf4 Rd2 Rb4 b6 f3 h5 a4 g5+ Kg3 Rd5 h4 gxh4+ Kxh4 Kg6 b3 Rf5 f4 Rc5 Rb5 Rc1 f5+ Kh6 a5 Rh1+ Kg3 bxa5 Rxa5 Kg5 Rxa7 Kxf5 Ra5+ Kg6 b4 Rb1 Rb5 Rg1+ Kh4 Rg4+ Kh3 Rc4 Kg3 Rc3+ Kh4 Rc4+ Kg3 Rg4+ Kh3 Re4 Kg3 h4+ Kh3 Kf6 Rh5 Rxb4 Rxh4 Rb3+ Kg4 Kg6 Rh3 Rb4+ Kf3 Kg5 Kg2 Rb2+ Kf1 Kg4 Ra3 Rc2 Ke1 Rh2 Kf1 Kf4 Ke1 Rg2 Kf1 Rd2 Ke1 Rd7 Ke2 Re7+ Kf2 Rb7 Ra4+ Kf5 Ke3 Rb3+ Kd4 Rb1 Kd5 Rd1+ Kc6 Ke6 Re4+ Kf5 Re2 Rc1+ Kd5 Rd1+ Kc4 Kf6 Kc3 Rd7 Kc2 Rc7+ Kb3 Rd7 Rf2+ Ke5 Kc4 Ke4 Re2+ Kf3 Re8 Rc7+ Kd5 Rf7 Ke6 Rf4 Rf8 Rxf8 Ke7 Ra8 0-1
+
+[Site "https://lichess.org/1thaLEwF"]
+[Date "2026.08.01"]
+[White "Nude_For_Speed"]
+[Black "Elysiums"]
+[Result "1-0"]
+[WhiteElo "2061"]
+[BlackElo "2215"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Scandinavian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 d5 cxd5 Qxd5 Nc3 Qd8 d4 Nf6 e4 g6 e5 Nfd7 Nf3 Bg7 Bd3 O-O O-O b6 Bg5 Bb7 Qd2 c5 d5 h6 Bh4 g5 Nxg5 hxg5 Bxg5 Nxe5 Bc2 f6 Bh4 Qe8 Rfe1 Qh5 Bg3 Nbd7 Bd1 Qg6 f4 Nd3 Bc2 c4 b3 f5 Rf1 N7c5 bxc4 Nb4 Bd1 Ncd3 a3 Bd4+ Kh1 Nf2+ Bxf2 Bxf2 axb4 Rad8 1-0
+
+[Site "https://lichess.org/1mf7O4M2"]
+[Date "2026.08.01"]
+[White "BroIamtoobad"]
+[Black "pharmphresh12"]
+[Result "1-0"]
+[WhiteElo "2148"]
+[BlackElo "2019"]
+[ECO "A00"]
+[Opening "Barnes Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+f3 d5 Kf2 Nf6 e3 e5 g3 Nc6 Bh3 Bd6 Kg2 Bxh3+ Nxh3 Qd7 d3 e4 f4 O-O d4 Ne7 Nf2 Ng6 h3 h5 c4 dxc4 Nc3 c5 d5 Rad8 Nfxe4 Nxe4 Nxe4 Bc7 d6 Bxd6 Nxd6 Qxd6 Qxd6 Rxd6 Kf3 Rfd8 Re1 Rd3 Re2 Ne7 g4 Nd5 gxh5 Nb4 a3 Nc6 Rb1 Rd1 Rc2 Na5 b4 cxb3 Rxc5 Nc6 Rxb3 a6 Rxb7 Na5 Rxa5 Rxc1 Rxa6 Rdd1 Re7 Rf1+ Ke4 Rc4+ Kd3 Rcc1 Raa7 Rfd1+ Ke4 Rc4+ Kf3 Rf1+ Ke2 Re1+ Kxe1 Rc1+ Kd2 Ra1 Rxf7 Ra2+ Kd3 Rh2 Ke4 Rxh3 Rxg7+ Kf8 Rgf7+ Kg8 Rh7 Rxh5 Rhb7 Re5+ Kxe5 Kf8 Rb8# 1-0
+
+[Site "https://lichess.org/nDwMiexj"]
+[Date "2026.08.01"]
+[White "cazadorderatas"]
+[Black "Slyketekete"]
+[Result "1-0"]
+[WhiteElo "2165"]
+[BlackElo "2084"]
+[ECO "A34"]
+[Opening "English Opening: Symmetrical Variation, Normal Variation"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+c4 c5 Nc3 e6 e4 a6 Nf3 d6 d3 Qc7 g3 Nd7 Bg2 Ngf6 O-O Rb8 Be3 Be7 Nh4 O-O f4 g6 Qd2 b5 cxb5 axb5 Rae1 b4 Nd1 Ng4 Nf3 Nxe3 Nxe3 Ba6 b3 Nf6 Rf2 d5 e5 Ne8 f5 d4 Ng4 exf5 Nh6+ Kg7 Nh4 Bxh4 gxh4 f6 e6 Qe7 Nf7 Nd6 Qh6+ Kg8 Nxd6 Qxd6 e7 Rfe8 Rfe2 Bb7 Re6 Qc7 h5 Bxg2 hxg6 hxg6 Qxg6+ Kh8 Qxf6+ Kg8 Qg6+ Kh8 Qh6+ Kg8 Rg6+ Kf7 Qg7# 1-0
+
+[Site "https://lichess.org/E7Attcv1"]
+[Date "2026.08.01"]
+[White "Fed67"]
+[Black "NinjaOfRandomness"]
+[Result "0-1"]
+[WhiteElo "2414"]
+[BlackElo "2388"]
+[ECO "B20"]
+[Opening "Sicilian Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c5 Be2 Nc6 f4 g6 Nf3 Bg7 d3 e6 c3 Nge7 O-O d5 Be3 d4 Bf2 O-O c4 a6 Nbd2 e5 fxe5 Nxe5 Nxe5 Bxe5 Nf3 Bf4 g3 Bh6 Kh1 Nc6 Nh4 Ne5 a3 Be6 b4 b6 Rb1 Qd7 bxc5 bxc5 Qb3 g5 Ng2 f5 exf5 Bxf5 Bg1 Rae8 Rfe1 Re7 Qb6 Bg7 Qxc5 Nxd3 Bxd3 Rxe1 Rxe1 Bxd3 Qd5+ Qxd5 cxd5 Bc4 d6 Rd8 Rc1 Bd5 Rc5 Rxd6 h3 d3 Be3 d2 Bxd2 Bxg2+ Kxg2 Rxd2+ Kf3 Rd3+ Kg4 Rxa3 Rxg5 a5 Rb5 a4 h4 Rb3 Ra5 a3 Ra7 Bf8 h5 Bd6 h6 Rxg3+ Kf5 Rg6 0-1
+
+[Site "https://lichess.org/7TyqFHcc"]
+[Date "2026.08.01"]
+[White "utopiachess1"]
+[Black "ciftnida"]
+[Result "0-1"]
+[WhiteElo "2101"]
+[BlackElo "2101"]
+[ECO "B21"]
+[Opening "Sicilian Defense: Smith-Morra Gambit Declined, Push Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c5 d4 cxd4 c3 d3 Bxd3 e5 c4 Nc6 h3 Bb4+ Nc3 d6 Nf3 Nge7 O-O O-O Qe2 Ba5 Be3 Bc7 Rfd1 f5 exf5 Nxf5 Bxf5 Bxf5 Nd5 Be4 Nh2 Ne7 Bg5 Bxd5 cxd5 h6 Bh4 g5 Bg3 Nf5 Rac1 Bb6 Kh1 Qe7 Ng4 h5 Ne3 Nxe3 fxe3 h4 Bh2 Rf6 Qg4 Qg7 Bg1 Raf8 Rc8 Kh7 Rxf8 Rxf8 Rc1 Kh6 e4 Rf4 Qe6+ Rf6 Qg4 Bxg1 Kxg1 Qf7 Qe2 Rf4 Rc8 Qh7 Rc4 b5 Rb4 a5 Rxb5 Rxe4 Qg4 Rxg4 0-1
+
+[Site "https://lichess.org/GaN40Lv8"]
+[Date "2026.08.01"]
+[White "Soledadense"]
+[Black "DLR_CH_1"]
+[Result "1-0"]
+[WhiteElo "2376"]
+[BlackElo "2385"]
+[ECO "D34"]
+[Opening "Tarrasch Defense: Classical Variation, Advance Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 c4 e6 Nc3 c5 cxd5 exd5 Nf3 Nc6 g3 Nf6 Bg2 Be7 O-O O-O Bg5 c4 Ne5 Be6 Nxc6 bxc6 b3 h6 Bf4 Bb4 Rc1 Ba3 Rb1 Bf5 e4 Nxe4 Nxe4 Bxe4 Bxe4 dxe4 bxc4 Bd6 Be3 f5 f4 Qa5 d5?! c5?! Qc2 Rab8 Rb3 Rxb3 axb3 Rb8 g4 g6 gxf5 gxf5 Kh1 Kh7 Rg1 Rg8 Rxg8 Kxg8 Qg2+ Kf7 Qh3 Qe1+ Bg1 Ke7?? Qxf5 e3?? Qe6+ Kd8 Qxd6+ Ke8 Qe6+ Kf8 Qxe3 Qd1 f5 Kg7 Qg3+ Kf8? f6 Ke8 Qe5+ Kd8 Qe7+ Kc8 Qe6+?! Kb7 Qf5 Kb6?! f7 Ka5 f8=Q Kb4 Q8f6?! Kxb3?! Q6e5 Kxc4 Qe3? Qd4? Qxd4+ cxd4 Qc2+?! Kxd5 Qd3 Kc5? Qxd4+ Kb5 Qxa7 h5 Qh7 h4 Qh5+?! Kc4?! Qxh4+ Kd3 Qg3+ Ke2 h4 Kf1 h5 Ke2 h6 Kd1 h7 Kc2 h8=Q Kb1 Qhh2 Kc1 Qgg2 Kd1 Qc2+ Ke1 Qce2# 1-0
+
+[Site "https://lichess.org/aYkNzrVi"]
+[Date "2026.08.01"]
+[White "surrealchess1977"]
+[Black "FistfulOfPawns"]
+[Result "1-0"]
+[WhiteElo "1958"]
+[BlackElo "1949"]
+[ECO "B00"]
+[Opening "Pirc Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 d6 d4 Nf6 Bd3 e5 c3 g6 f4 Bg7 Nf3 exd4 cxd4 O-O e5 Nd5 O-O dxe5 fxe5 c5 Nc3 cxd4 Nxd5 Qxd5 Bf4 Nc6 Rc1 Bg4 Be2 Rad8 Qa4 d3 Bd1 Bxe5 Nxe5 Nxe5 Bh6 Bxd1 Rcxd1 Rfe8 Qf4 f5 Qg5 Ng4 Rf4 Qc5+ Kf1 Ne3+ Ke1 d2+ Rxd2 Qc1+ Ke2 Qxd2+ Kf3 Qd1+ Kg3 Nf1+ Kh3 Re3+ g3 Qd2 Rxf1 f4 Rxf4 Qd7+ Kh4 Re2 h3 Re3 Qf6 Re2 Qf8+ 1-0
+
+[Site "https://lichess.org/arHqwqvv"]
+[Date "2026.08.01"]
+[White "Gustavoksbr"]
+[Black "GToddy200"]
+[Result "0-1"]
+[WhiteElo "2053"]
+[BlackElo "1948"]
+[ECO "C45"]
+[Opening "Scotch Game: Classical Variation"]
+[TimeControl "1500+5"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 d4 exd4 Nxd4 Bc5 Be3 Qf6 c3 Nge7 Bc4 O-O O-O d6 Nxc6 Nxc6 Bxc5 dxc5 f4 Be6 Bb5 Rad8 Nd2 Ne7 Rf2 Bd7 Bxd7 Rxd7 Qa4 Rfd8 Nc4 b5 Qxb5 Rd1+ Rf1 Rxa1 Rxa1 Qxf4 Qb7 Qg4 Rf1 Ng6 Qxc7 Qd7? Qxc5? Qe6 Qg5?! Rc8? b3 Qxe4? Nd6 f6 Qd2 Qc6 Nxc8 Qxc8 Qd5+ Kh8 Rd1 Nf8 Kh1 Qxc3 Qf7 Qc5 Qd5 Qc3 h3 h6 Qd6 Kg8 Qd5+ Kh8 Rd3 Qe1+ Kh2 Ng6 Qf5 Qe8 Rg3 Nf8 Qa5 Qe7 a4 Nh7 Qf5? Ng5 h4? Ne4? Rf3 Nd6 Qf4 Nf7 Re3 Ne5 Rc3 Qd7 h5 Kh7? Qe4+ Kg8? b4?? Qe6? Qa8+ Kh7 Qe4+ Kg8 b5?? Ng4+ Qxg4 Qxg4 Rh3 Qxa4 0-1
+
+[Site "https://lichess.org/DVenpYCO"]
+[Date "2026.08.01"]
+[White "TAkE0CaaRe"]
+[Black "kalimeroooo"]
+[Result "1/2-1/2"]
+[WhiteElo "2322"]
+[BlackElo "2220"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Three Knights Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c4 Nf6 Nf3 e6 Nc3 Bc5 Bg5 Be7 cxd5 Nxd5 Nxd5 exd5 Bxe7 Qxe7 Qb3 c6 e3 O-O Bd3 Re8 O-O f5 Ne5 Nd7 f4 Nxe5 fxe5 Be6 Bxf5 Bxf5 Rxf5 Qh4 Raf1 h5 Qxb7 Rab8 Qxa7 Rxb2 Rf7 Qg5 g3 Qxe3+ Kh1 Qe4+ Kg1 Qe3+ R1f2 Rb1+ Kg2 Qg5 Qd7 Rbb8 e6 h4 e7 hxg3 hxg3 Kh7 Qh3+ Qh6 Rf8 Qxh3+ Kxh3 Kg6 Rxe8 Rxe8 Re2 Kf7 Rc2 Rxe7 Rxc6 Rd7 Rc5 Ke6 a4 g6 a5 g5 Kg4 Kf6 Rc6+ Ke7 Kxg5 Ra7 a6 Rd7 Kf5 Kf7 Ke5 Ke7 Rb6 Rd8 Rb7+ Ke8 a7 Ra8 Rb8+ Kf7 Rxa8 Kg6 Rb8 Kg5 a8=Q Kg4 Qxd5 Kh3 Qe4 Kh2 Rh8+ Kg1 Qh1+ Kf2 Rh2+ Ke3 Qf1 1/2-1/2
+
+[Site "https://lichess.org/sveiFrhV"]
+[Date "2026.08.01"]
+[White "Jhon90"]
+[Black "PlautzePaul"]
+[Result "0-1"]
+[WhiteElo "2074"]
+[BlackElo "2036"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Zukertort Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 Nf3 c6 Bf4 Nd7 e3 Ngf6 Nbd2 g6 c3 Bg7 Bd3 O-O Qe2 b5 Ne5 Nxe5 Bxe5 Nd7 Bxg7 Kxg7 O-O-O e5 dxe5 Nxe5 Bc2 Qa5 Kb1 Be6 Nb3 Qb6 Nd4 a5 f4 Nc4 Bd3 Rfe8 h3 Bd7 Bxc4 bxc4 Ka1 a4 a3 Rab8 Rd2 c5 Nf3 Bf5 g4 Bd3 Qf2 d4 exd4 cxd4 Qxd4+ Qxd4 Nxd4 Re4 f5 Rbe8 fxg6 hxg6 Nb5 Rh8 Nd6 Rxg4 Rf2 f5 Re1 Rg3 Re7+ Kf6 Rf7+ Kg5 Nb5 Rhxh3 Ka2 Rh1 Nd4 Rgg1 Ne6+ Kh6 b4 Ra1+ 0-1
+
+[Site "https://lichess.org/9uTBo1cK"]
+[Date "2026.08.01"]
+[White "Fermat06"]
+[Black "Zenithial"]
+[Result "1-0"]
+[WhiteElo "2316"]
+[BlackElo "2340"]
+[ECO "B36"]
+[Opening "Sicilian Defense: Accelerated Dragon, Maróczy Bind"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+e4 c5 Nf3 g6 c4 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 d6 Be2 Nxd4 Qxd4 Bg7 O-O O-O Qd1 Be6 Be3 Qa5 Rc1 Rfc8 b3 a6 f4 b5 f5 Bd7 fxg6 hxg6 e5 dxe5 Rxf6 Bxf6 Qxd7 b4 Nd5 Qxa2 Bf3 Rd8 Nxe7+ Kg7 Qc7 Qxb3 Re1 Qc3 Bf2 Bxe7 Qxe7 Rab8 Bd5 Rf8 Bh4 Qd4+ Bf2 Qf4 Rf1 Qf6 Qxf6+ Kxf6 Bc5+ Kg7 Bxf8+ Rxf8 Ra1 b3 Rxa6 Rb8 Be4 f5 Bb1 e4 Ra5 Rb4 Rb5 Rxc4 Rxb3 Kf6 h4 Ke5 Kf2 f4 Rb5+ Kd4 Rb6 Rc1 Rb4+ Kc3 Rxe4 Rxb1 Rxf4 Rb7 Rf6 Rg7 Rd6 Kc4 Kf3 Kc5 Rd2 g5 h5 g4+ Kg3 Rg5 Kh4 Rg8 h6 Kc6 Kh5 1-0
+
+[Site "https://lichess.org/dq2svYTW"]
+[Date "2026.08.01"]
+[White "Laurensya"]
+[Black "Eltrax"]
+[Result "1-0"]
+[WhiteElo "2254"]
+[BlackElo "2213"]
+[ECO "D36"]
+[Opening "Queen's Gambit Declined: Exchange Variation, Reshevsky Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+c4 e6 Nc3 d5 d4 Nf6 cxd5 exd5 Bg5 Be7 e3 O-O Bd3 c6 Qc2 Nbd7 Nge2 Re8 O-O Ne4?! Bxe7 Qxe7 Rae1 Ndf6 f3 Nxc3 Nxc3 Qd6 Kh1 Bd7 Qd2 Re7 Bb1 Rae8 e4 dxe4 fxe4 Ng4 g3 c5 Nd5 Rxe4?? Bxe4 Rxe4 dxc5? Qe5? Rxe4 Qxe4+ Qg2? Qxg2+ Kxg2 Bc6?! Kh3 h5?? Ne7+ Kf8 Nxc6 bxc6 Rf4 g5 Ra4 Ne3 Ra3 Nd5 Rxa7 Kg7 Kg2 1-0
+
+[Site "https://lichess.org/ghU8LfW7"]
+[Date "2026.08.01"]
+[White "panxito1313"]
+[Black "The_Oncologist"]
+[Result "0-1"]
+[WhiteElo "2130"]
+[BlackElo "2151"]
+[ECO "A03"]
+[Opening "Bird Opening: Dutch Variation"]
+[TimeControl "300+3"]
+[Termination "Normal"]
+
+f4 d5 Nf3 c5 d3 Nc6 g3 Bg4 Nbd2 Bxf3 Nxf3 g6 Bg2 Bg7 O-O e6 e4 dxe4 dxe4 Qxd1 Rxd1 Nf6 e5 Nd5 c4 Nde7 Be3 b6 Ng5 h6 Ne4 O-O Rd7 Nf5 Bf2 Rad8 Rad1 Ncd4 Rxd8 Rxd8 Bxd4 Nxd4 Nd6 Bf8 Kf2 Bxd6 exd6 Rxd6 Bf3 f5 b4 Kf7 bxc5 bxc5 Rb1 Rb6 Rxb6 axb6 Bd1 Kf6 Ke3 e5 fxe5+ Kxe5 h4 g5 hxg5 hxg5 Ba4 f4+ gxf4+ gxf4+ Kf2 Ke4 Be8 Kd3 Bf7 Kc3 0-1
+
+[Site "https://lichess.org/AQjrIT69"]
+[Date "2026.08.01"]
+[White "HuberVilla"]
+[Black "Snakexyz"]
+[Result "1/2-1/2"]
+[WhiteElo "2211"]
+[BlackElo "2117"]
+[ECO "A45"]
+[Opening "Queen's Pawn Game: Veresov, Richter Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 Nc3 Nf6 f3 Nbd7 e4 dxe4 fxe4 e5 dxe5 Nxe5 Qxd8+ Kxd8 Nf3 Nxf3+ gxf3 Bb4 Bd2 Re8 O-O-O Ke7 e5 Bxc3 Bxc3 Nd7 Bb4+ Ke6 f4 c5 Bh3+ Ke7 Bxd7 Bxd7 Bxc5+ Kd8 Rhg1 g6 Rd2 Kc8 Bd6 Bc6 c4 a5 a3 a4 h4 h5 Rg3 b6 c5 bxc5 Rc3 Kb7 Rxc5 Rac8 Rd4 Bd7 Rb4+ Ka6 Kd2 Rxc5 Bxc5 Bb5 Bd4 Rd8 Ke3 Rd7 b3 Rb7 bxa4 Bd7 a5 Rxb4 axb4 Bb5 Bc5 Bc4 Kd4 Bb5 Kd5 Ba4 Kd6 Bb5 Ke7 Bc4 Kd7 Bb5+ Kc7 Bc4 Kc6 Bb5+ Kd6 Bc4 Bf2 Bb5 e6 fxe6 Kxe6 Bd3 Kd5 Bf5 Kc6 Bd3 Bc5 Bb5+ Kd6 Bd3 Ke5 Bf5 Kd4 Kb5 Kd5 Ka6 Kc4 Be6+ Kc3 Bd7 Bf2 Bf5 Kd4 Bd7 Ke5 Bf5 Kf6 Kb5 Bc5 Ka6 Kg5 Kb5 Kf6 Ka6 Ke7 Kb5 Kd6 Ka6 Kc7 Bd3 Kd6 Bb5 Be3 Bd3 Kc5 Bb5 Bd4 Bd3 Bc3 Bb5 Kd4 Bd7 Bd2 Bb5 Be3 Be8 Ke5 Bb5 f5 gxf5 Kxf5 Be2 Kg5 Bg4 Kf6 Be2 Ke5 Bg4 Kd6 Be2 Bg5 Bb5 Kc5 Be2 Be7 Bb5 Bd8 Ba4 Bb6 Bb5 Bd8 Ba4 Bg5 Bb5 Be3 Ba4 Bd2 Bb5 Bc3 Ba4 Kc4 Bb5+ Kb3 Bc6 Ka3 Bb5 Bd4 Bc6 Bc5 Bb5 Bd4 Bc6 Bc5 Bb5 Bd4 1/2-1/2
+
+[Site "https://lichess.org/goBia3wb"]
+[Date "2026.08.01"]
+[White "ElegantFinesse"]
+[Black "GidStudio"]
+[Result "1-0"]
+[WhiteElo "1965"]
+[BlackElo "1999"]
+[ECO "C34"]
+[Opening "King's Gambit Accepted: MacLeod Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 f4 Nc6 Nf3 exf4 d4 g6 d5 Bg7 dxc6 bxc6 Nc3 Ne7 Bxf4 O-O Bc4 d6 O-O c5 Re1 Bb7 e5 Nc6 exd6 cxd6 Qxd6 Qxd6 Bxd6 Nd4 Bxf8 Bxf8 Rad1 Nxc2 Re2 Nd4 Nxd4 cxd4 Rxd4 Bc5 Rd2 Rc8 Kf1 Bxd4 Rxd4 Rxc4 Rxc4 Ba6 b3 Bxc4+ bxc4 Kf8 Ke2 Ke7 Kd3 Kd6 a4 Kc6 Nd5 Kc5 Nf6 Kb4 Nxh7 Kxa4 Nf6 Kb4 Nd7 a5 Nb6 Kc5 Na4+ Kb4 Nc3 a4 Nxa4 Kxa4 Kd4 Kb4 Kd5 Kc3 c5 Kd3 c6 Ke3 c7 Kf2 c8=Q Kxg2 h3 Kg3 Qg4+ Kf2 Qf4+ Kg2 Qxf7 Kxh3 Qxg6 Kh4 Ke5 Kh3 Kf4 Kh2 Kf3 Kh1 Qg2# 1-0
+
+[Site "https://lichess.org/mw9d9jxU"]
+[Date "2026.08.01"]
+[White "Patomomito"]
+[Black "solitude92"]
+[Result "0-1"]
+[WhiteElo "2013"]
+[BlackElo "2027"]
+[ECO "A10"]
+[Opening "English Opening: Anglo-Dutch Defense"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+c4 f5 Nc3 Nf6 g3 e6 Bg2 c6 d4 Bb4 Nf3 d5 cxd5 exd5 O-O O-O Bg5 Nbd7 a3 Bd6 Nh4 f4 e4 fxg3 fxg3 Qb6 Na4 Qa5 e5 Nxe5 dxe5 Bxe5 b4 Qc7 Rc1 a5 Bxf6 Bxf6 Bxd5+ Kh8 b5 Qe5 bxc6 bxc6 Bxc6 Ra6 Re1 Qd4+ Qxd4 Bxd4+ Kg2 Rxc6 Rxc6 Bb7 Rc1 Rc8 Kh3 Rxc6 Rd1 Bc8+ Kg2 Rc2+ Kf3 Bb7+ Kg4 Bc8+ Kf3 Bb7+ Kg4 h5+ Kxh5 Bf6 Ng6+ Kh7 h4 Bf3+ g4 Bxd1 Nb6 Rg2 Nf8+ Kg8 Nbd7 Bxg4+ Kg6 Bxd7+ Kh5 Kf7 a4 Bg4# 0-1
+
+[Site "https://lichess.org/uwWIhnNm"]
+[Date "2026.08.01"]
+[White "pawny_bot"]
+[Black "codabot"]
+[Result "1/2-1/2"]
+[WhiteElo "2880"]
+[BlackElo "3048"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, English Attack, Anti-English"]
+[TimeControl "60+1"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3 Ng4 Bg5 h6 Bh4 g5 Bg3 Bg7 h3 Ne5 f3 Nbc6 Bf2 Be6 Qd2 Nxd4 Bxd4 Qa5 Qe3 Rc8 a3 b5 h4 gxh4 Rxh4 Rg8 Rd1 Rc6 f4 Bf6 Rh5 Ng4 Qd2 Bc4 Bxf6 Nxf6 Rxh6 Bxf1 Kxf1 b4 axb4 Qxb4 e5 Qc4+ Ke1 Qc5 Kf1 Qc4+ Ke1 Qc5 Qd4 Qxd4 Rxd4 dxe5 Rb4 Kf8 fxe5 Re6 Rb8+ Kg7 Rxg8+ Kxg8 Rh4 Rxe5+ Kf2 Rc5 Rb4 e6 Ke2 Re5+ Kf3 Kg7 Rb6 Re1 Rxa6 Rc1 Rb6 Rxc2 g4 Rh2 Ne4 Rh3+ Ng3 Kg6 Rb5 Rh8 Nh5 Nd5 b4 f6 Rb7 Rc8 Nf4+ Nxf4 Kxf4 e5+ Ke4 Rc4+ Kd5 Rxg4 Rb8 Rd4+ Kc5 Kf5 b5 Rd2 b6 e4 1/2-1/2
+
+[Site "https://lichess.org/ftNjazFZ"]
+[Date "2026.08.01"]
+[White "hardtodie1"]
+[Black "vit2014"]
+[Result "0-1"]
+[WhiteElo "2143"]
+[BlackElo "2172"]
+[ECO "A40"]
+[Opening "English Defense"]
+[TimeControl "120+0"]
+[Termination "Normal"]
+
+d4 b6?! e4 Bb7 Bd3 e6 Ne2 c5 c3 d5 f3?! Nf6?! e5 Nfd7 f4 g6 Be3 a6 Nd2 Qc7 Nf3 c4 Bc2 b5 b3?! Nc6 a4?! Nb6 a5? Nd7? b4 h6 h4 h5 Ng5 Ne7 Ng3 Nf5 Nxf5 exf5 e6?! fxe6 Nxe6 Qd6 Nxf8 Rxf8 Qf3 Nf6 O-O-O Kd7 Rh3 Rae8 Rg3 Ng4 Bd2 Re7 Re1 Rxe1+ Bxe1 Re8 Bd2 Kc7 Qf1 Bc8 Bd1 Re4 Bxg4 fxg4 Re3 Bf5 Rxe4 dxe4 d5 Qxd5 Be3 Qd3 Bb6+?? Kc6 Qxd3 cxd3 Kd2?! Kd5?? Ke3?? Kc4 Bd4 Kb3 g3?? Kc2 Bf6 d2 0-1
+
+[Site "https://lichess.org/wsvCgFke"]
+[Date "2026.08.01"]
+[White "zyokua"]
+[Black "jpdoc89"]
+[Result "1-0"]
+[WhiteElo "2199"]
+[BlackElo "2191"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+d4 Nf6 Bf4 g6 c4 Bg7 Nc3 O-O e4 d6 h3 Nc6 Bg5 h6 Bd2? Nxd4 Bxh6 Bxh6 Qxd4 e5 Qd3 Be6 Rd1 Nh5?! Nf3 Nf4?! Qc2 Qf6 Nd5 Bxd5 cxd5 Rac8 Nh2 Bg7? g3 Nh5 Be2 Qg5 h4 Qh6 Bg4 f5 exf5 gxf5? Bxf5 Nxg3 Be6+ Kh8 Rg1 Nh5 Bxc8 Rxc8 Nf3 Nf4 Ng5 Qxh4? Qe4 Qh2?? Rh1 Ng2+ 1-0
+
+[Site "https://lichess.org/JiTvYWjJ"]
+[Date "2026.08.01"]
+[White "zeigmata"]
+[Black "jaquepapito"]
+[Result "0-1"]
+[WhiteElo "2445"]
+[BlackElo "2408"]
+[ECO "D30"]
+[Opening "Queen's Gambit Declined"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 d5 c4 e6 Nf3 f5 Nc3 c6 Bg5 Be7 Bxe7 Qxe7 e3 Nf6 Bd3 Ne4 Ne5 O-O O-O Nd7 Nxd7 Bxd7 f3 Nxc3 bxc3 e5 cxd5 cxd5 Qd2 e4 fxe4 fxe4 Be2 Qg5 Rab1 Bh3 Rxf8+ Rxf8 Bf1 b6 Kh1 Bd7 c4 Qf6 Kg1 Be6 c5 bxc5 dxc5 Rc8 Rc1 h5 Bb5 h4 Qf2 Qxf2+ Kxf2 Kf7 Ke2 Kf6 c6 Rc7 Kd2 Ke5 Kc3 a6 Ba4 g5 h3 Bf7 Rd1 Be8 Kb4 Bxc6 Bb3 Bb7 Ka5 Rc3 Kb6 Ba8 Re1 d4 exd4+ Kxd4 Kxa6 e3 Ka7 Bxg2 Rd1+ Rd3 Rg1 e2 Re1 Bf1 Ba4 Ra3 Rxe2 Bxe2 Kb6 Rxa4 a3 Ke5 Kc7 Kf5 Kd8 Rxa3 Ke7 Rxh3 Kf8 Re3 Kg7 Re6 Kf8 Rg6 Kf7 g4 Kf8 g3 Kf7 g2 Kf8 g1=Q Kf7 Qg5 Kf8 Qh6+ Kf7 Qh7+ Kf8 Rg8# 0-1
+
+[Site "https://lichess.org/GJqpOHCE"]
+[Date "2026.08.01"]
+[White "jpcaissy17"]
+[Black "Babyshark30"]
+[Result "1-0"]
+[WhiteElo "2042"]
+[BlackElo "2121"]
+[ECO "A38"]
+[Opening "English Opening: Symmetrical Variation, Duchamp Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+Nf3 c5 c4 g6 Nc3 Bg7 g3 Nf6 Bg2 Nc6 O-O O-O d3 d6 h3 Bd7 Be3 Qc8 Kh2 Nd4 Nxd4 cxd4 Bxd4 Ng4+ hxg4 Bxd4 f3 f5 gxf5 Rxf5 g4 Be5+ Kg1 Bd4+ Kh2 Rf8 Nd5 e6 Ne7+ Kg7 Nxc8 Raxc8 Qd2 Rc5 e3 Bf6 d4 Rc7 Rac1 h6 f4 e5 dxe5 dxe5 f5 gxf5 gxf5 Bc6 Bxc6 Rxc6 Rg1+ Kh8 Rg6 Bg5 Rxc6 bxc6 Qd7 Bxe3 Rg1 Bxg1+ Kxg1 1-0
+
+[Site "https://lichess.org/GO2b2x7E"]
+[Date "2026.08.01"]
+[White "DeanChess"]
+[Black "Acf_1"]
+[Result "0-1"]
+[WhiteElo "2342"]
+[BlackElo "2520"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, English Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3 e5 Nf3 Qc7 a4 Nbd7 Qd3 Nc5 Bxc5 Qxc5 Qc4 Qc6 Ng5 Qd7 g3 h6 Bh3 Qe7 Bxc8 hxg5 Nd5 Nxd5 exd5 g6 Bg4 f5 Be2 Bg7 O-O-O O-O h4 Rac8 Qb4 Rc7 hxg5 Qxg5+ f4 Qf6 c3 e4 Kb1 Rfc8 g4 b5 axb5 axb5 Bxb5 Rb8 c4 Rxc4 Qb3 Rc5 g5 Qd8 Qh3 Rcxb5 Qh7+ Kf7 Rd2 Rxb2+ Rxb2 Rxb2+ Kc1 0-1
+
+[Site "https://lichess.org/dW8pH5YF"]
+[Date "2026.08.01"]
+[White "Jesuino"]
+[Black "Geni-64"]
+[Result "0-1"]
+[WhiteElo "2162"]
+[BlackElo "2197"]
+[ECO "C01"]
+[Opening "French Defense: Exchange Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 e6 d4 d5 exd5 exd5 Bd3 Bd6 h3 Ne7 Nf3 Nbc6 O-O O-O Re1 Bf5 Bg5 f6 Bh4 Qd7 c3 Rae8 Qc2 a6 Nbd2 g6 Re2 Bxd3 Qxd3 Nf5 Rxe8 Qxe8 Re1 Qd7 Nf1 Nce7 Qe2 Nxh4 Nxh4 g5 Nf3 Ng6 N1h2 Nf4 Qe3 Kf7 Ng4 h5 Ngh2 Re8 Qxe8+ Qxe8 Rxe8 Kxe8 Nf1 Nd3 b4 Nc1 a4 Na2 Ne3 Nxc3 b5 axb5 axb5 Kf7 Ne1 Ke6 Nd3 Nxb5 g3 Nxd4 0-1
+
+[Site "https://lichess.org/zbefuMck"]
+[Date "2026.08.01"]
+[White "Blackchilli"]
+[Black "pandecafe"]
+[Result "1-0"]
+[WhiteElo "2151"]
+[BlackElo "2124"]
+[ECO "A07"]
+[Opening "King's Indian Attack, with e6"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+Nf3 d5 g3 e6 Bg2 Nf6 d3 c5 c3 Nc6 Bg5 Be7 Nbd2 O-O Qc2 Nd7 Bxe7 Qxe7 e4 e5 exd5 Nd8 c4 f5 h4 Nf7 O-O Nd6 Rfe1 Qf6 a4 a5 Ng5 Re8 Ne6 Nf8 Nc7 Re7 Nxa8 e4 dxe4 fxe4 Nxe4 Nxe4 Bxe4 Bg4 Re3 Nd7 Rae1 Ne5 Bxh7+ Kh8 Be4 Qf8 Nb6 Qd8 Qb3 Nd7 Nxd7 Qxd7 Bg2 Re8 1-0
+
+[Site "https://lichess.org/ZWbYSXJM"]
+[Date "2026.08.01"]
+[White "Sobhan_alla2002"]
+[Black "AhmedFatehy"]
+[Result "1-0"]
+[WhiteElo "2071"]
+[BlackElo "2154"]
+[ECO "B01"]
+[Opening "Van Geet Opening: Grünfeld Defense"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+e4 d5 Nc3 dxe4 Nxe4 e5 Nf3 f5 Ng3 Bd6 d3 Nf6 Bg5 Nc6 c3 Qe7 Be2 Be6 O-O O-O-O Re1 h6 Bd2 g5 Bf1 Qd7 b4 e4 dxe4 fxe4 Nxe4 Nxe4 Rxe4 Bd5 Re1 Bxf3 Qxf3 Bxh2+ Kxh2 Qxd2 Rad1 Qf4+ Qxf4 gxf4 Bb5 Rxd1 Rxd1 Rd8 Rxd8+ Nxd8 Kh3 a6 Ba4 Ne6 Bb3 Kd7 Kg4 Ng5 Kxf4 Kd6 Kf5 b5 f4 Nf7 Bxf7 1-0
+
+[Site "https://lichess.org/CmBOAlyr"]
+[Date "2026.08.01"]
+[White "TamimBy"]
+[Black "AlpKrdy"]
+[Result "1-0"]
+[WhiteElo "2114"]
+[BlackElo "2149"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 d5 Bb2 e6 e3 Nf6 Nf3 g6 Bxf6 Qxf6 d4 Bg7 c3 O-O Nbd2 Nd7 Be2 c5 O-O cxd4 cxd4 b6 Rc1 a5 Rc7 e5 dxe5 Nxe5 Nxe5 Qxe5 Rc2 Bf5 Rc1 Rac8 Nf3 Rxc1 Qxc1 Qd6 Rd1 Rc8 Qd2 Be6 Ba6 Rc5 a4 Qc7 Nd4 Bxd4 Qxd4 Rc2 h3 h5 Bb5 Ra2 Bd3 Rb2 Qxb2 d4 Qxd4 Bxb3 Bb5 Be6 Qd3 1-0
+
+[Site "https://lichess.org/6xFXKQbc"]
+[Date "2026.08.01"]
+[White "DSH2002"]
+[Black "scryzq"]
+[Result "1-0"]
+[WhiteElo "2500"]
+[BlackElo "2547"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed, Traditional"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nc3 Nc6 Nf3 Nf6 g3 e6 Bg2 Be7 O-O O-O e5 Nd5 Re1 Nxc3 dxc3 d5 exd6 Qxd6 Bf4 Qxd1 Raxd1 Rd8 Rxd8+ Bxd8 Rd1 Be7 Ne5 Nxe5 Bxe5 Kf8 Be4 f6 Bc7 h6 Kg2 a5 a4 e5 b3 Bg4 f3 Be6 Bd5 Bxd5 Rxd5 Ke8 Bb6 Kf7 Bxc5 Ke6 c4 Bxc5 Rxc5 Rd8 Rd5 Rxd5 cxd5+ Kxd5 Kf2 Kd4 Ke2 Kc3 Kd1 b6 h4 h5 Kc1 f5 Kd1 g6 Kc1 e4 fxe4 fxe4 Kd1 e3 Ke2 Kxc2 Kxe3 Kxb3 Kf4 Kxa4 Kg5 b5 Kxg6 b4 Kxh5 b3 g4 b2 g5 b1=Q g6 Qb4 g7 Qc4 Kg6 Qg8 h5 Kb5 h6 Qe6+ Kh7 a4 g8=Q Qxg8+ Kxg8 a3 h7 a2 h8=Q Kb4 Qa1 Ka3 Kf7 Kb3 Ke6 Ka3 Ke5 Kb3 Kd4 Ka3 Kd3 Kb3 Kd2 Ka3 Kc2 Ka4 Qxa2+ Kb4 Qb3+ 1-0
+
+[Site "https://lichess.org/ZCu5Xh5n"]
+[Date "2026.08.01"]
+[White "Julio_a_Secas"]
+[Black "guptayogesh46aug"]
+[Result "1/2-1/2"]
+[WhiteElo "1939"]
+[BlackElo "1999"]
+[ECO "D00"]
+[Opening "Blackmar-Diemer Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 d4 Nf6 Bc4 dxc4 e5 Nd5 Nf3 e6 O-O c5 c3 cxd4 cxd4 Be7 Nbd2 Kf8 Ne4 b5 Bg5 Bxg5 Nexg5 h6 Nxf7 Kxf7 g3 Rf8 Nh4 g5 Qh5+ Ke7 Ng6+ Kd7 Nxf8+ Qxf8 f4 Qg7 f5 Nc6 f6 Qf8 f7 Nce7 b4 Nf5 Qd1 Nfe3 g4 Nxd1 Raxd1 Ne3 Rf6 Nxd1 Rg6 Qxf7 Rg7 Qxg7 a4 Ne3 Kf2 Nd5 axb5 Rb8 h4 Rxb5 Kg3 Rxb4 h5 Nf4 d5 exd5 e6+ Kxe6 Kf3 Qf7 Ke3 Nxh5 Kd4 Nf6 Kc5 Nxg4 Kxb4 Qb7+ Kc5 Qb3 Kd4 c3 Kc5 c2 Kd4 c1=Q 1/2-1/2
+
+[Site "https://lichess.org/qKElIaoA"]
+[Date "2026.08.01"]
+[White "TaniaMon"]
+[Black "Fragvm"]
+[Result "0-1"]
+[WhiteElo "2213"]
+[BlackElo "2242"]
+[ECO "B90"]
+[Opening "Sicilian Defense: Najdorf Variation, English Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 d6 d4 cxd4 Nxd4 Nf6 Nc3 a6 Be3 e5 Nb3 b5 f3 Be6 g4 Be7 Qd2 Qc7 h4 Nc6 Be2 Nd7 g5 Nb6 Nd5 Bxd5 exd5 Nb8 O-O-O N8d7 Kb1 Nc4 Bxc4 bxc4 Na1 O-O f4 exf4 Bxf4 Ne5 Bxe5 dxe5 c3 Bd6 Rhf1 Rab8 Nc2 Qb6 Ne3 Ba3 Rf2 Bxb2 Qxb2 Qxe3 Rfd2 Qxc3 Rc2 Rxb2+ Rxb2 e4 d6 Qe5 d7 Qc7 Rc2 g6 Rd4 c3 Rxe4 Rb8+ Kc1 Qb6 Rxc3 Qb2+ Kd1 Qxc3 Re2 Rb1# 0-1
+
+[Site "https://lichess.org/atSWBR1g"]
+[Date "2026.08.01"]
+[White "FabianoAronian"]
+[Black "Ninjateka"]
+[Result "1/2-1/2"]
+[WhiteElo "2097"]
+[BlackElo "2245"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Accelerated London System"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+d4 d5 Bf4 Nf6 e3 e6 c3 Bd6 Bg3 O-O Bd3 Nbd7 Nd2 b6 a4 Bb7 b4 Rc8 a5 Re8 axb6 axb6 Ngf3 Bxg3 hxg3 c5 O-O cxb4 cxb4 e5 Bb5 e4 Ne5 Qe7 Ra7 Rc7 Ba6 Nb8 Bxb7 Rxb7 Rxb7 Qxb7 Qa4 Rc8 b5 Nfd7 Nxd7 Nxd7 Ra1 h6 Qa7 Qc7 Qxc7 Rxc7 Kf1 Rc2 Ra8+ Kh7 Ke2 Rb2 Ra7 Nf6 Rxf7 Rxb5 Rb7 Rb2 f3 Kg6 Kd1 Ne8 fxe4 dxe4 Kc1 Ra2 Nxe4 Rxg2 Rxb6+ Nf6 Nxf6 gxf6 d5 Re2 Rb3 Kf7 Kd1 Rg2 Rb7+ Ke8 d6 Rxg3 Kd2 Kd8 Rh7 Rg5 Rxh6 Rd5+ Ke2 Rxd6 Kf3 Re6 e4 Kd7 Kf4 Kd6 Kf5 Re5+ Kxf6 Re6+ Kg5 Rxh6 Kxh6 Ke6 Kg5 Ke5 Kg4 Kxe4 1/2-1/2
+
+[Site "https://lichess.org/ZUmyS6Ig"]
+[Date "2026.08.01"]
+[White "Rus_KZ-85"]
+[Black "Faheem_Abrisam_Liami"]
+[Result "1-0"]
+[WhiteElo "1924"]
+[BlackElo "1912"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+d4 e6 Bd2 d5 Bc3 Nf6 Nd2 Be7 e3 O-O Be2 c5 dxc5 Bxc5 Ngf3 Nc6 O-O Ne4 Nxe4 dxe4 Nd2 f5 Bc4 Qf6 Bxf6 Rxf6 Qe2 Bd7 Nb3 Rg6 Nxc5 Ne5 Nxd7 Nxd7 Rad1 Ne5 Bb3 Rf8 Qb5 Nf3+ Kh1 Nh4 Rg1 h5 Qd7 Rff6 Qxb7 Kh7 Qxa7 e5 Qb8 Kh6 Qh8+ Kg5 Rd8 f4 exf4+ exf4 Rd5+ Nf5 Ba4 h4 Bd7 Rh6 Qd8 e3 fxe3 Kg6 Qe8+ Kh7 Bxf5+ 1-0
+
+[Site "https://lichess.org/3EXv5p8a"]
+[Date "2026.08.01"]
+[White "preza1"]
+[Black "BalikoevSD1"]
+[Result "0-1"]
+[WhiteElo "1969"]
+[BlackElo "2003"]
+[ECO "C26"]
+[Opening "Vienna Game: Mengarini Variation"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+e4 e5 a3 Nf6 Nc3 c6 Bc4?! d5 exd5 cxd5 Ba2 Nc6 d3 h6 h3 Be6 Nf3?! Bd6 O-O O-O Nh2 Qc7? Nb5 Qd7 Nxd6 Qxd6 f4 e4 f5 Bd7 Ng4 Nxg4 Qxg4 exd3?! cxd3 Ne5?! Qg3 Qf6 Bf4 Rfe8 Rae1 Nc6 Bxd5 Qd4+?! Kh1? Qxd5 Bxh6 Qd4 Rf4?? Rxe1+ Qxe1 Qxb2?? Qg3?? Kh7?? Bg5?? f6?? Rh4+?? Kg8 Be3 Qb1+? Kh2 Qxd3? Qg6?? Qxf5 Rg4 Qxg6 Rxg6 Kf7 Rg3 Re8 Bf2 Re2 Rf3 Ne5 Rf4 g5 Rb4 Rxf2 Rxb7 a5 Kg3 Ra2 Rb3 a4 Rc3 Bc6 h4?! Rxg2+ Kh3 g4# 0-1
+
+[Site "https://lichess.org/UUl9qIh5"]
+[Date "2026.08.01"]
+[White "forksforbreakfast"]
+[Black "kiyanm007"]
+[Result "0-1"]
+[WhiteElo "2128"]
+[BlackElo "2071"]
+[ECO "C21"]
+[Opening "Danish Gambit Declined: Sörensen Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 d4 exd4 c3 d5 cxd4 dxe4 Nc3 c5 Bb5+ Bd7 Bxd7+ Qxd7 Nxe4 cxd4 Nf3 Nc6 O-O Be7 Re1 O-O-O Bf4 Nf6 Rc1 b6 Qd3 Kb7 a3 Nd5 Bg3 f5 Nd6+ Bxd6 Bxd6 Qxd6 b4 Rhe8 b5 Ne5 Nxe5 Rxe5 Rxe5 Qxe5 h3 Nc3 Rxc3 Qe1+ Kh2 Qxc3 Qxf5 Qc8 Qf7+ Qc7+ Qxc7+ Kxc7 f4 d3 Kg3 d2 Kf2 d1=Q g4 Qd3 Kg2 Re8 f5 Re2+ Kg1 Qd1# 0-1
+
+[Site "https://lichess.org/ttGql4Jp"]
+[Date "2026.08.01"]
+[White "AflacDuck"]
+[Black "jogo_rogo"]
+[Result "1-0"]
+[WhiteElo "2119"]
+[BlackElo "2061"]
+[ECO "B00"]
+[Opening "Borg Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 g5 d4 d5 e5 g4 c3 h5 h3 Nc6 hxg4 Bxg4 Be2 Nh6 Bxh6 Bxh6 Bxg4 hxg4 Kf1 Qd7 Ne2 O-O-O Ng3 Bf4 Rxh8 Rxh8 Kg1 Bxg3 fxg3 Qf5 Qe2 Na5 Nd2 f6 Rf1 Qh5 b4 Nc6 exf6 exf6 Qe6+ Kb8 Qxf6 a6 Qf5 Qh6 Qf4 Qh5 Nb3 Ne7 Nc5 Ng6 Qf5 Qh2+ Kf2 Rf8 Nd7+ Ka7 Nxf8 Ne7 Qxg4 Qh6 Ne6 Qf6+ Nf4 Nc8 Re1 Nd6 Qe6 Qg5 Re5 Qg7 Qxd5 1-0
+
+[Site "https://lichess.org/mXprlvMp"]
+[Date "2026.08.01"]
+[White "Geraortega"]
+[Black "DruCasper"]
+[Result "1/2-1/2"]
+[WhiteElo "1928"]
+[BlackElo "1976"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense: Tartakower Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 Nc3 dxe4 Nxe4 Nf6 Nxf6+ exf6 c3 Bd6 Bd3 O-O Ne2 Bg4 O-O Re8 h3 Bh5 Qc2 Bg6 Bxg6 hxg6 h4 Nd7 Be3 Bc7 Nf4 Nf8 h5 g5 Nd3 Qd6 g3 Rxe3 fxe3 Qxg3+ Qg2 Qxe3+ Nf2 Re8 Rad1 Ne6 Rd3 Qe2 Qf3 Qxb2 Re3 Qxa2 h6 gxh6 Qxf6 Ng7 Rxe8+ Nxe8 Qxh6 Bf4 Qh3 Nf6 Qg2 Nh5 Nh3 Qxg2+ Kxg2 f6 Nxf4 Nxf4+ Kf3 a5 Rb1 b5 Ke4 a4 Kf5 Kf7 Ke4 Ke6 Rb2 Kd6 Kf5 Nd5 Rc2 a3 Ke4 Nf4 Ra2 c5 dxc5+ Kxc5 Rxa3 Kc4 Kf5 b4 cxb4 Kxb4 Ra6 Nd5 Rd6 Kc5 Rd8 Ne3+ Kxf6 g4 Rg8 Kd4 Rg5 Ke4 Rg8 Kf3 Ke5 g3 Rxg3+ Kxg3 1/2-1/2
+
+[Site "https://lichess.org/slHnZNth"]
+[Date "2026.08.01"]
+[White "VENADORECARGADO"]
+[Black "Morad-Magdy"]
+[Result "1-0"]
+[WhiteElo "2293"]
+[BlackElo "2324"]
+[ECO "C02"]
+[Opening "French Defense: Advance Variation, Paulsen Attack"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 e6 c3 d5 e5 Nc6 d4 Nge7 Bd3 cxd4 cxd4 Nf5 Be3 Qb6 Bxf5 Qxb2 Nbd2 exf5 O-O Be7 a4 O-O a5 Qb5 Qc2 Be6 Rfb1 Qa6 Nb3 Rac8 Qb2 Nb4 Nc5 Bxc5 dxc5 Nd3 Qxb7 Rc6 Qe7 h6 h4 f4 Bd4 Bg4 Nh2 Bf5 Rb7 Rg6 Kh1 Qc4 Nf3 Be4 e6 Bxf3 exf7+ Kh7 Qxf8 Bxg2+ Kh2 Qxd4 Qh8+ Kxh8 f8=Q+ Kh7 h5 f3 hxg6+ Kxg6 Qf7+ Kh7 Qf5+ Kg8 Rb8# 1-0
+
+[Site "https://lichess.org/xqiobESO"]
+[Date "2026.08.01"]
+[White "Osvaldomsm"]
+[Black "vsrb2006"]
+[Result "1-0"]
+[WhiteElo "2027"]
+[BlackElo "2048"]
+[ECO "B18"]
+[Opening "Caro-Kann Defense: Classical Variation"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 Nc3 dxe4 Nxe4 Bf5 Ng3 Bg6 Nf3 e6 h4 h5 Bd3 Bxd3 Qxd3 Bd6 Ne4 Bc7 Bg5 Ne7 O-O-O f6 Nxf6+ gxf6 Bxf6 Rf8 Bg5 Bf4+ Kb1 Nd7 Rhe1 Bxg5 Nxg5 Rxf2 Nxe6 Qb6 Qh7 Nf6 Qh8+ Neg8 Nc7+ Kd8 Nxa8 Qb5 Qg7 Qa5 Qxb7 Nd7 Qxc6 Ngf6 Re6 Ng4 Rde1 Nge5 Qe4 Qa4 Rxe5 Nxe5 b3 Qc6 dxe5 Qxe4 Rxe4 Rxg2 e6 Ke7 Nc7 Rg4 Nd5+ Kd6 Rxg4 hxg4 Nf4 g3 h5 g2 Nxg2 Kxe6 Nf4+ Kf5 c4 a5 c5 Kxf4 h6 a4 h7 a3 h8=Q Ke4 c6 Kd5 c7 Kc5 c8=Q+ Kb5 Qf5+ 1-0
+
+[Site "https://lichess.org/UfeQDkfN"]
+[Date "2026.08.01"]
+[White "prharsh"]
+[Black "Aashu-Chess"]
+[Result "0-1"]
+[WhiteElo "1979"]
+[BlackElo "1981"]
+[ECO "C54"]
+[Opening "Italian Game: Classical Variation, Giuoco Pianissimo"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 Bc4 Bc5 O-O d6 d3 h6 c3 Nf6 Nbd2 Qe7 Re1 Be6 Bb5 Bd7?! Nf1?! a6 Ba4 O-O Ng3 Rfe8 Bd2 Na5?? Bxd7 Qxd7 b4 Bxf2+ Kxf2 Nc6 Kg1 d5 exd5 Nxd5 Qb3 Nf4 d4 e4 Nxe4 Qg4 Ng3 Nh3+ Kf1 Nf4 Bxf4 Qxf4 Qc2 Red8 Qd2 Qf6 Kg1 Rd5 Ne4 Qf5 Nc5 b6 Nd3 Rad8 Qf4?? Qxd3 Re3 Qg6?! Qxc7 b5 Rf1 R8d7 Qc8+ Kh7?! Qxa6? Ra7 Qb6?! Rxa2 Qc7?? Qxg2# 0-1
+
+[Site "https://lichess.org/2OLjnfWY"]
+[Date "2026.08.01"]
+[White "harrathi-ramzi"]
+[Black "Gmbelal1"]
+[Result "1/2-1/2"]
+[WhiteElo "1965"]
+[BlackElo "2092"]
+[ECO "A13"]
+[Opening "English Opening: Agincourt Defense"]
+[TimeControl "120+1"]
+[Termination "Normal"]
+
+c4 e6 Nc3 d5 cxd5 exd5 d4 c6 Bf4 Bd6 Bxd6 Qxd6 e3 Bf5 Nf3 h6 Bd3 Bxd3 Qxd3 Nf6 O-O O-O Rab1 a5 a3 Nbd7 b4 axb4 axb4 b6 Rfc1 c5 bxc5 bxc5 dxc5 Nxc5 Qd4 Nfe4 Qxd5 Qxd5 Nxd5 Nd3 Rc2 Rfb8 Rxb8+ Rxb8 h3 Rb1+ Kh2 Rf1 Nf4 Nxf4 exf4 Rxf2 Rxf2 Nxf2 g4 Nd3 Kg3 Kh7 Nd4 Nc5 h4 Nd7 Kf3 Kg6 Nf5 Kh7 Ne7 g6 g5 Kg7 f5 hxg5 hxg5 f6 gxf6+ Kxf6 fxg6 Ne5+ Kf4 Nxg6+ Nxg6 1/2-1/2
+
+[Site "https://lichess.org/uzMMeXXr"]
+[Date "2026.08.01"]
+[White "lchipl"]
+[Black "themira"]
+[Result "0-1"]
+[WhiteElo "1998"]
+[BlackElo "1941"]
+[ECO "C00"]
+[Opening "French Defense: Steiner Variation"]
+[TimeControl "600+5"]
+[Termination "Normal"]
+
+e4 e6 c4 c5 Nc3 Nc6 Nf3 g6 d4 cxd4 Nxd4 Bg7 Be3 Nge7 Qd2 O-O Ndb5 d5 cxd5 exd5 exd5 Nb4 d6 Nf5 Nc7 Nxe3 fxe3 Bf5 e4 Re8 Nxe8 Qxe8 Bd3 Bxc3 bxc3 Nxd3+ Qxd3 Bxe4 Qe3 Qa4 O-O Rd8 Rad1 Qc6 Rd4 Bxg2 Qe7 Rd7 Qe8+ Kg7 Rxf7+ Rxf7 Qxc6 Bxc6 c4 b6 Rd3 Rd7 Kf2 Kf6 Ke3 Ke6 Ra3 Kxd6 Kf4 Kc5 Rc3 Rd4+ Kg5 Be4 Kh6 Rd7 h4 Bd3 Rxd3 Rxd3 Kxh7 Rd6 0-1
+
+[Site "https://lichess.org/3Lmy2woh"]
+[Date "2026.08.01"]
+[White "jfjc"]
+[Black "pillazo"]
+[Result "1-0"]
+[WhiteElo "1949"]
+[BlackElo "1912"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Modern Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 d5 exd5 Nf6 d4 Qxd5 Nf3 Bg4 Be3 Nc6 c3 O-O-O Be2 Kb8 h3 Bh5 O-O e5 dxe5 Qe4 Qb3 Nxe5 Nxe5 Qxe5 Bxh5 Qxh5 Nd2 Bd6 Nc4 Nd5 Nxd6 Rxd6 c4 Nxe3 Qxe3 f5 Rad1 Rg6 Rd5 b6 Rfd1 Qh4 Rd8+ Rxd8 Rxd8+ Kb7 Qf3+ Ka6 Rd3 Qxc4 Ra3+ Kb5 Rb3+ Ka6 Ra3+ Kb5 Qxf5+ Qc5 Rb3+ Ka6 Qc8+ Ka5 Ra3+ Kb5 Qa6+ Kc6 Rc3 1-0
+
+[Site "https://lichess.org/F2RRsfLY"]
+[Date "2026.08.01"]
+[White "jozarov"]
+[Black "kichot"]
+[Result "0-1"]
+[WhiteElo "2410"]
+[BlackElo "2513"]
+[ECO "D37"]
+[Opening "Queen's Gambit Declined: Harrwitz Attack, Two Knights Defense, Blockade Line"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 Nf6 Nf3 d5 c4 e6 Nc3 Be7 Bf4 O-O e3 Nbd7 c5 c6 Bd3 b6 b4 a5 a3 Ba6 Bxa6 Rxa6 b5 cxb5 c6 b4 Nb5 bxa3 cxd7 Bb4+ Ke2 Qxd7 Qa4 Ne4 Rhc1 f6 Rc7 Qe8 Rac1 Ra8 Ne1 g5 Bg3 Nd2 Nc3 Nc4 Qxe8 Rfxe8 Nb5 Rec8 Nd3 Rxc7 Bxc7 Kf7 Ra1 Ke7 Kd1 Kd7 Kc2 Kc6 Nxb4+ axb4 0-1
+
+[Site "https://lichess.org/T0mmiSOb"]
+[Date "2026.08.01"]
+[White "styx_reckless"]
+[Black "ChessTransformerBot"]
+[Result "1-0"]
+[WhiteElo "3030"]
+[BlackElo "2517"]
+[ECO "C50"]
+[Opening "Italian Game: Giuoco Pianissimo, Normal"]
+[TimeControl "60+1"]
+[Termination "Normal"]
+
+e4 e5 Nf3 Nc6 Bc4 Nf6 d3 Bc5 O-O d6 c3 a5 Re1 O-O Nbd2 Ng4 Re2 Kh8 h3 f5 d4 exd4 hxg4 fxg4 Nxd4 Ne5 Qe1 Qh4 f4 g3 Nf3 Nxf3+ gxf3 Bh3 Be3 c6 f5 d5 Bd3 Rae8 Qd2 h6 Ne6 Bd6 Nxf8 Rxf8 e5 Bxe5 Bc5 Bf4 Be7 Rf6 Bxf6 gxf6 Rae1 Be5 f4 Bd6 Re8+ Kg7 R1e7+ Bxe7 Rxe7+ Kf8 Qe1 Qh5 Rxb7 Qe8 Qxg3 Bg4 Qxg4 Qe1+ Kg2 Qd2+ Be2 Qe3 Qg7+ Ke8 Rb8# 1-0
+
+[Site "https://lichess.org/Jly01tTU"]
+[Date "2026.08.01"]
+[White "Cristopher_Sonido13"]
+[Black "diazriverajesus"]
+[Result "1-0"]
+[WhiteElo "1934"]
+[BlackElo "1901"]
+[ECO "C25"]
+[Opening "Vienna Gambit, with Max Lange Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 Nc3 Nc6 f4 Bb4 Nf3 Bxc3 bxc3 Qe7 d4 exd4 Bd3 Nf6 cxd4 O-O Qe2 d5 exd5 Qb4+ Bd2 Qb2 O-O Re8 dxc6 Rxe2 cxb7 Bxb7 Rab1 Qxa2 Rxb7 Qd5 Rxc7 Ng4 Bxe2 Rf8 h3 Nf6 Rxa7 Ne4 Be3 Nc3 Bd3 Nb5 Ra5 Rb8 c4 Qd6 cxb5 Qb4 Rfa1 Qb2 Ra8 g6 Rxb8+ Kg7 d5 Qxa1+ Kh2 Qa7 Bd4+ Qxd4 Nxd4 f5 d6 Kf6 d7 Ke7 d8=Q+ Kf7 Qf8# 1-0
+
+[Site "https://lichess.org/9Ttkikcl"]
+[Date "2026.08.01"]
+[White "LOMR"]
+[Black "IgorSL"]
+[Result "1-0"]
+[WhiteElo "2223"]
+[BlackElo "2170"]
+[ECO "B02"]
+[Opening "Alekhine Defense: Maróczy Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d3 Nf6 e4 g6 Nc3 Bg7 Be2 O-O h4 h5 f3 d6 g4 Nc6 gxh5 Nxh5 f4 Ng3 Rh2 Nxe2 Ncxe2 Bg4 Be3 Bd4 Qd2 Bxe3 Qxe3 Bh5 Nf3 f6 O-O-O Qd7 Rg1 Kf7 f5 Rg8 fxg6+ Rxg6 Rxg6 Kxg6 Nf4+ Kf7 Nxh5 Rg8 Qh6 Qg4 Rf2 Qg6 Qxg6+ Rxg6 Nf4 Rg4 Ne2 Ne5 Nxe5+ dxe5 Rh2 Rg1+ Nxg1 Ke6 Rg2 1-0
+
+[Site "https://lichess.org/Hc9E8GQi"]
+[Date "2026.08.01"]
+[White "Baixuan"]
+[Black "Beneludebo"]
+[Result "0-1"]
+[WhiteElo "2450"]
+[BlackElo "2538"]
+[ECO "A80"]
+[Opening "Queen's Pawn Game: Veresov Attack, Dutch System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 f5 Nc3 d5 Nf3 Nf6 Bf4 e6 e3 Bb4 Bd3 O-O Ne5 Ne4 Bxe4 fxe4 O-O Nd7 Nxd7 Bxd7 f3 exf3 Qxf3 Bxc3 bxc3 Bb5 Qg3 Bxf1 Rxf1 c6 h3 Qd7 Kh2 Rf7 Rf3 Raf8 Be5 Rxf3 gxf3 Qf7 f4 Qg6 Qxg6 hxg6 Kg3 Rf5 Kg4 Kf7 h4 b6 a4 c5 Kg3 cxd4 cxd4 Rh5 Kg4 Rh8 Kg5 Rc8 0-1
+
+[Site "https://lichess.org/fx1HWJ2B"]
+[Date "2026.08.01"]
+[White "OrthodoxParadox"]
+[Black "Egg_0"]
+[Result "1-0"]
+[WhiteElo "2344"]
+[BlackElo "2314"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 e5 Bb2 Nc6 e3 d6 Bb5 Bd7 Nf3 g6 O-O Bg7 d4 e4 Nfd2 d5 c4 dxc4 bxc4 f5 Qc2 Nge7 Bxc6 Nxc6 d5 Bxb2 Qxb2 O-O dxc6 Bxc6 Nb3 b6 Nc3 Qf6 Rab1 Rad8 Ne2 Qf7 Nbd4 Bb7 Rfd1 Rfe8 Qb3 c5 Nb5 Ra8 Nd6 Qe6 Nxb7 Re7 Nd6 Rd7 Nb5 Re7 g3 h6 Nf4 a6 Nxe6 Rxe6 Nc3 1-0
+
+[Site "https://lichess.org/hhu0p7Uk"]
+[Date "2026.08.01"]
+[White "Marshian_Gambit"]
+[Black "City_boy67"]
+[Result "1-0"]
+[WhiteElo "2283"]
+[BlackElo "2789"]
+[ECO "A45"]
+[Opening "Indian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 c3 e6 e3 b6 Nf3 Bb7 Be2 c5 O-O cxd4 cxd4 Be7 Nc3 O-O b3 d6 Bb2 Nbd7 Rc1 Ne4 Nxe4 Bxe4 Bd3 Bb7 Qc2 Nf6 Nd2 Rc8 Qb1 Qd7 Ne4 d5 Nxf6+ Bxf6 Bxh7+ Kh8 Bd3 g6 h3 Kg7 Rxc8 Rxc8 Rc1 Rd8 a4 Be7 Bb5 Bd6 Bxd7 Rxd7 Qa1 a5 Ba3 Bb8 Qc3 Kg8 b4 axb4 Bxb4 Kg7 a5 bxa5 Bxa5 Bd6 Bb4 Bb8 Qb3 Ba6 Qa4 Ra7 Ra1 Bc4 Qxa7 Bxa7 Rxa7 Kf6 g4 Kg7 Bd6 g5 Be5+ Kg6 Ra8 f6 Bd6 Kf7 Ra7+ Kg6 Re7 e5 dxe5 fxe5 Bxe5 Bd3 Rg7+ Kh6 Rd7 Be4 Rd6+ Kh7 f4 d4 Bxd4 gxf4 exf4 Bf3 f5 Be4 Kf2 Bd3 Ke3 Bb1 Kf4 Bxf5 Kxf5 Kg8 Kf6 Kf8 Rd8# 1-0
+
+[Site "https://lichess.org/uHKNVssf"]
+[Date "2026.08.01"]
+[White "SiegfriedGG"]
+[Black "AtomicApple"]
+[Result "1-0"]
+[WhiteElo "2442"]
+[BlackElo "2520"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Indian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 Nf6 Bb2 e6 Nf3 d5 e3 Be7 Be2 O-O O-O b6 d4 Bb7 Nbd2 Nbd7 Rc1 Ne4 c4 c6 Qc2 Ndf6 Rfd1 Rc8 Qb1 c5 dxc5 bxc5 cxd5 exd5 h3 Qb6 Qa1 Rfd8 Nxe4 dxe4 Ne5 Ba6 Nc4 Bxc4 Bxc4 Rxd1+ Rxd1 Rd8 Rxd8+ Qxd8 Qb1 Qd2 Bxf6 Bxf6 Qxe4 g6 Qe8+ Kg7 Bxf7 Kh6 f4 Qe1+ Kh2 Bd4 Qf8+ Bg7 Qxc5 Qf2 Qg5# 1-0
+
+[Site "https://lichess.org/VNDuyTZ7"]
+[Date "2026.08.01"]
+[White "czechmate21"]
+[Black "Jadon9"]
+[Result "1/2-1/2"]
+[WhiteElo "1954"]
+[BlackElo "2014"]
+[ECO "C30"]
+[Opening "King's Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 e5 f4 d6 Nf3 Nc6 Bc4 Bg4 Nc3 Nf6 d3 Be7 Ne2 Qd7 Ng3 Nd4 c3 Nxf3+ gxf3 Be6 Qe2 Bxc4 dxc4 O-O-O Be3 a6 Nf5 g6 Nxe7+ Qxe7 O-O-O Rhe8 fxe5 dxe5 h4 Rxd1+ Rxd1 Nh5 Bg5 f6 Be3 Rd8 Qf1 Ng3 Qe1 f5 Rxd8+ Kxd8 Qxg3 f4 Bxf4 exf4 Qxf4 Kd7 Qd2+ Kc8 Qd5 Qxh4 Kc2 Qf2+ Kb3 Qxf3 e5 Qf8 Qe6+ Kd8 a3 Qe7 Qd5+ Qd7 Qg8+ Qe8 Qxh7 Qxe5 Qxg6 Qd6 Qg8+ Kd7 Qd5 Qxd5 cxd5 Kd6 c4 c6 Kc3 cxd5 cxd5 Kxd5 b4 Kc6 Kb3 b5 a4 Kb6 a5+ Kc6 Kc3 Kd6 Kd4 Kc6 Ke5 Kc7 Kd5 Kb7 Kc5 Kc7 Kd5 Kb7 Kc5 Kc7 Kd5 1/2-1/2
+
+[Site "https://lichess.org/QeaXiKJD"]
+[Date "2026.08.01"]
+[White "klimqva"]
+[Black "badatchess121"]
+[Result "0-1"]
+[WhiteElo "2290"]
+[BlackElo "2874"]
+[ECO "A07"]
+[Opening "King's Indian Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 d5 g3 e6 Bg2 b6 O-O Bb7 d4 Nd7 c4 dxc4 Nc3 Ngf6 e3 a6 Qc2 b5 a4 b4 Ne2 c5 Qxc4 Rc8 Qd3 c4 Qc2 Be4 Qd1 c3 bxc3 bxc3 Qb3 Qa5 Ba3 Bxa3 Rxa3 c2 Rc1 O-O Ne5 Rb8 Qc3 Qxc3 Rxc3 Nxe5 Bxe4 Nxe4 R3xc2 Ng6 Rc6 a5 Kg2 Rb4 R1c2 Rxa4 Ra6 h5 f3 Nf6 Nf4 Nxf4+ gxf4 Nd5 Kf2 Ra3 e4 Nxf4 Rc5 g6 Rcxa5 Rxa5 Rxa5 Kg7 Ke3 Ng2+ Kf2 Nh4 Ke3 f6 f4 g5 Ra7+ Kg6 Ra6 Re8 Rb6 g4 Kf2 Kf7 Kg3 Ng6 h3 f5 e5 Re7 Rb8 h4+ Kg2 g3 Rb2 Kg7 Rc2 Rd7 Rd2 Ne7 Kf3 Nd5 Rg2 Kf7 Ra2 Rc7 Ra6 Rc3+ Ke2 Nxf4+ Kd2 Rd3+ Kc2 g2 d5 g1=Q Ra7+ Kg6 dxe6 Qf2+ Kb1 Rd1# 0-1
+
+[Site "https://lichess.org/KIaXGMv0"]
+[Date "2026.08.01"]
+[White "saviour793"]
+[Black "honey0x"]
+[Result "1-0"]
+[WhiteElo "2111"]
+[BlackElo "2072"]
+[ECO "A40"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 a6 c4 h6 Nf3 e6 Nc3 d6 e4 c6 Be3 Ne7 Be2 g6 O-O Bg7 e5 d5 cxd5 cxd5 Bd3 b5 Qc2 b4 Ne2 a5 Bxg6 fxg6 Nf4 g5 Ng6 Nxg6 Qxg6+ Kf8 Rac1 Nd7 Rc6 Kg8 Rxe6 Nf8 Re8 Qd7 Rxf8+ Kxf8 Rc1 Kg8 Rc6 Rh7 Rd6 Qe7 h4 g4 Ng5 hxg5 Bxg5 Qf7 Rd8+ Qf8 Rxf8+ Kxf8 Qd6+ Kg8 Qd8+ Kf7 Qe7+ Kg6 e6 Bh6 Qe8+ Kg7 Qf7+ Kh8 Bf6+ Bg7 Qf8# 1-0
+
+[Site "https://lichess.org/wnGWhC9z"]
+[Date "2026.08.01"]
+[White "GabeAngel777"]
+[Black "onkc"]
+[Result "1-0"]
+[WhiteElo "1935"]
+[BlackElo "1957"]
+[ECO "B23"]
+[Opening "Sicilian Defense: Closed, Traditional"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c5 Nc3 Nc6 d3 g6 Be2 Bg7 f4 e6 Nf3 Nge7 O-O O-O g3 d5 g4 dxe4 Nxe4 b6 f5 exf5 gxf5 Bxf5 Ng3 Be6 Be3 Bxb2 Rc1 Bg7 Rb1 Nd4 Bxd4 Bxd4+ Kg2 Bd5 c4 Bc6 Ne4 Bg7 Ned2 f5 Kf2 Qd6 Rg1 Rad8 Qc2 h6 Rbd1 Bxf3 Nxf3 Bf6 h4 Bxh4+ Nxh4 Qh2+ Ng2 Nc6 Bf3 Nd4 Qd2 Rfe8 Rde1 Nxf3 Rxe8+ Rxe8 Kxf3 Qh3+ Kf2 f4 Re1 Qg3+ Kf1 Rxe1+ Qxe1 f3 Qxg3 fxg2+ Qxg2 1-0
+
+[Site "https://lichess.org/FsKNMm05"]
+[Date "2026.08.01"]
+[White "BossLevel20"]
+[Black "Jututunska_juhahaha"]
+[Result "0-1"]
+[WhiteElo "3086"]
+[BlackElo "2895"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Modern Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 e5 e3 Nc6 Bb2 Bd6 Ne2 Nf6 Nbc3 O-O g3 Re8 Bg2 Bf8 d4 e4 h3 d5 g4 h6 Ng3 Bd6 a3 Ne7 Nb5 Bxg3 fxg3 c6 Nc3 Qd6 Ne2 Nh7 Nf4 f5 c4 Ng5 h4 Nf3+ Bxf3 exf3 g5 Ng6 Qxf3 Nxf4 gxf4 Be6 c5 Qe7 gxh6 Bf7 Rf1 Qxe3+ Qxe3 Rxe3+ Kf2 Rae8 Rae1 R3e4 Rxe4 Rxe4 Kf3 Bh5+ Kg3 Re3+ Kg2 gxh6 Bc1 Rxb3 Re1 Kf7 Bd2 Bf3+ Kf2 Be4 Bb4 Rf3+ Ke2 Rxf4 Rg1 Rg4 Ba5 Rxg1 Ke3 Rg2 Kf4 Kf6 Bd8+ Ke6 h5 Rg4+ Ke3 f4+ Kf2 Kf5 Bc7 Rg2+ Kf1 f3 Ke1 Kg4 Kf1 Bd3+ Ke1 f2+ Kd2 f1=Q+ Kc3 Rc2+ Kb4 Qb1+ Ka5 Qb5# 0-1
+
+[Site "https://lichess.org/hP6wtiM6"]
+[Date "2026.08.01"]
+[White "NewPixel2021"]
+[Black "Emad4Fun"]
+[Result "1-0"]
+[WhiteElo "2428"]
+[BlackElo "2377"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c6 Nc3 d5 e4 Nd7 e5 Nb6 f4 e6 Nf3 g6 Bd3 Bg7 Ne2 Ne7 c3 Bd7 g4 Rc8 b4 h5 gxh5 Rh6 hxg6 Rxg6 Bxg6 Nxg6 h4 Bh6 h5 Ne7 Qd3 Nf5 Rg1 Nc4 Rg8+ Bf8 Ng3 Nxg3 Rxg3 a5 a3 b6 Rg8 c5 Qh7 axb4 Ng5 Qe7 axb4 cxb4 Ra7 bxc3 Qh8 Rd8 h6 Nd2 h7 Ne4 Rxf8+ Qxf8 Qxf8+ Kxf8 h8=Q+ Ke7 Nxe4 Rxh8 Nf6 Rh1+ Ke2 Rxc1 Rxd7+ Kf8 Rd8+ Kg7 Rg8+ Kh6 Kd3 Rf1 Kxc3 Rxf4 Rg3 Rxf6 exf6 b5 Rg7 b4+ Kxb4 Kh5 Kc5 Kh4 Kd6 Kh5 Ke7 Kh4 Kxf7 Kh5 Kxe6 Kh4 Kxd5 Kh3 Ke6 Kh2 f7 Kh3 f8=Q Kh2 Qh8# 1-0
+
+[Site "https://lichess.org/vnt1ajtb"]
+[Date "2026.08.01"]
+[White "WhyDoILoseAgain"]
+[Black "Chessinbrt"]
+[Result "0-1"]
+[WhiteElo "1984"]
+[BlackElo "1957"]
+[ECO "A10"]
+[Opening "English Opening: Great Snake Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 g6 Nc3 Bg7 d4 Nf6 Bf4 d6 e4 O-O Nf3 b6 Be2 Bb7 d5 Nbd7 O-O Re8 h3 e5 Bh2 Nc5 Qc2 c6 Rad1 Rc8 Rd2 cxd5 Nxd5 Nfxe4 Rdd1 Nf6 b4 Nxd5 cxd5 Nd7 Qb3 Nf6 a4 e4 Nd4 Bxd5 Qb2 Bc4 Bxc4 Rxc4 Qe2 d5 b5 Qc8 Nc6 a6 Qa2 axb5 axb5 Qb7 Rb1 Ra8 Qb3 Raa4 Rfc1 Nd7 Rxc4 Rxc4 Rc1 Rxc1+ Qd1 Rxd1# 0-1
+
+[Site "https://lichess.org/wdyF7j5m"]
+[Date "2026.08.01"]
+[White "DangerKaspa"]
+[Black "pawn566"]
+[Result "0-1"]
+[WhiteElo "2063"]
+[BlackElo "2056"]
+[ECO "E70"]
+[Opening "King's Indian Defense: Normal Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 g6 Nc3 Bg7 d4 Nf6 e4 O-O e5 Ne8 f4 d6 Nf3 dxe5 fxe5 c5 d5 Bg4 Be2 Qc7 O-O Nd7 Nb5 Qb6 Be3 Bxf3 Bxf3 Nxe5 Be4 Nxc4 Nc3 Nxe3 Qf3 Nxf1 Rxf1 Qxb2 Na4 Qxa2 Nxc5 Nd6 Nd7 Nxe4 Nxf8 Rxf8 Qxe4 Bf6 Rxf6 exf6 h3 Rd8 Qe7 Qxd5 Qxf6 Qd4+ Qxd4 Rxd4 Kf2 Rd2+ Ke3 Rxg2 0-1
+
+[Site "https://lichess.org/YvDodXzw"]
+[Date "2026.08.01"]
+[White "Pongan_la_Tusa12"]
+[Black "barnsley6969"]
+[Result "0-1"]
+[WhiteElo "2311"]
+[BlackElo "2345"]
+[ECO "A90"]
+[Opening "Dutch Defense: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 f5 Bg2 Nf6 Nf3 e6 d4 d5 c4 c6 Nc3 Bd6 O-O Nbd7 Re1 O-O b3 Ne4 Bb2 Qf6 e3 g5 Ne5 Nxe5 dxe5 Bxe5 Nxe4 fxe4 Bxe5 Qxe5 cxd5 exd5 Qd4 Qf5 Re2 g4 Rd2 Qh5 b4 Be6 b5 Rf7 bxc6 bxc6 Rc1 Bd7 Rb1 Re8 Rdb2 Qf5 Qd2 Ref8 Rb8 Qxf2+ Qxf2 Rxf2 R8b7 Be6 Rxa7 Re2 Rbb7 Bf5 Rg7+ Kh8 a4 Bg6 a5 Re1+ Bf1 Rexf1+ Kg2 R8f2# 0-1
+
+[Site "https://lichess.org/Auvrmft3"]
+[Date "2026.08.01"]
+[White "vangranman"]
+[Black "FOU-36"]
+[Result "0-1"]
+[WhiteElo "2081"]
+[BlackElo "2050"]
+[ECO "C35"]
+[Opening "King's Gambit Accepted: Cunningham Defense"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+e4 e5 f4 exf4 Nf3 Be7 Bc4 d5 exd5 Bh4+ Kf1 Bg4 Qe2+ Ne7 d6 cxd6 Qe4 d5 Qxf4 f5 Bb5+ Nbc6 Ne5 O-O c3 Qb6 Bxc6 Nxc6 d4 Nxe5 Qxe5 Rae8 Qxd5+ Kh8 g3 Bh3+ Kf2 Bg5 Bxg5 Qxb2+ Nd2 f4 Rhd1 fxg3+ Kxg3 Be6 Qa5 Qc2 Rf1 Qg6 Rxf8+ Rxf8 Qc5 Rf5 h4 Rxc5 dxc5 h6 Re1 hxg5 Nf3 gxh4+ Kf2 Qg3+ Ke3 Bg4 Rf1 h3 Ke4 Bxf3+ Rxf3 Qg2 Kf4 g5+ 0-1
+
+[Site "https://lichess.org/raJIwyCf"]
+[Date "2026.08.01"]
+[White "zorenous"]
+[Black "Egs3006"]
+[Result "1/2-1/2"]
+[WhiteElo "1949"]
+[BlackElo "1926"]
+[ECO "B21"]
+[Opening "Sicilian Defense: McDonnell Attack"]
+[TimeControl "300+0"]
+[Termination "Normal"]
+
+e4 c5 f4 d6 Nf3 Nf6 Nc3 e6 d4 Be7 dxc5 dxc5 Qxd8+ Bxd8 Be3 b6 O-O-O O-O h3 Bb7 e5 Ne4 Nxe4 Bxe4 Bd3 Bxf3 gxf3 Nc6 Be4 Rc8 Rd7 a5 Rhd1 Bh4 Rb7 Nb4 a3 Nd5 Bxd5 exd5 Rxd5 Rb8 Rdd7 h6 e6 Bf6 b4 axb4 axb4 cxb4 Bxb6 Rxb7 Rxb7 fxe6 Bc5 Rf7 Rb8+ Kh7 Bxb4 e5 fxe5 Bxe5 Re8 Bg3 Kb2 Rxf3 Bc3 Rf7 Kb3 g5 Rh8+ Kg6 Bd2 Kh5 c4 Be5 Re8 Rf3+ Ka4 Bh2 h4 Kxh4 Re6 h5 Rg6 Bf4 Bxf4 Rxf4 Kb5 g4 c5 Rf1 c6 Rc1 Kb6 g3 c7 Rxc7 Kxc7 Kh3 Kd6 g2 Ke5 Kh2 Kf4 h4 Kf3 g1=Q Rxg1 Kxg1 Kg4 Kh2 Kxh4 1/2-1/2
+
+[Site "https://lichess.org/jQ2SWn3E"]
+[Date "2026.08.01"]
+[White "Marian87"]
+[Black "toromechanic"]
+[Result "1-0"]
+[WhiteElo "2618"]
+[BlackElo "2493"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c3 Nf6 Bf4 c5 e3 Qb6 Qb3 c4 Qc2 Nc6 Nd2 Bf5 Qxf5 Qxb2 Rb1 Qxc3 Ne2 Qa5 Rxb7 e6 Qb1 Ne4 Qc1 Bb4 Rxb4 Nxb4 Nc3 Nxd2 Qxd2 O-O Be2 f6 O-O Rae8 Bd6 Rf7 Rb1 Nc6 Qb2 Rd7 Bc5 e5 Bf3 e4 Bg4 Rdd8 Qb5 Qxc3 Qxc6 Qc2 Rf1 Qxa2 Be6+ Kh8 Bxd5 c3 Bxa2 Rc8 Qd5 c2 Qc4 Red8 Qxc2 f5 Qc4 Rg8 g3 g6 Qd5 h5 Qe5+ Kh7 Bd6 Rg7 Qf4 Rd8 Be5 Rdd7 Bxg7 Rf7 Qe5 Rxg7 Qf6 Rg8 Qg5 Rg7 Qf4 h4 Qxh4# 1-0
+
+[Site "https://lichess.org/ruMeVb8O"]
+[Date "2026.08.01"]
+[White "Abajocastro"]
+[Black "AntonChigurh1"]
+[Result "1-0"]
+[WhiteElo "2200"]
+[BlackElo "2180"]
+[ECO "D02"]
+[Opening "Queen's Pawn Game: Chigorin Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 Nc6 d4 d5 c3 Bg4 Bf4 e6 e3 f6 Be2 h5 h3 Bf5 Nbd2 g5 Bh2 Bd6 Bxd6 cxd6 a3 Nge7 c4 dxc4 Nxc4 Qd7 Rc1 Kf7 Nfd2 a6 Bxh5+ Bg6 Bxg6+ Nxg6 Nb6 Qe7 Nxa8 Rxa8 Ne4 Rd8 O-O Na5 f4 Nh4 Qh5+ Ng6 Nxg5+ fxg5 fxg5+ Kg7 Qh6+ Kg8 Qxg6+ Qg7 Qxe6+ Kh8 Rf7 Qg8 Qh6+ Qh7 Qxh7# 1-0
+
+[Site "https://lichess.org/0gj63sjx"]
+[Date "2026.08.01"]
+[White "vamsi27"]
+[Black "jarosemena"]
+[Result "1-0"]
+[WhiteElo "2223"]
+[BlackElo "2241"]
+[ECO "A46"]
+[Opening "Indian Defense: Spielmann-Indian"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 Nf6 d4 c5 e3 g6 c3 Bg7 Nbd2 O-O Bd3 b6 Qe2 Bb7 e4 e6 e5 d6 exf6 Bxf6 Ne4 Bg7 h4 f5 Neg5 e5 dxe5 dxe5 Bc4+ Bd5 Ne6 Bxe6 Bxe6+ Kh8 h5 Qf6 Bb3 Nd7 hxg6 Qxg6 Bd2 e4 Ng5 Ne5 Nxh7 Nd3+ Kf1 Rf7 Ng5+ Bh6 Nxf7+ Kg7 Rxh6 e3 Bxe3 Qd6 Rxd6 c4 Bxc4 Ne5 Bb3 Nxf7 Rd7 Rf8 Qc4 Kf6 Rxf7+ Ke5 Rxf8 b5 Rxf5+ Kd6 Qxb5 Ke7 Qd5 a6 Re5+ Kf6 Re6+ Kg7 Qd7+ Kf8 Re8# 1-0
+
+[Site "https://lichess.org/con5rRf7"]
+[Date "2026.08.01"]
+[White "Andru97"]
+[Black "andrey_88888"]
+[Result "0-1"]
+[WhiteElo "2172"]
+[BlackElo "2118"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e6 e3 d5 f4 Nf6 Nf3 c5 c3 Nc6 Nbd2 a6 Bd3 Qc7 Ne5 b6 Ndf3 Bb7 Nxc6 Qxc6 Ne5 Qc7 O-O c4 Bc2 Bd6 Bd2 O-O-O b3 Kb8 bxc4 dxc4 Rb1 Ka7 Qc1 h5 Bd1 Ng4 Bf3 Bd5 Bxd5 exd5 h3 Nf6 Qb2 Rb8 a4 Ne4 Be1 h4 Nf3 f6 Qc2 Rbg8 Bf2 g5 fxg5 fxg5 Ne5 Bxe5 dxe5 Qxe5 Qb2 Qc7 Qb4 g4 hxg4 Rxg4 Rbd1 h3 Rxd5 Rxg2+ Kh1 Qh2# 0-1
+
+[Site "https://lichess.org/kBwUqYvB"]
+[Date "2026.08.01"]
+[White "RACER844"]
+[Black "chamnov"]
+[Result "1-0"]
+[WhiteElo "2514"]
+[BlackElo "2421"]
+[ECO "A43"]
+[Opening "Benoni Defense: Old Benoni"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c5 d5 d6 Nc3 Nf6 e4 g6 h3 Bg7 Nf3 O-O a4 e5 Be2 Nbd7 O-O b6 Nd2 Bb7 Nc4 a5 f4 Ne8 f5 f6 Ne3 Ba6 Nb5 Bxb5 axb5 Nc7 c4 g5 Nc2 Rf7 Ne1 Nf8 Nd3 Re7 Bh5 Ne8 Bd2 h6 g4 Bh8 h4 Ng7 hxg5 Nxh5 gxh5 hxg5 Nf2 Rh7 Kg2 Qe8 Rh1 Bg7 Qg4 Bh6 Rh3 Nd7 Rah1 Nb8 Qe2 a4 Bc3 Na6 Ng4 Nb4 Nxf6+ Kf7 Nxe8 Rxe8 Bxb4 cxb4 Qf2 Rb8 Rc1 b3 Ra1 Ra8 Rxb3 g4 Rba3 Bf4 Rh1 Kf6 Qh4+ Bg5 Qxg4 Rg8 Kf3 Rhg7 Rxa4 Bf4 Qg6+ Rxg6 hxg6 Kg5 Ra6 Ra8 Rxa8 Kf6 Rf8+ Kg7 Rf7+ Kg8 Rhh7 Bg5 Ra7 Bd8 Rhd7 Kf8 Rxd8# 1-0
+
+[Site "https://lichess.org/snxlJcp6"]
+[Date "2026.08.01"]
+[White "GERHC"]
+[Black "oubaya"]
+[Result "1-0"]
+[WhiteElo "2087"]
+[BlackElo "2156"]
+[ECO "A40"]
+[Opening "Horwitz Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 e6 b3 d5 Bg5 Qxg5 e3 Qd8 Nf3 Nf6 Bd3 Be7 c3 O-O Bc2 b6 g4 Ba6 g5 Nh5 c4 g6 Qd3 dxc4 bxc4 Nc6 Nbd2 Nb4 Qe4 Nxc2+ Qxc2 c5 O-O-O cxd4 Ne4 Qc7 Rxd4 Rfd8 Rhd1 Bc5 Rxd8+ Rxd8 Rxd8+ Qxd8 Nxc5 bxc5 Qc3 Qb6 Ne5 Qb4 Qd3 Qb8 Qe4 Qd6 f4 Kg7 Qa8 Qc7 Qe4 Bb7 Qd3 f6 gxf6+ Nxf6 Qc3 Kf8 Nf3 Ne4 Qh8+ Ke7 Ne5 Qb6 Qg7+ Kd6 Qd7# 1-0
+
+[Site "https://lichess.org/LjLUMGOB"]
+[Date "2026.08.01"]
+[White "vitaliandr"]
+[Black "AyahZaka"]
+[Result "1-0"]
+[WhiteElo "2203"]
+[BlackElo "2210"]
+[ECO "D45"]
+[Opening "Semi-Slav Defense: Accelerated Meran Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c6 c4 d5 Nc3 a6 e3 e6 Nf3 Nf6 Ne5 Bb4 f4 Bxc3+ bxc3 Ne4 Qc2 f6 Nf3 O-O Bd3 f5 Ba3 Rf7 cxd5 exd5 O-O Nd7 Ne5 Nxe5 fxe5 Be6 Bxe4 dxe4 Rf4 b5 Raf1 Bc4 R1f2 Qd7 Bd6 g6 h3 Re8 Kh2 a5 g4 h6 gxf5 gxf5 Rg2+ Kh7 Qf2 Rg7 Rxf5 Rxg2+ Kxg2 Rg8+ Kh2 Rg7 Bf8 Be6 Rf6 Rf7 Rxh6+ Kg8 Qg3+ Kxf8 Rh8+ Ke7 Qg5+ 1-0
+
+[Site "https://lichess.org/czT4asYe"]
+[Date "2026.08.01"]
+[White "bauerjrg"]
+[Black "siebal_stian"]
+[Result "0-1"]
+[WhiteElo "1975"]
+[BlackElo "1983"]
+[ECO "B07"]
+[Opening "Modern Defense: Geller's System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 g6 Nf3 Bg7 c3 d6 d4 Nf6 e5 Nfd7 exd6 cxd6 Be2 O-O O-O Nc6 h3 a6 Be3 b5 Nbd2 Bb7 Nb3 Qa5 a4 bxa4 Qc2 axb3 Qxb3 Qc7 Nd2 Rfb8 Qc2 e5 d5 Ne7 c4 Nc5 Bxc5 Qxc5 b3 a5 Ne4 Qc7 Ra3 f5 Ng3 Bc8 Rfa1 Bd7 Bf1 Nc8 Ne2 Ra7 R1a2 Rba8 Nc3 Nb6 Na4 Nxa4 bxa4 Qc5 Rb3 Rc7 Rb5 Bxb5 axb5 e4 Qa4 Bd4 Rd2 e3 Kh1 exd2 0-1
+
+[Site "https://lichess.org/9ZJgyq4s"]
+[Date "2026.08.01"]
+[White "Sertsoun"]
+[Black "Tebi_Hernandez"]
+[Result "1-0"]
+[WhiteElo "2582"]
+[BlackElo "2564"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game: Levitsky Attack"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 Bg5 Nf6 Bxf6 exf6 e3 c6 Bd3 Bd6 Qh5 g6 Qh6 Bf5 Bxf5 gxf5 Qg7 Rf8 Qxh7 Qd7 Ne2 Na6 Ng3 O-O-O Qxf5 Bxg3 Qxd7+ Rxd7 hxg3 Nb4 Kd2 f5 a3 Na6 Nc3 Rg8 Ne2 Re7 Nf4 Nc7 Rh7 Kd7 Rah1 Ne6 Nxe6 fxe6 Rxe7+ Kxe7 Rh7+ Kd6 Rxb7 Rh8 Ke2 Rh2 Kf3 Rh1 b3 Rc1 Rxa7 Rxc2 b4 Rb2 Ra6 Kc7 Ra7+ Kd6 Ra6 Kc7 g4 fxg4+ Kg3 Rxf2 Kxf2 1-0
+
+[Site "https://lichess.org/FywTix3u"]
+[Date "2026.08.01"]
+[White "Arman281"]
+[Black "Dgnreitor"]
+[Result "0-1"]
+[WhiteElo "2356"]
+[BlackElo "2238"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[TimeControl "180+2"]
+[Termination "Normal"]
+
+d4 Nf6 Bf4 d5 e3 c5 dxc5 e6 b4 b6 Bxb8 Rxb8 Bb5+ Ke7 c6 Qd6 c3 a6 Be2 b5? a4 Qxc6 axb5 axb5 Ra7+ Bd7 Na3?? Qxc3+ Qd2 Qxd2+ Kxd2 Ne4+ Ke1 Kf6? Rxd7?? Bxb4+ Kf1 Bxa3 f3? Nc5 Ra7 b4 Nh3 b3 Rxa3 b2 Kf2 b1=Q Rxb1 Rxb1 Rc3 Nd7 Nf4 Rhb8 g4 g6 Rc7 Ne5 h4 h6 Nh3 R8b7 Rc8 R1b2 g5+ Kg7 Nf4 h5 Kg3 R2b3 Kf2 Nc4? Rc6? Nxe3 Bd3 e5 Kxe3 exf4+ Kd4 R7b4+ Kc5 Rc3+ Kxb4 Rxc6 0-1
+
+[Site "https://lichess.org/3c1gQv6A"]
+[Date "2026.08.01"]
+[White "TB_AHMED"]
+[Black "Cabablanca7227"]
+[Result "0-1"]
+[WhiteElo "2030"]
+[BlackElo "2070"]
+[ECO "D85"]
+[Opening "Grünfeld Defense: Exchange Variation, Modern Exchange Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 Nf6 c4 g6 Nc3 d5 Nf3 Bg7 cxd5 Nxd5 e4 Nxc3 bxc3 c5 Bc4 Nc6 O-O O-O Bb2 Bg4 h3 Na5 Be2 Bd7 Qc2 f5 Rad1 fxe4 Qxe4 Bf5 Qh4 Qb6 Ba1 cxd4 cxd4 Rac8 Qxe7 Rce8 Qh4 Rxe2 d5 Bxa1 Rxa1 Rfe8 Ng5 Qc7 d6 Qg7 Qb4 Nc6 Qc4+ Be6 Qxe2 Bd7 Qc4+ Kf8 Rfe1 h6 Rxe8+ Kxe8 Re1+ Kd8 Re7 Nxe7 dxe7+ Kxe7 Qe4+ Kd8 Qxg6 Qxg6 Ne6+ Qxe6 Kh2 Qe5+ g3 Bc6 h4 Qe3 Kh3 Qe6+ g4 Qe4 Kg3 Qf3+ Kh2 Qg2# 0-1
+
+[Site "https://lichess.org/145cWmlH"]
+[Date "2026.08.01"]
+[White "valee996"]
+[Black "mark243"]
+[Result "1-0"]
+[WhiteElo "1916"]
+[BlackElo "1906"]
+[ECO "C37"]
+[Opening "King's Gambit Accepted: Lolli Gambit"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 e5 f4 exf4 Nf3 g5 Bc4 g4 Bxf7+ Kxf7 Ne5+ Ke8 Nxg4 Qh4+ Nf2 Bc5 O-O Nc6 c3 Bxf2+ Rxf2 d6 d4 Nge7 Rxf4 Qh6 Na3 Qg6 Nb5 Kd8 e5 Bh3 Qf3 Bd7 exd6 cxd6 Rf8+ Rxf8 Qxf8+ Be8 Bf4 Kd7 Re1 Qf7 Qh6 Ng6 Bxd6 a6 Qh3+ Kd8 Bc7+ Qxc7 Nxc7 Kxc7 Qxh7+ Kb6 Rxe8 Rxe8 Qxg6 Re2 d5 Rxb2 dxc6 bxc6 h4 Rxa2 h5 Rd2 Qb1+ Kc5 h6 a5 h7 Rd8 Qg6 a4 Qg5+ Kb6 Qxd8+ Kb5 1-0
+
+[Site "https://lichess.org/T2zhLCsV"]
+[Date "2026.08.01"]
+[White "kozenkovvalera"]
+[Black "dar1eck"]
+[Result "1-0"]
+[WhiteElo "2551"]
+[BlackElo "2547"]
+[ECO "E92"]
+[Opening "King's Indian Defense: Petrosian Variation, Stein Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+d4 Nf6 Nf3 g6 c4 Bg7 Nc3 O-O e4 d6 Be2 e5 d5 a5 Bg5 Qe8 Nd2 Na6 g4 Nd7 Rg1 Ndc5 a3 a4 Qc2 c6 O-O-O? Nb3+? Nxb3 axb3 Qxb3 Nc5 Qc2 b5? cxb5 cxb5 Nxb5 Qd7 b4 Na6? Qc6 Nb8 Qxd7? Bxd7 Kb2 h6? Be7 Re8 Bxd6 Na6 Nc7 Nxc7 Bxc7 f5 gxf5 gxf5 f3 Ra7 Rc1 Rea8 Bxe5 Rxa3 Rxg7+ Kf8 Rxd7 Ra2+ Kb3 R8a3+ Kc4 Rxe2 Kb5 1-0
+
+[Site "https://lichess.org/c1bhKn2x"]
+[Date "2026.08.01"]
+[White "XuHanshen"]
+[Black "EpicEffects"]
+[Result "1-0"]
+[WhiteElo "2406"]
+[BlackElo "2468"]
+[ECO "B22"]
+[Opening "Sicilian Defense: Delayed Alapin Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 e6 c3 d5 exd5 Qxd5 d4 Nf6 Be3 Ng4 Bc1 Nc6 Na3 Be7 Be2 O-O Nb5 Qd8 O-O a6 Na3 cxd4 cxd4 Nf6 Nc4 Nd5 a4 Bf6 Qd2 Bd7 Rd1 Nce7 Nce5 Bc6 Nxc6 Nxc6 Qd3 Ncb4 Qe4 Rc8 Ne5 Qc7 Ng4 Nc2 Bd3 g6 Nxf6+ Nxf6 Qf3 Nxa1 Qxf6 Qxc1 Rxc1 Rxc1+ Bf1 Nb3 g3 Nd2 Kg2 Nxf1 h4 h5 g4 hxg4 h5 Rc6 h6 Ne3+ 1-0
+
+[Site "https://lichess.org/PbU0uzjY"]
+[Date "2026.08.01"]
+[White "ChessA77ack"]
+[Black "anym008"]
+[Result "0-1"]
+[WhiteElo "2400"]
+[BlackElo "2395"]
+[ECO "A45"]
+[Opening "Indian Defense: Accelerated London System"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 Nf6 Bf4 g6 e3 Bg7 h3 O-O Nf3 d6 Be2 Nbd7 Bh2 b6 O-O Bb7 c4 c5 Nc3 Re8 d5 a6 a4 Qc7 Rc1 e6 dxe6 Rxe6 Ng5 Re5 Bxe5 Nxe5 f4 Nc6 Bf3 Nb4 Nge4 Nxe4 Nxe4 Rd8 Nc3 Bxf3 Rxf3 Qc6 Qd2 d5 cxd5 Nxd5 Nxd5 Rxd5 Qe2 Qxa4 Qc4 Qxc4 Rxc4 Bxb2 e4 Rd2 f5 Kg7 f6+ Bxf6 Ra3 a5 Rb3 Rd6 Re3 Bd4 Rxd4 Rxd4 Rb3 Rxe4 Rxb6 Rb4 Ra6 a4 Rb6 Rxb6 0-1
+
+[Site "https://lichess.org/59fR5RKw"]
+[Date "2026.08.01"]
+[White "GP9isback"]
+[Black "fan-2009"]
+[Result "1/2-1/2"]
+[WhiteElo "2901"]
+[BlackElo "2935"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 e3 e6 Nf3 f5 b3 Nf6 Bd3 c6 O-O Nbd7 Ba3 Bxa3 Nxa3 O-O Nb1 Ne4 c4 Qe7 Qc2 b6 Nbd2 Bb7 Rac1 Rac8 Qb2 Rfd8 Rc2 h6?! Rfc1?! Kh7?! Ne1?! Nxd2 Rxd2 g6?! Rdc2?! h5?! Nf3?! Kh6? h4 Nf6 Ng5 Nh7 f4?! Nxg5 hxg5+ Kg7 b4 Rb8?! a4 Rd7 b5 dxc4?! Rxc4? cxb5 axb5 Rbd8 Bf1 Kh8 Qc3? Kh7? Rc7?! Bd5 Rxd7 Rxd7 Qc8 Rd8 Qc3 Rd7 Qc8 Rd8 Qc3?! Rd7 1/2-1/2
+
+[Site "https://lichess.org/1ayjMOE6"]
+[Date "2026.08.01"]
+[White "timichechecs"]
+[Black "SiallouSylva"]
+[Result "0-1"]
+[WhiteElo "1924"]
+[BlackElo "1925"]
+[ECO "B27"]
+[Opening "Pterodactyl Defense: Western, Rhamphorhynchus"]
+[TimeControl "600+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 g6 d4 Bg7 dxc5 Qa5+ c3 Qxc5 Bd3 Nc6 Be3 Qa5 Nbd2 Nf6 O-O d6 Qc2 h6 b4 Qc7 a3 a6 b5 axb5 Bxb5 O-O a4 Bg4 h3 Bxf3 Nxf3 Rac8 Rac1 Rfd8 Qd3 Na5 Nd2 Kh7 c4 Nc6 Bxc6 Qxc6 a5 Ra8 Bb6 Rdc8 f3 Nd7 f4 Nxb6 axb6 Qxb6+ Kh2 Ra2 f5 Be5+ g3 g5 Kg2 Qa5 Rc2 Rxc2 Qxc2 b5 Rc1 Qa3 Rg1 Qxg3+ Kf1 Qxh3+ Rg2 bxc4 Nxc4 Qh1+ Rg1 Qf3+ Ke1 Bc3+ Nd2 Qe3+ Kd1 Qxg1+ Ke2 Qg2+ Kd3 Qg3+ Ke2 Qg4+ Kd3 Qg3+ Ke2 Qg2+ Kd3 Qxd2+ Qxd2 Bxd2 Kxd2 f6 Kd3 h5 0-1
+
+[Site "https://lichess.org/nsCdKPbK"]
+[Date "2026.08.01"]
+[White "AndrePetrow2009"]
+[Black "DarkOnCrack"]
+[Result "0-1"]
+[WhiteElo "2528"]
+[BlackElo "2498"]
+[ECO "B08"]
+[Opening "Pirc Defense: Classical Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d6 Nc3 g6 Nf3 Nf6 d4 Bg7 e5 dxe5 dxe5 Qxd1+ Nxd1 Ng4 Bf4 Nd7 h3 Ngxe5 Nxe5 Nxe5 Bb5+ c6 Ba4 O-O Ne3 Nd7 O-O-O Nf6 Bg3 Be6 Rhe1 b5 Bb3 Bxb3 axb3 a5 Ng4 Nxg4 hxg4 a4 Rxe7 axb3 cxb3 Ra2 Kc2 Rxb2+ Kc1 Rxb3 Rdd7 Rc3+ Kb2 Rxg3+ Ka2 Ra8+ Kb1 Ra1+ Kc2 Rc3+ Kd2 Ra2+ Kd1 Rb3 Rd8+ Bf8 Kc1 Kg7 Ree8 Ba3+ Kd1 Rb1# 0-1
+
+[Site "https://lichess.org/jFDZcxZ9"]
+[Date "2026.08.01"]
+[White "uthoktfg"]
+[Black "flaschentasche"]
+[Result "0-1"]
+[WhiteElo "2262"]
+[BlackElo "2342"]
+[ECO "B15"]
+[Opening "Caro-Kann Defense: Alien Gambit"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 c6 d4 d5 Nd2 dxe4 Nxe4 Nf6 Ng5 h6 Nxf7 Kxf7 Nf3 Be6 Bd3 Nbd7 O-O Bg4 Re1 e6 h3 Bxf3 Qxf3 Bd6 Qe2 Re8 c3 Nf8 Qf3 Kg8 g4 Qc7 g5 hxg5 Bxg5 Qf7 Bf4 Bxf4 Qxf4 Rad8 Kh2 Nd5 Qg3 c5 Rg1 cxd4 cxd4 Nf4 Bg6 N8xg6 Rae1 Rxd4 h4 Qf5 Kh1 Rd3 f3 Rc8 Re4 Rc2 Rxf4 Qxf4 Qxf4 Nxf4 Rg2 e5 Rxc2 Rd1+ Kh2 Kf7 Kg3 Kf6 Rc5 Rg1+ Kf2 Rg2+ Ke3 Re2# 0-1
+
+[Site "https://lichess.org/Wh27oYel"]
+[Date "2026.08.01"]
+[White "C8c7C8c7C8c7C8c7C8c7"]
+[Black "AndresvelasquezQUI"]
+[Result "1-0"]
+[WhiteElo "2344"]
+[BlackElo "2339"]
+[ECO "A00"]
+[Opening "Barnes Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+f3 d5 g3 e5 Bg2 c5 Nh3 Nc6 Nf2 Be6 O-O Qd7 d3 f6 e4 d4 f4 Bd6 f5 Bf7 Nd2 Nge7 Nf3 O-O Bd2 Bc7 g4 Ba5 h4 Bxd2 Qxd2 Kh8 g5 c4 Ng4 Qd6 Kf2 Bh5 Nfh2 Rac8 Bf3 b5 Rg1 cxd3 cxd3 Nb4 Rac1 Rxc1 Rxc1 Nxa2 Ra1 Nb4 Rxa7 Rc8 Kg3 Rc2 Qd1 Nxf5+ exf5 e4+ Kh3 Bxg4+ Nxg4 h5 Ra8+ Kh7 g6# 1-0
+
+[Site "https://lichess.org/w0c7wgXD"]
+[Date "2026.08.01"]
+[White "Grundgetta"]
+[Black "Kolkoa"]
+[Result "1/2-1/2"]
+[WhiteElo "2137"]
+[BlackElo "2062"]
+[ECO "D10"]
+[Opening "Slav Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 c6 c4 d5 Nc3 Nf6 cxd5 cxd5 Nf3 e6 Bg5 Bb4 Bxf6 Qxf6 e3 O-O a3 Bxc3+ bxc3 Nc6 Bd3 e5 dxe5 Nxe5 Nxe5 Qxe5 Qc2 g6 O-O Be6 c4 dxc4 Bxc4 Bxc4 Qxc4 Rac8 Qb3 b6 Rac1 Rfd8 Rxc8 Rxc8 Rd1 Qc3 Qxc3 Rxc3 Ra1 b5 Kf1 a5 g3 Kg7 Ke2 Rc7 Rb1 Rb7 a4 b4 Kd3 Kf6 Kc4 Ke5 Rd1 b3 Rb1 b2 Kc3 Ke4 Rxb2 Rxb2 Kxb2 Kf3 Kc3 Kxf2 Kc4 Kxe3 Kb5 f5 Kxa5 g5 Kb6 f4 gxf4 gxf4 a5 f3 a6 f2 a7 f1=Q a8=Q Qb1+ Kc7 Qc2+ Kd6 Qd3+ Ke7 Qe4+ Qxe4+ Kxe4 Kf6 h5 Kg5 Ke5 h4 Ke6 Kxh5 Kf7 Kh6 Kg8 Kg6 Kh8 Kh6 Kg8 h5 Kh8 Kg6 Kg8 Kh6 Kh8 Kg6 Kg8 h6 Kh8 Kh5 Kg8 Kg5 Kh8 Kg6 Kg8 Kh5 Kh8 Kg6 Kg8 h7+ Kh8 Kh6 1/2-1/2
+
+[Site "https://lichess.org/quHRrofu"]
+[Date "2026.08.01"]
+[White "Mac_Stone"]
+[Black "ElyneLee"]
+[Result "1-0"]
+[WhiteElo "2241"]
+[BlackElo "2095"]
+[ECO "D35"]
+[Opening "Queen's Gambit Declined: Normal Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 c4 e6 Nc3 Nf6 g3 Be7 Bg2 O-O Nf3 dxc4 O-O a6 a4 Nc6 Re1 Qd7 e4 b6 Be3 Bb7 Qe2 Rad8 Qxc4 Na7 Ne5 Qc8 Rad1 Rd7 Nxd7 Nxd7 d5 e5 b4 Bd6 b5 axb5 Nxb5 Nxb5 axb5 Qb8 Ra1 Qd8 Rec1 Qe7 Ra7 Bc8 Rxc7 Bxc7 Qxc7 Re8 Bxb6 Nf8 Qxe7 Rxe7 Rxc8 Rb7 Bc5 g6 Bxf8 h5 Be7+ Kh7 Bf6 1-0
+
+[Site "https://lichess.org/8wX085UN"]
+[Date "2026.08.01"]
+[White "ramiritoelcurioso"]
+[Black "cjc-1295"]
+[Result "1/2-1/2"]
+[WhiteElo "2146"]
+[BlackElo "2149"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Indian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+b3 Nf6 Bb2 d5 e3 Nc6 f4 Bg4 Be2 Bxe2 Qxe2 Nd4 g4 Nxe2 Nxe2 Nxg4 Nbc3 e6 h3 Qh4+ Kd1 Nf2+ Kc1 Nxh1 Nd1 Qe1 Nd4 Nf2 Bc3 Qxd1+ Kb2 Qh5 Rg1 Bc5 Rg3 Bxd4 Bxd4 Ne4 Rxg7 O-O-O d3 Rhg8 Rxf7 Rg2 Rg7 Qe2 dxe4 Qxc2+ Ka3 Qxa2+ Kb4 c6 Bc5 Qa6 Kc3 Qb5 Kd4 Rg3 Ke5 Rxe3 b4 Rxe4+ Kf6 Rxf4+ Ke7 Qd3 Rg8 Qf5 Rxd8+ Kc7 Rd7+ Kc8 Rd8+ Kc7 Rd7+ Kb8 Rd8+ Kc7 1/2-1/2
+
+[Site "https://lichess.org/oIi4Pqtu"]
+[Date "2026.08.01"]
+[White "Chessguy1256"]
+[Black "adel22"]
+[Result "1/2-1/2"]
+[WhiteElo "2030"]
+[BlackElo "2041"]
+[ECO "B01"]
+[Opening "Scandinavian Defense: Valencian Variation"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+e4 d5 exd5 Qxd5 Nc3 Qd8 d4 Nf6 Nf3 e6 Bd3 Be7 Bg5 h6 Bxf6 Bxf6 Ne2 Nc6 c3 a5 Ng3 b6 O-O Nb8 Qe2 Ba6 Bxa6 Nxa6 Rfe1 Qd7 Ne5 Bxe5 Qxe5 O-O f4 Qd6 Qxd6 cxd6 Ne4 Rfd8 g4 b5 f5 exf5 gxf5 b4 c4 Rd7 d5 Rc8 b3 Nc5 Nxc5 Rxc5 Re8+ Kh7 Rae1 f6 R8e7 Rcc7 Rxd7 Rxd7 Re6 h5 Kf2 Kh6 Kg3 Kg5 Kf3 Kxf5 h4 g5 hxg5 fxg5 Rh6 h4 Kg2 Kg4 Rg6 Rd8 Re6 Kf4 Rf6+ Kg4 Re6 Kh5 Rf6 Kg4 Re6 1/2-1/2
+
+[Site "https://lichess.org/6gp4LbVz"]
+[Date "2026.08.01"]
+[White "Ssenabest"]
+[Black "monte777"]
+[Result "0-1"]
+[WhiteElo "2285"]
+[BlackElo "2294"]
+[ECO "D00"]
+[Opening "Queen's Pawn Game"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+d4 d5 e3 c6 Nf3 e6 Be2 Be7 O-O f5 b3 Nf6 Bb2 O-O Nbd2 Nbd7 Ne5 Rf7 f4 Nxe5 dxe5 Ne4 Nxe4 fxe4 Bg4 Bd7 Bh3 Qb6 Bd4 c5 Bb2 Raf8 Qg4 d4 exd4 cxd4 Kh1 Bc6 Rad1 Bc5 Qxe6 e3 Qc4 Bb5 Qd5 e2 Rg1 exd1=Q Rxd1 Bc6 Qc4 Kh8 e6 Rxf4 e7 Bxe7 Be6 Bd6 Bd5 Bxd5 Qxd5 Rf1+ Rxf1 Rxf1# 0-1
+
+[Site "https://lichess.org/xj7UhJCN"]
+[Date "2026.08.01"]
+[White "akisame1"]
+[Black "Darkrais_Dream_Eater"]
+[Result "1-0"]
+[WhiteElo "2025"]
+[BlackElo "1985"]
+[ECO "C25"]
+[Opening "Vienna Game: Max Lange Defense"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 e5 Nc3 Nc6 Bc4 d6 Nge2 Be6 Bb3 Bxb3 axb3 a6 d3 f5 exf5 Nge7 Bg5 h6 Bh4 Qd7 g4 O-O-O Qd2 Re8 O-O-O Nd5 Nxd5 Be7 Nxe7+ Nxe7 Nc3 g5 Bg3 Nc6 h3 Nd4 Ne4 Nf3 Qc3 Nd4 Kb1 d5 Nf6 Qf7 Nxe8 Rxe8 Rde1 Nf3 Re2 Nd4 Rxe5 Ne2 Rxe8+ Qxe8 Qe5 Qxe5 Bxe5 Nf4 Bxf4 gxf4 Re1 1-0
+
+[Site "https://lichess.org/NEtUIQF2"]
+[Date "2026.08.01"]
+[White "Ali2111"]
+[Black "Thulsa"]
+[Result "1-0"]
+[WhiteElo "2129"]
+[BlackElo "2135"]
+[ECO "A01"]
+[Opening "Nimzo-Larsen Attack: Classical Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+b3 d5 Bb2 Bf5 e3 e6 f4 Nf6 Nf3 h6 Be2 c5 O-O Nc6 Bb5 Qb6 Bxc6+ Qxc6 Ne5 Qc7 d3 Bd6 Nd2 O-O Rf3 Nd7 Nxd7 Qxd7 Rg3 g5 Qh5 Kh7 Rxg5 Bg6 Rxg6 fxg6 Qh4 Qe7 Qg3 g5 Rf1 gxf4 exf4 Rg8 Qh3 Rg6 g3 Rag8 Kh1 Rg4 Nf3 d4 Ng5+ Kg6 Qxg4 hxg5 f5+ exf5 Qxf5+ Kh5 Bc1 Qh7 Qh3+ Kg6 Rf6+ Kg7 Qxh7+ Kxf6 Qxg8 1-0
+
+[Site "https://lichess.org/pKCffBDQ"]
+[Date "2026.08.01"]
+[White "Mansur08"]
+[Black "Danielo1977"]
+[Result "0-1"]
+[WhiteElo "1940"]
+[BlackElo "1974"]
+[ECO "B45"]
+[Opening "Sicilian Defense: Four Knights Variation"]
+[TimeControl "180+0"]
+[Termination "Normal"]
+
+e4 c5 Nf3 Nc6 d4 cxd4 Nxd4 Nf6 Nc3 e6 Be3 Bb4 Bd3 d5 Nxc6 bxc6 exd5 exd5 Bd2 O-O O-O Bg4 f3 Bh5 Kh1 Re8 Re1 Qd6 a3 Ba5 Ne2 Bc7 Bf4 Qd7 Bxc7 Qxc7 Ng3 Bg6 Bxg6 hxg6 Qd2 Rab8 b3 Qd7 Rxe8+ Rxe8 Re1 Kf8 Rxe8+ Qxe8 Qe2 Qxe2 Nxe2 Ke7 Nd4 Kd6 Kg1 Nd7 Kf2 a5 Ke3 Nb6 a4 Nd7 f4 Nf6 Ne2 c5 Nc3 d4+ Kd3 dxc3 Kxc3 Nd5+ Kc4 Nxf4 Kb5 Nxg2 Kxa5 Nf4 Kb6 Nd5+ Kb7 Nb4 c3 Nc6 Kb6 f5 a5 f4 a6 f3 b4 cxb4 cxb4 f2 b5 f1=Q bxc6 Qb1+ Ka7 Kxc6 Ka8 Qb6 a7 Qb7# 0-1
+
+[Site "https://lichess.org/EenASdlI"]
+[Date "2026.08.01"]
+[White "Bonifazio"]
+[Black "Heracles_Carvalho"]
+[Result "1-0"]
+[WhiteElo "2435"]
+[BlackElo "2415"]
+[ECO "D12"]
+[Opening "Slav Defense: Quiet Variation, Schallopp Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+c4 c6 Nf3 d5 d4 Nf6 e3 Bf5 Bd3 Bg4 h3 Bh5 Nc3 e6 g4 Bg6 Ne5 Nbd7 f4 Bxd3 Qxd3 Bd6 Bd2 Qc7 O-O-O a6 Kb1 b5 cxb5 axb5 Rc1 b4 Nb5 Qa5 Nxd6+ Ke7 Nxc6+ Kxd6 Nxa5 Rxa5 Bxb4+ Nc5 dxc5+ Kc6 Bxa5 Ne4 Qa6+ Kd7 c6+ Ke7 Bb4+ Kf6 c7 Kg6 c8=N Rxc8 Qxc8 Nf2 Qc2+ Ne4 Qxe4+ dxe4 Rc5 f5 gxf5+ exf5 Rg1+ Kf6 Rxg7 Kxg7 Rxf5 Kg6 Rg5+ Kf6 a4 h6 a5 hxg5 fxg5+ Kf5 Bd6 Ke6 Bf4 Kd5 g6 Kc4 g7 Kb5 g8=Q Kxa5 Qb3 Ka6 Kc2 Ka7 Kc3 Ka8 Kc4 Ka7 Kc5 Ka6 Qb6# 1-0
+
+[Site "https://lichess.org/tAJYGpsq"]
+[Date "2026.08.01"]
+[White "Venomwing"]
+[Black "Chessroyal20"]
+[Result "1/2-1/2"]
+[WhiteElo "2431"]
+[BlackElo "2287"]
+[ECO "E90"]
+[Opening "King's Indian Defense: Normal Variation, Rare Defenses"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+Nf3 Nf6 c4 g6 Nc3 Bg7 e4 d6 d4 Nbd7 Be2 O-O O-O Re8 Re1 e5 Bg5 h6 Be3 Kh7 h3 c6 Bf1 Qc7 Rc1 Nf8 b4 Ne6 d5 Nf4 dxc6 bxc6 c5 dxc5 Bxc5 Rd8 Qb3 Be6 Bc4 Nd3 Bxe6 Nxc1 Rxc1 fxe6 Qxe6 Qd7 Qxd7 Nxd7 Be3 Nb6 Na4 Nxa4 Rxc6 Nb6 a4 Rac8 Re6 Nc4 Bxa7 Rd1+ Kh2 Ra1 a5 Ra4 Bc5 Nxa5 Nxe5 Bxe5+ Rxe5 Nc4 Re7+ Kg8 Bd4 Nd6 Rg7+ Kf8 Rxg6 Nf7 Bc5+ Rxc5 bxc5 Rxe4 Rg4 Re2 Kg3 Rc2 Rd4 Rxc5 f4 Kg7 h4 h5 Kf3 Nh6 Rd7+ Kg6 Rd6+ Kg7 Rd7+ Nf7 Rxf7+ Kxf7 g4 hxg4+ Kxg4 Kf6 h5 Kg7 Kh4 Kh6 Kg4 Rxh5 f5 Rg5+ Kf4 Rxf5+ Kxf5 1/2-1/2
+
+[Site "https://lichess.org/6bqkLGGo"]
+[Date "2026.08.01"]
+[White "solopagym"]
+[Black "SouthAfricanFox"]
+[Result "0-1"]
+[WhiteElo "2500"]
+[BlackElo "2494"]
+[ECO "A00"]
+[Opening "Hungarian Opening: Indian Defense"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 Nf6 Bg2 g6 e3 d5 h3 Bg7 b3 O-O Bb2 c5 d3 Nc6 a3 e5 Nd2 Be6 Ne2 Rc8 Qb1 Qd7 Qa2 b5 Rc1 a5 Qa1 c4 Bxe5 Nxe5 Qxe5 cxb3 Nxb3 Ne4 Qxg7+ Kxg7 dxe4 dxe4 Bxe4 a4 Nbd4 b4 axb4 Bc4 Kd2 Rfd8 Bd3 a3 Ra1 a2 Bxc4 Rxc4 Rxa2 Rxb4 Rha1 Rdb8 Ra7 R8b7 R7a6 Rb2 R1a5 Qe7 Rc6 Qb4+ Kd3 Qxa5 c3 Qa2 Nf4 Rd2+ Ke4 Re7+ Kf3 Rxf2+ Kg4 h5+ Kh4 f6 Rc8 g5+ Kxh5 gxf4 gxf4 Qd2 Nf5+ Kf7 Nh6+ Ke6 Rc6+ Kd7 Rxf6 Qe2+ Ng4 Rh2 Kg5 Rxh3 Ne5+ Rxe5+ fxe5 Rxe3 Rf5 Rxe5 Kf6 Rxf5+ Kxf5 Kd6 c4 Qf3+ Kg5 Ke6 c5 Qg3+ Kh5 Kf6 c6 Qh3# 0-1
+
+[Site "https://lichess.org/gGzWJ7sK"]
+[Date "2026.08.01"]
+[White "Aga-Talib90"]
+[Black "andrelim88"]
+[Result "0-1"]
+[WhiteElo "2448"]
+[BlackElo "2432"]
+[ECO "A00"]
+[Opening "Hungarian Opening"]
+[TimeControl "60+0"]
+[Termination "Normal"]
+
+g3 e6 Bg2 f5 c3 Nf6 d4 d5 Nf3 c6 Ne5 Bd6 f4 O-O Nd2 Ne4 Nxe4 fxe4 e3 Bxe5 dxe5 Nd7 O-O Qb6 Bh3 Nc5 Qe2 Nd3 Rb1 Bd7 Rd1 c5 Bd2 Ba4 b3 Bb5 c4 Ba6 cxd5 Nxf4 Qg4 Be2 Qh4 Nxh3+ Qxh3 Bxd1 Rxd1 exd5 Bc3 Rad8 Qg4 Qe6 Qh4 Qf5 Qe7 Qf2+ Kh1 Qf3+ Kg1 Qxd1+ Kg2 Qf1# 0-1

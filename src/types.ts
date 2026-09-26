@@ -1,29 +1,18 @@
-export type Concept = 'development' | 'kingSafety' | 'center' | 'activity'
-
-export type OpeningContext = {
-  familyId: string
-  familyName: string
-  name?: string
-  eco?: string
-  confidence: 'exact' | 'similar' | 'structural'
-  themes: string[]
-}
-
-export type Exercise = {
-  id: string
-  fen: string
-  sideToMove: 'white' | 'black'
-  title: string
-  concepts: Concept[]
-  prompt: string
-  explanation: string
-  suggestedMoves: string[]
-  openingMoves?: string[]
-  openingContext?: OpeningContext
-  /** What the opponent is trying to do in this position. Shown in feedback. */
-  opponentPlan?: string
-  /** The next thought the player should carry out of the exercise. */
-  nextThought?: string
+export type RunFeedback = {
+  /** The player's move was one of the engine's top 3. */
+  success: boolean
+  /** SAN of the played move. */
+  played: string
+  /** SAN of the engine's best move. */
+  best: string
+  /** SAN of the move the recorded game actually played, when the line is still on record. */
+  recordMove?: string
+  /** SAN of the opponent's reply. */
+  opponentReply?: string
+  /** Consecutive top-3 picks after this move. */
+  chain: number
+  /** Engine's top lines (SAN + score) for display. */
+  topMoves: { san: string; score: string }[]
 }
 
 export type MoveFeedback = {
