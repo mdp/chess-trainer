@@ -5,9 +5,7 @@ export type RunFeedback = {
   played: string
   /** SAN of the engine's best move. */
   best: string
-  /** SAN of the move the recorded game actually played, when the line is still on record. */
-  recordMove?: string
-  /** SAN of the opponent's reply. */
+  /** Opponent's reply (SAN). */
   opponentReply?: string
   /** Consecutive top-3 picks after this move. */
   chain: number

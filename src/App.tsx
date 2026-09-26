@@ -3,7 +3,7 @@ import { Chess, type Square } from 'chess.js'
 import { Chessboard } from 'react-chessboard'
 import { createEngineAdapter, type EngineAdapter, type EngineAnalysis, type EngineAnalysisLine } from './engineAdapter'
 import { describePosition } from './positionAnalysis'
-import { divergenceIndex, fenAfterMoves, gameLibrary, nextGame, sanFor, type GameRecord, type Phase } from './gameData'
+import { fenAfterMoves, gameLibrary, nextGame, sanFor, type GameRecord, type Phase } from './gameData'
 import { fetchLichessPgn, gamesFromPgn } from './lichess'
 import { createProfile, loadStore, noteGameFinished, noteMilestone, saveStore, type Profile, type Store } from './storage'
 import type { RunFeedback } from './types'
@@ -175,22 +175,15 @@ function App() {
   }
 
   /**
-   * Plays the opponent's next move: from the real game while the played line
-   * still matches the record, otherwise a quick engine reply so play continues.
+   * Plays the opponent's reply with the engine. The top move usually answers;
+   * when a lower line is nearly equal, one of the close lines is picked at
+   * random so the opponent is not perfectly predictable.
    */
   function playOpponentMove(current: RunState, fenAfterPlayerMove: string) {
-    const deviation = divergenceIndex(current.movesUci, current.game.moves.slice(current.startPly))
-    const nextRecordPly = current.startPly + current.movesUci.length
-    const onRecord = deviation === null && nextRecordPly < current.game.moves.length
-    if (onRecord) {
-      const uci = current.game.moves[nextRecordPly]
-      finishOpponentMove(current, uci, applyMove(fenAfterPlayerMove, uci))
-      return
-    }
     setOpponentThinking(true)
-    void engine.analyzePosition(fenAfterPlayerMove, { depth: 12, multipv: 1, maxTimeMs: OPPONENT_THINK_MS })
+    void engine.analyzePosition(fenAfterPlayerMove, { depth: 12, multipv: 3, maxTimeMs: OPPONENT_THINK_MS })
       .then((result) => {
-        const uci = result.lines[0]?.move
+        const uci = pickEngineReply(result.lines)
         if (!uci) throw new Error('no engine reply')
         finishOpponentMove(current, uci, applyMove(fenAfterPlayerMove, uci))
       })
@@ -204,10 +197,8 @@ function App() {
       setRun(() => {
         const line = [...current.line, applied.fenAfter]
         const movesUci = [...current.movesUci, uci]
-        const deviation = divergenceIndex(movesUci, current.game.moves.slice(current.startPly))
-        const recordExhausted = deviation === null && current.startPly + movesUci.length >= current.game.moves.length
         const gameOver = new Chess(applied.fenAfter).isGameOver()
-        return { ...current, line, movesUci, lineIndex: line.length - 1, done: gameOver || recordExhausted }
+        return { ...current, line, movesUci, lineIndex: line.length - 1, done: gameOver }
       })
       return
     }
@@ -245,10 +236,6 @@ function App() {
         const achieved = bestChainIn(picks) >= GOAL_CHAIN
         const achievedBefore = bestChainIn(run.picks) >= GOAL_CHAIN
 
-        const deviation = divergenceIndex(movesUci, run.game.moves.slice(run.startPly))
-        const nextRecordPly = run.startPly + movesUci.length
-        const recordUci = deviation === null && nextRecordPly < run.game.moves.length ? run.game.moves[nextRecordPly] : undefined
-
         const nextRun: RunState = { ...run, line, movesUci, lineIndex: line.length - 1, picks }
         setRun(nextRun)
 
@@ -256,7 +243,6 @@ function App() {
           success,
           played: san,
           best: sanFor(fenBefore, topMoves[0]?.move ?? uci) ?? '—',
-          recordMove: recordUci ? sanFor(fenAfter, recordUci) : undefined,
           opponentReply: undefined,
           chain: chainAfter,
           topMoves: topMoves.map((engineLine) => ({ san: sanFor(fenBefore, engineLine.move) ?? engineLine.move, score: formatScore(engineLine) })),
@@ -356,10 +342,10 @@ function App() {
             <span className="prompt-kicker">{run.done ? 'GAME OVER' : isPlayerTurn ? (isAnalyzing ? 'ENGINE CHECKING' : 'YOUR MOVE') : opponentThinking ? 'OPPONENT THINKING' : 'OPPONENT MOVE'}</span>
             <h2>
               {run.done
-                ? gameResultText(run, achieved)
+                ? gameResultText(run, achieved, game!.fen())
                 : isPlayerTurn
                   ? 'Pick the best move. Top 3 keeps the run alive.'
-                  : 'The opponent answers from the real game.'}
+                  : 'The engine opponent is choosing its reply.'}
             </h2>
             <p>
               {run.game.white}{run.game.whiteElo ? ` (${run.game.whiteElo})` : ''} vs {run.game.black}{run.game.blackElo ? ` (${run.game.blackElo})` : ''}
@@ -419,10 +405,27 @@ function App() {
   )
 }
 
-function gameResultText(run: RunState, achieved: boolean): string {
-  const winner = run.game.result === '1-0' ? 'White won' : run.game.result === '0-1' ? 'Black won' : 'Draw'
+/** Margin (centipawns) within which the opponent may pick a non-top move at random. */
+const REPLY_MARGIN_CP = 30
+
+/** Top engine move, or a random pick among near-equal alternatives. */
+function pickEngineReply(lines: EngineAnalysisLine[]): string | undefined {
+  if (!lines.length) return undefined
+  const value = (line: EngineAnalysisLine) => (line.mateIn !== undefined ? 10_000 - Math.abs(line.mateIn) : line.scoreCp ?? 0)
+  const best = value(lines[0])
+  const candidates = lines.filter((line) => best - value(line) <= REPLY_MARGIN_CP)
+  const chosen = candidates[Math.floor(Math.random() * candidates.length)]
+  return (chosen ?? lines[0]).move
+}
+
+function gameResultText(run: RunState, achieved: boolean, fen: string): string {
+  const chess = new Chess(fen)
+  let outcome: string
+  if (chess.isCheckmate()) outcome = `Checkmate — ${chess.turn() === 'w' ? 'Black' : 'White'} wins`
+  else if (chess.isDraw() || chess.isStalemate()) outcome = 'Drawn'
+  else outcome = 'Game stopped'
   const reached = achieved ? 'You completed the run — 3 top-3 picks in a row.' : `Your best run this game: ${bestChainIn(run.picks)} in a row.`
-  return `${winner} · ${reached}`
+  return `${outcome} · ${reached}`
 }
 
 function RunFeedbackCard({ feedback, opponentThinking }: { feedback: RunFeedback; opponentThinking: boolean }) {
@@ -439,8 +442,7 @@ function RunFeedbackCard({ feedback, opponentThinking }: { feedback: RunFeedback
         ? feedback.played === feedback.best
           ? 'That was the engine’s first choice.'
           : `One of the top 3 — the engine's first choice was ${feedback.best}.`
-        : `The engine preferred ${feedback.best}.${feedback.recordMove ? ` The game actually continued ${feedback.recordMove}.` : ''}`}
-    </p>
+        : `The engine preferred ${feedback.best}.`}</p>
     <div className="move-ideas">
       <span>ENGINE TOP 3</span>
       {feedback.topMoves.map((line, index) => <div key={`${line.san}-${index}`} className={line.san === feedback.played ? 'chosen-move' : ''}>{index + 1}. {line.san} <em>{line.score}</em></div>)}
