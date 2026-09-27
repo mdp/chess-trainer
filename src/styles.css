@@ -138,3 +138,79 @@ h1, h2, h3, p { margin: 0; } h1 { font-size: 19px; letter-spacing: -.03em; } h2 
 .history-row em.bad { color: #c98d76; }
 .history-row em.ok small, .history-row em.bad small { color: #6d828a; margin-left: 5px; }
 .history-row em.reply { color: #5f7780; }
+
+/* Board-first game screen: one quiet status row, then the board and its verdict. */
+.app-shell { width: min(560px, calc(100% - 16px)); }
+.topbar.slim {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr) auto minmax(0, 1fr);
+  gap: 8px;
+  min-height: 34px;
+  padding: 4px 0 7px;
+}
+.profile-name-button {
+  justify-self: start;
+  overflow: hidden;
+  max-width: 100%;
+  padding: 0;
+  border: 0;
+  background: none;
+  color: #c5d5d5;
+  font-size: 12px;
+  font-weight: 600;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+.run-counter { color: #8ca2a7; font: 10px 'DM Mono', monospace; white-space: nowrap; }
+.topbar.slim .streak { justify-self: end; margin: 0; color: #a9d5c9; font: 11px 'DM Mono', monospace; white-space: nowrap; }
+.topbar.slim .streak span { margin-right: 3px; }
+.training-layout { display: block; }
+.board-column { width: 100%; }
+.board-wrap { box-shadow: none; }
+.move-feedback { margin-top: 7px; }
+.move-feedback-heading { display: flex; min-height: 18px; align-items: center; justify-content: space-between; color: #718990; font: 9px 'DM Mono', monospace; letter-spacing: .12em; }
+.move-feedback-heading small { color: #8ca2a7; font-size: 9px; letter-spacing: 0; }
+.move-options { display: grid; gap: 3px; }
+.move-option { display: grid; grid-template-columns: 22px 1fr auto 15px; align-items: center; min-height: 29px; gap: 8px; padding: 4px 9px; border: 1px solid transparent; border-radius: 6px; background: #19262e; color: #bccbca; font-size: 12px; }
+.move-rank { color: #6f858b; font: 10px 'DM Mono', monospace; }
+.move-option b { font: 500 12px 'DM Mono', monospace; }
+.move-eval { color: #a3b8b7; font: 11px 'DM Mono', monospace; }
+.move-mark { text-align: right; font: 13px 'DM Mono', monospace; }
+.move-option.picked-approved { border-color: #579584; background: #1d3b38; color: #d1e9e1; }
+.move-option.picked-approved .move-eval, .move-option.picked-approved .move-mark { color: #a9dfce; }
+.move-option.picked-rejected { border-color: #966557; background: #392a2b; color: #e0c2b8; }
+.move-option.picked-rejected .move-eval, .move-option.picked-rejected .move-mark { color: #e0a08b; }
+.played-outside { border-style: dashed; }
+.moves-status { min-height: 27px; padding: 6px 0; color: #8ca2a7; font-size: 11px; }
+.board-nav-row { display: flex; min-height: 44px; align-items: center; justify-content: space-between; gap: 10px; }
+.board-nav-row .line-controls { flex: 1; justify-content: flex-start; gap: 12px; margin: 0; }
+.board-nav-row .line-controls button { min-height: 36px; padding: 6px 4px; }
+.board-nav-row .line-controls span { color: #687f86; font: 10px 'DM Mono', monospace; }
+.board-nav-row .next-button { width: auto; min-height: 34px; padding: 7px 13px; border-radius: 7px; font-size: 11px; white-space: nowrap; }
+.board-nav-row .next-button:disabled { cursor: wait; opacity: .58; }
+.game-meta, .game-players { color: #6f858b; font: 9px 'DM Mono', monospace; }
+.game-meta { margin-top: 10px; text-transform: uppercase; }
+.game-players { margin-top: 7px; font-family: 'Manrope', sans-serif; font-size: 10px; }
+.history-block { margin-top: 14px; padding-top: 10px; border-top: 1px solid #25363d; }
+.history-heading { margin-bottom: 5px; color: #718990; font: 9px 'DM Mono', monospace; letter-spacing: .12em; }
+.history-list { max-height: 360px; gap: 2px; padding: 0; }
+.history-row { min-height: 27px; gap: 7px; padding: 4px 7px; }
+.history-row.current { background: #203d3e; }
+.history-row b { min-width: 44px; font-size: 11px; }
+.history-ply { min-width: 27px; font-size: 9px; }
+.history-verdict { width: 13px; font: 11px 'DM Mono', monospace; }
+.history-verdict.ok { color: #9bd2c2; }
+.history-verdict.bad { color: #c98d76; }
+.history-eval { min-width: 32px; margin-left: auto; color: #a5bbb6; text-align: right; font: normal 10px 'DM Mono', monospace; }
+.game-controls { display: flex; align-items: center; gap: 10px; margin-top: 14px; padding: 10px 0 4px; border-top: 1px solid #25363d; }
+.game-controls .think-button { margin-right: auto; }
+.game-controls .skip-button { width: auto; padding: 8px 12px; font-size: 11px; }
+.game-result { margin-top: 12px; color: #adc1bd; font-size: 12px; }
+.app-footer { min-height: 20px; margin-top: 0; padding: 8px 0; }
+@media (max-width: 480px) {
+  .app-shell { width: calc(100% - 12px); }
+  .topbar.slim { min-height: 31px; padding: 2px 0 5px; }
+  .move-option { min-height: 28px; }
+  .game-meta { margin-top: 8px; }
+  .history-list { max-height: 320px; }
+}

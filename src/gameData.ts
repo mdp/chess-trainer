@@ -125,16 +125,13 @@ const PHASE_PATTERN: Phase[] = [
   'endgame', 'middlegame', 'opening', 'middlegame',
 ]
 
-export function nextGame(library: GameRecord[], cursor: number, excludeId?: string | null): { game: GameRecord; startPly: number; phase: Phase; index: number } {
-  for (let attempt = 0; attempt < library.length; attempt += 1) {
-    const index = (cursor + attempt) % library.length
-    const game = library[index]
-    if (game.id === excludeId && library.length > 1) continue
-    const phase = PHASE_PATTERN[cursor % PHASE_PATTERN.length]
-    return { game, startPly: startPlyForPhase(game, phase), phase, index }
-  }
-  const game = library[0]
-  return { game, startPly: startPlyForPhase(game, 'middlegame'), phase: 'middlegame', index: 0 }
+export function nextGame(library: GameRecord[], excludeId?: string | null): { game: GameRecord; startPly: number; phase: Phase; index: number } {
+  const candidates = library
+    .map((game, index) => ({ game, index }))
+    .filter(({ game }) => library.length === 1 || game.id !== excludeId)
+  const { game, index } = candidates[Math.floor(Math.random() * candidates.length)]
+  const phase = PHASE_PATTERN[Math.floor(Math.random() * PHASE_PATTERN.length)]
+  return { game, startPly: startPlyForPhase(game, phase), phase, index }
 }
 
 /** First index where the played line leaves the recorded game, or null while still on it. */

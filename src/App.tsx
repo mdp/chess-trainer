@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useState } from 'react'
+import { useEffect, useMemo, useRef, useState } from 'react'
 import { Chess, type Square } from 'chess.js'
 import { Chessboard } from 'react-chessboard'
 import { createEngineAdapter, type EngineAdapter, type EngineAnalysis, type EngineAnalysisLine } from './engineAdapter'
@@ -25,6 +25,8 @@ type RunState = {
   line: string[]
   /** UCI move for every ply of the line. */
   movesUci: string[]
+  /** Evaluation shown beside each move, from the player's perspective. */
+  moveEvalLabels: (string | null)[]
   lineIndex: number
   /** Judgement record for each player move in order. */
   picks: Pick[]
@@ -59,11 +61,15 @@ function evalValue(line: EngineAnalysisLine): number {
   return line.scoreCp ?? 0
 }
 
-function fmtEval(line: EngineAnalysisLine | undefined): string {
+function fmtEval(line: EngineAnalysisLine | undefined, invert = false): string {
   if (!line) return '—'
-  if (line.mateIn !== undefined) return `M${line.mateIn > 0 ? '' : '−'}${Math.abs(line.mateIn)}`
+  if (line.mateIn !== undefined) {
+    const mate = invert ? -line.mateIn : line.mateIn
+    return `M${mate > 0 ? '' : '−'}${Math.abs(mate)}`
+  }
   if (line.scoreCp === undefined) return '—'
-  return `${line.scoreCp >= 0 ? '+' : '−'}${(Math.abs(line.scoreCp) / 100).toFixed(1)}`
+  const score = invert ? -line.scoreCp : line.scoreCp
+  return `${score >= 0 ? '+' : '−'}${(Math.abs(score) / 100).toFixed(1)}`
 }
 
 const REPLY_MARGIN_CP = 30
@@ -111,12 +117,40 @@ function App() {
   const [run, setRun] = useState<RunState | null>(null)
   const [selectedSquare, setSelectedSquare] = useState<Square | null>(null)
   const [feedback, setFeedback] = useState<JudgeFeedback | null>(null)
-  const [rootAnalysis, setRootAnalysis] = useState<EngineAnalysis | null>(null)
+  const [feedbackAtIndex, setFeedbackAtIndex] = useState<number | null>(null)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
-  const [selectedEngineLine, setSelectedEngineLine] = useState<string | null>(null)
   const [opponentThinking, setOpponentThinking] = useState(false)
 
   const engine: EngineAdapter = useMemo(() => createEngineAdapter(), [])
+  const analysisCache = useRef(new Map<string, Promise<EngineAnalysis>>())
+  const analysisQueue = useRef<Promise<void>>(Promise.resolve())
+
+  function analyzeCached(fen: string, options: { depth: number; multipv: number; maxTimeMs: number }) {
+    const key = `${fen}|${options.depth}|${options.multipv}|${options.maxTimeMs}`
+    const cached = analysisCache.current.get(key)
+    if (cached) return cached
+
+    const request = analysisQueue.current.then(() => engine.analyzePosition(fen, options)).catch((error: unknown) => {
+      analysisCache.current.delete(key)
+      throw error
+    })
+    analysisQueue.current = request.then(() => undefined, () => undefined)
+    analysisCache.current.set(key, request)
+    if (analysisCache.current.size > 32) {
+      const oldestKey = analysisCache.current.keys().next().value
+      if (oldestKey !== undefined && oldestKey !== key) analysisCache.current.delete(oldestKey)
+    }
+    return request
+  }
+
+  function playerAnalysisOptions(candidateId: string) {
+    const engineTimeMs = store.profiles.find((candidate) => candidate.id === candidateId)?.settings.engineTimeMs ?? 2000
+    return { depth: 16, multipv: JUDGE_MULTIPV, maxTimeMs: engineTimeMs }
+  }
+
+  function warmPlayerAnalysis(fen: string, candidateId: string) {
+    void analyzeCached(fen, playerAnalysisOptions(candidateId)).catch(() => undefined)
+  }
 
   const games = useMemo(() => {
     const synced = profile?.syncedPgn ? gamesFromPgn(profile.syncedPgn) : []
@@ -135,20 +169,22 @@ function App() {
 
   function startRun(candidateId: string, game: GameRecord, startPly: number, phase: Phase, cursorIndex: number) {
     patchProfile(candidateId, (candidate) => ({ ...candidate, cursor: cursorIndex + 1 }))
+    const startFen = fenAfterMoves(game.moves, startPly)
     setRun({
       game,
       startPly,
       phase,
-      line: [fenAfterMoves(game.moves, startPly)],
+      line: [startFen],
       movesUci: [],
+      moveEvalLabels: [],
       lineIndex: 0,
       picks: [],
       done: false,
     })
+    warmPlayerAnalysis(startFen, candidateId)
     setSelectedSquare(null)
     setFeedback(null)
-    setRootAnalysis(null)
-    setSelectedEngineLine(null)
+    setFeedbackAtIndex(null)
     setShowProfiles(false)
   }
 
@@ -162,23 +198,10 @@ function App() {
     setShowProfiles(false)
 
     const library = [...gameLibrary, ...(opened.syncedPgn ? gamesFromPgn(opened.syncedPgn) : [])]
-    const saved = opened.session
-    const savedGame = saved ? library.find((game) => game.id === saved.gameId) : undefined
-    if (saved && savedGame && saved.line.length) {
-      setRun({
-        game: savedGame,
-        startPly: saved.startPly,
-        phase: saved.phase,
-        line: saved.line,
-        movesUci: saved.movesUci,
-        lineIndex: Math.min(saved.lineIndex, saved.line.length - 1),
-        picks: saved.picks,
-        done: saved.done,
-      })
-    } else {
-      const next = nextGame(library, opened.cursor, null)
-      startRun(opened.id, next.game, next.startPly, next.phase, next.index)
-    }
+    // Start a fresh random game when the profile is opened. Avoid immediately
+    // repeating the saved game the player was on before the app was closed.
+    const next = nextGame(library, opened.session?.gameId)
+    startRun(opened.id, next.game, next.startPly, next.phase, next.index)
   }
 
   function createAndOpenProfile(name: string) {
@@ -187,7 +210,7 @@ function App() {
     setStore(nextStore)
     saveStore(nextStore)
     setProfileId(created.id)
-    const next = nextGame(gameLibrary, 0, null)
+    const next = nextGame(gameLibrary)
     startRun(created.id, next.game, next.startPly, next.phase, next.index)
   }
 
@@ -233,24 +256,34 @@ function App() {
    */
   function playOpponentMove(current: RunState, fenAfterPlayerMove: string) {
     setOpponentThinking(true)
-    void engine.analyzePosition(fenAfterPlayerMove, { depth: 12, multipv: 3, maxTimeMs: OPPONENT_THINK_MS })
+    void analyzeCached(fenAfterPlayerMove, { depth: 12, multipv: 3, maxTimeMs: OPPONENT_THINK_MS })
       .then((result) => {
         const uci = pickEngineReply(result.lines)
         if (!uci) throw new Error('no engine reply')
-        finishOpponentMove(current, uci, applyMove(fenAfterPlayerMove, uci))
+        const replyLine = result.lines.find((line) => line.move === uci)
+        finishOpponentMove(current, uci, applyMove(fenAfterPlayerMove, uci), fmtEval(replyLine, true))
       })
       .catch(() => finishOpponentMove(current, null, undefined))
       .finally(() => setOpponentThinking(false))
   }
 
-  function finishOpponentMove(current: RunState, uci: string | null, applied?: { san: string; fenAfter: string }) {
+  function finishOpponentMove(current: RunState, uci: string | null, applied?: { san: string; fenAfter: string }, replyEval?: string) {
     if (uci && applied) {
-      setFeedback((previous) => (previous ? { ...previous, opponentReply: applied.san } : previous))
+      const picks = current.picks.map((pick, index) => index === current.picks.length - 1 && pick.cpLabel === null && replyEval
+        ? { ...pick, cpLabel: replyEval }
+        : pick)
+      setFeedback((previous) => (previous ? { ...previous, pick: picks[picks.length - 1] ?? previous.pick, opponentReply: applied.san } : previous))
       setRun(() => {
         const line = [...current.line, applied.fenAfter]
         const movesUci = [...current.movesUci, uci]
-        return { ...current, line, movesUci, lineIndex: line.length - 1, done: new Chess(applied.fenAfter).isGameOver() }
+        const moveEvalLabels = [...current.moveEvalLabels]
+        if (picks.length && picks[picks.length - 1].cpLabel !== current.picks[current.picks.length - 1]?.cpLabel) {
+          moveEvalLabels[moveEvalLabels.length - 1] = picks[picks.length - 1].cpLabel
+        }
+        moveEvalLabels.push(replyEval ?? null)
+        return { ...current, line, movesUci, moveEvalLabels, picks, lineIndex: line.length - 1, done: new Chess(applied.fenAfter).isGameOver() }
       })
+      warmPlayerAnalysis(applied.fenAfter, profileId ?? '')
       return
     }
     // No reply available (engine failed): the game cannot continue; mark done.
@@ -262,23 +295,28 @@ function App() {
     if (game!.turn() !== playerSide(run.startPly)) return false
     const fenBefore = run.line[run.lineIndex]
     const probe = new Chess(fenBefore)
+    let san: string
     try {
       const move = probe.move({ from: sourceSquare, to: targetSquare, promotion: 'q' })
       if (!move) return false
+      san = move.san
     } catch {
       return false
     }
     const uci = `${sourceSquare}${targetSquare}`
+    const fenAfter = probe.fen()
+    const movesUci = [...run.movesUci.slice(0, run.lineIndex), uci]
+    const line = [...run.line.slice(0, run.lineIndex + 1), fenAfter]
+    const moveEvalLabels = [...run.moveEvalLabels.slice(0, run.lineIndex), null]
+    const optimisticRun: RunState = { ...run, line, movesUci, moveEvalLabels, lineIndex: line.length - 1 }
 
+    // Commit the visual move immediately; only the verdict waits on the engine.
+    setRun(optimisticRun)
     setIsAnalyzing(true)
-    void engine.analyzePosition(fenBefore, { depth: 16, multipv: JUDGE_MULTIPV, maxTimeMs: profile.settings.engineTimeMs })
+    setFeedback(null)
+    setFeedbackAtIndex(null)
+    void analyzeCached(fenBefore, playerAnalysisOptions(profile.id))
       .then((result) => {
-        setRootAnalysis(result)
-        const { san, fenAfter } = applyMove(fenBefore, uci)
-
-        // The played line up to and including this move (rewinds included).
-        const movesUci = [...run.movesUci.slice(0, run.lineIndex), uci]
-        const line = [...run.line.slice(0, run.lineIndex + 1), fenAfter]
         const picksBefore = Math.floor((run.lineIndex + 1) / 2)
         const pick = judgeMove(uci, san, fenBefore, result.lines)
         const picks = [...run.picks.slice(0, picksBefore), pick]
@@ -286,17 +324,21 @@ function App() {
         const achieved = bestChainIn(picks) >= GOAL_CHAIN
         const achievedBefore = bestChainIn(run.picks) >= GOAL_CHAIN
 
-        const nextRun: RunState = { ...run, line, movesUci, lineIndex: line.length - 1, picks }
-        setRun(nextRun)
+        const evaluatedRun: RunState = { ...optimisticRun, moveEvalLabels: [...moveEvalLabels.slice(0, -1), pick.cpLabel], picks }
+        setRun(evaluatedRun)
+        setFeedbackAtIndex(evaluatedRun.lineIndex)
 
         const alternatives: PickAlternative[] = result.lines.slice(0, 3)
           .map((engineLine) => ({ san: sanFor(fenBefore, engineLine.move) ?? engineLine.move, score: fmtEval(engineLine) }))
         setFeedback({ pick, chain: chainAfter, alternatives, opponentReply: undefined })
 
         patchProfile(profile.id, (candidate) => noteMilestone(candidate, !achievedBefore && achieved, chainAfter))
-        playOpponentMove(nextRun, fenAfter)
+        playOpponentMove(evaluatedRun, fenAfter)
       })
-      .catch(() => setIsAnalyzing(false))
+      .catch(() => {
+        setRun(run)
+        setFeedback(null)
+      })
       .finally(() => setIsAnalyzing(false))
     setSelectedSquare(null)
     return true
@@ -333,7 +375,7 @@ function App() {
   function nextGameRun() {
     if (!profile || !run) return
     patchProfile(profile.id, (candidate) => noteGameFinished(candidate, bestChainIn(run.picks)))
-    const next = nextGame(games, profile.cursor, run.game.id)
+    const next = nextGame(games, run.game.id)
     startRun(profile.id, next.game, next.startPly, next.phase, next.index)
   }
 
@@ -357,52 +399,41 @@ function App() {
   }
 
   const chain = trailingChain(run.picks)
-  const blunders = run.picks.filter((pick) => !pick.approved).length
   const achieved = bestChainIn(run.picks) >= GOAL_CHAIN
-  const isPlayerTurn = game!.turn() === playerSide(run.startPly)
   const showNextGame = achieved || run.done
-  const thinkLabel = `${(profile.settings.engineTimeMs / 1000).toFixed(0)}s`
+  const fullMoveNumber = Math.floor((run.startPly + run.lineIndex) / 2) + 1
+  const lastMoveUci = run.lineIndex > 0
+    ? run.movesUci[run.lineIndex - 1]
+    : run.startPly > 0 ? run.game.moves[run.startPly - 1] : undefined
+  const squareStyles: Record<string, { boxShadow: string }> = {}
+  if (lastMoveUci) {
+    const highlight = 'inset 0 0 0 999px rgba(207, 205, 113, .32)'
+    squareStyles[lastMoveUci.slice(0, 2)] = { boxShadow: highlight }
+    squareStyles[lastMoveUci.slice(2, 4)] = { boxShadow: highlight }
+  }
+  if (selectedSquare) {
+    const selection = 'inset 0 0 0 3px rgba(166, 214, 200, .95)'
+    const previous = squareStyles[selectedSquare]?.boxShadow
+    squareStyles[selectedSquare] = { boxShadow: previous ? `${previous}, ${selection}` : selection }
+  }
 
   return (
     <main className="app-shell">
       <header className="topbar slim">
-        <div className="brand-mark">♞</div>
-        <span className="profile-name">{profile.name}</span>
-        <div className="streak"><span>◒</span> {profile.streak.current > 0 ? `${profile.streak.current}` : '—'}</div>
+        <button className="profile-name-button" onClick={() => setShowProfiles(true)} aria-label="Switch profile">{profile.name}</button>
+        <span className="run-counter">Move {fullMoveNumber} · Run {chain}/{GOAL_CHAIN}</span>
+        <span className="streak"><span>◒</span>{profile.streak.current > 0 ? profile.streak.current : '—'}</span>
       </header>
 
       <section className="training-layout">
         <div className="board-column">
-          <div className="exercise-meta">
-            <div>
-              <span className={`mode-pill ${achieved ? 'achieved' : ''}`}>{achieved ? 'RUN COMPLETE' : `RUN ${chain}/${GOAL_CHAIN}`}</span>
-              <span className="exercise-count">Best {Math.max(profile.stats.bestRun, bestChainIn(run.picks))} · Blunders {blunders}</span>
-            </div>
-            <button className="icon-button" aria-label="Switch player" onClick={() => setShowProfiles(true)}>☷</button>
-          </div>
-
-          <div className="prompt-card">
-            <span className="prompt-kicker">{run.done ? 'GAME OVER' : isPlayerTurn ? (isAnalyzing ? 'ENGINE CHECKING' : 'YOUR MOVE') : opponentThinking ? 'OPPONENT THINKING' : 'OPPONENT MOVE'}</span>
-            <h2>
-              {run.done
-                ? gameResultText(run, achieved, game!.fen())
-                : isPlayerTurn
-                  ? 'Pick a move that keeps you on top.'
-                  : 'The engine opponent is choosing its reply.'}
-            </h2>
-            <p>
-              {run.game.white}{run.game.whiteElo ? ` (${run.game.whiteElo})` : ''} vs {run.game.black}{run.game.blackElo ? ` (${run.game.blackElo})` : ''}
-              {run.game.opening ? ` · ${run.game.eco} ${run.game.opening}` : ''} · {run.phase}
-            </p>
-          </div>
-
           <div className="board-wrap">
             <Chessboard options={{
               position: game!.fen(),
               onSquareClick: ({ square }) => onSquareClick(square),
               boardOrientation: playerSide(run.startPly) === 'w' ? 'white' : 'black',
               allowDragging: false,
-              squareStyles: selectedSquare ? { [selectedSquare]: { boxShadow: 'inset 0 0 0 4px rgba(166, 214, 200, .9)' } } : {},
+              squareStyles,
               animationDurationInMs: 180,
               boardStyle: { borderRadius: '12px', overflow: 'hidden' },
               darkSquareStyle: { backgroundColor: '#52748a' },
@@ -410,45 +441,31 @@ function App() {
             }} />
           </div>
 
-          <div className="board-footer">
-            <span><i className="turn-dot" /> {game!.turn() === 'w' ? 'White' : 'Black'} to move</span>
+          <div className="board-nav-row">
             <div className="line-controls">
-              <button onClick={goBack} disabled={run.lineIndex === 0 || isAnalyzing}>← Back</button>
+              <button onClick={goBack} disabled={run.lineIndex === 0 || isAnalyzing || opponentThinking}>← Back</button>
               <span>{run.lineIndex} / {run.line.length - 1}</span>
-              <button onClick={goForward} disabled={run.lineIndex >= run.line.length - 1 || isAnalyzing}>Forward →</button>
+              <button onClick={goForward} disabled={run.lineIndex >= run.line.length - 1 || isAnalyzing || opponentThinking}>Forward →</button>
             </div>
+            {showNextGame && <button className="next-button" onClick={nextGameRun} disabled={isAnalyzing || opponentThinking}>Next game →</button>}
           </div>
 
-          <div className="below-board">
-            <p><b>Goal:</b> {GOAL_CHAIN} approved moves in a row. Approved = within 0.5 pawns of the engine's best line, and it never flips a non-negative position negative.</p>
-            <div className="extras-row">
-              <span>{profile.stats.gamesPlayed} games · {profile.stats.runsAchieved} runs</span>
-              <button className="think-button" onClick={cycleThinkTime} title="Engine think time per move">◉ {thinkLabel}</button>
-            </div>
-          </div>
-        </div>
+          <MoveFeedbackList feedback={feedback && (feedbackAtIndex === null || run.lineIndex >= feedbackAtIndex) ? feedback : null} isAnalyzing={isAnalyzing} opponentThinking={opponentThinking} />
 
-        <aside className="insight-panel">
-          {feedback
-            ? <JudgeCard feedback={feedback} opponentThinking={opponentThinking} />
-            : <div className="thinking-note"><span className="note-icon">◎</span><div><strong>{isAnalyzing ? 'Reading the position…' : 'Take your time'}</strong><p>{isAnalyzing ? `Berserk is checking the top ${JUDGE_MULTIPV} (${thinkLabel}).` : 'Every pick is judged: margin to the best line, and it must not negate your advantage.'}</p></div></div>}
-
-          {rootAnalysis && <EnginePanel analysis={rootAnalysis} selectedEngineLine={selectedEngineLine} onSelect={setSelectedEngineLine} />}
-
-          {showNextGame && <button className="next-button" onClick={nextGameRun}>Next game <span>→</span></button>}
-          {!showNextGame && (
-            <button className="skip-button" onClick={() => {
-              startRun(profile.id, run.game, run.startPly, run.phase, profile.cursor - 1)
-              setFeedback(null)
-              setRootAnalysis(null)
-            }}>Restart game</button>
-          )}
-
+          <div className="game-meta">Game {run.game.id.slice(0, 8)} · {run.phase}</div>
           <HistoryList run={run} onJump={(ply) => { setRun({ ...run, lineIndex: ply }); setSelectedSquare(null) }} />
-        </aside>
+
+          <div className="game-controls">
+            <button className="think-button" onClick={cycleThinkTime} title="Engine think time per move">Engine {profile.settings.engineTimeMs / 1000}s</button>
+            {!showNextGame && <button className="skip-button" onClick={() => startRun(profile.id, run.game, run.startPly, run.phase, profile.cursor - 1)}>Restart</button>}
+          </div>
+
+          {run.done && <p className="game-result">{gameResultText(run, achieved, game!.fen())}</p>}
+          <div className="game-players">{run.game.white} vs {run.game.black}{run.game.opening ? ` · ${run.game.eco} ${run.game.opening}` : ''}</div>
+        </div>
       </section>
 
-      <footer className="app-footer"><span>{isAnalyzing || opponentThinking ? 'Engine: analyzing' : 'Engine: Berserk WASM'}</span></footer>
+      <footer className="app-footer"><span>{isAnalyzing || opponentThinking ? 'Engine thinking' : ' '}</span></footer>
     </main>
   )
 }
@@ -463,54 +480,41 @@ function gameResultText(run: RunState, achieved: boolean, fen: string): string {
   return `${outcome} · ${reached}`
 }
 
-const REASON_TEXT: Record<PickReason, string> = {
-  approved: 'Within 0.5 pawns of the best line, without giving up the advantage.',
-  'outside-top': 'Not in the engine’s top 5 — too far from the best line to count.',
-  'negates-advantage': 'A close move that flips a non-negative position negative does not count. You had a line that kept the advantage.',
-  'loses-margin': 'More than 0.5 pawns worse than the best line.',
-  'engine-unavailable': 'The engine could not check this move; it counts as approved.',
-}
+function MoveFeedbackList({ feedback, isAnalyzing, opponentThinking }: {
+  feedback: JudgeFeedback | null
+  isAnalyzing: boolean
+  opponentThinking: boolean
+}) {
+  if (!feedback) {
+    return isAnalyzing ? <div className="moves-status">Checking your move…</div> : null
+  }
 
-function JudgeCard({ feedback, opponentThinking }: { feedback: JudgeFeedback; opponentThinking: boolean }) {
-  const { pick, chain, alternatives, opponentReply } = feedback
-  const isBest = pick.san === pick.bestSan
-  return <div className="feedback-card">
-    <div className="result-heading">
-      <span className={`result-check ${pick.approved ? '' : 'fail'}`}>{pick.approved ? '✓' : '✕'}</span>
-      <div>
-        <span className="result-label">{pick.approved ? `APPROVED · RUN ${chain}` : 'NOT APPROVED · RUN RESET'}</span>
-        <h3>{pick.san} {pick.approved ? 'keeps the run alive' : 'resets the run'}</h3>
-      </div>
+  const { pick, alternatives } = feedback
+  const included = alternatives.some((line) => line.san === pick.san)
+  return <section className="move-feedback" aria-live="polite">
+    <div className="move-feedback-heading">
+      <span>TOP MOVES</span>
+      {opponentThinking && <small>Opponent thinking…</small>}
+      {!opponentThinking && pick.reason === 'engine-unavailable' && <small>Engine unavailable</small>}
     </div>
-    <div className="eval-row">
-      <div><span>YOURS</span><b>{pick.san}</b><em>{pick.cpLabel ?? '—'}</em></div>
-      <div><span>BEST</span><b>{pick.bestSan}</b><em>{pick.bestLabel}</em></div>
+    <div className="move-options">
+      {alternatives.map((line, index) => {
+        const isPicked = line.san === pick.san
+        return <div key={`${line.san}-${index}`} className={`move-option ${isPicked ? pick.approved ? 'picked-approved' : 'picked-rejected' : ''}`}>
+          <span className="move-rank">{index + 1}</span>
+          <b>{line.san}</b>
+          <span className="move-eval">{line.score}</span>
+          {isPicked && <span className="move-mark">{pick.approved ? '✓' : '✕'}</span>}
+        </div>
+      })}
+      {!included && <div className={`move-option ${pick.approved ? 'picked-approved' : 'picked-rejected'} played-outside`}>
+        <span className="move-rank">4</span>
+        <b>{pick.san}</b>
+        <span className="move-eval">{pick.cpLabel ?? (pick.reason === 'outside-top' ? '—' : '—')}</span>
+        <span className="move-mark">{pick.approved ? '✓' : '✕'}</span>
+      </div>}
     </div>
-    <p>
-      {pick.approved && isBest ? 'That was the engine’s first choice. ' : ''}
-      {REASON_TEXT[pick.reason]}
-    </p>
-    <div className="move-ideas">
-      <span>ENGINE TOP 3</span>
-      {alternatives.map((line, index) => <div key={`${line.san}-${index}`} className={line.san === pick.san ? 'chosen-move' : ''}>{index + 1}. {line.san} <em>{line.score}</em></div>)}
-    </div>
-    {opponentReply || opponentThinking ? <div className="opponent-idea"><span className="lesson-label">OPPONENT</span><p>{opponentThinking && !opponentReply ? 'Choosing a reply…' : <>Their reply: <b>{opponentReply}</b></>}</p></div> : null}
-  </div>
-}
-
-function EnginePanel({ analysis, selectedEngineLine, onSelect }: { analysis: EngineAnalysis | null; selectedEngineLine: string | null; onSelect: (move: string | null) => void }) {
-  if (!analysis || !analysis.lines.length) return null
-  return <div className="engine-panel">
-    <div className="engine-panel-heading"><span>ENGINE LINES</span><small>position before your move</small></div>
-    {analysis.lines.slice(0, 3).map((line, index) => (
-      <button className={`engine-line ${selectedEngineLine === line.move ? 'chosen' : ''}`} key={`${line.move}-${index}`} onClick={() => onSelect(selectedEngineLine === line.move ? null : line.move)}>
-        <strong>{index + 1}</strong>
-        <b>{lineLabel(analysis.fen, line)}</b>
-        <span>{fmtEval(line)}</span>
-        {selectedEngineLine === line.move ? <small>{formatPv(analysis.fen, line.pv)}</small> : null}
-      </button>
-    ))}
-  </div>
+  </section>
 }
 
 /** Every move of the game so far; player moves carry their approval verdict. Click to jump. */
@@ -519,48 +523,26 @@ function HistoryList({ run, onJump }: { run: RunState; onJump: (lineIndex: numbe
     const san = sanFor(run.line[ply], uci) ?? uci
     const isPlayerMove = ply % 2 === 0
     const pick = isPlayerMove ? run.picks[ply / 2] : undefined
-    return { ply, san, isPlayerMove, pick }
+    return { ply, san, isPlayerMove, pick, evalLabel: run.moveEvalLabels[ply] ?? pick?.cpLabel ?? null }
   })
   if (!rows.length) return null
   return <div className="history-block">
-    <div className="panel-label">GAME HISTORY</div>
+    <div className="history-heading">HISTORY</div>
     <div className="history-list">
       {rows.map((row) => (
         <button
           key={row.ply}
-          className={`history-row ${row.ply === run.lineIndex ? 'current' : ''} ${row.isPlayerMove ? 'player' : 'engine'}`}
+          className={`history-row ${row.ply + 1 === run.lineIndex ? 'current' : ''}`}
           onClick={() => onJump(row.ply + 1)}
         >
-          <span className="history-ply">{Math.floor(row.ply / 2) + 1}{row.ply % 2 === 0 ? '.' : '…'}</span>
+          <span className="history-ply">{Math.floor((run.startPly + row.ply) / 2) + 1}{(run.startPly + row.ply) % 2 === 0 ? '.' : '…'}</span>
           <b>{row.san}</b>
-          {row.pick ? (
-            <em className={row.pick.approved ? 'ok' : 'bad'}>
-              {row.pick.approved ? '✓' : '✕'} {row.pick.cpLabel ?? '?'} <small>vs {row.pick.bestLabel}</small>
-            </em>
-          ) : <em className="reply">↩</em>}
+          {row.pick && <span className={`history-verdict ${row.pick.approved ? 'ok' : 'bad'}`}>{row.pick.approved ? '✓' : '✕'}</span>}
+          <em className="history-eval">{row.evalLabel ?? '—'}</em>
         </button>
       ))}
     </div>
   </div>
-}
-
-function lineLabel(fen: string, line: EngineAnalysisLine) {
-  try {
-    const chess = new Chess(fen)
-    const move = chess.move({ from: line.move.slice(0, 2) as Square, to: line.move.slice(2, 4) as Square, promotion: line.move[4] as 'q' | 'r' | 'b' | 'n' | undefined })
-    return move?.san ?? line.move
-  } catch { return line.move }
-}
-
-function formatPv(fen: string, pv?: string[]) {
-  if (!pv?.length) return 'No continuation returned'
-  try {
-    const chess = new Chess(fen)
-    return pv.slice(0, 6).map((uci) => {
-      const move = chess.move({ from: uci.slice(0, 2) as Square, to: uci.slice(2, 4) as Square, promotion: uci[4] as 'q' | 'r' | 'b' | 'n' | undefined })
-      return move?.san ?? uci
-    }).join(' ')
-  } catch { return pv.slice(0, 6).join(' ') }
 }
 
 function ProfileScreen({ store, activeId, onOpen, onCreate, onDelete, onSync }: {

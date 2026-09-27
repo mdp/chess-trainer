@@ -23,7 +23,7 @@ export type Profile = {
   stats: RunStats
   /** Cached PGN of synced Lichess games for this profile. */
   syncedPgn?: string
-  /** Cursor into the game library for the next game. */
+  /** Index of the last selected game, retained for persisted-profile compatibility. */
   cursor: number
   /** Exactly where the player left off: the game, the line, and the run state. */
   session: {
@@ -32,6 +32,7 @@ export type Profile = {
     phase: Phase
     line: string[]
     movesUci: string[]
+    moveEvalLabels?: (string | null)[]
     lineIndex: number
     /** Judgement record for each player move in order. */
     picks: Pick[]
