@@ -1,4 +1,5 @@
 import type { Phase } from './gameData'
+import type { Pick } from './types'
 
 export type Streak = { current: number; longest: number; lastDay: string | null }
 
@@ -32,8 +33,8 @@ export type Profile = {
     line: string[]
     movesUci: string[]
     lineIndex: number
-    /** Judgement (top-3 or not) of each player move in order. */
-    picks: boolean[]
+    /** Judgement record for each player move in order. */
+    picks: Pick[]
     done: boolean
   } | null
 }
@@ -43,7 +44,7 @@ export type Store = {
   profiles: Profile[]
 }
 
-const STORAGE_KEY = 'chess-trainer:store:v1'
+const STORAGE_KEY = 'chess-trainer:store:v2'
 
 export function loadStore(): Store {
   try {

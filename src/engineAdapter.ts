@@ -1,5 +1,4 @@
-import type { MoveFeedback } from './types'
-import { Chess, type Square } from 'chess.js'
+import { Chess } from 'chess.js'
 
 export interface EngineAnalysisLine {
   move: string
@@ -104,58 +103,4 @@ export function createEngineAdapter(): EngineAdapter {
     moduleUrl: import.meta.env.VITE_ENGINE_MODULE_URL ?? `${baseUrl}engine/berserk.js`,
     networkUrl: import.meta.env.VITE_ENGINE_NETWORK_URL ?? `${baseUrl}engine/berserk-9b84c340af7e.nn`,
   })
-}
-
-/** Opponent's strongest reply to the played move: the second move of that line's PV. */
-export function findOpponentReply(analysis: EngineAnalysis, playedMove: string, fenAfter: string): string | undefined {
-  if (!analysis.lines.length) return undefined
-  const line = analysis.lines.find((candidate) => candidate.move === playedMove) ?? analysis.lines[0]
-  const reply = line.pv?.[1]
-  if (!reply) return undefined
-  try {
-    const chess = new Chess(fenAfter)
-    const move = chess.move({ from: reply.slice(0, 2) as Square, to: reply.slice(2, 4) as Square, promotion: reply[4] as 'q' | 'r' | 'b' | 'n' | undefined })
-    return move?.san ?? undefined
-  } catch { return undefined }
-}
-
-export function classifyEngineMove(move: string, san: string, analysis: EngineAnalysis, fallback: string[]): MoveFeedback {
-  const lines = analysis.lines.length ? analysis.lines : fallback.map((candidate) => ({ move: candidate }))
-  const index = lines.findIndex((line) => line.move === move)
-  const isTopChoice = index === 0
-  const isCloseAlternative = index >= 0 && index < Math.min(lines.length, 4)
-  const label = isTopChoice ? 'Excellent' : isCloseAlternative ? 'Good' : 'Playable'
-  const ideas = isCloseAlternative
-    ? ['improves a piece', 'keeps the center in view', 'supports king safety']
-    : ['keeps the position playable', 'does not solve the most urgent problem yet']
-
-  return {
-    label,
-    title: isCloseAlternative ? `${san} fits the position` : `${san} is playable, but there is more to do`,
-    body: isTopChoice
-      ? 'The engine agrees with your plan, and the move improves the position immediately.'
-      : isCloseAlternative
-        ? 'The engine slightly prefers another move, but your choice is a practical way to pursue the position’s ideas.'
-        : 'Look first for a move that develops, improves king safety, or creates useful central pressure.',
-    ideas,
-    move: san,
-  }
-}
-
-export function classifyDemoMove(move: string, san: string, suggestions: string[]): MoveFeedback {
-  const isSuggested = suggestions.includes(move)
-  const label = isSuggested ? 'Excellent' : 'Playable'
-  const ideas = isSuggested
-    ? ['improves a piece', 'keeps the center in view', 'supports king safety']
-    : ['is legal and keeps the position playable', 'does not solve an urgent problem yet']
-
-  return {
-    label,
-    title: isSuggested ? `${san} fits the position` : `${san} is playable, but there is more to do`,
-    body: isSuggested
-      ? 'This move follows the position’s demands instead of chasing a memorized line.'
-      : 'Look first for a move that develops, improves king safety, or creates useful central pressure.',
-    ideas,
-    move: san,
-  }
 }

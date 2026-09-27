@@ -1,24 +1,23 @@
-export type RunFeedback = {
-  /** The player's move was one of the engine's top 3. */
-  success: boolean
-  /** SAN of the played move. */
-  played: string
-  /** SAN of the engine's best move. */
-  best: string
-  /** Opponent's reply (SAN). */
-  opponentReply?: string
-  /** Consecutive top-3 picks after this move. */
-  chain: number
-  /** Engine's top lines (SAN + score) for display. */
-  topMoves: { san: string; score: string }[]
+/** Why a move was approved or not. */
+export type PickReason = 'approved' | 'outside-top' | 'negates-advantage' | 'loses-margin' | 'engine-unavailable'
+
+/** The verdict on one player move, persisted with the game. */
+export type Pick = {
+  uci: string
+  san: string
+  approved: boolean
+  reason: PickReason
+  /** Played move's eval label from the mover's perspective ('+0.4', '−1.2', 'M3'), or null if unverified. */
+  cpLabel: string | null
+  bestSan: string
+  bestLabel: string
 }
 
-export type MoveFeedback = {
-  label: 'Excellent' | 'Good' | 'Playable' | 'Inaccuracy'
-  title: string
-  body: string
-  ideas: string[]
-  move: string
-  /** Opponent's strongest reply, derived from the engine line matching the played move. */
+export type PickAlternative = { san: string; score: string }
+
+export type JudgeFeedback = {
+  pick: Pick
+  chain: number
+  alternatives: PickAlternative[]
   opponentReply?: string
 }
