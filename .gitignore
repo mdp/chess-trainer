@@ -1,4 +1,6 @@
-node_modules/
-dist/
+# Full PGN corpus is retained locally for offline mining, never deployed.
+/data/*.pgn
+/node_modules/
+/dist/
 .DS_Store
 .env.local

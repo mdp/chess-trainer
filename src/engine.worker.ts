@@ -13,6 +13,12 @@ let module: EmscriptenModule | null = null
 let currentLines = new Map<number, EngineAnalysisLine>()
 let currentRequest: { id: number; fen: string } | null = null
 
+function rankedAnalysisLines(): EngineAnalysisLine[] {
+  return [...currentLines.entries()]
+    .sort(([rankA], [rankB]) => rankA - rankB)
+    .map(([, line]) => line)
+}
+
 self.onmessage = async (event: MessageEvent<EngineWorkerRequest>) => {
   try {
     if (event.data.type === 'init') await initialize(event.data.moduleUrl, event.data.networkUrl)
@@ -51,7 +57,7 @@ async function analyze(request: Extract<EngineWorkerRequest, { type: 'analyze' }
   call('berserk_command', [`position fen ${request.fen}`])
   await Promise.resolve(call('berserk_command', [request.maxTimeMs ? `go depth ${request.depth} movetime ${request.maxTimeMs}` : `go depth ${request.depth}`], true))
   if (currentRequest?.id !== request.id) return
-  respond({ type: 'analysis', id: request.id, analysis: { fen: request.fen, lines: [...currentLines.values()] } })
+  respond({ type: 'analysis', id: request.id, analysis: { fen: request.fen, lines: rankedAnalysisLines() } })
   currentRequest = null
 }
 
@@ -63,13 +69,15 @@ function call(name: string, args: string[], async = false) {
 function consume(line: string) {
   if (line.startsWith('info ')) parseInfo(line)
   if (line.startsWith('bestmove ') && currentRequest) {
-    postMessage({ type: 'analysis', id: currentRequest.id, analysis: { fen: currentRequest.fen, lines: [...currentLines.values()] } } satisfies EngineWorkerResponse)
+    postMessage({ type: 'analysis', id: currentRequest.id, analysis: { fen: currentRequest.fen, lines: rankedAnalysisLines() } } satisfies EngineWorkerResponse)
     currentRequest = null
   }
 }
 
 function parseInfo(line: string) {
   if (!currentRequest || !line.includes(' score ')) return
+  // Bound scores are interim search information, not exact values for ranking.
+  if (/\b(?:lowerbound|upperbound)\b/.test(line)) return
   const multipv = Number(line.match(/\bmultipv (\d+)/)?.[1] ?? 1)
   const cp = line.match(/\bscore cp (-?\d+)/)
   const mate = line.match(/\bscore mate (-?\d+)/)

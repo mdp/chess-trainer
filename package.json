@@ -6,7 +6,10 @@
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "curate:games": "bun scripts/curate-games.mjs",
+    "mine:positions": "bun scripts/mine-positions.mjs",
+    "convert:games": "bun scripts/convert-games.mjs"
   },
   "dependencies": {
     "chess.js": "^1.4.0",

@@ -18,6 +18,9 @@ export type GameRecord = GameHeaders & {
   moves: string[]
 }
 
+/** Small runtime label; the full move list is only needed by offline mining. */
+export type GameSummary = Pick<GameHeaders, 'id' | 'white' | 'black' | 'eco' | 'opening'>
+
 /** Splits a PGN bundle into blocks and replays each through chess.js for canonical UCI moves. */
 export function parseGames(pgn: string): GameRecord[] {
   return pgn

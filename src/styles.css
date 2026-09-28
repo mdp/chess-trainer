@@ -170,6 +170,8 @@ h1, h2, h3, p { margin: 0; } h1 { font-size: 19px; letter-spacing: -.03em; } h2 
 .move-feedback { margin-top: 7px; }
 .move-feedback-heading { display: flex; min-height: 18px; align-items: center; justify-content: space-between; color: #718990; font: 9px 'DM Mono', monospace; letter-spacing: .12em; }
 .move-feedback-heading small { color: #8ca2a7; font-size: 9px; letter-spacing: 0; }
+.grade-summary, .retry-hint { margin: 3px 0 7px; color: #b8c9c6; font-size: 11px; line-height: 1.45; }
+.retry-hint { color: #e4c37f; }
 .move-options { display: grid; gap: 3px; }
 .move-option { display: grid; grid-template-columns: 22px 1fr auto 15px; align-items: center; min-height: 29px; gap: 8px; padding: 4px 9px; border: 1px solid transparent; border-radius: 6px; background: #19262e; color: #bccbca; font-size: 12px; }
 .move-rank { color: #6f858b; font: 10px 'DM Mono', monospace; }
@@ -178,8 +180,15 @@ h1, h2, h3, p { margin: 0; } h1 { font-size: 19px; letter-spacing: -.03em; } h2 
 .move-mark { text-align: right; font: 13px 'DM Mono', monospace; }
 .move-option.picked-approved { border-color: #579584; background: #1d3b38; color: #d1e9e1; }
 .move-option.picked-approved .move-eval, .move-option.picked-approved .move-mark { color: #a9dfce; }
+.move-option.picked-inaccuracy { border-color: #9a8046; background: #373327; color: #ead9a3; }
+.move-option.picked-inaccuracy .move-eval, .move-option.picked-inaccuracy .move-mark { color: #dfc273; }
 .move-option.picked-rejected { border-color: #966557; background: #392a2b; color: #e0c2b8; }
 .move-option.picked-rejected .move-eval, .move-option.picked-rejected .move-mark { color: #e0a08b; }
+.move-option.revealed-move { border-color: #bc9c54; background: #393629; color: #f1dfaa; }
+.move-option.revealed-move .move-eval, .move-option.revealed-move .move-mark { color: #e6cb79; }
+.retry-actions { display: flex; gap: 8px; margin-top: 8px; }
+.retry-actions button { min-height: 34px; padding: 7px 13px; border: 1px solid #45675f; border-radius: 7px; background: #1d3b38; color: #d1e9e1; font-size: 11px; }
+.retry-actions .reveal-button { border-color: #786844; background: #393629; color: #f1dfaa; }
 .played-outside { border-style: dashed; }
 .moves-status { min-height: 27px; padding: 6px 0; color: #8ca2a7; font-size: 11px; }
 .board-nav-row { display: flex; min-height: 44px; align-items: center; justify-content: space-between; gap: 10px; }
@@ -200,6 +209,7 @@ h1, h2, h3, p { margin: 0; } h1 { font-size: 19px; letter-spacing: -.03em; } h2 
 .history-ply { min-width: 27px; font-size: 9px; }
 .history-verdict { width: 13px; font: 11px 'DM Mono', monospace; }
 .history-verdict.ok { color: #9bd2c2; }
+.history-verdict.warn { color: #dfc273; }
 .history-verdict.bad { color: #c98d76; }
 .history-eval { min-width: 32px; margin-left: auto; color: #a5bbb6; text-align: right; font: normal 10px 'DM Mono', monospace; }
 .game-controls { display: flex; align-items: center; gap: 10px; margin-top: 14px; padding: 10px 0 4px; border-top: 1px solid #25363d; }

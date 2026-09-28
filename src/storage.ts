@@ -1,5 +1,5 @@
 import type { Phase } from './gameData'
-import type { Pick } from './types'
+import type { Pick, PickAttempt } from './types'
 
 export type Streak = { current: number; longest: number; lastDay: string | null }
 
@@ -21,14 +21,14 @@ export type Profile = {
   streak: Streak
   settings: Settings
   stats: RunStats
-  /** Cached PGN of synced Lichess games for this profile. */
-  syncedPgn?: string
   /** Index of the last selected game, retained for persisted-profile compatibility. */
   cursor: number
   /** Exactly where the player left off: the game, the line, and the run state. */
   session: {
     gameId: string
     startPly: number
+    startFen: string
+    startPreviousMove: string | null
     phase: Phase
     line: string[]
     movesUci: string[]
@@ -36,6 +36,7 @@ export type Profile = {
     lineIndex: number
     /** Judgement record for each player move in order. */
     picks: Pick[]
+    attemptsAtCurrent: PickAttempt[]
     done: boolean
   } | null
 }
@@ -52,7 +53,22 @@ export function loadStore(): Store {
     const raw = localStorage.getItem(STORAGE_KEY)
     if (raw) {
       const parsed = JSON.parse(raw) as Store
-      if (parsed && Array.isArray(parsed.profiles)) return parsed
+      if (parsed && Array.isArray(parsed.profiles)) {
+        // Personal-game sync has been removed. Strip any legacy PGNs from the
+        // saved profiles so they are neither loaded nor retained locally.
+        let removedLegacySync = false
+        const profiles = parsed.profiles.map((profile) => {
+          if (!('syncedPgn' in profile)) return profile
+          removedLegacySync = true
+          const { syncedPgn: _discarded, ...cleanProfile } = profile as Profile & { syncedPgn?: string }
+          return cleanProfile
+        })
+        const cleaned = { ...parsed, profiles }
+        if (removedLegacySync) {
+          try { localStorage.setItem(STORAGE_KEY, JSON.stringify(cleaned)) } catch { /* migration is best-effort */ }
+        }
+        return cleaned
+      }
     }
   } catch { /* corrupted or unavailable storage: start fresh */ }
   return { activeProfileId: null, profiles: [] }

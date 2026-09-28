@@ -2,10 +2,11 @@ import { useEffect, useMemo, useRef, useState } from 'react'
 import { Chess, type Square } from 'chess.js'
 import { Chessboard } from 'react-chessboard'
 import { createEngineAdapter, type EngineAdapter, type EngineAnalysis, type EngineAnalysisLine } from './engineAdapter'
-import { fenAfterMoves, gameLibrary, nextGame, sanFor, type GameRecord, type Phase } from './gameData'
-import { fetchLichessPgn, gamesFromPgn } from './lichess'
+import { fenAfterMoves, gameLibrary, nextGame, sanFor, type GameSummary, type Phase } from './gameData'
+import { chooseDecisionPoint, loadDecisionPoints, loadGameCorpus, type DecisionPoint } from './decisionPoints'
 import { createProfile, loadStore, noteGameFinished, noteMilestone, saveStore, type Profile, type Store } from './storage'
-import type { JudgeFeedback, Pick, PickAlternative, PickReason } from './types'
+import { gradeWithCpGuard, isApprovedGrade, scoreValue } from './grading'
+import type { JudgeFeedback, MoveGrade, Pick, PickAlternative, PickAttempt, PickReason } from './types'
 
 /** Consecutive approved picks needed to complete a game's run. */
 const GOAL_CHAIN = 3
@@ -13,14 +14,14 @@ const GOAL_CHAIN = 3
 const OPPONENT_THINK_MS = 600
 /** How many engine lines to judge against. */
 const JUDGE_MULTIPV = 5
-/** Approval margin: played move must be within this many centipawns of the best. */
-const MARGIN_CP = 50
 const THINK_TIMES = [1000, 2000, 3000, 5000]
 
 type RunState = {
-  game: GameRecord
+  game: GameSummary
   startPly: number
   phase: Phase
+  startFen: string
+  startPreviousMove: string | null
   /** FEN for every ply of the line being played, starting at the run start. */
   line: string[]
   /** UCI move for every ply of the line. */
@@ -30,6 +31,8 @@ type RunState = {
   lineIndex: number
   /** Judgement record for each player move in order. */
   picks: Pick[]
+  /** Failed tries at the current decision, retained across retries. */
+  attemptsAtCurrent: PickAttempt[]
   done: boolean
 }
 
@@ -55,7 +58,7 @@ function playerSide(startPly: number): 'w' | 'b' {
   return startPly % 2 === 0 ? 'w' : 'b'
 }
 
-/** Eval from the mover's perspective; mates dominate every centipawn score. */
+/** UCI scores are from the side-to-move/engine's perspective; mates dominate centipawns. */
 function evalValue(line: EngineAnalysisLine): number {
   if (line.mateIn !== undefined) return line.mateIn > 0 ? 100_000 - line.mateIn : -100_000 + Math.abs(line.mateIn)
   return line.scoreCp ?? 0
@@ -83,30 +86,65 @@ function pickEngineReply(lines: EngineAnalysisLine[]): string | undefined {
   return (chosen ?? lines[0]).move
 }
 
-/**
- * Approval rule: the move is approved when
- *  1. it is within MARGIN_CP of the engine's best line, and
- *  2. it does not flip a non-negative position negative (if the best line
- *     keeps you >= 0, a "close" move that goes negative does not count).
- * When the whole position is already lost (best < 0), rule 2 is waived.
- */
-function judgeMove(uci: string, san: string, fen: string, lines: EngineAnalysisLine[]): Pick {
+function attemptRecord(uci: string, san: string, grade: MoveGrade, wdlLoss: number | null, cpLoss: number | null): PickAttempt {
+  return { uci, san, grade, wdlLoss, cpLoss }
+}
+
+function pickVerdictClass(pick: Pick): string {
+  if (pick.grade === 'Inaccuracy') return 'picked-inaccuracy'
+  return pick.approved ? 'picked-approved' : 'picked-rejected'
+}
+
+function pickVerdictMark(pick: Pick): string {
+  if (pick.grade === 'Inaccuracy') return '!'
+  return pick.approved ? '✓' : '✕'
+}
+
+/** Grade expected-score loss, rescuing moves that fell outside the root MultiPV. */
+async function judgeMove(
+  uci: string,
+  san: string,
+  fen: string,
+  fenAfter: string,
+  lines: EngineAnalysisLine[],
+  rescueTimeMs: number,
+  priorAttempts: PickAttempt[],
+  rescueSearch: (fen: string, options: { depth: number; multipv: number; maxTimeMs: number }) => Promise<EngineAnalysis>,
+): Promise<Pick> {
   const best = lines[0]
-  if (!best) return { uci, san, approved: true, reason: 'engine-unavailable', cpLabel: null, bestSan: san, bestLabel: '—' }
-  const bestVal = evalValue(best)
-  const played = lines.find((line) => line.move === uci)
+  if (!best) {
+    const attempt = attemptRecord(uci, san, 'Unverified', null, null)
+    return { uci, san, approved: true, reason: 'engine-unavailable', cpLabel: null, bestUci: uci, bestSan: san, bestLabel: '—', grade: 'Unverified', wdlLoss: null, cpLoss: null, attempts: [...priorAttempts, attempt] }
+  }
+  let played = lines.find((line) => line.move === uci)
+  if (!played) {
+    try {
+      const rescue = await rescueSearch(fenAfter, { depth: 10, multipv: 1, maxTimeMs: rescueTimeMs })
+      const reply = rescue.lines[0]
+      if (reply) {
+        played = {
+          move: uci,
+          scoreCp: reply.scoreCp === undefined ? undefined : -reply.scoreCp,
+          mateIn: reply.mateIn === undefined ? undefined : -reply.mateIn,
+        }
+      } else if (new Chess(fenAfter).isCheckmate()) played = { move: uci, scoreCp: 10_000 }
+      else if (new Chess(fenAfter).isDraw()) played = { move: uci, scoreCp: 0 }
+    } catch { /* keep the out-of-MultiPV verdict if the rescue search fails */ }
+  }
   const bestSanLabel = sanFor(fen, best.move) ?? best.move
   if (!played) {
-    return { uci, san, approved: false, reason: 'outside-top', cpLabel: null, bestSan: bestSanLabel, bestLabel: fmtEval(best) }
+    const attempt = attemptRecord(uci, san, 'Blunder', null, null)
+    return { uci, san, approved: false, reason: 'outside-top', cpLabel: null, bestUci: best.move, bestSan: bestSanLabel, bestLabel: fmtEval(best), grade: 'Blunder', wdlLoss: null, cpLoss: null, attempts: [...priorAttempts, attempt] }
   }
-  const playedVal = evalValue(played)
-  const marginOk = bestVal - playedVal <= MARGIN_CP
-  const nonNegativeOk = bestVal < 0 || playedVal >= 0
-  const approved = marginOk && nonNegativeOk
-  const reason: PickReason = approved
-    ? 'approved'
-    : !marginOk ? 'loses-margin' : 'negates-advantage'
-  return { uci, san, approved, reason, cpLabel: fmtEval(played), bestSan: bestSanLabel, bestLabel: fmtEval(best) }
+  const loss = Math.max(0, scoreValue(best.scoreCp, best.mateIn) - scoreValue(played.scoreCp, played.mateIn))
+  const cpLoss = best.mateIn === undefined && played.mateIn === undefined && best.scoreCp !== undefined && played.scoreCp !== undefined
+    ? Math.max(0, best.scoreCp - played.scoreCp)
+    : null
+  const grade = gradeWithCpGuard(loss, cpLoss)
+  const approved = isApprovedGrade(grade)
+  const reason: PickReason = approved ? 'approved' : 'loses-margin'
+  const attempt = attemptRecord(uci, san, grade, loss, cpLoss)
+  return { uci, san, approved, reason, cpLabel: fmtEval(played), bestUci: best.move, bestSan: bestSanLabel, bestLabel: fmtEval(best), grade, wdlLoss: loss, cpLoss, attempts: [...priorAttempts, attempt] }
 }
 
 function App() {
@@ -120,10 +158,29 @@ function App() {
   const [feedbackAtIndex, setFeedbackAtIndex] = useState<number | null>(null)
   const [isAnalyzing, setIsAnalyzing] = useState(false)
   const [opponentThinking, setOpponentThinking] = useState(false)
+  const [corpusGames, setCorpusGames] = useState<GameSummary[]>([])
+  const [decisionPoints, setDecisionPoints] = useState<DecisionPoint[]>([])
+  const [trainingDataLoading, setTrainingDataLoading] = useState(true)
 
   const engine: EngineAdapter = useMemo(() => createEngineAdapter(), [])
   const analysisCache = useRef(new Map<string, Promise<EngineAnalysis>>())
   const analysisQueue = useRef<Promise<void>>(Promise.resolve())
+
+  useEffect(() => {
+    let active = true
+    void Promise.allSettled([
+      loadGameCorpus(import.meta.env.BASE_URL),
+      loadDecisionPoints(import.meta.env.BASE_URL),
+    ]).then(([corpusResult, pointsResult]) => {
+      if (!active) return
+      if (corpusResult.status === 'fulfilled' && corpusResult.value.length) setCorpusGames(corpusResult.value)
+      else console.warn('Using the bundled game sample:', corpusResult.status === 'rejected' ? corpusResult.reason : 'empty corpus')
+      if (pointsResult.status === 'fulfilled') setDecisionPoints(pointsResult.value)
+      else console.warn('Decision-point index unavailable:', pointsResult.reason)
+      setTrainingDataLoading(false)
+    })
+    return () => { active = false }
+  }, [])
 
   function analyzeCached(fen: string, options: { depth: number; multipv: number; maxTimeMs: number }) {
     const key = `${fen}|${options.depth}|${options.multipv}|${options.maxTimeMs}`
@@ -152,12 +209,30 @@ function App() {
     void analyzeCached(fen, playerAnalysisOptions(candidateId)).catch(() => undefined)
   }
 
-  const games = useMemo(() => {
-    const synced = profile?.syncedPgn ? gamesFromPgn(profile.syncedPgn) : []
-    return [...gameLibrary, ...synced]
-  }, [profile?.syncedPgn])
+  const games = useMemo(() => corpusGames.length ? corpusGames : gameLibrary, [corpusGames])
+
+  function selectNextGame(library: GameSummary[], excludeId?: string | null) {
+    const decision = chooseDecisionPoint(library, decisionPoints, excludeId)
+    if (decision) return {
+      game: decision.game,
+      startPly: decision.point.ply,
+      phase: decision.point.phase,
+      index: decision.index,
+      startFen: decision.point.fen,
+      previousMove: decision.point.previousMove ?? null,
+    }
+    const fallback = nextGame(gameLibrary, excludeId)
+    return {
+      ...fallback,
+      startFen: fenAfterMoves(fallback.game.moves, fallback.startPly),
+      previousMove: fallback.game.moves[fallback.startPly - 1] ?? null,
+    }
+  }
 
   const game = useMemo(() => (run ? new Chess(run.line[run.lineIndex]) : null), [run])
+  const activeDecisionPoint = run
+    ? decisionPoints.find((point) => point.gameId === run.game.id && point.ply === run.startPly)
+    : undefined
 
   function patchProfile(id: string, update: (candidate: Profile) => Profile) {
     setStore((previous) => {
@@ -167,18 +242,20 @@ function App() {
     })
   }
 
-  function startRun(candidateId: string, game: GameRecord, startPly: number, phase: Phase, cursorIndex: number) {
+  function startRun(candidateId: string, game: GameSummary, startPly: number, phase: Phase, cursorIndex: number, startFen: string, previousMove: string | null) {
     patchProfile(candidateId, (candidate) => ({ ...candidate, cursor: cursorIndex + 1 }))
-    const startFen = fenAfterMoves(game.moves, startPly)
     setRun({
       game,
       startPly,
       phase,
+      startFen,
+      startPreviousMove: previousMove,
       line: [startFen],
       movesUci: [],
       moveEvalLabels: [],
       lineIndex: 0,
       picks: [],
+      attemptsAtCurrent: [],
       done: false,
     })
     warmPlayerAnalysis(startFen, candidateId)
@@ -197,11 +274,11 @@ function App() {
     setProfileId(id)
     setShowProfiles(false)
 
-    const library = [...gameLibrary, ...(opened.syncedPgn ? gamesFromPgn(opened.syncedPgn) : [])]
+    const library = corpusGames.length ? corpusGames : gameLibrary
     // Start a fresh random game when the profile is opened. Avoid immediately
     // repeating the saved game the player was on before the app was closed.
-    const next = nextGame(library, opened.session?.gameId)
-    startRun(opened.id, next.game, next.startPly, next.phase, next.index)
+    const next = selectNextGame(library, opened.session?.gameId)
+    startRun(opened.id, next.game, next.startPly, next.phase, next.index, next.startFen, next.previousMove)
   }
 
   function createAndOpenProfile(name: string) {
@@ -210,8 +287,8 @@ function App() {
     setStore(nextStore)
     saveStore(nextStore)
     setProfileId(created.id)
-    const next = nextGame(gameLibrary)
-    startRun(created.id, next.game, next.startPly, next.phase, next.index)
+    const next = selectNextGame(corpusGames.length ? corpusGames : gameLibrary)
+    startRun(created.id, next.game, next.startPly, next.phase, next.index, next.startFen, next.previousMove)
   }
 
   function deleteProfile(id: string) {
@@ -224,11 +301,6 @@ function App() {
       setRun(null)
       setShowProfiles(true)
     }
-  }
-
-  async function syncGames(id: string, username: string) {
-    const pgn = await fetchLichessPgn(username)
-    patchProfile(id, (candidate) => ({ ...candidate, syncedPgn: pgn }))
   }
 
   // Persist the run after every change.
@@ -296,14 +368,15 @@ function App() {
     const fenBefore = run.line[run.lineIndex]
     const probe = new Chess(fenBefore)
     let san: string
+    let uci: string
     try {
       const move = probe.move({ from: sourceSquare, to: targetSquare, promotion: 'q' })
       if (!move) return false
       san = move.san
+      uci = `${move.from}${move.to}${move.promotion ?? ''}`
     } catch {
       return false
     }
-    const uci = `${sourceSquare}${targetSquare}`
     const fenAfter = probe.fen()
     const movesUci = [...run.movesUci.slice(0, run.lineIndex), uci]
     const line = [...run.line.slice(0, run.lineIndex + 1), fenAfter]
@@ -316,21 +389,44 @@ function App() {
     setFeedback(null)
     setFeedbackAtIndex(null)
     void analyzeCached(fenBefore, playerAnalysisOptions(profile.id))
-      .then((result) => {
+      .then(async (result) => {
         const picksBefore = Math.floor((run.lineIndex + 1) / 2)
-        const pick = judgeMove(uci, san, fenBefore, result.lines)
+        const pick = await judgeMove(
+          uci,
+          san,
+          fenBefore,
+          fenAfter,
+          result.lines,
+          Math.max(250, Math.floor(profile.settings.engineTimeMs * 0.4)),
+          run.attemptsAtCurrent,
+          analyzeCached,
+        )
+        const attemptNo = pick.attempts.length
+        if (!pick.approved) {
+          setRun({ ...run, attemptsAtCurrent: pick.attempts })
+          setFeedbackAtIndex(run.lineIndex)
+          setFeedback({
+            pick,
+            chain: trailingChain(run.picks),
+            alternatives: attemptNo >= 3 ? result.lines.slice(0, 3).map((line) => ({ san: sanFor(fenBefore, line.move) ?? line.move, score: fmtEval(line) })) : [],
+            attemptNo,
+            retrying: true,
+            hintUcis: attemptNo === 2 ? result.lines.slice(0, 3).map((line) => line.move) : [],
+          })
+          return
+        }
         const picks = [...run.picks.slice(0, picksBefore), pick]
         const chainAfter = trailingChain(picks)
         const achieved = bestChainIn(picks) >= GOAL_CHAIN
         const achievedBefore = bestChainIn(run.picks) >= GOAL_CHAIN
 
-        const evaluatedRun: RunState = { ...optimisticRun, moveEvalLabels: [...moveEvalLabels.slice(0, -1), pick.cpLabel], picks }
+        const evaluatedRun: RunState = { ...optimisticRun, moveEvalLabels: [...moveEvalLabels.slice(0, -1), pick.cpLabel], picks, attemptsAtCurrent: [] }
         setRun(evaluatedRun)
         setFeedbackAtIndex(evaluatedRun.lineIndex)
 
         const alternatives: PickAlternative[] = result.lines.slice(0, 3)
           .map((engineLine) => ({ san: sanFor(fenBefore, engineLine.move) ?? engineLine.move, score: fmtEval(engineLine) }))
-        setFeedback({ pick, chain: chainAfter, alternatives, opponentReply: undefined })
+        setFeedback({ pick, chain: chainAfter, alternatives, opponentReply: undefined, attemptNo, retrying: false, hintUcis: [] })
 
         patchProfile(profile.id, (candidate) => noteMilestone(candidate, !achievedBefore && achieved, chainAfter))
         playOpponentMove(evaluatedRun, fenAfter)
@@ -342,6 +438,47 @@ function App() {
       .finally(() => setIsAnalyzing(false))
     setSelectedSquare(null)
     return true
+  }
+
+  function retryCurrentPosition() {
+    setFeedback(null)
+    setFeedbackAtIndex(null)
+    setSelectedSquare(null)
+  }
+
+  function revealAndContinue() {
+    if (!run || !profile || !feedback?.retrying || feedback.attemptNo < 3) return
+    const fenBefore = run.line[run.lineIndex]
+    const applied = applyMove(fenBefore, feedback.pick.bestUci)
+    const picksBefore = Math.floor((run.lineIndex + 1) / 2)
+    const revealedPick: Pick = {
+      ...feedback.pick,
+      uci: feedback.pick.bestUci,
+      san: applied.san,
+      approved: false,
+      reason: 'loses-margin',
+      cpLabel: feedback.pick.bestLabel,
+      grade: 'Blunder',
+      revealed: true,
+    }
+    const picks = [...run.picks.slice(0, picksBefore), revealedPick]
+    const nextRun: RunState = {
+      ...run,
+      line: [...run.line.slice(0, run.lineIndex + 1), applied.fenAfter],
+      movesUci: [...run.movesUci.slice(0, run.lineIndex), feedback.pick.bestUci],
+      moveEvalLabels: [...run.moveEvalLabels.slice(0, run.lineIndex), feedback.pick.bestLabel],
+      lineIndex: run.lineIndex + 1,
+      picks,
+      attemptsAtCurrent: [],
+    }
+    setRun(nextRun)
+    setFeedback({ ...feedback, pick: revealedPick, retrying: false })
+    setFeedbackAtIndex(nextRun.lineIndex)
+    const chainAfter = trailingChain(picks)
+    const achieved = bestChainIn(picks) >= GOAL_CHAIN
+    const achievedBefore = bestChainIn(run.picks) >= GOAL_CHAIN
+    patchProfile(profile.id, (candidate) => noteMilestone(candidate, !achievedBefore && achieved, chainAfter))
+    playOpponentMove(nextRun, applied.fenAfter)
   }
 
   function onSquareClick(square: string) {
@@ -375,8 +512,8 @@ function App() {
   function nextGameRun() {
     if (!profile || !run) return
     patchProfile(profile.id, (candidate) => noteGameFinished(candidate, bestChainIn(run.picks)))
-    const next = nextGame(games, run.game.id)
-    startRun(profile.id, next.game, next.startPly, next.phase, next.index)
+    const next = selectNextGame(games, run.game.id)
+    startRun(profile.id, next.game, next.startPly, next.phase, next.index, next.startFen, next.previousMove)
   }
 
   function cycleThinkTime() {
@@ -393,7 +530,7 @@ function App() {
         onOpen={openProfile}
         onCreate={createAndOpenProfile}
         onDelete={deleteProfile}
-        onSync={syncGames}
+        isDataLoading={trainingDataLoading}
       />
     )
   }
@@ -404,12 +541,21 @@ function App() {
   const fullMoveNumber = Math.floor((run.startPly + run.lineIndex) / 2) + 1
   const lastMoveUci = run.lineIndex > 0
     ? run.movesUci[run.lineIndex - 1]
-    : run.startPly > 0 ? run.game.moves[run.startPly - 1] : undefined
+    : run.startPreviousMove ?? undefined
   const squareStyles: Record<string, { boxShadow: string }> = {}
   if (lastMoveUci) {
     const highlight = 'inset 0 0 0 999px rgba(207, 205, 113, .32)'
     squareStyles[lastMoveUci.slice(0, 2)] = { boxShadow: highlight }
     squareStyles[lastMoveUci.slice(2, 4)] = { boxShadow: highlight }
+  }
+  if (feedback?.retrying && feedback.hintUcis.length) {
+    const hint = 'inset 0 0 0 999px rgba(238, 190, 92, .38)'
+    for (const move of feedback.hintUcis) {
+      for (const square of [move.slice(0, 2), move.slice(2, 4)]) {
+        const previous = squareStyles[square]?.boxShadow
+        squareStyles[square] = { boxShadow: previous ? `${previous}, ${hint}` : hint }
+      }
+    }
   }
   if (selectedSquare) {
     const selection = 'inset 0 0 0 3px rgba(166, 214, 200, .95)'
@@ -450,14 +596,20 @@ function App() {
             {showNextGame && <button className="next-button" onClick={nextGameRun} disabled={isAnalyzing || opponentThinking}>Next game →</button>}
           </div>
 
-          <MoveFeedbackList feedback={feedback && (feedbackAtIndex === null || run.lineIndex >= feedbackAtIndex) ? feedback : null} isAnalyzing={isAnalyzing} opponentThinking={opponentThinking} />
+          <MoveFeedbackList
+            feedback={feedback && (feedbackAtIndex === null || run.lineIndex >= feedbackAtIndex) ? feedback : null}
+            isAnalyzing={isAnalyzing}
+            opponentThinking={opponentThinking}
+            onRetry={retryCurrentPosition}
+            onReveal={revealAndContinue}
+          />
 
-          <div className="game-meta">Game {run.game.id.slice(0, 8)} · {run.phase}</div>
+          <div className="game-meta">Game {run.game.id.slice(0, 8)} · {run.phase}{activeDecisionPoint ? ` · decision ${activeDecisionPoint.score}/100` : ''}</div>
           <HistoryList run={run} onJump={(ply) => { setRun({ ...run, lineIndex: ply }); setSelectedSquare(null) }} />
 
           <div className="game-controls">
             <button className="think-button" onClick={cycleThinkTime} title="Engine think time per move">Engine {profile.settings.engineTimeMs / 1000}s</button>
-            {!showNextGame && <button className="skip-button" onClick={() => startRun(profile.id, run.game, run.startPly, run.phase, profile.cursor - 1)}>Restart</button>}
+            {!showNextGame && <button className="skip-button" onClick={() => startRun(profile.id, run.game, run.startPly, run.phase, profile.cursor - 1, run.startFen, run.startPreviousMove)}>Restart</button>}
           </div>
 
           {run.done && <p className="game-result">{gameResultText(run, achieved, game!.fen())}</p>}
@@ -480,10 +632,12 @@ function gameResultText(run: RunState, achieved: boolean, fen: string): string {
   return `${outcome} · ${reached}`
 }
 
-function MoveFeedbackList({ feedback, isAnalyzing, opponentThinking }: {
+function MoveFeedbackList({ feedback, isAnalyzing, opponentThinking, onRetry, onReveal }: {
   feedback: JudgeFeedback | null
   isAnalyzing: boolean
   opponentThinking: boolean
+  onRetry: () => void
+  onReveal: () => void
 }) {
   if (!feedback) {
     return isAnalyzing ? <div className="moves-status">Checking your move…</div> : null
@@ -491,29 +645,39 @@ function MoveFeedbackList({ feedback, isAnalyzing, opponentThinking }: {
 
   const { pick, alternatives } = feedback
   const included = alternatives.some((line) => line.san === pick.san)
+  const cpLossText = pick.cpLoss == null ? '' : `${(pick.cpLoss / 100).toFixed(1)} pawns down · `
+  const lossText = pick.wdlLoss === null ? '' : ` · ${cpLossText}${Math.round(pick.wdlLoss * 100)}% expected-score loss`
   return <section className="move-feedback" aria-live="polite">
     <div className="move-feedback-heading">
-      <span>TOP MOVES</span>
+      <span>{feedback.retrying ? `TRY AGAIN · ${pick.grade.toUpperCase()}` : pick.revealed ? 'SOLUTION REVEALED' : `${pick.grade.toUpperCase()}${feedback.attemptNo > 1 ? ` · ${feedback.attemptNo} tries` : ''}`}</span>
       {opponentThinking && <small>Opponent thinking…</small>}
       {!opponentThinking && pick.reason === 'engine-unavailable' && <small>Engine unavailable</small>}
     </div>
-    <div className="move-options">
+    <p className="grade-summary">{feedback.retrying ? `That move was ${pick.grade.toLowerCase()}${lossText}. The board is back at the same position.` : pick.revealed ? `The best move was ${pick.bestSan}; your ${pick.attempts.length} attempt${pick.attempts.length === 1 ? '' : 's'} are recorded.` : `${pick.san}${lossText}${pick.grade === 'Inaccuracy' ? ' · counts toward streak, shown as a warning' : ''}${pick.attempts.length > 1 ? ` · solved after ${pick.attempts.length} attempts` : ''}`}</p>
+    {feedback.retrying && <p className="retry-hint">
+      {feedback.attemptNo === 1 ? 'Try again without a hint.' : feedback.attemptNo === 2 ? 'Hint: candidate move squares are highlighted.' : `Candidate moves: ${alternatives.map((line) => line.san).join(' · ')}`}
+    </p>}
+    {!!alternatives.length && <div className="move-options">
       {alternatives.map((line, index) => {
         const isPicked = line.san === pick.san
-        return <div key={`${line.san}-${index}`} className={`move-option ${isPicked ? pick.approved ? 'picked-approved' : 'picked-rejected' : ''}`}>
+        return <div key={`${line.san}-${index}`} className={`move-option ${isPicked ? pick.revealed ? 'revealed-move' : pickVerdictClass(pick) : ''}`}>
           <span className="move-rank">{index + 1}</span>
           <b>{line.san}</b>
           <span className="move-eval">{line.score}</span>
-          {isPicked && <span className="move-mark">{pick.approved ? '✓' : '✕'}</span>}
+          {isPicked && <span className="move-mark">{pick.revealed ? '↗' : pickVerdictMark(pick)}</span>}
         </div>
       })}
-      {!included && <div className={`move-option ${pick.approved ? 'picked-approved' : 'picked-rejected'} played-outside`}>
-        <span className="move-rank">4</span>
+      {!included && !feedback.retrying && <div className={`move-option ${pickVerdictClass(pick)} played-outside`}>
+        <span className="move-rank">—</span>
         <b>{pick.san}</b>
-        <span className="move-eval">{pick.cpLabel ?? (pick.reason === 'outside-top' ? '—' : '—')}</span>
-        <span className="move-mark">{pick.approved ? '✓' : '✕'}</span>
+        <span className="move-eval">{pick.cpLabel ?? '—'}</span>
+        <span className="move-mark">{pickVerdictMark(pick)}</span>
       </div>}
-    </div>
+    </div>}
+    {feedback.retrying && <div className="retry-actions">
+      <button onClick={onRetry} disabled={isAnalyzing || opponentThinking}>Try again</button>
+      {feedback.attemptNo >= 3 && <button className="reveal-button" onClick={onReveal} disabled={isAnalyzing || opponentThinking}>Reveal & continue</button>}
+    </div>}
   </section>
 }
 
@@ -537,7 +701,7 @@ function HistoryList({ run, onJump }: { run: RunState; onJump: (lineIndex: numbe
         >
           <span className="history-ply">{Math.floor((run.startPly + row.ply) / 2) + 1}{(run.startPly + row.ply) % 2 === 0 ? '.' : '…'}</span>
           <b>{row.san}</b>
-          {row.pick && <span className={`history-verdict ${row.pick.approved ? 'ok' : 'bad'}`}>{row.pick.approved ? '✓' : '✕'}</span>}
+          {row.pick && <span className={`history-verdict ${row.pick.grade === 'Inaccuracy' ? 'warn' : row.pick.approved ? 'ok' : 'bad'}`}>{pickVerdictMark(row.pick)}</span>}
           <em className="history-eval">{row.evalLabel ?? '—'}</em>
         </button>
       ))}
@@ -545,32 +709,15 @@ function HistoryList({ run, onJump }: { run: RunState; onJump: (lineIndex: numbe
   </div>
 }
 
-function ProfileScreen({ store, activeId, onOpen, onCreate, onDelete, onSync }: {
+function ProfileScreen({ store, activeId, onOpen, onCreate, onDelete, isDataLoading }: {
   store: Store
   activeId: string | null
   onOpen: (id: string) => void
   onCreate: (name: string) => void
   onDelete: (id: string) => void
-  onSync: (id: string, username: string) => Promise<void>
+  isDataLoading: boolean
 }) {
   const [name, setName] = useState('')
-  const [syncUser, setSyncUser] = useState('')
-  const [syncTarget, setSyncTarget] = useState<string | null>(null)
-  const [syncStatus, setSyncStatus] = useState<string | null>(null)
-
-  async function sync(target: Profile) {
-    setSyncTarget(target.id)
-    setSyncStatus(`Fetching ${syncUser}'s games…`)
-    try {
-      await onSync(target.id, syncUser)
-      setSyncStatus(`Synced games for ${target.name}.`)
-      setSyncUser('')
-    } catch (error) {
-      setSyncStatus(error instanceof Error ? error.message : 'Sync failed')
-    } finally {
-      setSyncTarget(null)
-    }
-  }
 
   return (
     <main className="app-shell">
@@ -581,7 +728,7 @@ function ProfileScreen({ store, activeId, onOpen, onCreate, onDelete, onSync }: 
       <section className="profile-screen">
         {store.profiles.map((profile) => (
           <div className="profile-card" key={profile.id}>
-            <button className="profile-open" onClick={() => onOpen(profile.id)}>
+            <button className="profile-open" onClick={() => onOpen(profile.id)} disabled={isDataLoading}>
               <b>{profile.name}{profile.id === activeId ? ' · current' : ''}</b>
               <small>{profile.stats.gamesPlayed} games · {profile.stats.runsAchieved} runs · best {profile.stats.bestRun}{profile.streak.current > 0 ? ` · ${profile.streak.current} day streak` : ''}</small>
             </button>
@@ -590,20 +737,9 @@ function ProfileScreen({ store, activeId, onOpen, onCreate, onDelete, onSync }: 
         ))}
         <form className="profile-create" onSubmit={(event) => { event.preventDefault(); if (name.trim()) { onCreate(name); setName('') } }}>
           <input value={name} onChange={(event) => setName(event.target.value)} placeholder="New player name" maxLength={24} />
-          <button type="submit">Add player</button>
+          <button type="submit" disabled={isDataLoading}>Add player</button>
         </form>
-        {store.profiles.length > 0 && (
-          <form className="profile-create" onSubmit={(event) => {
-            event.preventDefault()
-            const target = store.profiles.find((profile) => profile.id === activeId) ?? store.profiles[0]
-            if (syncUser.trim()) void sync(target)
-          }}>
-            <input value={syncUser} onChange={(event) => setSyncUser(event.target.value)} placeholder="Lichess username to sync games" maxLength={30} />
-            <button type="submit" disabled={!syncUser.trim() || syncTarget !== null}>Sync games</button>
-          </form>
-        )}
-        {syncStatus && <p className="profile-note">{syncStatus}</p>}
-        <p className="profile-note">Runs, streaks, and open games are saved in this browser only. Synced games come straight from lichess.org.</p>
+        <p className="profile-note">{isDataLoading ? 'Loading the 10k-game corpus and decision-point index…' : 'Runs and progress are saved in this browser. Training games come from the public Lichess open database.'}</p>
       </section>
     </main>
   )
